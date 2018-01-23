@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Проверка завершения сессии"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21,894">
+  <properties />
+  
+  
+            <testcase name="CloseSessionTest" time="21,894" classname="ru.st.selenium.testSuites.informationPageTestSuite.CloseSessionTest" />
+      
+</testsuite>

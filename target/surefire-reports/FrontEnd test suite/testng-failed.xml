@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [FrontEnd test suite]" data-provider-thread-count="1">
+  <parameter name="path" value="/"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Forgot password tests(failed)">
+    <parameter name="path" value="/"/>
+    <classes>
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration -->
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.DeleteUserFromDataBase">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.DeleteUserFromDataBase -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewVideoGallery">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewVideoGallery -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewTournamentItem">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewTournamentItem -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewNews">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewNews -->
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest -->
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddPageItemTest">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddPageItemTest -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewMenuItems">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewMenuItems -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewPhotoGallery">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewPhotoGallery -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.UploadingPhoto">
+        <methods>
+          <include name="init"/>
+          <include name="saveScreenshot"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.UploadingPhoto -->
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="forgotPasswordOfExistingUser"/>
+          <include name="forgotPasswordOfNotExistingUser"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest -->
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.BuyItemTest">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.BuyItemTest -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewProductItem">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewProductItem -->
+    </classes>
+  </test> <!-- Forgot password tests(failed) -->
+  <test name="Add video gallery items(failed)">
+    <parameter name="path" value="/"/>
+    <classes>
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewVideoGallery">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="addNewVideoGallery"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewVideoGallery -->
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration -->
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.DeleteUserFromDataBase">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.DeleteUserFromDataBase -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewTournamentItem">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewTournamentItem -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewNews">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewNews -->
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest -->
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddPageItemTest">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddPageItemTest -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewMenuItems">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewMenuItems -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewPhotoGallery">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewPhotoGallery -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.UploadingPhoto">
+        <methods>
+          <include name="init"/>
+          <include name="saveScreenshot"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.UploadingPhoto -->
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest -->
+      <class name="ru.st.selenium.testSuites.frontEndTestSuite.BuyItemTest">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.frontEndTestSuite.BuyItemTest -->
+      <class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewProductItem">
+        <methods>
+          <include name="init"/>
+          <include name="stop"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.backEndTestSuite.AddNewProductItem -->
+    </classes>
+  </test> <!-- Add video gallery items(failed) -->
+</suite> <!-- Failed suite [FrontEnd test suite] -->

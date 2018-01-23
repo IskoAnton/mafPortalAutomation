@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Проверка онлайна с камер"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="257,588">
+  <properties />
+  
+  
+            <testcase name="VideoStreamOnlineTest2" time="128,827" classname="ru.st.selenium.testSuites.onlineTestSuite.VideoStreamOnlineTest" />
+                <testcase name="VideoStreamOnlineTest1" time="128,761" classname="ru.st.selenium.testSuites.onlineTestSuite.VideoStreamOnlineTest" />
+      
+</testsuite>

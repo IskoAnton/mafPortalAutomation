@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add menu items"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="34,494">
+  <properties />
+  
+  
+            <testcase name="addNewMenuItem" time="34,494" classname="ru.st.selenium.testSuites.backEndTestSuite.AddNewMenuItems" />
+      
+</testsuite>

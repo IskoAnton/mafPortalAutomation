@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="New user registration tests"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="59,320">
+  <properties />
+  
+  
+            <testcase name="registrationOfNewUserTest" time="59,320" classname="ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration" />
+      
+</testsuite>

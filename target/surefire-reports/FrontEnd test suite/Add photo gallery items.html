@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>TestNG:  Add photo gallery items</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Add photo gallery items</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jan 06 16:45:06 PST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>60 seconds (60610 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ru.st.selenium.testSuites.backEndTestSuite.AddNewPhotoGallery.addNewPhotoGallery()'><b>addNewPhotoGallery</b><br>Test class: ru.st.selenium.testSuites.backEndTestSuite.AddNewPhotoGallery<br/>
+<a href="#Output-1658511941" onClick='toggleBox("Output-1658511941", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1658511941" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1658511941">
+"mafia@mafia.com" was typed to email field<br/>
+"123456" was typed to password field<br/>
+Login button was clicked<br/>
+Tab Gallery was clicked<br/>
+Tab Photo was clicked<br/>
+Add item was clicked on AdminPhotoPage<br/>
+Title field filled with 'TestPhotoGalleryTitle'<br/>
+Rus title field filled with 'Фото галерея тестовое название'<br/>
+Slug field filled with ''<br/>
+Club 'Los Angeles' in select field was chosen<br/>
+Tournament '15-й Чемпионат Мира в Ереване' in select field was chosen<br/>
+Trying to click submit button<br/>
+Submit button was clicked<br/>
+Tab Gallery was clicked<br/>
+Tab Photo was clicked<br/>
+Item Фото галерея тестовое название has been deleted<br/>
+--------Finishing "addNewPhotoGallery" test---------<br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>ru.st.selenium.testSuites.backEndTestSuite.AddNewPhotoGallery@78e67e0a</td></tr>
+</table><p>
+</body>
+</html>

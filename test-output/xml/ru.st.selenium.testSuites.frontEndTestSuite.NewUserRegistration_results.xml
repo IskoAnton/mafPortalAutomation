@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="New user registration tests"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="7,733">
+  <properties />
+            <testcase name="registrationOfNewUserTest" time="7,733" classname="ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration">
+                <failure type="java.lang.AssertionError"
+                  message="expected:&lt;The email has already been taken.&gt; but was:&lt;You have successfully registered. A link to confirm your registration has been sent to your email address.&gt;"
+              >
+<![CDATA[java.lang.AssertionError: expected:<The email has already been taken.> but was:<You have successfully registered. A link to confirm your registration has been sent to your email address.>
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+  org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+  ru.st.selenium.applogic2.UserHelper2.registerNewUser(UserHelper2.java:110)
+  ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration.registrationOfNewUserTest(NewUserRegistration.java:24)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+  org.testng.TestNG.run(TestNG.java:1031)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

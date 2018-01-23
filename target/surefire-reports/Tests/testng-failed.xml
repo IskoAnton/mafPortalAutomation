@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Tests]" data-provider-thread-count="1">
+  <parameter name="path" value="/"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Проверка английской локализации(failed)">
+    <parameter name="path" value="/"/>
+    <classes>
+      <class name="ru.st.selenium.testSuites.localizationSuite.EnglishLocalizationTest">
+        <methods>
+          <include name="init"/>
+          <include name="mayBeLogout"/>
+          <include name="RussianLocalizationTest"/>
+          <include name="AzebarjanLocalizationTest"/>
+          <include name="saveScreenshot"/>
+        </methods>
+      </class> <!-- ru.st.selenium.testSuites.localizationSuite.EnglishLocalizationTest -->
+    </classes>
+  </test> <!-- Проверка английской локализации(failed) -->
+</suite> <!-- Failed suite [Tests] -->

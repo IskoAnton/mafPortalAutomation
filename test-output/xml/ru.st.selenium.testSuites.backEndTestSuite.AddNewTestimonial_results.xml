@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add new testimonial to homepage"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="27,292">
+  <properties />
+  
+  
+            <testcase name="addNewTestimonial" time="27,292" classname="ru.st.selenium.testSuites.backEndTestSuite.AddNewTestimonial" />
+      
+</testsuite>

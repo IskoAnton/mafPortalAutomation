@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Admin panel entry test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="48,018">
+  <properties />
+  
+  
+            <testcase name="adminAccountEntryWithExistingUser" time="22,970" classname="ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry" />
+                <testcase name="adminAccountEntryWithBlankUser" time="12,759" classname="ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry" />
+                <testcase name="adminAccountEntryWithNotExistingUser" time="12,289" classname="ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry" />
+      
+</testsuite>

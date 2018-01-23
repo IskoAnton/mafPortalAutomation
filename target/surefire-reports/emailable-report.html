@@ -1,0 +1,529 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">All pages are loading test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">41,6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">New user registration tests</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">72,1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Login to account</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">85,7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Forgot password tests</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">99,7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Buy item tests</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">111,4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Delete user from DB</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">42,8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Admin panel entry test</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">80,1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Add menu items</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">47,0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Add news items</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">89,1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Add page items</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">56,1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Add tournament items</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">83,0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Add product items</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">58,1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Add photo gallery items</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">60,6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Add video gallery items</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">43,6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Upload images test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">41,7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">16</td><td class="numi">16</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">1 013,4 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">All pages are loading test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest</td><td><a href="#m1"><b>allPagesAreLoadingTest</b>  </a></td><td class="numi">1</td><td>1515285058466</td><td class="numi">21046</td></tr>
+<tr><th colspan="4">New user registration tests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration</td><td><a href="#m2"><b>registrationOfNewUserTest</b>  </a></td><td class="numi">1</td><td>1515285092290</td><td class="numi">59320</td></tr>
+<tr><th colspan="4">Login to account &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest</td><td><a href="#m3"><b>accountEntryWithExistingUser</b>  </a></td><td class="numi">1</td><td>1515285165962</td><td class="numi">63916</td></tr><tr class="passedodd"><td><a href="#m4"><b>accountEntryWithNotExistingUser</b>  </a></td><td class="numi">1</td><td>1515285229879</td><td class="numi">7670</td></tr>
+<tr><th colspan="4">Forgot password tests &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest</td><td><a href="#m5"><b>forgotPasswordOfExistingUser</b>  </a></td><td class="numi">1</td><td>1515285249390</td><td class="numi">64577</td></tr><tr class="failedodd"><td><a href="#m6"><b>forgotPasswordOfNotExistingUser</b>  </a></td><td class="numi">1</td><td>1515285314350</td><td class="numi">22631</td></tr>
+<tr><th colspan="4">Buy item tests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ru.st.selenium.testSuites.frontEndTestSuite.BuyItemTest</td><td><a href="#m7"><b>buyItemTest</b>  </a></td><td class="numi">1</td><td>1515285355293</td><td class="numi">93623</td></tr>
+<tr><th colspan="4">Delete user from DB &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ru.st.selenium.testSuites.frontEndTestSuite.DeleteUserFromDataBase</td><td><a href="#m8"><b>deleteUserFromDataBase</b>  </a></td><td class="numi">1</td><td>1515285461551</td><td class="numi">30152</td></tr>
+<tr><th colspan="4">Admin panel entry test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry</td><td><a href="#m9"><b>adminAccountEntryWithBlankUser</b>  </a></td><td class="numi">1</td><td>1515285511254</td><td class="numi">16818</td></tr><tr class="passedodd"><td><a href="#m10"><b>adminAccountEntryWithExistingUser</b>  </a></td><td class="numi">1</td><td>1515285528073</td><td class="numi">28817</td></tr><tr class="passedodd"><td><a href="#m11"><b>adminAccountEntryWithNotExistingUser</b>  </a></td><td class="numi">1</td><td>1515285556891</td><td class="numi">14863</td></tr>
+<tr><th colspan="4">Add menu items &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ru.st.selenium.testSuites.backEndTestSuite.AddNewMenuItems</td><td><a href="#m12"><b>addNewMenuItem</b>  </a></td><td class="numi">1</td><td>1515285584399</td><td class="numi">34494</td></tr>
+<tr><th colspan="4">Add news items &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ru.st.selenium.testSuites.backEndTestSuite.AddNewNews</td><td><a href="#m13"><b>addNewNewsItem</b>  </a></td><td class="numi">1</td><td>1515285631099</td><td class="numi">76706</td></tr>
+<tr><th colspan="4">Add page items &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ru.st.selenium.testSuites.backEndTestSuite.AddPageItemTest</td><td><a href="#m14"><b>addNewPageItem</b>  </a></td><td class="numi">1</td><td>1515285720162</td><td class="numi">43771</td></tr>
+<tr><th colspan="4">Add tournament items &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ru.st.selenium.testSuites.backEndTestSuite.AddNewTournamentItem</td><td><a href="#m15"><b>addNewNewsItem</b>  </a></td><td class="numi">1</td><td>1515285780619</td><td class="numi">66571</td></tr>
+<tr><th colspan="4">Add product items &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ru.st.selenium.testSuites.backEndTestSuite.AddNewProductItem</td><td><a href="#m16"><b>addNewNewsItem</b>  </a></td><td class="numi">1</td><td>1515285860433</td><td class="numi">44859</td></tr>
+<tr><th colspan="4">Add photo gallery items &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ru.st.selenium.testSuites.backEndTestSuite.AddNewPhotoGallery</td><td><a href="#m17"><b>addNewPhotoGallery</b>  </a></td><td class="numi">1</td><td>1515285918016</td><td class="numi">47933</td></tr>
+<tr><th colspan="4">Add video gallery items &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">ru.st.selenium.testSuites.backEndTestSuite.AddNewVideoGallery</td><td><a href="#m18"><b>addNewVideoGallery</b>  </a></td><td class="numi">1</td><td>1515285979169</td><td class="numi">30146</td></tr>
+<tr><th colspan="4">Upload images test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ru.st.selenium.testSuites.backEndTestSuite.UploadingPhoto</td><td><a href="#m19"><b>adminAccountEntryWithExistingUser</b>  </a></td><td class="numi">1</td><td>1515286022090</td><td class="numi">29320</td></tr>
+</table>
+<h1>All pages are loading test</h1>
+<h2 id="m1">ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest:allPagesAreLoadingTest</h2>
+<div style="padding-left:3em">
+--------Starting "allPagesAreLoadingTest" test---------<br/>
+Internal page was loaded successfully |||||| <br/>
+Clubs page was loaded successfully<br/>
+Internal page was loaded successfully |||||| <br/>
+The game page was loaded successfully<br/>
+Internal page was loaded successfully |||||| <br/>
+News page was loaded successfully<br/>
+Internal page was loaded successfully |||||| <br/>
+Tournaments page was loaded successfully<br/>
+Internal page was loaded successfully |||||| <br/>
+History page was loaded successfully<br/>
+Gallery button was clicked |||||| <br/>
+Internal page was loaded successfully |||||| <br/>
+Gallery page was loaded successfully<br/>
+Shop button was clicked |||||| <br/>
+Internal page was loaded successfully |||||| <br/>
+Shop page was loaded successfully<br/>
+Login button was clicked |||||| <br/>
+Internal page was loaded successfully |||||| <br/>
+Login dialog was loaded<br/>
+Login dialog was closed<br/>
+--------Finishing "allPagesAreLoadingTest" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>New user registration tests</h1>
+<h2 id="m2">ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration:registrationOfNewUserTest</h2>
+<div style="padding-left:3em">
+Login button was clicked |||||| <br/>
+Internal page was loaded successfully |||||| <br/>
+Registration page was loaded successfully<br/>
+Message after registration is: "You have successfully registered. A link to confirm your registration has been sent to your email address."<br/>
+Email registration link in email is "http://34.214.90.155/ru/register/verify/token_tJTYLAfcg5HDc9q92BhU"<br/>
+Login button was clicked |||||| <br/>
+Username "isko.antontest@gmail.com" typed to username field<br/>
+Password "12345678" typed to password field<br/>
+Submit button clicked<br/>
+Internal page was loaded successfully |||||| <br/>
+Login is successfull<br/>
+Login button was clicked |||||| <br/>
+Internal page was loaded successfully |||||| <br/>
+Account page was loaded successfully<br/>
+Logged in as isko.antontest@gmail.com<br/>
+Login button was clicked |||||| <br/>
+Internal page was loaded successfully |||||| <br/>
+Logout successful<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Login to account</h1>
+<h2 id="m3">ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest:accountEntryWithExistingUser</h2>
+<div style="padding-left:3em">
+--------Starting "accountEntryWithExistingUser" test---------<br/>
+Login button was clicked |||||| <br/>
+Username "isko.antontest@gmail.com" typed to username field<br/>
+Password "12345678" typed to password field<br/>
+Submit button clicked<br/>
+Internal page was loaded successfully |||||| <br/>
+Login is successfull<br/>
+Login button was clicked |||||| <br/>
+Internal page was loaded successfully |||||| <br/>
+Account page was loaded successfully<br/>
+Logged in as isko.antontest@gmail.com<br/>
+Login button was clicked |||||| <br/>
+Internal page was loaded successfully |||||| <br/>
+Logout successful<br/>
+--------Finishing "accountEntryWithExistingUser" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest:accountEntryWithNotExistingUser</h2>
+<div style="padding-left:3em">
+--------Starting "accountEntryWithNotExistingUser" test---------<br/>
+Login button was clicked |||||| <br/>
+Username "NotExistingUser@gmail.com" typed to username field<br/>
+Password "007mafia007" typed to password field<br/>
+Submit button clicked<br/>
+Internal page was loaded successfully |||||| <br/>
+Login is successfull<br/>
+Internal page was loaded successfully |||||| <br/>
+Login dialog was loaded<br/>
+Login dialog was closed<br/>
+--------Finishing "accountEntryWithNotExistingUser" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Forgot password tests</h1>
+<h2 id="m5">ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest:forgotPasswordOfNotExistingUser</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+--------Starting "forgotPasswordOfNotExistingUser" test---------<br/>
+Login button was clicked |||||| <br/>
+<h3>Failure</h3>
+<p>Timed out after 10 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: unknown</p>
+org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:70)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+<br/>at com.sun.proxy.$Proxy6.click(Unknown Source)
+<br/>at ru.st.selenium.pages.LoginPage.clickForgotPasswordButton(LoginPage.java:88)
+<br/>at ru.st.selenium.applogic2.UserHelper2.restorePasswordOfNotExistingUser(UserHelper2.java:88)
+<br/>at ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest.forgotPasswordOfNotExistingUser(ForgotPasswordTest.java:40)
+<br/>34 lines not shown
+<p>Caused by no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class = &apos;login&apos;]//div[@class = &apos;forgot&apos;]/a&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\Anton89\AppData\Local\Temp\scoped_dir7488_1791}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9437e3a7e7b253c085aec3a960831067</p>
+sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+<br/>at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:38)
+<br/>at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:140)
+<br/>at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
+<br/>at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:68)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+<br/>at com.sun.proxy.$Proxy6.click(Unknown Source)
+<br/>at ru.st.selenium.pages.LoginPage.clickForgotPasswordButton(LoginPage.java:88)
+<br/>at ru.st.selenium.applogic2.UserHelper2.restorePasswordOfNotExistingUser(UserHelper2.java:88)
+<br/>at ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest.forgotPasswordOfNotExistingUser(ForgotPasswordTest.java:40)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest:forgotPasswordOfExistingUser</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+--------Starting "forgotPasswordOfExistingUser" test---------<br/>
+Login button was clicked |||||| <br/>
+forgot password button was clicked<br/>
+Username "isko.antontest@gmail.com" typed to username field<br/>
+Send password button was pressed<br/>
+Internal page was loaded successfully |||||| <br/>
+Login dialog was loaded<br/>
+Login dialog was closed<br/>
+Email restore password link in email is "http://34.214.90.155/password/reset/b1dc7f4ed338117e0de1f51f879db3e1ac5d9675743d35b27f69ab3e159c0c43"<br/>
+Email isko.antontest@gmail.com was typed to email field<br/>
+Password 123456789 was typed to password field<br/>
+Password 123456789 was typed to password confirmation field<br/>
+Submit button was pressed on Reset Password Page<br/>
+Login button was clicked |||||| <br/>
+<h3>Failure</h3>
+<p>Timed out after 10 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: unknown</p>
+org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:70)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+<br/>at com.sun.proxy.$Proxy6.toString(Unknown Source)
+<br/>at java.lang.String.valueOf(String.java:2994)
+<br/>at java.lang.StringBuilder.append(StringBuilder.java:131)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$5.toString(ExpectedConditions.java:161)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:223)
+<br/>at ru.st.selenium.pages.InternalPage.clickLogoutButton(InternalPage.java:159)
+<br/>at ru.st.selenium.applogic2.UserHelper2.logout(UserHelper2.java:34)
+<br/>at ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest.forgotPasswordOfExistingUser(ForgotPasswordTest.java:26)
+<br/>34 lines not shown
+<p>Caused by Element is not usable
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: unknown</p>
+org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:142)
+<br/>at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
+<br/>at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:68)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+<br/>at com.sun.proxy.$Proxy6.toString(Unknown Source)
+<br/>at java.lang.String.valueOf(String.java:2994)
+<br/>at java.lang.StringBuilder.append(StringBuilder.java:131)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$5.toString(ExpectedConditions.java:161)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:223)
+<br/>at ru.st.selenium.pages.InternalPage.clickLogoutButton(InternalPage.java:159)
+<br/>at ru.st.selenium.applogic2.UserHelper2.logout(UserHelper2.java:34)
+<br/>at ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest.forgotPasswordOfExistingUser(ForgotPasswordTest.java:26)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Buy item tests</h1>
+<h2 id="m7">ru.st.selenium.testSuites.frontEndTestSuite.BuyItemTest:buyItemTest</h2>
+<div style="padding-left:3em">
+--------Starting "buyItemTest" test---------<br/>
+Login button was clicked |||||| <br/>
+Username "isko.antontest@gmail.com" typed to username field<br/>
+Password "123456789" typed to password field<br/>
+Submit button clicked<br/>
+Internal page was loaded successfully |||||| <br/>
+Login is successfull<br/>
+Shop button was clicked |||||| <br/>
+Buy button was clicked<br/>
+Item "Product 2" was bought<br/>
+"Continue shopping" button was clicked<br/>
+Shop button was clicked |||||| <br/>
+Buy button was clicked<br/>
+Item "Product 1" was bought<br/>
+"Continue shopping" button was clicked<br/>
+Login button was clicked |||||| <br/>
+Cart button was clicked |||||| <br/>
+Item Product 2 exist in the cart<br/>
+Login button was clicked |||||| <br/>
+Cart button was clicked |||||| <br/>
+Item Product 1 exist in the cart<br/>
+Login button was clicked |||||| <br/>
+Cart button was clicked |||||| <br/>
+Item Product 2 was removed from the cart<br/>
+Login button was clicked |||||| <br/>
+Cart button was clicked |||||| <br/>
+Item Product 1 was removed from the cart<br/>
+Login button was clicked |||||| <br/>
+Internal page was loaded successfully |||||| <br/>
+Logout successful<br/>
+--------Finishing "buyItemTest" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Delete user from DB</h1>
+<h2 id="m8">ru.st.selenium.testSuites.frontEndTestSuite.DeleteUserFromDataBase:deleteUserFromDataBase</h2>
+<div style="padding-left:3em">
+"mafia@mafia.com" was typed to email field<br/>
+"123456" was typed to password field<br/>
+Login button was clicked<br/>
+Tab Users, Roles, Permissions was clicked<br/>
+Tab Users was clicked<br/>
+Admin Users page was loaded successfully<br/>
+Text isko.antontest@gmail.com was typed to the search field<br/>
+Alert about deleting was accepted<br/>
+User isko.antontest@gmail.com deleted<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Admin panel entry test</h1>
+<h2 id="m9">ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry:adminAccountEntryWithNotExistingUser</h2>
+<div style="padding-left:3em">
+"wrongemail@mail.ru" was typed to email field<br/>
+"wrongPassword" was typed to password field<br/>
+Login button was clicked<br/>
+The messagein email field is Неверное имя пользователя или пароль.<br/>
+--------Finishing "adminAccountEntryWithNotExistingUser" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry:adminAccountEntryWithExistingUser</h2>
+<div style="padding-left:3em">
+"mafia@mafia.com" was typed to email field<br/>
+"123456" was typed to password field<br/>
+Login button was clicked<br/>
+Trying to click logout button<br/>
+Logout button was clicked<br/>
+AdminLoginPage page was loaded successfully<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry:adminAccountEntryWithBlankUser</h2>
+<div style="padding-left:3em">
+"" was typed to email field<br/>
+"" was typed to password field<br/>
+Login button was clicked<br/>
+The messagein email field is The email field is required.<br/>
+The message in password field is The password field is required.<br/>
+--------Finishing "adminAccountEntryWithBlankUser" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Add menu items</h1>
+<h2 id="m12">ru.st.selenium.testSuites.backEndTestSuite.AddNewMenuItems:addNewMenuItem</h2>
+<div style="padding-left:3em">
+--------Starting "addNewMenuItem" test---------<br/>
+"mafia@mafia.com" was typed to email field<br/>
+"123456" was typed to password field<br/>
+Login button was clicked<br/>
+Tab Menu was clicked<br/>
+Add item was clicked on AdminMenuPage<br/>
+Trying to click submit button<br/>
+Submit button was clicked<br/>
+Tab Menu was clicked<br/>
+Item Тест меню has been deleted<br/>
+--------Finishing "addNewMenuItem" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Add news items</h1>
+<h2 id="m13">ru.st.selenium.testSuites.backEndTestSuite.AddNewNews:addNewNewsItem</h2>
+<div style="padding-left:3em">
+"mafia@mafia.com" was typed to email field<br/>
+"123456" was typed to password field<br/>
+Login button was clicked<br/>
+Tab News was clicked<br/>
+Add item was clicked on AdminNewsPage<br/>
+Trying to click submit button<br/>
+Submit button was clicked<br/>
+Tab News was clicked<br/>
+Item TestRusTitle has been deleted<br/>
+--------Finishing "addNewNewsItem" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Add page items</h1>
+<h2 id="m14">ru.st.selenium.testSuites.backEndTestSuite.AddPageItemTest:addNewPageItem</h2>
+<div style="padding-left:3em">
+"mafia@mafia.com" was typed to email field<br/>
+"123456" was typed to password field<br/>
+Login button was clicked<br/>
+Tab Pages was clicked<br/>
+Add item was clicked on AdminPagesPage<br/>
+Page name field filled with 'TestPageName'<br/>
+Title field filled with 'TestPageTilte'<br/>
+Slug field filled with ''<br/>
+Metatitle field filled with 'TestPageMetaTitle'<br/>
+Social Metatitle field filled with 'TestPageSocialTitle'<br/>
+Meta description field filled with 'TestPageMetaDescriptiom'<br/>
+Social meta description field filled with 'TestPageSocialMetaDescription'<br/>
+Metakeywords field filled with 'TestPageMetaKeywords'<br/>
+Rus tab has been clicked<br/>
+Rus title field filled with 'TestPageRusPageTitle'<br/>
+Rus meta title field filled with 'TestPageRusMetaTitle'<br/>
+Rus social meta title field filled with 'TestPageRusSocialMetaTitle'<br/>
+Rus meta description field filled with 'TestPageRusMetaDescription'<br/>
+Rus social meta description field filled with 'TestPageRusSocialMetaDescription'<br/>
+Rus meta keywords field filled with 'TestPageRusMetaKeywords'<br/>
+Trying to click submit button<br/>
+Submit button was clicked<br/>
+Button 'Open' was clicked for page TestPageName<br/>
+Tab Pages was clicked<br/>
+Item TestPageName has been deleted<br/>
+--------Finishing "addNewPageItem" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Add tournament items</h1>
+<h2 id="m15">ru.st.selenium.testSuites.backEndTestSuite.AddNewTournamentItem:addNewNewsItem</h2>
+<div style="padding-left:3em">
+"mafia@mafia.com" was typed to email field<br/>
+"123456" was typed to password field<br/>
+Login button was clicked<br/>
+Tab Tournaments was clicked<br/>
+Add item was clicked on AdminTournamentsPage<br/>
+File C:\mafPortalAutomation\src\main\resources\uploads\test.png was added<br/>
+Trying to click submit button<br/>
+Submit button was clicked<br/>
+Tab Tournaments was clicked<br/>
+Item TestTournamentRusPageTitle has been deleted<br/>
+--------Finishing "addNewNewsItem" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Add product items</h1>
+<h2 id="m16">ru.st.selenium.testSuites.backEndTestSuite.AddNewProductItem:addNewNewsItem</h2>
+<div style="padding-left:3em">
+"mafia@mafia.com" was typed to email field<br/>
+"123456" was typed to password field<br/>
+Login button was clicked<br/>
+Tab Shop was clicked<br/>
+Tab Products was clicked<br/>
+Add item was clicked on AdminProductsPage<br/>
+Trying to click submit button<br/>
+Submit button was clicked<br/>
+Tab Shop was clicked<br/>
+Tab Products was clicked<br/>
+Item TestProductTitle has been deleted<br/>
+--------Finishing "addNewNewsItem" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Add photo gallery items</h1>
+<h2 id="m17">ru.st.selenium.testSuites.backEndTestSuite.AddNewPhotoGallery:addNewPhotoGallery</h2>
+<div style="padding-left:3em">
+"mafia@mafia.com" was typed to email field<br/>
+"123456" was typed to password field<br/>
+Login button was clicked<br/>
+Tab Gallery was clicked<br/>
+Tab Photo was clicked<br/>
+Add item was clicked on AdminPhotoPage<br/>
+Title field filled with 'TestPhotoGalleryTitle'<br/>
+Rus title field filled with 'Фото галерея тестовое название'<br/>
+Slug field filled with ''<br/>
+Club 'Los Angeles' in select field was chosen<br/>
+Tournament '15-й Чемпионат Мира в Ереване' in select field was chosen<br/>
+Trying to click submit button<br/>
+Submit button was clicked<br/>
+Tab Gallery was clicked<br/>
+Tab Photo was clicked<br/>
+Item Фото галерея тестовое название has been deleted<br/>
+--------Finishing "addNewPhotoGallery" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Add video gallery items</h1>
+<h2 id="m18">ru.st.selenium.testSuites.backEndTestSuite.AddNewVideoGallery:addNewVideoGallery</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+"mafia@mafia.com" was typed to email field<br/>
+"123456" was typed to password field<br/>
+Login button was clicked<br/>
+Tab Gallery was clicked<br/>
+Tab Video was clicked<br/>
+Add item was clicked on AdminVideoGalleryPage<br/>
+Title field filled with 'TestVideoGalleryTitle'<br/>
+Rus title field filled with 'Видео галерея тестовое название'<br/>
+Club 'Los Angeles' in select field was chosen<br/>
+Tournament '15-й Чемпионат Мира в Ереване' in select field was chosen<br/>
+Trying to click submit button<br/>
+Submit button was clicked<br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class = &apos;logo-lg&apos;]&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\Anton89\AppData\Local\Temp\scoped_dir10828_6881}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9ccd23cccb522a7c3656d6851e9b7610</p>
+sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+<br/>at ru.st.selenium.pages.AdminInternalPage.clickLogo(AdminInternalPage.java:71)
+<br/>at ru.st.selenium.testSuites.backEndTestSuite.AddNewVideoGallery.addNewVideoGallery(AddNewVideoGallery.java:28)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Upload images test</h1>
+<h2 id="m19">ru.st.selenium.testSuites.backEndTestSuite.UploadingPhoto:adminAccountEntryWithExistingUser</h2>
+<div style="padding-left:3em">
+"mafia@mafia.com" was typed to email field<br/>
+"123456" was typed to password field<br/>
+Login button was clicked<br/>
+Tab Gallery was clicked<br/>
+Tab Photo was clicked<br/>
+Add item was clicked on AdminPhotoPage<br/>
+File C:\mafPortalAutomation\src\main\resources\uploads\test.png was added<br/>
+File was added succsessfully<br/>
+--------Finishing "adminAccountEntryWithExistingUser" test---------<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

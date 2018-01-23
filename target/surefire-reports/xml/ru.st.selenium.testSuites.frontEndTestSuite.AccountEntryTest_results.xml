@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login to account"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="71,586">
+  <properties />
+  
+  
+            <testcase name="accountEntryWithExistingUser" time="63,916" classname="ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest" />
+                <testcase name="accountEntryWithNotExistingUser" time="7,670" classname="ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest" />
+      
+</testsuite>

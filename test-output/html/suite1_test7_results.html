@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Admin panel entry test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Admin panel entry test</h1>
+<p>
+  Test duration: 55,638s
+</p>
+
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  adminAccountEntryWithBlankUser
+      </td>
+  <td class="duration">
+    12,759s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        "" was typed to email field
+                                "" was typed to password field
+                                Login button was clicked
+                                The messagein email field is The email field is required.
+                                The message in password field is The password field is required.
+                                --------Finishing "adminAccountEntryWithBlankUser" test---------
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  adminAccountEntryWithExistingUser
+      </td>
+  <td class="duration">
+    22,970s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        "mafia@mafia.com" was typed to email field
+                                "123456" was typed to password field
+                                Login button was clicked
+                                Trying to click logout button
+                                Logout button was clicked
+                                AdminLoginPage page was loaded successfully
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  adminAccountEntryWithNotExistingUser
+      </td>
+  <td class="duration">
+    12,289s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        "notExistingUser@mafia.com" was typed to email field
+                                "123456" was typed to password field
+                                Login button was clicked
+                                The messagein email field is Неверное имя пользователя или пароль.
+                                --------Finishing "adminAccountEntryWithNotExistingUser" test---------
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

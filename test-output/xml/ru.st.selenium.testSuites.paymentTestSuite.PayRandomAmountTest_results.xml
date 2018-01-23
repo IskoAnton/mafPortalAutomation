@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Проверка пополнения баланса"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32,587">
+  <properties />
+  
+  
+            <testcase name="PayRandomAmountAutotester" time="17,578" classname="ru.st.selenium.testSuites.paymentTestSuite.PayRandomAmountTest" />
+                <testcase name="PayRandomAmountTester2" time="15,009" classname="ru.st.selenium.testSuites.paymentTestSuite.PayRandomAmountTest" />
+      
+</testsuite>
