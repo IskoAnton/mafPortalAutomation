@@ -1,1 +1,1 @@
-mvn -P chrome_local test
+mvn -P chrome test
