@@ -22,6 +22,7 @@ public class InternalPage extends AnyPage {
   private final String  CLUBS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'CLUBS') or contains(text(),'КЛУБЫ')]";
   private final String  THEGAME_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'THE GAME') or contains(text(),'ИГРА')]";
   private final String  NEWS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'NEWS') or contains(text(),'НОВОСТИ')]";
+  
   private final String  TOURNAMENTS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'TOURNAMENTS') or contains(text(),'ТУРНИРЫ')]";
   private final String  HISTORY_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'HISTORY') or contains(text(),'ИСТОРИЯ')]";
   private final String  GALLERY_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'GALLERY') or contains(text(),'ГАЛЕРЕЯ')]";
