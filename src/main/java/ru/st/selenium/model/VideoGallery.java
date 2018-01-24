@@ -5,14 +5,16 @@ public class VideoGallery {
     private String rusTitle;
     private String club;
     private String tournament;
+    private String rusTournament;
     private boolean showInGlobalGallery;
     private String youtubeLink;
 
-    public VideoGallery(String title, String rusTitle, String club, String tournament, boolean showInGlobalGallery, String youtubeLink) {
+    public VideoGallery(String title, String rusTitle, String club, String tournament, String rusTournament, boolean showInGlobalGallery, String youtubeLink) {
         this.title = title;
         this.rusTitle = rusTitle;
         this.club = club;
         this.tournament = tournament;
+        this.rusTournament = rusTournament;
         this.showInGlobalGallery = showInGlobalGallery;
         this.youtubeLink = youtubeLink;
     }
@@ -63,5 +65,13 @@ public class VideoGallery {
 
     public void setYoutubeLink(String youtubeLink) {
         this.youtubeLink = youtubeLink;
+    }
+
+    public String getRusTournament() {
+        return rusTournament;
+    }
+
+    public void setRusTournament(String rusTournament) {
+        this.rusTournament = rusTournament;
     }
 }

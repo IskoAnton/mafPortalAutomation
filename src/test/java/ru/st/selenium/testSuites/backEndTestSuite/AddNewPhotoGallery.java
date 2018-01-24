@@ -29,14 +29,13 @@ public class AddNewPhotoGallery extends TestBase {
         app.getPages().internalPage.setLanguage("rus");
         app.getNavigationHelper().gotoGalleryPage();
         app.getPages().galleryPage.clickPhotoGallery(photoGallery);
-        app.getPages().photoGalleryItemPage.checkDataOfPhotoGallery(photoGallery, "rus");
+        app.getPages().photoGalleryItemPage.checkDataOfPhotoGallery(photoGallery);
         app.getPages().internalPage.setLanguage("eng");
-        app.getPages().photoGalleryItemPage.checkDataOfPhotoGallery(photoGallery, "eng");
+        app.getPages().photoGalleryItemPage.checkDataOfPhotoGallery(photoGallery);
         app.getNavigationHelper().gotoAdminPage();
         app.getPages().adminInternalPage.clickOnAdminTab("Gallery");
         app.getPages().adminInternalPage.clickOnAdminTab("Photo");
-        app.getPages().adminPagesPage.deleteItem(photoGallery.getRusTitle(), "Title");
-        app.getPages().adminPagesPage.deleteItem(photoGallery.getTitle(), "Title");
+        app.getPages().adminPagesPage.deleteItem(photoGallery.getTitle(), photoGallery.getRusTitle());
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
 
     }

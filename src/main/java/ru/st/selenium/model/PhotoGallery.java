@@ -6,14 +6,16 @@ public class PhotoGallery {
     private String slug;
     private String club;
     private String tournament;
+    public String rusTournament;
     private boolean showInGlobalGallery;
 
-    public PhotoGallery(String title, String rusTitle, String slug, String club, String tournament, boolean showInGlobalGallery) {
+    public PhotoGallery(String title, String rusTitle, String slug, String club, String tournament, String rusTournament, boolean showInGlobalGallery) {
         this.title = title;
         this.rusTitle = rusTitle;
         this.slug = slug;
         this.club = club;
         this.tournament = tournament;
+        this.rusTournament = rusTournament;
         this.showInGlobalGallery = showInGlobalGallery;
     }
 
@@ -63,5 +65,13 @@ public class PhotoGallery {
 
     public void setShowInGlobalGallery(boolean showInGlobalGallery) {
         this.showInGlobalGallery = showInGlobalGallery;
+    }
+
+    public String getRusTournament() {
+        return rusTournament;
+    }
+
+    public void setRusTournament(String rusTournament) {
+        this.rusTournament = rusTournament;
     }
 }

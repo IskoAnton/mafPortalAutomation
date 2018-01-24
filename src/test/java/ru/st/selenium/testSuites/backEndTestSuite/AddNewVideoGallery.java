@@ -30,15 +30,17 @@ public class AddNewVideoGallery extends TestBase {
         app.getNavigationHelper().gotoGalleryPage();
         app.getPages().galleryPage.clickVideoTab();
         app.getPages().galleryPage.clickVideoGallery(videoGallery);
+        app.getNavigationHelper().gotoHomePage();
+        app.getPages().internalPage.setLanguage("eng");
+        app.getNavigationHelper().gotoGalleryPage();
+        app.getPages().galleryPage.clickVideoTab();
+        app.getPages().galleryPage.clickVideoGallery(videoGallery);
         app.getNavigationHelper().gotoAdminPage();
         app.getPages().adminInternalPage.clickOnAdminTab("Gallery");
         app.getPages().adminInternalPage.clickOnAdminTab("Video");
-        app.getPages().adminVideoGalleryPage.deleteItem(videoGallery.getRusTitle(), "Title");
-        app.getPages().adminVideoGalleryPage.deleteItem(videoGallery.getTitle(), "Title");
+        app.getPages().adminVideoGalleryPage.deleteItem(videoGallery.getTitle(), videoGallery.getRusTitle());
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
-
     }
-
 
     @AfterMethod
     public void saveScreenshot(ITestResult testResult) throws IOException {

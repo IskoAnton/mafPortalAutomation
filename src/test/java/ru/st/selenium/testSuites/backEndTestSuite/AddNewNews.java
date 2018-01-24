@@ -30,13 +30,12 @@ public class AddNewNews extends TestBase{
         app.getPages().internalPage.setLanguage("rus");
         app.getNavigationHelper().gotoNewsPage();
         app.getPages().newsPage.clickNews(news);
-        app.getPages().newsItemPage.checkDataOnNewsItemPage(news, "rus");
+        app.getPages().newsItemPage.checkDataOnNewsItemPage(news);
         app.getPages().internalPage.setLanguage("eng");
-        app.getPages().newsItemPage.checkDataOnNewsItemPage(news, "eng");
+        app.getPages().newsItemPage.checkDataOnNewsItemPage(news);
         app.getNavigationHelper().gotoAdminPage();
         app.getPages().adminInternalPage.clickOnAdminTab("News");
-        app.getPages().adminPagesPage.deleteItem(news.getRusTitle(), "Title");
-        app.getPages().adminPagesPage.deleteItem(news.getTitle(), "Title");
+        app.getPages().adminPagesPage.deleteItem(news.getTitle(), news.getRusTitle());
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
 
     }

@@ -150,6 +150,11 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
     pages.resetPasswordPage.typePassword(password);
     pages.resetPasswordPage.typePasswordConfirmation(passwordConfirmation);
     pages.resetPasswordPage.pressSubmitButton();
+    try {
+      Thread.sleep(3000);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
   }
 
   public void changeUserPassword(String newPassword) {

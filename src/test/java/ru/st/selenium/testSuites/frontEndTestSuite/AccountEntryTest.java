@@ -17,6 +17,7 @@ public class AccountEntryTest extends ru.st.selenium.pages.TestBase {
     public void accountEntryWithExistingUser() throws Exception {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User user = TESTUSER;
+        app.getPages().internalPage.setLanguage("rus");
         app.getUserHelper().loginAs(user);
         assertTrue(app.getUserHelper().isLoggedInAs(user));
         app.getUserHelper().logout();
@@ -28,6 +29,7 @@ public class AccountEntryTest extends ru.st.selenium.pages.TestBase {
     public void accountEntryWithNotExistingUser() throws Exception {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User user = NOTEXISTINGUSER;
+        app.getPages().internalPage.setLanguage("rus");
         String language = app.getUserHelper().getLanguage();
         app.getUserHelper().loginAs(user);
         if (language.equals("eng")) {

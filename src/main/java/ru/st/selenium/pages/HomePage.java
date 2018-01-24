@@ -25,9 +25,9 @@ public class HomePage extends InternalPage {
         if (language.equals("rus")) {
             driver.findElement(By.xpath("//h1[@class = 'title' and contains(text(),'"+slide.getRusTitle()+"')]"));
             driver.findElement(By.xpath("//div[@class = 'desc' and contains(text(),'"+slide.getRusDescription()+"')]"));
-            driver.findElement(By.xpath("//div[@class = 'btbPost']/a[contains(text(),'"+slide.getRusButtonText()+"')]"));
-            String btnLink = driver.findElement(By.xpath("//div[@class = 'btbPost']/a[contains(text(),'"+slide.getRusButtonText()+"')]")).getAttribute("href");
-            assertEquals(btnLink, slide.getRusButtonLink());
+            driver.findElement(By.xpath("//div[@class = 'btnPost']/a[contains(text(),'"+slide.getButtonText()+"')]"));
+            String btnLink = driver.findElement(By.xpath("//div[@class = 'btnPost']/a[contains(text(),'"+slide.getButtonText()+"')]")).getAttribute("href");
+            assertEquals(btnLink, slide.getButtonLink());
         } else if (language.equals("eng")) {
             driver.findElement(By.xpath("//h1[@class = 'title' and contains(text(),'"+slide.getTitle()+"')]"));
             driver.findElement(By.xpath("//div[@class = 'desc' and contains(text(),'"+slide.getDescription()+"')]"));

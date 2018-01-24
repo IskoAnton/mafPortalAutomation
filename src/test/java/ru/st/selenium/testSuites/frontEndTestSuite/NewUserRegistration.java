@@ -21,6 +21,7 @@ public class NewUserRegistration extends TestBase{
     public void registrationOfNewUserTest() throws Exception {
         log.info("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User newUser = TESTUSER;
+        app.getPages().internalPage.setLanguage("rus");
         app.getUserHelper().registerNewUser("TesterFirstName", "TesterLastName", "TesterNickName",newUser.getLogin(), "2017-11-21", newUser.getPassword(), newUser.getPassword());
         app.getUserHelper().pressRegistrationLinkInEmail();
         app.getNavigationHelper().gotoHomePage();

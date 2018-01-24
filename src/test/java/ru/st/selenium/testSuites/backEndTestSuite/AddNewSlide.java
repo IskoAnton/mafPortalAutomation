@@ -36,8 +36,7 @@ public class AddNewSlide extends TestBase {
         app.getNavigationHelper().gotoAdminPage();
         app.getPages().adminInternalPage.clickOnAdminTab("Home page");
         app.getPages().adminInternalPage.clickOnAdminTab("Slides");
-        app.getPages().adminSlidePage.deleteItem(slide.getRusTitle(), "Title");
-        app.getPages().adminSlidePage.deleteItem(slide.getTitle(), "Title");
+        app.getPages().adminSlidePage.deleteItem(slide.getTitle(), slide.getRusTitle());
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 

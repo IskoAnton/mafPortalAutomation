@@ -6,19 +6,19 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 	</listeners>
 
-	<!--<test name="All pages are loading test">
+	<test name="All pages are loading test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest"/>
 		</classes>
 	</test>
 
-	<test name="New user registration tests">
+	<!--<test name="New user registration tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration"/>
 		</classes>
-	</test>-->
+	</test>
 
 	<test name="Login to account">
 		<parameter name="path" value="/"/>
@@ -26,7 +26,7 @@
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest"/>
 		</classes>
 	</test>
-	<!--<test name="Forgot password tests">
+	<test name="Forgot password tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest"/>
@@ -44,7 +44,6 @@
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.DeleteUserFromDataBase"/>
 		</classes>
 	</test>
-
 
 	<test name="Admin panel entry test">
 		<parameter name="path" value="/"/>

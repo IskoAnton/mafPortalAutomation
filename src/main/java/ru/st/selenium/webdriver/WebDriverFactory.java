@@ -7,6 +7,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.android.AndroidDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
@@ -153,7 +154,15 @@ public class WebDriverFactory {
 		}*/
 
 		if (CHROME.equals(browser)) {
-			webDriver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("-no-sandbox");
+			options.addArguments("--disable-plugins-discovery");
+			options.addArguments("--disable-gpu");
+			//options.addArguments("--single-process");
+			options.addArguments("--headless");
+			options.addArguments("window-size=2000x1000");
+			webDriver = new ChromeDriver(options);
+
 
 		} else if (FIREFOX.equals(browser)) {
 

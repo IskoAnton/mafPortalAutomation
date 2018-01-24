@@ -24,13 +24,12 @@ public class AddPageItemTest extends TestBase {
         app.getPages().adminPagesPage.clickOpenPage(newPage.getPageName());
         app.getNavigationHelper().switchToNewWindow();
         app.getPages().internalPage.setLanguage("rus");
-        app.getPages().createdPage.checkDataOnNewPage(newPage, "rus");
+        app.getPages().createdPage.checkDataOnNewPage(newPage);
         app.getPages().internalPage.setLanguage("eng");
-        Thread.sleep(2000);
-        app.getPages().createdPage.checkDataOnNewPage(newPage, "eng");
+        app.getPages().createdPage.checkDataOnNewPage(newPage);
         app.getNavigationHelper().switchToDefaultWindow();
         app.getPages().adminInternalPage.clickOnAdminTab("Pages");
-        app.getPages().adminPagesPage.deleteItem(newPage.getPageName(), "Name");
+        app.getPages().adminPagesPage.deleteItem(newPage.getPageName());
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 

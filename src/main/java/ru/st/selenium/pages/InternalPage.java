@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 
@@ -20,7 +22,7 @@ public class InternalPage extends AnyPage {
   private final String  CLUBS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'CLUBS') or contains(text(),'КЛУБЫ')]";
   private final String  THEGAME_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'THE GAME') or contains(text(),'ИГРА')]";
   private final String  NEWS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'NEWS') or contains(text(),'НОВОСТИ')]";
-  private final String  TOURNAMENTS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'Tournaments') or contains(text(),'ТУРНИРЫ')]";
+  private final String  TOURNAMENTS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'TOURNAMENTS') or contains(text(),'ТУРНИРЫ')]";
   private final String  HISTORY_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'HISTORY') or contains(text(),'ИСТОРИЯ')]";
   private final String  GALLERY_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'GALLERY') or contains(text(),'ГАЛЕРЕЯ')]";
   private final String  SHOP_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'SHOP') or contains(text(),'МАГАЗИН')]";
@@ -81,6 +83,7 @@ public class InternalPage extends AnyPage {
   }
 
   public ClubsPage clickClubsButton() {
+    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(CLUBS_BUTTON_LOCATOR)));
     clubsButton.click();
     return pages.clubsPage;
   }

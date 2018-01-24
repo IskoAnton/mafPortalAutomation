@@ -12,7 +12,8 @@ public class PhotoGalleryItemPage extends GalleryPage{
 
     private final String  PHOTO_GALLERY_TITLE_LOCATOR = "//div[@class = 'title']";
 
-    public void checkDataOfPhotoGallery(PhotoGallery photoGallery, String language) {
+    public void checkDataOfPhotoGallery(PhotoGallery photoGallery) {
+        String language = getLanguage();
         if(language.equals("rus")){
             assertEquals(driver.findElement(By.xpath(PHOTO_GALLERY_TITLE_LOCATOR)).getText().trim(), photoGallery.getRusTitle());
         }

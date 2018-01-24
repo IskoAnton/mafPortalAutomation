@@ -15,7 +15,8 @@ public class NewsItemPage extends NewsPage {
     private final String  NEWS_DESCRIPTION_LOCATOR= "//div[@class = 'descWr']/div[@class = 'text']";
     private final String  NEWS_DATE_LOCATOR= "//div[@class = 'descWr']/div[@class = 'date']";
 
-    public void checkDataOnNewsItemPage(News news, String language) {
+    public void checkDataOnNewsItemPage(News news) {
+        String language = getLanguage();
         if (language.equalsIgnoreCase("rus")) {
             assertEquals(driver.findElement(By.xpath(NEWS_TITLE_LOCATOR)).getText(), news.getRusTitle());
             assertEquals(driver.findElement(By.xpath(NEWS_DESCRIPTION_LOCATOR)).getText(), news.getRusDescripion());

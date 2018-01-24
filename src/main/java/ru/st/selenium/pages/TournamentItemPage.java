@@ -15,7 +15,8 @@ public class TournamentItemPage extends TournamentsPage{
     private final String TOURNAMENT_DESCRIPTION_LOCATOR = "//div[@class = 'descWr']/div[@class = 'text']";
     private final String  NEWS_DATE_LOCATOR= "//div[@class = 'descWr']/div[@class = 'date']";
 
-    public void checkDataOnTournmentItemPage(Tournament tournament, String language) {
+    public void checkDataOnTournmentItemPage(Tournament tournament) {
+        String language = getLanguage();
         if (language.equalsIgnoreCase("rus")) {
             assertEquals(driver.findElement(By.xpath(TOURNAMENT_TITLE_LOCATOR)).getText(), tournament.getRusTitle());
             assertEquals(driver.findElement(By.xpath(TOURNAMENT_DESCRIPTION_LOCATOR)).getText(), tournament.getRusDescripion());
