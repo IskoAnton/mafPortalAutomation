@@ -44,9 +44,9 @@ public class TestBase {
 
 	static {
 		TESTADDRESS = new Address(Address.Title.MR, "TestUser","1257 Montgomery street", "apt 47", "San Francisco", "California", "98542", "USA", "testemail@test.com");
-		USERMAFIA = new User("TestName", "TestLastName", "TestNickName", "mafia@mafia.com", "123456", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
+		USERMAFIA = new User("TestName", "TestLastName", "TestNickName", "mafia@mafia.com", "007mafia007", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
 		TESTUSER = new User("TestName", "TestLastName", "TestNickName", "isko.antontest@gmail.com", "12345678", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
-		TESTADMIN = new User("TestName", "TestLastName", "TestNickName", "mafia@mafia.com", "123456", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
+		TESTADMIN = new User("TestName", "TestLastName", "TestNickName", "mafia@mafia.com", "007mafia007", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
 		NOTEXISTINGUSER = new User("TestName", "TestLastName", "TestNickName", "notExistingUser@mafia.com", "123456", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
 		TESTPAGEITEM = new PageItem("TestPageTilte", "TestPageName", "", "TestPageContent", "TestPageMetaTitle", "TestPageSocialTitle", "TestPageMetaDescriptiom", "TestPageSocialMetaDescription", "TestPageMetaKeywords", "TestPageRusPageTitle", "TestPageRusContent", "TestPageRusMetaTitle", "TestPageRusSocialMetaTitle", "TestPageRusMetaDescription", "TestPageRusSocialMetaDescription", "TestPageRusMetaKeywords");
 		TESTTOURNAMENT = new Tournament("TestTournamentTitle", "TestTournamentSlug", "Los Angeles", "12/12/2018 16:04","TestTournamentDescription", "TestTournamentRatingOverview", "TestTournamentText", "TestTournamentMetaTitle", "TestTournamentSocialTitle", "TestTournamentMetaDescriptiom", "TestTournamentSocialMetaDescription", "TestTournamentMetaKeywords", "TestTournamentRusPageTitle", "TestTournamentRusDescription","TestTournamentRusRatingOverview", "TestTournamentRusText","TestTournamentRusMetaTitle", "TestTournamentRusSocialMetaTitle", "TestTournamentRusMetaDescription", "TestTournamentRusSocialMetaDescription", "TestTournamentRusMetaKeywords");

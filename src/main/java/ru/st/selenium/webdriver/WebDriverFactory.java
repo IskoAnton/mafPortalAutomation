@@ -155,7 +155,7 @@ public class WebDriverFactory {
 
 		if (CHROME.equals(browser)) {
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("-no-sandbox");
+			options.addArguments("--no-sandbox");
 			options.addArguments("--disable-plugins-discovery");
 			options.addArguments("--disable-gpu");
 			//options.addArguments("--single-process");
