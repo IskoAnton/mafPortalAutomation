@@ -28,13 +28,12 @@ public class AddNewTournamentItem extends TestBase {
         app.getPages().internalPage.setLanguage("rus");
         app.getNavigationHelper().gotoTournamentsPage();
         app.getPages().tournamentsPage.clickOnTournament(tournament);
-        app.getPages().tournamentItemPage.checkDataOnTournmentItemPage(tournament, "rus");
+        app.getPages().tournamentItemPage.checkDataOnTournmentItemPage(tournament);
         app.getPages().internalPage.setLanguage("eng");
-        app.getPages().tournamentItemPage.checkDataOnTournmentItemPage(tournament, "eng");
+        app.getPages().tournamentItemPage.checkDataOnTournmentItemPage(tournament);
         app.getNavigationHelper().gotoAdminPage();
         app.getPages().adminInternalPage.clickOnAdminTab("Tournaments");
-        app.getPages().adminPagesPage.deleteItem(tournament.getRusTitle(), "Title");
-        app.getPages().adminPagesPage.deleteItem(tournament.getTitle(), "Title");
+        app.getPages().adminPagesPage.deleteItem(tournament.getTitle(), tournament.getRusTitle());
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 

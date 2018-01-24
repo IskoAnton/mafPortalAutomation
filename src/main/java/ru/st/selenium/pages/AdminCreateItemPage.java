@@ -1,17 +1,13 @@
 package ru.st.selenium.pages;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import ru.st.selenium.model.TabItem;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
@@ -70,9 +66,7 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
     public void addFile(String path) {
         wait.until(presenceOfElementLocated(By.xpath(ADD_FILE_BUTTON_LOCATOR)));
         driver.findElement(By.xpath(ADD_FILE_BUTTON_LOCATOR)).sendKeys(path);
-        log("File " + path + " was added");
-        //addFileButton.click();
-        //addFileButton.sendKeys();
+        ensureFileAdded();
     }
 
     public void ensureFileAdded() {
@@ -120,6 +114,7 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
 
     public void clickRusTab() {
         driver.findElement(By.xpath(RUS_TAB_LOCATOR)).click();
+        log("Rus tab was clicked");
     }
 
     public void fillAllFieldsWithData(Object obj) {
@@ -167,9 +162,91 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
         }catch (Exception e) {
             return false;
         }
-
     }
 
+    public void sendKeysToTitleField(TabItem tabItem) {
+        driver.findElement(By.xpath(TITLE_FIELD_LOCATOR)).sendKeys(tabItem.getTitle());
+        log("Title '" + tabItem.getTitle() + "' was typed to title field");
+    }
 
+    public void sendKeysToRusTitleField(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_TITLE_FIELD_LOCATOR)).sendKeys(tabItem.getRusTitle());
+        log("Title '" + tabItem.getRusTitle() + "' was typed to rus title field");
+    }
+
+    public void sendKeysToDescriptionField(TabItem tabItem) {
+        driver.findElement(By.xpath(DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getDescription());
+        log("Description '" + tabItem.getDescription() + "' was typed to description field");
+    }
+
+    public void sendKeysToRusDescriptionField(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getRusDescription());
+        log("Rus Description '" + tabItem.getRusDescription() + "' was typed to rus description field");
+    }
+
+    public void sendKeysToSlugField(TabItem tabItem) {
+        driver.findElement(By.xpath(SLUG_FIELD_LOCATOR)).sendKeys(tabItem.getSlug());
+        log("Slug '" + tabItem.getRusDescription() + "' was typed to slug field");
+    }
+
+    public void sendKeysToTextField(TabItem tabItem) {
+        WebElement frame = driver.findElement(By.xpath("//div[@id = 'cke_1_contents']/iframe"));
+        driver.switchTo().frame(frame);
+        WebElement editor = driver.findElement(By.xpath("//body"));
+        editor.clear();
+        editor.sendKeys(tabItem.getText());
+        driver.switchTo().defaultContent();
+        log("Text '" + tabItem.getText() + "' was typed to text field");
+    }
+
+    public void sendKeysToMetaTitle(TabItem tabItem) {
+        driver.findElement(By.xpath(META_TITLE_FIELD_LOCATOR)).sendKeys(tabItem.getMetaTitle());
+        log("Metatatitle '" + tabItem.getMetaTitle() + "' was typed to metatitle field");
+    }
+
+    public void sendKeysToRusMetaTitle(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_META_TITLE_FIELD_LOCATOR)).sendKeys(tabItem.getRusMetaTitle());
+        log("Rus Metatatitle '" + tabItem.getRusMetaTitle() + "' was typed to rus metatitle field");
+    }
+
+    public void sendKeysToSocialMetaTitle(TabItem tabItem) {
+        driver.findElement(By.xpath(SOCIAL_META_TITLE_FIELD_LOCATOR)).sendKeys(tabItem.getSocialMetaTitle());
+        log("Social metatatitle '" + tabItem.getSocialMetaTitle() + "' was typed to social metatitle field");
+    }
+
+    public void sendKeysToRusSocialMetaTitle(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_SOCIAL_META_TITLE_FIELD_LOCATOR)).sendKeys(tabItem.getRusSocialMetaTitle());
+        log("Rus social metatatitle '" + tabItem.getSocialMetaTitle() + "' was typed to rus social metatitle field");
+    }
+
+    public void sendKeysToMetaDescription(TabItem tabItem) {
+        driver.findElement(By.xpath(META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getMetaDescription());
+        log("Metatadescription '" + tabItem.getMetaDescription() + "' was typed to metadescription field");
+    }
+
+    public void sendKeysToRusMetaDescription(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getRusMetaDescription());
+        log("Rus Metatadescription '" + tabItem.getRusMetaDescription() + "' was typed to rus metadescription field");
+    }
+
+    public void sendKeysToSocialMetaDescription(TabItem tabItem) {
+        driver.findElement(By.xpath(SOCIAL_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getSocialMetaDescription());
+        log("Social metatadescription '" + tabItem.getSocialMetaDescription() + "' was typed to social metadescription field");
+    }
+
+    public void sendKeysToRusSocialMetaDescription(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_SOCIAL_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getRusSocialMetaDescription());
+        log("Rus Social Metatadescription '" + tabItem.getRusSocialMetaDescription() + "' was typed to rus social metadescription field");
+    }
+
+    public void sendKeysToMetaKeywords(TabItem tabItem) {
+        driver.findElement(By.xpath(META_KEYWORDS_LOCATOR)).sendKeys(tabItem.getMetaKeywords());
+        log("Meta keywords '" + tabItem.getMetaKeywords() + "' was typed to metakeywords field");
+    }
+
+    public void sendKeysToRusMetaKeywords(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_META_KEYWORDS_LOCATOR)).sendKeys(tabItem.getRusMetaKeywords());
+        log("Rus Meta keywords '" + tabItem.getRusMetaKeywords() + "' was typed to rus metakeywords field");
+    }
 }
 

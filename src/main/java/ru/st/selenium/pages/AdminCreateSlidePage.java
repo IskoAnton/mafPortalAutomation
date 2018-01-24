@@ -3,6 +3,7 @@ package ru.st.selenium.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import ru.st.selenium.model.Slide;
+import ru.st.selenium.model.TabItem;
 
 public class AdminCreateSlidePage extends AdminCreateItemPage {
     public AdminCreateSlidePage(PageManager pages) {
@@ -15,19 +16,22 @@ public class AdminCreateSlidePage extends AdminCreateItemPage {
     protected final String RUS_BUTTON_LINK_FIELD_LOCATOR = "//input[@name='btn_link_ru']";
 
 
-    public void fillAllFieldsWithData(Object obj) {
-        Slide slide = (Slide) obj;
+    public void fillAllFieldsWithData(TabItem tabItem) {
+        Slide slide = (Slide) tabItem;
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(TITLE_FIELD_LOCATOR)));
-        driver.findElement(By.xpath(TITLE_FIELD_LOCATOR)).sendKeys(slide.getTitle());
-        driver.findElement(By.xpath(DESCRIPTION_FIELD_LOCATOR)).sendKeys(slide.getDescription());
+        sendKeysToTitleField(slide);
+        sendKeysToDescriptionField(slide);
         driver.findElement(By.xpath(BUTTON_TEXT_FIELD_LOCATOR)).sendKeys(slide.getButtonText());
+        log("Button text '" + slide.getButtonText() + "' was typed to button text field");
         driver.findElement(By.xpath(BUTTON_LINK_FIELD_LOCATOR)).sendKeys(slide.getButtonLink());
+        log("Button link '" + slide.getButtonLink() + "' was typed to button link field");
         clickRusTab();
-        driver.findElement(By.xpath(RUS_TITLE_FIELD_LOCATOR)).sendKeys(slide.getTitle());
-        driver.findElement(By.xpath(RUS_DESCRIPTION_FIELD_LOCATOR)).sendKeys(slide.getDescription());
+        sendKeysToRusTitleField(slide);
+        sendKeysToRusDescriptionField(slide);
         driver.findElement(By.xpath(RUS_BUTTON_TEXT_FIELD_LOCATOR)).sendKeys(slide.getButtonText());
+        log("Title " + slide.getTitle() + "was typed to title field");
         driver.findElement(By.xpath(RUS_BUTTON_LINK_FIELD_LOCATOR)).sendKeys(slide.getButtonLink());
-        String imageDirectory = System.getProperty("user.dir") + "\\src\\main\\resources\\uploads\\test.png";
+        log("Title " + slide.getTitle() + "was typed to title field");
         addFile(imageDirectory);
     }
 }

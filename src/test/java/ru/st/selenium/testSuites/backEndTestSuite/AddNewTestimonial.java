@@ -29,6 +29,8 @@ public class AddNewTestimonial extends TestBase {
         app.getPages().adminMenuPage.clickLogo();
         app.getPages().internalPage.setLanguage("eng");
         app.getPages().homePage.checkDataOnTestimonial(testimonial);
+        app.getPages().internalPage.setLanguage("rus");
+        app.getPages().homePage.checkDataOnTestimonial(testimonial);
         app.getNavigationHelper().gotoAdminPage();
         app.getPages().adminInternalPage.clickOnAdminTab("Home page");
         app.getPages().adminInternalPage.clickOnAdminTab("Testimonials");

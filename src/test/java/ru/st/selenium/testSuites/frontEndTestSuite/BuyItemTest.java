@@ -15,6 +15,7 @@ public class BuyItemTest extends ru.st.selenium.pages.TestBase {
     public void buyItemTest() throws Exception {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User user = TESTUSER;
+        app.getPages().internalPage.setLanguage("rus");
         app.getUserHelper().loginAs(user);
         app.getShopHelper().buyItem("Product 2");
         app.getShopHelper().buyItem("Product 1");

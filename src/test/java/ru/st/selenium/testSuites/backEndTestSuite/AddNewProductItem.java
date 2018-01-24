@@ -28,10 +28,12 @@ public class AddNewProductItem extends TestBase {
         app.getPages().internalPage.setLanguage("rus");
         app.getNavigationHelper().gotoShopPage();
         app.getPages().shopPage.checkDataOfProduct(product);
+        app.getPages().internalPage.setLanguage("eng");
+        app.getPages().shopPage.checkDataOfProduct(product);
         app.getNavigationHelper().gotoAdminPage();
         app.getPages().adminInternalPage.clickOnAdminTab("Shop");
         app.getPages().adminInternalPage.clickOnAdminTab("Products");
-        app.getPages().adminPagesPage.deleteItem(product.getTitle(), "Title");
+        app.getPages().adminPagesPage.deleteItem(product.getTitle());
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
 
     }

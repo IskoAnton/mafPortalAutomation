@@ -53,12 +53,12 @@ public abstract class AdminAnyTabPage extends AdminInternalPage{
             typeToSearchField(name);
             driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]"));
             //Press edit button
-            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]/../..//a[@data-button-type = 'delete']")).click();
+            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]/..//a[@data-button-type = 'delete']")).click();
         } catch (Exception e) {
             typeToSearchField(rusName);
             driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+rusName+"')]"));
             //Press edit button
-            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]/../..//a[@data-button-type = 'delete']']")).click();
+            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+rusName+"')]/..//a[@data-button-type = 'delete']")).click();
         }
 
         Alert alert = driver.switchTo().alert();
@@ -74,7 +74,6 @@ public abstract class AdminAnyTabPage extends AdminInternalPage{
     public void deleteItem(String name) {
             typeToSearchField(name);
             driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]"));
-            //Press edit button
             driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]/../..//a[@data-button-type = 'delete']")).click();
             Alert alert = driver.switchTo().alert();
             alert.accept();

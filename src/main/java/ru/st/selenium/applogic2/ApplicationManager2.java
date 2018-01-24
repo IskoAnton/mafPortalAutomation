@@ -7,6 +7,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestResult;
@@ -52,6 +53,15 @@ public class ApplicationManager2 implements ApplicationManager {
     browser.setName(PropertyLoader.loadProperty("browser.name"));
     browser.setVersion(PropertyLoader.loadProperty("browser.version"));
     browser.setPlatform(PropertyLoader.loadProperty("browser.platform"));
+
+    if (browser.getName().equalsIgnoreCase("chrome")) {
+      System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
+
+    }
+
+    if (browser.getName().equalsIgnoreCase("firefox")) {
+      System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
+    }
 
     String username = PropertyLoader.loadProperty("user.username");
     String password = PropertyLoader.loadProperty("user.password");

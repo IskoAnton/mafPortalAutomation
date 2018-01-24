@@ -18,6 +18,7 @@ public class ForgotPasswordTest extends ru.st.selenium.pages.TestBase {
     public void forgotPasswordOfExistingUser() throws Exception {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User user = TESTUSER;
+        app.getPages().internalPage.setLanguage("rus");
         String language = app.getUserHelper().getLanguage();
         app.getUserHelper().restorePasswordOfExistingUser(language, user.getLogin());
         app.getUserHelper().pressResetPasswordLinkInEmail();
@@ -36,6 +37,7 @@ public class ForgotPasswordTest extends ru.st.selenium.pages.TestBase {
     public void forgotPasswordOfNotExistingUser() throws Exception {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User user = NOTEXISTINGUSER;
+        app.getPages().internalPage.setLanguage("rus");
         String language = app.getUserHelper().getLanguage();
         app.getUserHelper().restorePasswordOfNotExistingUser(language, user.getLogin());
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");

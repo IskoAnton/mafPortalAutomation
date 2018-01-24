@@ -28,8 +28,9 @@ public class AdminCreateMenuItemPage extends AdminCreateItemPage{
     private WebElement rusLabelField;
 
 
-    public void fillAllFieldsWithData(Object obj, String language) {
+    public void fillAllFieldsWithData(Object obj) {
         MenuItem menuItem = (MenuItem) obj;
+        String language = getLanguage();
         Select parentSelector = new Select(driver.findElement(By.xpath(PARENT_SELECTOR_LOCATOR)));
         Select typeSelector = new Select(driver.findElement(By.xpath(TYPE_SELECTOR_LOCATOR)));
         Select pageOrLinkValue = new Select(driver.findElement(By.xpath(PAGE_OR_LINK_VALUE_LOCATOR)));

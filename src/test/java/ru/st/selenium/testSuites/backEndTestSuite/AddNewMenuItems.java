@@ -25,7 +25,7 @@ public class AddNewMenuItems extends TestBase{
         app.getAdminUserHelper().logindAs(admin);
         app.getPages().adminInternalPage.clickOnAdminTab("Menu");
         app.getPages().adminMenuPage.clickAddItemButton();
-        app.getPages().adminCreateMenuItemPage.fillAllFieldsWithData(menuItem, "rus");
+        app.getPages().adminCreateMenuItemPage.fillAllFieldsWithData(menuItem);
         app.getPages().adminCreateMenuItemPage.pressSubmitButton();
         app.getPages().adminMenuPage.clickLogo();
         app.getPages().internalPage.getWebDriver().findElement(By.xpath("//nav[@class = 'headMenu']//a[contains(text(),'"+menuItem.getLabel()+"') or contains(text(),'"+menuItem.getRusLabel()+"')]"));

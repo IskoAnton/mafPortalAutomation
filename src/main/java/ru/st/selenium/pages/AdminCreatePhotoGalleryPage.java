@@ -14,6 +14,7 @@ public class AdminCreatePhotoGalleryPage extends AdminCreateItemPage{
     private final String  SHOW_IN_GLOBAL_GALLERY_LOCATOR= "//input[@type = 'checkbox']";
 
     public void fillAllFieldsWithData(Object obj) {
+        String language = getLanguage();
         PhotoGallery photoGallery = (PhotoGallery) obj;
         driver.findElement(By.xpath(TITLE_FIELD_LOCATOR)).sendKeys(photoGallery.getTitle());
         log("Title field filled with '" + photoGallery.getTitle() + "'");
@@ -25,10 +26,16 @@ public class AdminCreatePhotoGalleryPage extends AdminCreateItemPage{
         clubSelect.selectByVisibleText(photoGallery.getClub());
         log("Club '" + photoGallery.getClub() + "' in select field was chosen");
         Select tournamentSelect = new Select(driver.findElement(By.xpath("//select[@name = 'tournament_id']")));
-        tournamentSelect.selectByVisibleText(photoGallery.getTournament());
+        if (language.equals("eng")) {
+            tournamentSelect.selectByVisibleText(photoGallery.getTournament());
+        }
+        else if (language.equals("rus")) {
+            tournamentSelect.selectByVisibleText(photoGallery.getRusTournament());
+        }
         log("Tournament '" + photoGallery.getTournament() + "' in select field was chosen");
         if (photoGallery.isShowInGlobalGallery()) {
             driver.findElement(By.xpath(SHOW_IN_GLOBAL_GALLERY_LOCATOR)).click();
         }
+        addFile(imageDirectory);
     }
 }

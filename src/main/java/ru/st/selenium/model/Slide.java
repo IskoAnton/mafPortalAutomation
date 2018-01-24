@@ -1,7 +1,7 @@
 package ru.st.selenium.model;
 
-public class Slide {
-    private String title;
+public class Slide extends TabItem{
+
     private String description;
     private String buttonText;
     private String buttonLink;
