@@ -1,6 +1,6 @@
 package ru.st.selenium.model;
 
-public class Testimonial {
+public class Testimonial extends TabItem{
     private String name;
     private String text;
 
