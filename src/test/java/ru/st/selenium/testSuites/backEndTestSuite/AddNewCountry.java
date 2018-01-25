@@ -33,8 +33,7 @@ public class AddNewCountry extends TestBase {
             app.getNavigationHelper().gotoAdminPage();
             app.getPages().adminInternalPage.clickOnAdminTab("Clubs");
             app.getPages().adminInternalPage.clickOnAdminTab("Countries");
-            app.getPages().adminCountiesPage.deleteItem(country.getRusTitle(), "Title");
-            app.getPages().adminCountiesPage.deleteItem(country.getTitle(), "Title");
+            app.getPages().adminCountiesPage.deleteItem(country.getTitle(), country.getRusTitle());
             log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         }
 

@@ -46,6 +46,7 @@ public abstract class AdminAnyTabPage extends AdminInternalPage{
         driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]"));
         //Press edit button
         driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]/../..//i[@class = 'fa fa-edit']")).click();
+        log("Edit button of " + name + " was clicked");
     }
 
     public void deleteItem(String name, String rusName) {

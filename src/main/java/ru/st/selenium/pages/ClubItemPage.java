@@ -15,20 +15,25 @@ public class ClubItemPage extends ClubsPage {
     private final String ABOUT_CLUB_LOCATOR = "//section[@class = 'AboutClub']//div[@class = 'cont']/p";
 
     public void checkDataOnClubItemPage(Club club) {
+        log("Checking data on Clubs page");
         String language = "";
         language = getLanguage();
         if (language.equalsIgnoreCase("rus")) {
             assertEquals(driver.findElement(By.xpath(CLUB_TITLE_LOCATOR)).getText(), club.getTitle());
-            assertEquals(driver.findElement(By.xpath(ABOUT_CLUB_LOCATOR)).getText(), club.getRusAboutClub());
+            log("Rus title is Ok");
+            assertEquals(driver.findElement(By.xpath(ABOUT_CLUB_LOCATOR)).getText(), club.getRusText());
+            log("Rus about club is Ok");
 
         } else if (language.equalsIgnoreCase("eng")) {
             assertEquals(driver.findElement(By.xpath(CLUB_TITLE_LOCATOR)).getText(), club.getTitle());
-            System.out.println(driver.findElement(By.xpath(ABOUT_CLUB_LOCATOR)).getText());
-            assertEquals(driver.findElement(By.xpath(ABOUT_CLUB_LOCATOR)).getText(), club.getAboutClub());
+            log("Title is Ok");
+            assertEquals(driver.findElement(By.xpath(ABOUT_CLUB_LOCATOR)).getText(), club.getText());
+            log("About club is Ok");
         }
     }
 
     public void clickEventsTab() {
         driver.findElement(By.xpath("//a[contains(text(), 'События') or contains(text(), 'Events')]")).click();
+        log("Events tab was clicked");
     }
 }

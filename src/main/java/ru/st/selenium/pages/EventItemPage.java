@@ -11,7 +11,15 @@ public class EventItemPage extends ClubsPage{
     }
 
     public void checkDataOfEvent(Event event) {
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '"+event.getRusTitle()+"') or contains(text(), '"+event.getTitle()+"')]")));
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/p[contains(text(), '"+event.getRusDescription()+"') or contains(text(), '"+event.getDescription()+"')]")));
+        String language = getLanguage();
+        if (language.equals("rus")) {
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '" + event.getRusTitle() + "')]")));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/p[contains(text(), '" + event.getRusDescription() + "')]")));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/p[contains(text(), '" + event.getRusText() + "')]")));
+        } else if (language.equals("eng")) {
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '" + event.getTitle() + "')]")));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/p[contains(text(), '" + event.getDescription() + "')]")));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/p[contains(text(), '" + event.getText() + "')]")));
+        }
     }
 }

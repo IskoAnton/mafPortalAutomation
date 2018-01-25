@@ -37,8 +37,7 @@ public class AddNewEvent extends TestBase{
         app.getNavigationHelper().gotoAdminPage();
         app.getPages().adminInternalPage.clickOnAdminTab("Clubs");
         app.getPages().adminInternalPage.clickOnAdminTab("Events");
-        app.getPages().adminPagesPage.deleteItem(event.getRusTitle(), "Title");
-        app.getPages().adminPagesPage.deleteItem(event.getTitle(), "Title");
+        app.getPages().adminPagesPage.deleteItem(event.getTitle(), event.getRusTitle());
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 

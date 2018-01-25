@@ -1,18 +1,14 @@
 package ru.st.selenium.model;
 
-public class Club {
-    private String title;
-    private String slug;
+public class Club extends TabItem{
     private String city;
     private String country;
     private String admins;
     private String ratingTable;
     private boolean privateClub;
-    private String aboutClub;
-    private String rusAboutClub;
     private String rusCountry;
 
-    public Club(String title, String slug, String city, String countries, String admins, String ratingTable, boolean privateClub, String aboutClub, String rusAboutClub) {
+    public Club(String title, String slug, String city, String countries, String admins, String ratingTable, boolean privateClub, String text, String rusText) {
         this.title = title;
         this.slug = slug;
         this.city = city;
@@ -20,7 +16,7 @@ public class Club {
         this.admins = admins;
         this.ratingTable = ratingTable;
         this.privateClub = privateClub;
-        this.aboutClub = aboutClub;
+        this.text = text;
         if (countries == "USA") rusCountry = "США";
         else if (countries == "Russia") rusCountry = "Россия";
         else if (countries == "Ukraine") rusCountry = "Украина";
@@ -28,7 +24,7 @@ public class Club {
         else if (countries == "Canada") rusCountry = "Канада";
         else if (countries == "Mexico") rusCountry = "Мексика";
         else rusCountry = "";
-        this.rusAboutClub = rusAboutClub;
+        this.rusText = rusText;
     }
 
     public String getTitle() {
@@ -87,13 +83,6 @@ public class Club {
         this.privateClub = priveteClub;
     }
 
-    public String getAboutClub() {
-        return aboutClub;
-    }
-
-    public void setAboutClub(String aboutClub) {
-        this.aboutClub = aboutClub;
-    }
 
     public String getRusCountry() {
         return rusCountry;
@@ -103,11 +92,5 @@ public class Club {
         this.rusCountry = rusCountry;
     }
 
-    public String getRusAboutClub() {
-        return rusAboutClub;
-    }
 
-    public void setRusAboutClub(String rusAboutClub) {
-        this.rusAboutClub = rusAboutClub;
-    }
 }

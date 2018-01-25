@@ -1,6 +1,6 @@
 package ru.st.selenium.model;
 
-public class News {
+public class News extends TabItem{
     private String title;
     private String slug;
     private String date;

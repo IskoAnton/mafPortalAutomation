@@ -165,33 +165,40 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
     }
 
     public void sendKeysToTitleField(TabItem tabItem) {
+        driver.findElement(By.xpath(TITLE_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(TITLE_FIELD_LOCATOR)).sendKeys(tabItem.getTitle());
         log("Title '" + tabItem.getTitle() + "' was typed to title field");
     }
 
     public void sendKeysToRusTitleField(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_TITLE_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(RUS_TITLE_FIELD_LOCATOR)).sendKeys(tabItem.getRusTitle());
         log("Title '" + tabItem.getRusTitle() + "' was typed to rus title field");
     }
 
     public void sendKeysToDescriptionField(TabItem tabItem) {
+        driver.findElement(By.xpath(DESCRIPTION_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getDescription());
         log("Description '" + tabItem.getDescription() + "' was typed to description field");
     }
 
     public void sendKeysToRusDescriptionField(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_DESCRIPTION_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(RUS_DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getRusDescription());
         log("Rus Description '" + tabItem.getRusDescription() + "' was typed to rus description field");
     }
 
     public void sendKeysToSlugField(TabItem tabItem) {
+        driver.findElement(By.xpath(SLUG_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(SLUG_FIELD_LOCATOR)).sendKeys(tabItem.getSlug());
         log("Slug '" + tabItem.getRusDescription() + "' was typed to slug field");
     }
 
     public void sendKeysToTextField(TabItem tabItem) {
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@id = 'cke_1_contents']/iframe")));
         WebElement frame = driver.findElement(By.xpath("//div[@id = 'cke_1_contents']/iframe"));
         driver.switchTo().frame(frame);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//body")));
         WebElement editor = driver.findElement(By.xpath("//body"));
         editor.clear();
         editor.sendKeys(tabItem.getText());
@@ -199,17 +206,31 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
         log("Text '" + tabItem.getText() + "' was typed to text field");
     }
 
+    public void sendKeysToRusTextField(TabItem tabItem) {
+        WebElement frame = driver.findElement(By.xpath("//div[@id = 'cke_2_contents']/iframe"));
+        driver.switchTo().frame(frame);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//body")));
+        WebElement editor = driver.findElement(By.xpath("//body"));
+        editor.clear();
+        editor.sendKeys(tabItem.getRusText());
+        driver.switchTo().defaultContent();
+        log("Rus text '" + tabItem.getRusText() + "' was typed to rus text field");
+    }
+
     public void sendKeysToMetaTitle(TabItem tabItem) {
+        driver.findElement(By.xpath(META_TITLE_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(META_TITLE_FIELD_LOCATOR)).sendKeys(tabItem.getMetaTitle());
         log("Metatatitle '" + tabItem.getMetaTitle() + "' was typed to metatitle field");
     }
 
     public void sendKeysToRusMetaTitle(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_META_TITLE_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(RUS_META_TITLE_FIELD_LOCATOR)).sendKeys(tabItem.getRusMetaTitle());
         log("Rus Metatatitle '" + tabItem.getRusMetaTitle() + "' was typed to rus metatitle field");
     }
 
     public void sendKeysToSocialMetaTitle(TabItem tabItem) {
+        driver.findElement(By.xpath(SOCIAL_META_TITLE_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(SOCIAL_META_TITLE_FIELD_LOCATOR)).sendKeys(tabItem.getSocialMetaTitle());
         log("Social metatatitle '" + tabItem.getSocialMetaTitle() + "' was typed to social metatitle field");
     }
@@ -220,33 +241,41 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
     }
 
     public void sendKeysToMetaDescription(TabItem tabItem) {
+        driver.findElement(By.xpath(META_DESCRIPTION_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getMetaDescription());
         log("Metatadescription '" + tabItem.getMetaDescription() + "' was typed to metadescription field");
     }
 
     public void sendKeysToRusMetaDescription(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_META_DESCRIPTION_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(RUS_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getRusMetaDescription());
         log("Rus Metatadescription '" + tabItem.getRusMetaDescription() + "' was typed to rus metadescription field");
     }
 
     public void sendKeysToSocialMetaDescription(TabItem tabItem) {
+        driver.findElement(By.xpath(SOCIAL_META_DESCRIPTION_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(SOCIAL_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getSocialMetaDescription());
         log("Social metatadescription '" + tabItem.getSocialMetaDescription() + "' was typed to social metadescription field");
     }
 
     public void sendKeysToRusSocialMetaDescription(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_SOCIAL_META_DESCRIPTION_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(RUS_SOCIAL_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(tabItem.getRusSocialMetaDescription());
         log("Rus Social Metatadescription '" + tabItem.getRusSocialMetaDescription() + "' was typed to rus social metadescription field");
     }
 
     public void sendKeysToMetaKeywords(TabItem tabItem) {
+        driver.findElement(By.xpath(META_KEYWORDS_LOCATOR)).clear();
         driver.findElement(By.xpath(META_KEYWORDS_LOCATOR)).sendKeys(tabItem.getMetaKeywords());
         log("Meta keywords '" + tabItem.getMetaKeywords() + "' was typed to metakeywords field");
     }
 
     public void sendKeysToRusMetaKeywords(TabItem tabItem) {
+        driver.findElement(By.xpath(RUS_META_KEYWORDS_LOCATOR)).clear();
         driver.findElement(By.xpath(RUS_META_KEYWORDS_LOCATOR)).sendKeys(tabItem.getRusMetaKeywords());
         log("Rus Meta keywords '" + tabItem.getRusMetaKeywords() + "' was typed to rus metakeywords field");
     }
+
+
 }
 

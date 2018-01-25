@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import ru.st.selenium.model.Club;
+import ru.st.selenium.model.News;
 import ru.st.selenium.model.User;
 import ru.st.selenium.pages.TestBase;
 import ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest;
@@ -21,7 +22,7 @@ public class AddNewClub extends TestBase {
     Club blankClub = BLANKCLUB;
 
 
-    @Test
+   @Test
     public void T001_addNewClub() {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         app.getAdminUserHelper().logindAs(admin);

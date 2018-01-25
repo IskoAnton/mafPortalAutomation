@@ -40,6 +40,7 @@ public class ClubsPage extends InternalPage {
 
     public void checkClubDoesntExist(Club club) {
         boolean isPresent = isElementPresent(By.xpath("//a[contains(text(),'"+club.getTitle()+"')]"));
+        log("There is no club '" + club.getTitle() + "' on clubs page");
         assertFalse(isPresent);
     }
 
@@ -53,6 +54,7 @@ public class ClubsPage extends InternalPage {
 
     public void clickToClub(String club) {
         driver.findElement(By.xpath("//a[contains(text(),'"+club+"')]")).click();
+        log("Club " + club + " was clicked");
     }
 
     public void checkCountryExists(Country country) {
@@ -60,8 +62,10 @@ public class ClubsPage extends InternalPage {
 
         if (language.equals("eng")) {
             driver.findElement(By.xpath("//div[@class = 'clubList']//div[contains(text(),'" + country.getTitle() + "')]"));
+            log("Country '" + country.getTitle() + "' exists on clubs page");
         } else if(language.equals("rus")) {
             driver.findElement(By.xpath("//div[@class = 'clubList']//div[contains(text(),'" + country.getRusTitle() + "')]"));
+            log("Country '" + country.getRusTitle() + "' exists on clubs page");
         }
     }
 }

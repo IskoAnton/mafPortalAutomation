@@ -18,43 +18,36 @@ public class AdminCreateClubPage extends AdminCreateItemPage {
     public void fillAllFieldsWithData(Object obj) {
         Club club = (Club) obj;
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(TITLE_FIELD_LOCATOR)));
-        driver.findElement(By.xpath(TITLE_FIELD_LOCATOR)).clear();
-        driver.findElement(By.xpath(TITLE_FIELD_LOCATOR)).sendKeys(club.getTitle());
-        driver.findElement(By.xpath(SLUG_FIELD_LOCATOR)).clear();
-        driver.findElement(By.xpath(SLUG_FIELD_LOCATOR)).sendKeys(club.getSlug());
+        sendKeysToTitleField(club);
+        sendKeysToSlugField(club);
         driver.findElement(By.xpath(CITY_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(CITY_FIELD_LOCATOR)).sendKeys(club.getCity());
+        log("City " + club.getCity() + "was typed to city field");
         Select countrySelect = new Select(driver.findElement(By.xpath("//select[@name = 'country_id']")));
         String language = getLanguage();
         if (language == "rus" && club.getRusCountry()!="") {
             countrySelect.selectByVisibleText(club.getRusCountry());
+            log("Rus country " + club.getRusCountry() + " was selected");
         } else if(language == "eng" && club.getCountry()!="") {
             countrySelect.selectByVisibleText(club.getCountry());
+            log("Country " + club.getCountry() + " was selected");
         }
 
         Select ratingTableSelect = new Select(driver.findElement(By.xpath("//select[@name='table_ratings_id']")));
         if (club.getRatingTable() != "") {
             ratingTableSelect.selectByVisibleText(club.getRatingTable());
+            log("Rating table " + club.getRatingTable() + " was selected");
         }
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@id = 'cke_1_contents']/iframe")));
-        WebElement frame = driver.findElement(By.xpath("//div[@id = 'cke_1_contents']/iframe"));
-        driver.switchTo().frame(frame);
-        WebElement editor = driver.findElement(By.xpath("//body"));
-        editor.clear();
-        editor.sendKeys(club.getAboutClub());
-        driver.switchTo().defaultContent();
+        sendKeysToTextField(club);
         addFile(imageDirectory);
         clickRusTab();
-        WebElement rusFrame = driver.findElement(By.xpath("//div[@id = 'cke_2_contents']/iframe"));
-        driver.switchTo().frame(rusFrame);
-        WebElement rusEditor = driver.findElement(By.xpath("//body"));
-        rusEditor.clear();
-        rusEditor.sendKeys(club.getRusAboutClub());
-        driver.switchTo().defaultContent();
+        sendKeysToRusTextField(club);
     }
 
     public void checkRequiredFieldsMessages() {
         driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[contains(text(), 'The title field is required.')]"));
+        log("Message 1 is 'The title field is required.'");
         driver.findElement(By.xpath("//label[contains(text(), 'Title')]/../..//div[@class = 'help-block' and contains(text(), 'The title field is required.')]"));
+        log("Message 2 is 'The title field is required.'");
     }
 }

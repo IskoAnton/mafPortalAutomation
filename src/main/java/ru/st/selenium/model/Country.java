@@ -1,6 +1,6 @@
 package ru.st.selenium.model;
 
-public class Country {
+public class Country extends TabItem{
     private String title;
     private String aboutCountry;
     private String rusTitle;

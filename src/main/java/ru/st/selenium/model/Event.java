@@ -2,7 +2,7 @@ package ru.st.selenium.model;
 
 import java.util.List;
 
-public class Event {
+public class Event extends TabItem{
     private String title;
     private String slug;
     private String date;
