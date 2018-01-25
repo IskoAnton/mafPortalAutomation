@@ -139,7 +139,6 @@
 				<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 			</properties>
 		</profile>
-
 		<profile>
 			<id>firefox</id>
 			<properties>
