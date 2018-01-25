@@ -25,8 +25,8 @@ public class AllPagesAreLoadingTest extends ru.st.selenium.pages.TestBase {
         app.getPages().internalPage.clickNewsButton();
         app.getPages().newsPage.ensurePageLoaded();
 
-        /*app.getPages().internalPage.clickTournamentsButton();
-        app.getPages().tournamentsPage.ensurePageLoaded();*/
+        app.getPages().internalPage.clickTournamentsButton();
+        app.getPages().tournamentsPage.ensurePageLoaded();
 
         app.getPages().internalPage.clickHistoryButton();
         app.getPages().historyPage.ensurePageLoaded();
