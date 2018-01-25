@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FrontEnd test suite" verbose="5" data-provider-thread-count="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+
+	<test name="All pages are loading test">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest"/>
+		</classes>
+	</test>
+
+	<!--<test name="New user registration tests">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration"/>
+		</classes>
+	</test>
+
+	<test name="Login to account">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest"/>
+		</classes>
+	</test>
+	<test name="Forgot password tests">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest"/>
+		</classes>
+	</test>
+	<test name="Buy item tests">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.frontEndTestSuite.BuyItemTest"/>
+		</classes>
+	</test>
+	<test name="Delete user from DB">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.frontEndTestSuite.DeleteUserFromDataBase"/>
+		</classes>
+	</test>
+
+	<test name="Admin panel entry test">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry"/>
+		</classes>
+	</test>
+
+	<test name="Add menu items">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewMenuItems"/>
+		</classes>
+	</test>
+
+	<test name="Add news items">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewNews"/>
+		</classes>
+	</test>
+
+	<test name="Add page items">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddPageItemTest"/>
+		</classes>
+	</test>
+
+	<test name="Add tournament items">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewTournamentItem"/>
+		</classes>
+	</test>
+
+	<test name="Add product items">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewProductItem"/>
+		</classes>
+	</test>
+
+	<test name="Add photo gallery items">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewPhotoGallery"/>
+		</classes>
+	</test>
+
+	<test name="Add video gallery items">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewVideoGallery"/>
+		</classes>
+	</test>
+
+	<test name="Upload images test">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.UploadingPhoto"/>
+		</classes>
+	</test>
+
+	<test name="Add new slide to homepage">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewSlide"/>
+		</classes>
+	</test>
+
+	<test name="Add new testimonial to homepage">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewTestimonial"/>
+		</classes>
+	</test>
+
+	<test name="Add new partner to homepage">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewPartner"/>
+		</classes>
+	</test>
+
+	<test name="Add new club test">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewClub"/>
+		</classes>
+	</test>
+
+	<test name="Add new country test">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewCountry"/>
+		</classes>
+	</test>
+
+	<test name="Add new event test">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewEvent"/>
+		</classes>
+	</test>-->
+
+	<!--<test name="Add new User through admin panel test">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewUser"/>
+		</classes>
+	</test>
+
+	<test name="Add new Role test">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewEvent"/>
+		</classes>
+	</test>
+
+	<test name="Add new Permission test">
+		<parameter name="path" value="/"/>
+		<classes>
+			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewEvent"/>
+		</classes>
+	</test>-->
+</suite>

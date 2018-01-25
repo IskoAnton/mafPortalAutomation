@@ -18794,3 +18794,2307 @@
 2018-01-22 22:52:14 INFO  AdminInternalPage:84 - Logout button was clicked
 2018-01-22 22:52:14 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
 2018-01-22 22:52:14 INFO  AddNewClub:89 - --------Finishing "T005_cancelAddingNewClub" test---------
+2018-01-24 14:57:34 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-24 14:57:36 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:57:36 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-24 14:57:38 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:57:38 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-24 14:57:39 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:57:39 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-24 14:57:42 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:57:42 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-24 14:57:43 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:57:43 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-24 14:57:45 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-24 14:57:45 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:57:45 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-24 14:57:47 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-24 14:57:47 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:57:47 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-24 14:57:49 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 14:57:49 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:57:49 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 14:57:50 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 14:57:52 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-24 14:58:34 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-24 14:58:37 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:58:37 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-24 14:58:39 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:58:39 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-24 14:58:40 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:58:40 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-24 14:58:42 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:58:42 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-24 14:58:44 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:58:44 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-24 14:58:45 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-24 14:58:45 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:58:45 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-24 14:58:48 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-24 14:58:48 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:58:48 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-24 14:58:50 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 14:58:50 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 14:58:50 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 14:58:51 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 14:58:53 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-24 15:01:10 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-24 15:01:12 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:01:12 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-24 15:01:14 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:01:14 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-24 15:01:15 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:01:15 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-24 15:01:18 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:01:18 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-24 15:01:20 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:01:20 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-24 15:01:21 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-24 15:01:21 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:01:21 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-24 15:01:23 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-24 15:01:23 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:01:23 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-24 15:01:25 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:01:25 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:01:26 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:01:26 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:01:28 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-24 15:01:42 INFO  AccountEntryTest:22 - --------Starting "registrationOfNewUserTest" test---------
+2018-01-24 15:01:43 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:01:46 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:01:48 INFO  RegistrationPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:01:48 INFO  RegistrationPage:84 - Registration page was loaded successfully
+2018-01-24 15:01:54 INFO  RegistrationPage:84 - Message after registration is: "You have successfully registered. A link to confirm your registration has been sent to your email address."
+2018-01-24 15:02:03 INFO  MailHelper2:99 - Email registration link in email is "http://34.214.90.155/ru/register/verify/token_i0E1NgzusBnMpu0ljxga"
+2018-01-24 15:02:09 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:02:11 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:02:12 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-01-24 15:02:12 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:02:12 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:12 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:02:12 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-24 15:02:14 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:14 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-24 15:02:16 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:16 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-24 15:02:17 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:17 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-24 15:02:20 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:20 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-24 15:02:22 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:22 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-24 15:02:23 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-24 15:02:23 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:23 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-24 15:02:25 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-24 15:02:25 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:25 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-24 15:02:26 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:02:27 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:27 INFO  AccountPage:84 - Account page was loaded successfully
+2018-01-24 15:02:27 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-01-24 15:02:27 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:02:27 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:28 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:02:28 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:02:30 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-24 15:02:39 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:02:42 INFO  AccountEntryTest:22 - --------Starting "registrationOfNewUserTest" test---------
+2018-01-24 15:02:43 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:02:44 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:44 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:02:44 INFO  AccountEntryTest:31 - --------Finishing "registrationOfNewUserTest" test---------
+2018-01-24 15:02:46 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:02:47 INFO  RegistrationPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:02:47 INFO  RegistrationPage:84 - Registration page was loaded successfully
+2018-01-24 15:02:52 INFO  RegistrationPage:84 - Message after registration is: "The email has already been taken."
+2018-01-24 15:02:58 INFO  AccountEntryTest:89 - --------Starting "accountEntryWithExistingUser" test---------
+2018-01-24 15:03:01 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:03:03 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:03:05 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:03:06 INFO  AccountEntryTest:89 - --------Starting "accountEntryWithExistingUser" test---------
+2018-01-24 15:03:06 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-01-24 15:03:06 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:03:06 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:06 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:03:07 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:03:09 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:03:10 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:03:11 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-01-24 15:03:11 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:03:11 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:11 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:03:21 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:03:23 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:25 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:03:27 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:41 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-24 15:03:44 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:44 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-24 15:03:46 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:46 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-24 15:03:47 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:47 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-24 15:03:49 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:49 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-24 15:03:51 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:51 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-24 15:03:52 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-24 15:03:52 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:52 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-24 15:03:53 INFO  AccountEntryTest:89 - --------Starting "accountEntryWithNotExistingUser" test---------
+2018-01-24 15:03:54 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-24 15:03:54 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:54 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-24 15:03:55 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:03:56 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:03:56 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:57 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:03:57 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:03:58 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:03:58 INFO  AccountEntryTest:89 - --------Starting "accountEntryWithNotExistingUser" test---------
+2018-01-24 15:03:59 INFO  LoginPage:84 - Username "notExistingUser@mafia.com" typed to username field
+2018-01-24 15:03:59 INFO  LoginPage:84 - Password "123456" typed to password field
+2018-01-24 15:03:59 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:03:59 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:03:59 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:04:00 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:04:00 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-24 15:04:01 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:04:01 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:04:02 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:04:03 INFO  LoginPage:84 - Username "notExistingUser@mafia.com" typed to username field
+2018-01-24 15:04:03 INFO  LoginPage:84 - Password "123456" typed to password field
+2018-01-24 15:04:03 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:04:03 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:04:03 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:04:05 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:04:05 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:04:15 INFO  AccountEntryTest:22 - --------Starting "registrationOfNewUserTest" test---------
+2018-01-24 15:04:17 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:04:19 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:04:21 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfExistingUser" test---------
+2018-01-24 15:04:21 INFO  RegistrationPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:04:21 INFO  RegistrationPage:84 - Registration page was loaded successfully
+2018-01-24 15:04:22 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:04:24 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:04:26 INFO  RegistrationPage:84 - Message after registration is: "You have successfully registered. A link to confirm your registration has been sent to your email address."
+2018-01-24 15:04:26 INFO  LoginPage:84 - forgot password button was clicked
+2018-01-24 15:04:26 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:04:26 INFO  LoginPage:84 - Send password button was pressed
+2018-01-24 15:04:26 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:04:26 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:04:27 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfExistingUser" test---------
+2018-01-24 15:04:28 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:04:29 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:04:31 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:04:32 INFO  LoginPage:84 - forgot password button was clicked
+2018-01-24 15:04:33 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:04:33 INFO  LoginPage:84 - Send password button was pressed
+2018-01-24 15:04:33 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:04:33 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:04:34 INFO  MailHelper2:99 - Email registration link in email is "http://34.214.90.155/ru/register/verify/token_j3W0TaFcNPWqHwuYVREh"
+2018-01-24 15:04:35 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:04:38 INFO  MailHelper2:99 - Email restore password link in email is "http://34.214.90.155/password/reset/532aabb98ed8d8cd6dd5cecc7b801e506aeef5d61020a62374222d2c2107d6da"
+2018-01-24 15:04:41 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:04:41 INFO  ResetPasswordPage:84 - Email isko.antontest@gmail.com was typed to email field
+2018-01-24 15:04:41 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password field
+2018-01-24 15:04:41 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password confirmation field
+2018-01-24 15:04:41 INFO  ResetPasswordPage:84 - Submit button was pressed on Reset Password Page
+2018-01-24 15:04:42 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:04:42 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-01-24 15:04:42 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:04:42 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:04:42 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:04:45 INFO  MailHelper2:99 - Email restore password link in email is "http://34.214.90.155/password/reset/c4f0406dc28edbc573e1792ef3f5708a6601067f52a96682ce494958b3c31037"
+2018-01-24 15:04:46 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:04:47 INFO  ResetPasswordPage:84 - Email isko.antontest@gmail.com was typed to email field
+2018-01-24 15:04:47 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password field
+2018-01-24 15:04:48 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password confirmation field
+2018-01-24 15:04:48 INFO  ResetPasswordPage:84 - Submit button was pressed on Reset Password Page
+2018-01-24 15:04:57 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:04:57 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:04:57 INFO  AccountPage:84 - Account page was loaded successfully
+2018-01-24 15:04:57 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-01-24 15:05:03 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:05:08 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:05:08 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:05:10 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:05:10 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:05:12 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:05:12 INFO  LoginPage:84 - Password "123456789" typed to password field
+2018-01-24 15:05:12 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:05:12 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:05:12 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:05:15 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:05:15 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:05:15 INFO  AccountEntryTest:31 - --------Finishing "registrationOfNewUserTest" test---------
+2018-01-24 15:05:24 INFO  AccountEntryTest:89 - --------Starting "accountEntryWithExistingUser" test---------
+2018-01-24 15:05:26 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:05:26 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:05:27 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:05:27 INFO  AccountPage:84 - Account page was loaded successfully
+2018-01-24 15:05:27 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-01-24 15:05:28 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:05:29 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:05:30 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-01-24 15:05:30 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:05:30 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:05:30 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:05:31 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfNotExistingUser" test---------
+2018-01-24 15:05:39 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:05:39 INFO  AccountPage:84 - Password 12345678 was typed to password field
+2018-01-24 15:05:40 INFO  AccountPage:84 - Password 12345678 was typed to password confirmation field
+2018-01-24 15:05:40 INFO  AccountPage:84 - Submit button was pressed
+2018-01-24 15:05:40 INFO  UserHelper2:24 - New password "12345678" was set
+2018-01-24 15:05:42 INFO  BuyItemTest:89 - --------Starting "buyItemTest" test---------
+2018-01-24 15:05:44 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:05:45 INFO  AccountEntryTest:89 - --------Starting "accountEntryWithNotExistingUser" test---------
+2018-01-24 15:05:46 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:05:47 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:05:48 INFO  LoginPage:84 - Password "123456789" typed to password field
+2018-01-24 15:05:48 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:05:48 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:05:48 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:05:52 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:05:56 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfExistingUser" test---------
+2018-01-24 15:05:57 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:05:57 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:05:57 INFO  ForgotPasswordTest:89 - --------Finishing "forgotPasswordOfExistingUser" test---------
+2018-01-24 15:05:57 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfNotExistingUser" test---------
+2018-01-24 15:05:57 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:05:58 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:06:00 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:06:00 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:06:01 INFO  LoginPage:84 - forgot password button was clicked
+2018-01-24 15:06:01 INFO  LoginPage:84 - forgot password button was clicked
+2018-01-24 15:06:02 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:06:02 INFO  LoginPage:84 - Send password button was pressed
+2018-01-24 15:06:02 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:06:02 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:06:02 INFO  LoginPage:84 - Username "notExistingUser@mafia.com" typed to username field
+2018-01-24 15:06:02 INFO  LoginPage:84 - Send password button was pressed
+2018-01-24 15:06:04 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:06:04 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:06:06 INFO  ForgotPasswordTest:89 - --------Finishing "forgotPasswordOfNotExistingUser" test---------
+2018-01-24 15:06:10 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:06:10 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:06:11 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:06:14 INFO  MailHelper2:99 - Email restore password link in email is "http://34.214.90.155/password/reset/c85595858da6931fa99efe48399bd21b262fbca089981b7705f72bc0204b9b7a"
+2018-01-24 15:06:15 INFO  BuyItemTest:89 - --------Starting "buyItemTest" test---------
+2018-01-24 15:06:16 INFO  ResetPasswordPage:84 - Email isko.antontest@gmail.com was typed to email field
+2018-01-24 15:06:16 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:06:17 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password field
+2018-01-24 15:06:17 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password confirmation field
+2018-01-24 15:06:17 INFO  ResetPasswordPage:84 - Submit button was pressed on Reset Password Page
+2018-01-24 15:06:19 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:06:20 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:06:20 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-01-24 15:06:20 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:06:20 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:06:20 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:06:26 INFO  AccountEntryTest:41 - --------Starting "adminAccountEntryWithBlankUser" test---------
+2018-01-24 15:06:32 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:06:37 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:06:37 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:06:37 INFO  AdminLoginPage:84 - "" was typed to email field
+2018-01-24 15:06:37 INFO  AdminLoginPage:84 - "" was typed to password field
+2018-01-24 15:06:39 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:06:39 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:06:41 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:06:41 INFO  LoginPage:84 - Password "123456789" typed to password field
+2018-01-24 15:06:41 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:06:41 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:06:41 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:06:42 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:06:42 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:06:44 INFO  AdminLoginPage:84 - The messagein email field is The email field is required.
+2018-01-24 15:06:44 INFO  AdminLoginPage:84 - The message in password field is The password field is required.
+2018-01-24 15:06:44 INFO  AdminAccountEntry:89 - --------Finishing "adminAccountEntryWithBlankUser" test---------
+2018-01-24 15:06:46 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:06:53 INFO  AdminInternalPage:84 - Tab Users, Roles, Permissions was clicked
+2018-01-24 15:06:55 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:06:56 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:06:56 INFO  AccountPage:84 - Account page was loaded successfully
+2018-01-24 15:06:56 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-01-24 15:07:00 INFO  AdminInternalPage:84 - Tab Users was clicked
+2018-01-24 15:07:00 INFO  AdminUsersPage:84 - Admin Users page was loaded successfully
+2018-01-24 15:07:00 INFO  AdminUsersPage:84 - Text isko.antontest@gmail.com was typed to the search field
+2018-01-24 15:07:02 INFO  AdminUsersPage:84 - Alert about deleting was accepted
+2018-01-24 15:07:02 INFO  AdminUsersPage:84 - User isko.antontest@gmail.com deleted
+2018-01-24 15:07:03 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:07:03 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:07:04 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:07:08 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:07:09 INFO  AccountPage:84 - Password 12345678 was typed to password field
+2018-01-24 15:07:09 INFO  AccountPage:84 - Password 12345678 was typed to password confirmation field
+2018-01-24 15:07:09 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 15:07:09 INFO  AccountPage:84 - Submit button was pressed
+2018-01-24 15:07:09 INFO  UserHelper2:24 - New password "12345678" was set
+2018-01-24 15:07:11 INFO  AccountEntryTest:41 - --------Starting "adminAccountEntryWithBlankUser" test---------
+2018-01-24 15:07:21 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:07:22 INFO  AdminLoginPage:84 - "" was typed to email field
+2018-01-24 15:07:22 INFO  AdminLoginPage:84 - "" was typed to password field
+2018-01-24 15:07:24 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:07:26 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:07:26 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:07:26 INFO  ForgotPasswordTest:89 - --------Finishing "forgotPasswordOfExistingUser" test---------
+2018-01-24 15:07:26 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfNotExistingUser" test---------
+2018-01-24 15:07:27 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:07:29 INFO  AdminLoginPage:84 - The messagein email field is The email field is required.
+2018-01-24 15:07:29 INFO  AdminLoginPage:84 - The message in password field is The password field is required.
+2018-01-24 15:07:29 INFO  AdminAccountEntry:89 - --------Finishing "adminAccountEntryWithBlankUser" test---------
+2018-01-24 15:07:29 INFO  AdminLoginPage:84 - "notExistingUser@mafia.com" was typed to email field
+2018-01-24 15:07:29 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:07:29 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:07:30 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:07:31 INFO  LoginPage:84 - forgot password button was clicked
+2018-01-24 15:07:31 INFO  LoginPage:84 - Username "notExistingUser@mafia.com" typed to username field
+2018-01-24 15:07:31 INFO  LoginPage:84 - Send password button was pressed
+2018-01-24 15:07:32 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:07:34 INFO  ForgotPasswordTest:89 - --------Finishing "forgotPasswordOfNotExistingUser" test---------
+2018-01-24 15:07:35 INFO  AdminLoginPage:84 - The messagein email field is These credentials do not match our records.
+2018-01-24 15:07:35 INFO  AdminAccountEntry:89 - --------Finishing "adminAccountEntryWithNotExistingUser" test---------
+2018-01-24 15:07:45 INFO  BuyItemTest:89 - --------Starting "buyItemTest" test---------
+2018-01-24 15:07:46 INFO  AddNewMenuItems:89 - --------Starting "addNewMenuItem" test---------
+2018-01-24 15:07:47 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:07:47 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:07:47 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:07:49 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:07:50 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:07:50 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:07:51 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-01-24 15:07:51 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:07:51 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:07:51 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:07:55 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 15:07:55 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:07:56 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:07:57 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 15:07:57 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 15:07:57 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:08:06 INFO  AdminLoginPage:84 - "notExistingUser@mafia.com" was typed to email field
+2018-01-24 15:08:06 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:08:07 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:08:12 INFO  AdminLoginPage:84 - The messagein email field is These credentials do not match our records.
+2018-01-24 15:08:12 INFO  AdminAccountEntry:89 - --------Finishing "adminAccountEntryWithNotExistingUser" test---------
+2018-01-24 15:08:13 INFO  AccountEntryTest:20 - --------Starting "addNewNewsItem" test---------
+2018-01-24 15:08:14 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:08:14 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:08:19 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:08:22 INFO  AddNewMenuItems:89 - --------Starting "addNewMenuItem" test---------
+2018-01-24 15:08:22 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:08:22 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:08:24 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:08:26 INFO  AdminInternalPage:84 - Tab Users, Roles, Permissions was clicked
+2018-01-24 15:08:32 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:08:32 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:08:33 INFO  AdminInternalPage:84 - Tab Users was clicked
+2018-01-24 15:08:33 INFO  AdminUsersPage:84 - Admin Users page was loaded successfully
+2018-01-24 15:08:33 INFO  AdminUsersPage:84 - Text isko.antontest@gmail.com was typed to the search field
+2018-01-24 15:08:33 INFO  AdminUsersPage:84 - There is no user with login isko.antontest@gmail.com
+2018-01-24 15:08:36 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:08:40 INFO  AddPageItemTest:16 - --------Starting "addNewPageItem" test---------
+2018-01-24 15:08:43 INFO  AccountEntryTest:41 - --------Starting "adminAccountEntryWithBlankUser" test---------
+2018-01-24 15:08:47 INFO  AdminInternalPage:84 - Tab Menu was clicked
+2018-01-24 15:08:48 INFO  AdminMenuPage:84 - Add item was clicked on AdminMenuPage
+2018-01-24 15:08:48 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-01-24 15:08:49 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:08:49 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:08:49 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-01-24 15:08:51 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:08:53 INFO  AdminLoginPage:84 - "" was typed to email field
+2018-01-24 15:08:53 INFO  AdminLoginPage:84 - "" was typed to password field
+2018-01-24 15:08:55 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:08:55 INFO  AdminInternalPage:84 - Tab Menu was clicked
+2018-01-24 15:08:55 INFO  AdminMenuPage:84 - Text Тест меню was typed to the search field
+2018-01-24 15:08:58 INFO  AdminMenuPage:84 - Item Тест меню has been deleted
+2018-01-24 15:08:58 INFO  AdminMenuPage:84 - Text TestMenu was typed to the search field
+2018-01-24 15:09:00 INFO  AdminMenuPage:84 - Item TestMenu has been deleted
+2018-01-24 15:09:00 INFO  AddNewMenuItems:89 - --------Finishing "addNewMenuItem" test---------
+2018-01-24 15:09:00 INFO  AdminLoginPage:84 - The messagein email field is The email field is required.
+2018-01-24 15:09:00 INFO  AdminLoginPage:84 - The message in password field is The password field is required.
+2018-01-24 15:09:00 INFO  AdminAccountEntry:89 - --------Finishing "adminAccountEntryWithBlankUser" test---------
+2018-01-24 15:09:06 INFO  AccountEntryTest:19 - --------Starting "addNewTournament" test---------
+2018-01-24 15:09:11 INFO  AccountEntryTest:20 - --------Starting "addNewNewsItem" test---------
+2018-01-24 15:09:16 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:09:16 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:09:17 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:09:19 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:09:19 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:09:19 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:09:20 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:09:22 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:09:23 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:09:27 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 15:09:30 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 15:09:30 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 15:09:33 INFO  AccountEntryTest:18 - --------Starting "addNewProduct" test---------
+2018-01-24 15:09:36 INFO  AdminInternalPage:84 - Tab News was clicked
+2018-01-24 15:09:38 INFO  AdminLoginPage:84 - "notExistingUser@mafia.com" was typed to email field
+2018-01-24 15:09:38 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:09:40 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:09:40 INFO  AdminNewsPage:84 - Add item was clicked on AdminNewsPage
+2018-01-24 15:09:42 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:09:42 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:09:43 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-01-24 15:09:44 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:09:44 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-01-24 15:09:45 INFO  AdminLoginPage:84 - The messagein email field is These credentials do not match our records.
+2018-01-24 15:09:45 INFO  AdminAccountEntry:89 - --------Finishing "adminAccountEntryWithNotExistingUser" test---------
+2018-01-24 15:09:47 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:09:53 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:09:57 INFO  AddNewMenuItems:89 - --------Starting "addNewMenuItem" test---------
+2018-01-24 15:09:58 INFO  AdminInternalPage:84 - Tab News was clicked
+2018-01-24 15:09:59 INFO  AdminPagesPage:84 - Text TestNews was typed to the search field
+2018-01-24 15:10:01 INFO  AdminPagesPage:84 - Item TestNews has been deleted
+2018-01-24 15:10:01 INFO  AddNewNews:89 - --------Finishing "addNewNewsItem" test---------
+2018-01-24 15:10:05 INFO  AccountEntryTest:19 - --------Starting "addNewPhotoGallery" test---------
+2018-01-24 15:10:07 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-24 15:10:07 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:10:07 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:10:09 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:10:09 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-24 15:10:11 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:10:11 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:10:11 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-24 15:10:12 INFO  AddPageItemTest:16 - --------Starting "addNewPageItem" test---------
+2018-01-24 15:10:13 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:10:13 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-24 15:10:14 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:10:14 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:10:15 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:10:15 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-24 15:10:16 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:10:17 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:10:17 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-24 15:10:18 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-24 15:10:18 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:10:18 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-24 15:10:20 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-24 15:10:20 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:10:20 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-24 15:10:21 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:10:21 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:10:22 INFO  AdminInternalPage:84 - Tab Menu was clicked
+2018-01-24 15:10:22 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:10:22 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:10:23 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:10:23 INFO  AdminMenuPage:84 - Add item was clicked on AdminMenuPage
+2018-01-24 15:10:23 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:10:24 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-01-24 15:10:25 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:10:25 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-01-24 15:10:25 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-24 15:10:31 INFO  AdminInternalPage:84 - Tab Menu was clicked
+2018-01-24 15:10:31 INFO  AdminMenuPage:84 - Text Тест меню was typed to the search field
+2018-01-24 15:10:31 INFO  AccountEntryTest:19 - --------Starting "addNewVideoGallery" test---------
+2018-01-24 15:10:33 INFO  AdminMenuPage:84 - Item Тест меню has been deleted
+2018-01-24 15:10:34 INFO  AdminMenuPage:84 - Text TestMenu was typed to the search field
+2018-01-24 15:10:36 INFO  AdminMenuPage:84 - Item TestMenu has been deleted
+2018-01-24 15:10:36 INFO  AddNewMenuItems:89 - --------Finishing "addNewMenuItem" test---------
+2018-01-24 15:10:36 INFO  AdminInternalPage:84 - Tab Pages was clicked
+2018-01-24 15:10:40 INFO  AdminPagesPage:84 - Add item was clicked on AdminPagesPage
+2018-01-24 15:10:40 INFO  AdminCreateNewPage:84 - Page name field filled with 'TestPageName'
+2018-01-24 15:10:40 INFO  AdminCreateNewPage:84 - Title field filled with 'TestPageTilte'
+2018-01-24 15:10:40 INFO  AdminCreateNewPage:84 - Slug field filled with ''
+2018-01-24 15:10:40 INFO  AdminCreateNewPage:84 - Metatitle field filled with 'TestPageMetaTitle'
+2018-01-24 15:10:40 INFO  AdminCreateNewPage:84 - Social Metatitle field filled with 'TestPageSocialTitle'
+2018-01-24 15:10:40 INFO  AdminCreateNewPage:84 - Meta description field filled with 'TestPageMetaDescriptiom'
+2018-01-24 15:10:41 INFO  AdminCreateNewPage:84 - Social meta description field filled with 'TestPageSocialMetaDescription'
+2018-01-24 15:10:41 INFO  AdminCreateNewPage:84 - Metakeywords field filled with 'TestPageMetaKeywords'
+2018-01-24 15:10:41 INFO  AdminCreateNewPage:84 - Rus tab has been clicked
+2018-01-24 15:10:41 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:10:41 INFO  AdminCreateNewPage:84 - Rus title field filled with 'TestPageRusPageTitle'
+2018-01-24 15:10:41 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:10:41 INFO  AdminCreateNewPage:84 - Rus meta title field filled with 'TestPageRusMetaTitle'
+2018-01-24 15:10:42 INFO  AdminCreateNewPage:84 - Rus social meta title field filled with 'TestPageRusSocialMetaTitle'
+2018-01-24 15:10:42 INFO  AdminCreateNewPage:84 - Rus meta description field filled with 'TestPageRusMetaDescription'
+2018-01-24 15:10:42 INFO  AdminCreateNewPage:84 - Rus social meta description field filled with 'TestPageRusSocialMetaDescription'
+2018-01-24 15:10:42 INFO  AdminCreateNewPage:84 - Rus meta keywords field filled with 'TestPageRusMetaKeywords'
+2018-01-24 15:10:42 INFO  AdminCreateNewPage:84 - Trying to click submit button
+2018-01-24 15:10:43 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:10:44 INFO  AdminCreateNewPage:84 - Submit button was clicked
+2018-01-24 15:10:44 INFO  AdminPagesPage:84 - Button 'Open' was clicked for page TestPageName
+2018-01-24 15:10:47 INFO  AccountEntryTest:20 - --------Starting "addNewNewsItem" test---------
+2018-01-24 15:10:47 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:10:48 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:10:49 INFO  AccountEntryTest:22 - --------Starting "registrationOfNewUserTest" test---------
+2018-01-24 15:10:50 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:10:51 INFO  AdminInternalPage:84 - Tab Pages was clicked
+2018-01-24 15:10:51 INFO  AdminPagesPage:84 - Text TestPageName was typed to the search field
+2018-01-24 15:10:53 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:10:53 INFO  AdminPagesPage:84 - Item TestPageName has been deleted
+2018-01-24 15:10:53 INFO  AddPageItemTest:89 - --------Finishing "addNewPageItem" test---------
+2018-01-24 15:10:55 INFO  RegistrationPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:10:55 INFO  RegistrationPage:84 - Registration page was loaded successfully
+2018-01-24 15:10:57 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:10:57 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:10:59 INFO  AccountEntryTest:18 - --------Starting "adminAccountEntryWithExistingUser" test---------
+2018-01-24 15:11:00 INFO  RegistrationPage:84 - Message after registration is: "You have successfully registered. A link to confirm your registration has been sent to your email address."
+2018-01-24 15:11:01 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:11:03 INFO  AccountEntryTest:19 - --------Starting "addNewTournament" test---------
+2018-01-24 15:11:08 INFO  MailHelper2:99 - Email registration link in email is "http://34.214.90.155/ru/register/verify/token_e0qqwyuFuYKnPmgoGqd3"
+2018-01-24 15:11:10 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:11:10 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:11:12 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:11:12 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:11:12 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:11:12 INFO  AdminInternalPage:84 - Tab News was clicked
+2018-01-24 15:11:14 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:11:16 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:11:16 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:11:16 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-01-24 15:11:16 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:11:16 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:11:16 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:11:16 INFO  AdminNewsPage:84 - Add item was clicked on AdminNewsPage
+2018-01-24 15:11:19 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-01-24 15:11:20 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-01-24 15:11:23 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:11:28 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:11:28 INFO  AddNewSlide:89 - --------Starting "addNewSlide" test---------
+2018-01-24 15:11:28 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-01-24 15:11:31 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:11:31 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:11:31 INFO  AccountPage:84 - Account page was loaded successfully
+2018-01-24 15:11:31 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-01-24 15:11:32 INFO  AdminTournamentsPage:84 - Add item was clicked on AdminTournamentsPage
+2018-01-24 15:11:32 INFO  AdminInternalPage:84 - Tab News was clicked
+2018-01-24 15:11:32 INFO  AdminPagesPage:84 - Text TestNews was typed to the search field
+2018-01-24 15:11:33 INFO  AdminCreateTournamentPage:84 - File was added succsessfully
+2018-01-24 15:11:34 INFO  AdminPagesPage:84 - Item TestNews has been deleted
+2018-01-24 15:11:34 INFO  AddNewNews:89 - --------Finishing "addNewNewsItem" test---------
+2018-01-24 15:11:37 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:11:37 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:11:39 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:11:44 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:11:44 INFO  AddPageItemTest:16 - --------Starting "addNewPageItem" test---------
+2018-01-24 15:11:46 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-01-24 15:11:48 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:11:48 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:11:48 INFO  AccountEntryTest:31 - --------Finishing "registrationOfNewUserTest" test---------
+2018-01-24 15:11:49 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-01-24 15:11:53 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:11:53 INFO  AddNewTestimonial:89 - --------Starting "addNewTestimonial" test---------
+2018-01-24 15:11:55 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:11:55 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:11:58 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:11:59 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:12:03 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-01-24 15:12:04 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:12:04 INFO  AdminPagesPage:84 - Text TestTournamentTitle was typed to the search field
+2018-01-24 15:12:04 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:12:06 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:12:06 INFO  AdminPagesPage:84 - Item TestTournamentTitle has been deleted
+2018-01-24 15:12:06 INFO  AddNewTournamentItem:89 - --------Finishing "addNewTournament" test---------
+2018-01-24 15:12:11 INFO  AdminInternalPage:84 - Tab Pages was clicked
+2018-01-24 15:12:14 INFO  AdminPagesPage:84 - Add item was clicked on AdminPagesPage
+2018-01-24 15:12:14 INFO  AdminCreateNewPage:84 - Page name field filled with 'TestPageName'
+2018-01-24 15:12:15 INFO  AdminCreateNewPage:84 - Title field filled with 'TestPageTilte'
+2018-01-24 15:12:15 INFO  AdminCreateNewPage:84 - Slug field filled with ''
+2018-01-24 15:12:15 INFO  AdminCreateNewPage:84 - Metatitle field filled with 'TestPageMetaTitle'
+2018-01-24 15:12:15 INFO  AdminCreateNewPage:84 - Social Metatitle field filled with 'TestPageSocialTitle'
+2018-01-24 15:12:15 INFO  AdminCreateNewPage:84 - Meta description field filled with 'TestPageMetaDescriptiom'
+2018-01-24 15:12:15 INFO  AdminCreateNewPage:84 - Social meta description field filled with 'TestPageSocialMetaDescription'
+2018-01-24 15:12:15 INFO  AccountEntryTest:18 - --------Starting "addNewProduct" test---------
+2018-01-24 15:12:16 INFO  AdminCreateNewPage:84 - Metakeywords field filled with 'TestPageMetaKeywords'
+2018-01-24 15:12:16 INFO  AdminCreateNewPage:84 - Rus tab has been clicked
+2018-01-24 15:12:16 INFO  AdminCreateNewPage:84 - Rus title field filled with 'TestPageRusPageTitle'
+2018-01-24 15:12:16 INFO  AdminCreateNewPage:84 - Rus meta title field filled with 'TestPageRusMetaTitle'
+2018-01-24 15:12:16 INFO  AdminCreateNewPage:84 - Rus social meta title field filled with 'TestPageRusSocialMetaTitle'
+2018-01-24 15:12:16 INFO  AdminCreateNewPage:84 - Rus meta description field filled with 'TestPageRusMetaDescription'
+2018-01-24 15:12:16 INFO  AdminCreateNewPage:84 - Rus social meta description field filled with 'TestPageRusSocialMetaDescription'
+2018-01-24 15:12:17 INFO  AdminCreateNewPage:84 - Rus meta keywords field filled with 'TestPageRusMetaKeywords'
+2018-01-24 15:12:17 INFO  AdminCreateNewPage:84 - Trying to click submit button
+2018-01-24 15:12:18 INFO  AdminCreateNewPage:84 - Submit button was clicked
+2018-01-24 15:12:19 INFO  AdminPagesPage:84 - Button 'Open' was clicked for page TestPageName
+2018-01-24 15:12:22 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:12:24 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:12:25 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:12:26 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:12:27 INFO  AdminInternalPage:84 - Tab Pages was clicked
+2018-01-24 15:12:28 INFO  AdminPagesPage:84 - Text TestPageName was typed to the search field
+2018-01-24 15:12:30 INFO  AdminPagesPage:84 - Item TestPageName has been deleted
+2018-01-24 15:12:30 INFO  AddPageItemTest:89 - --------Finishing "addNewPageItem" test---------
+2018-01-24 15:12:30 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:12:37 INFO  AdminInternalPage:84 - Tab Shop was clicked
+2018-01-24 15:12:37 INFO  AccountEntryTest:89 - --------Starting "accountEntryWithExistingUser" test---------
+2018-01-24 15:12:39 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:12:40 INFO  AccountEntryTest:19 - --------Starting "addNewTournament" test---------
+2018-01-24 15:12:41 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:12:42 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:12:43 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-01-24 15:12:43 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:12:43 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:12:43 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:12:45 INFO  AdminInternalPage:84 - Tab Products was clicked
+2018-01-24 15:12:47 INFO  AdminProductsPage:84 - Add item was clicked on AdminProductsPage
+2018-01-24 15:12:47 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-01-24 15:12:49 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:12:49 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:12:49 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-01-24 15:12:52 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:12:53 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:12:56 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:12:57 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:12:58 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:12:58 INFO  AccountPage:84 - Account page was loaded successfully
+2018-01-24 15:12:58 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-01-24 15:13:00 INFO  AdminInternalPage:84 - Tab Shop was clicked
+2018-01-24 15:13:02 INFO  AdminInternalPage:84 - Tab Products was clicked
+2018-01-24 15:13:03 INFO  AdminPagesPage:84 - Text TestProductTitle was typed to the search field
+2018-01-24 15:13:05 INFO  AdminPagesPage:84 - Item TestProductTitle has been deleted
+2018-01-24 15:13:05 INFO  AddNewProductItem:89 - --------Finishing "addNewProduct" test---------
+2018-01-24 15:13:06 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-01-24 15:13:10 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:13:12 INFO  AdminTournamentsPage:84 - Add item was clicked on AdminTournamentsPage
+2018-01-24 15:13:13 INFO  AdminCreateTournamentPage:84 - File was added succsessfully
+2018-01-24 15:13:15 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:13:15 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:13:15 INFO  AccountEntryTest:89 - --------Finishing "accountEntryWithExistingUser" test---------
+2018-01-24 15:13:15 INFO  AccountEntryTest:89 - --------Starting "accountEntryWithNotExistingUser" test---------
+2018-01-24 15:13:15 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:13:17 INFO  AccountEntryTest:19 - --------Starting "addNewPhotoGallery" test---------
+2018-01-24 15:13:17 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:13:19 INFO  LoginPage:84 - Username "notExistingUser@mafia.com" typed to username field
+2018-01-24 15:13:19 INFO  LoginPage:84 - Password "123456" typed to password field
+2018-01-24 15:13:19 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:13:19 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:13:19 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:13:21 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:13:21 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:13:21 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:13:23 INFO  AccountEntryTest:89 - --------Finishing "accountEntryWithNotExistingUser" test---------
+2018-01-24 15:13:26 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-01-24 15:13:26 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:13:27 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:13:28 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-01-24 15:13:30 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:13:32 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:13:37 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:13:37 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:13:42 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-01-24 15:13:42 INFO  AdminPagesPage:84 - Text TestTournamentTitle was typed to the search field
+2018-01-24 15:13:44 INFO  AdminPagesPage:84 - Item TestTournamentTitle has been deleted
+2018-01-24 15:13:44 INFO  AddNewTournamentItem:89 - --------Finishing "addNewTournament" test---------
+2018-01-24 15:13:46 INFO  AdminInternalPage:84 - Tab Photo was clicked
+2018-01-24 15:13:48 INFO  AdminPhotoPage:84 - Add item was clicked on AdminPhotoPage
+2018-01-24 15:13:48 INFO  AdminCreatePhotoGalleryPage:84 - Title field filled with 'TestPhotoGalleryTitle'
+2018-01-24 15:13:49 INFO  AdminCreatePhotoGalleryPage:84 - Rus title field filled with 'Фото галерея тестовое название'
+2018-01-24 15:13:49 INFO  AdminCreatePhotoGalleryPage:84 - Slug field filled with ''
+2018-01-24 15:13:49 INFO  AdminCreatePhotoGalleryPage:84 - Club 'Los Angeles' in select field was chosen
+2018-01-24 15:13:49 INFO  AdminCreatePhotoGalleryPage:84 - Tournament '15th World Championship in Yerevan' in select field was chosen
+2018-01-24 15:13:49 INFO  AdminCreatePhotoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:13:49 INFO  AdminCreatePhotoGalleryPage:84 - Trying to click submit button
+2018-01-24 15:13:53 INFO  AdminCreatePhotoGalleryPage:84 - Submit button was clicked
+2018-01-24 15:13:57 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:13:57 INFO  AccountEntryTest:18 - --------Starting "addNewProduct" test---------
+2018-01-24 15:14:00 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:14:03 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:14:06 INFO  AdminInternalPage:84 - Tab Photo was clicked
+2018-01-24 15:14:06 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:14:07 INFO  AdminPagesPage:84 - Text TestPhotoGalleryTitle was typed to the search field
+2018-01-24 15:14:07 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:14:07 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfExistingUser" test---------
+2018-01-24 15:14:09 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:14:09 INFO  AdminPagesPage:84 - Item TestPhotoGalleryTitle has been deleted
+2018-01-24 15:14:09 INFO  AddNewPhotoGallery:89 - --------Finishing "addNewPhotoGallery" test---------
+2018-01-24 15:14:10 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:14:11 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:14:12 INFO  LoginPage:84 - forgot password button was clicked
+2018-01-24 15:14:12 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:14:13 INFO  LoginPage:84 - Send password button was pressed
+2018-01-24 15:14:13 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:14:13 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:14:15 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:14:17 INFO  AdminInternalPage:84 - Tab Shop was clicked
+2018-01-24 15:14:21 INFO  AccountEntryTest:19 - --------Starting "addNewVideoGallery" test---------
+2018-01-24 15:14:25 INFO  MailHelper2:99 - Email restore password link in email is "http://34.214.90.155/password/reset/74803cb7b2ff7aab978fcde69de01c28a48bcaaca508cf3e4c85600068924a75"
+2018-01-24 15:14:25 INFO  AdminInternalPage:84 - Tab Products was clicked
+2018-01-24 15:14:27 INFO  AdminProductsPage:84 - Add item was clicked on AdminProductsPage
+2018-01-24 15:14:28 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-01-24 15:14:28 INFO  ResetPasswordPage:84 - Email isko.antontest@gmail.com was typed to email field
+2018-01-24 15:14:28 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password field
+2018-01-24 15:14:28 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password confirmation field
+2018-01-24 15:14:28 INFO  ResetPasswordPage:84 - Submit button was pressed on Reset Password Page
+2018-01-24 15:14:29 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-01-24 15:14:30 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:14:31 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:14:32 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:14:35 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:14:35 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:14:39 INFO  AdminInternalPage:84 - Tab Shop was clicked
+2018-01-24 15:14:42 INFO  AdminInternalPage:84 - Tab Products was clicked
+2018-01-24 15:14:42 INFO  AdminPagesPage:84 - Text TestProductTitle was typed to the search field
+2018-01-24 15:14:42 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:14:44 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:14:44 INFO  AdminPagesPage:84 - Item TestProductTitle has been deleted
+2018-01-24 15:14:44 INFO  AddNewProductItem:89 - --------Finishing "addNewProduct" test---------
+2018-01-24 15:14:49 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:14:49 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:14:50 INFO  AdminInternalPage:84 - Tab Video was clicked
+2018-01-24 15:14:51 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:14:52 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:14:52 INFO  AdminVideoGalleryPage:84 - Add item was clicked on AdminVideoGalleryPage
+2018-01-24 15:14:53 INFO  AdminCreateVideoGalleryPage:84 - Title field filled with 'TestVideoGalleryTitle'
+2018-01-24 15:14:53 INFO  LoginPage:84 - Password "123456789" typed to password field
+2018-01-24 15:14:53 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:14:53 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:14:53 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:14:53 INFO  AdminCreateVideoGalleryPage:84 - Rus title field filled with 'Видео галерея тестовое название'
+2018-01-24 15:14:53 INFO  AdminCreateVideoGalleryPage:84 - Club 'Los Angeles' in select field was chosen
+2018-01-24 15:14:53 INFO  AdminCreateVideoGalleryPage:84 - Tournament '15th World Championship in Yerevan' in select field was chosen
+2018-01-24 15:14:54 INFO  AdminCreateVideoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:14:54 INFO  AdminCreatePhotoGalleryPage:84 - Trying to click submit button
+2018-01-24 15:14:56 INFO  AccountEntryTest:19 - --------Starting "addNewPhotoGallery" test---------
+2018-01-24 15:14:58 INFO  AdminCreatePhotoGalleryPage:84 - Submit button was clicked
+2018-01-24 15:15:01 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:15:05 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:15:07 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:15:08 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:15:08 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:15:08 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:15:08 INFO  AccountPage:84 - Account page was loaded successfully
+2018-01-24 15:15:08 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-01-24 15:15:11 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:15:12 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:15:17 INFO  AdminInternalPage:84 - Tab Video was clicked
+2018-01-24 15:15:17 INFO  AdminVideoGalleryPage:84 - Text TestVideoGalleryTitle was typed to the search field
+2018-01-24 15:15:19 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:15:19 INFO  AdminVideoGalleryPage:84 - Item TestVideoGalleryTitle has been deleted
+2018-01-24 15:15:19 INFO  AddNewVideoGallery:89 - --------Finishing "addNewVideoGallery" test---------
+2018-01-24 15:15:21 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:15:21 INFO  AccountPage:84 - Password 12345678 was typed to password field
+2018-01-24 15:15:21 INFO  AccountPage:84 - Password 12345678 was typed to password confirmation field
+2018-01-24 15:15:21 INFO  AccountPage:84 - Submit button was pressed
+2018-01-24 15:15:21 INFO  UserHelper2:24 - New password "12345678" was set
+2018-01-24 15:15:27 INFO  AdminInternalPage:84 - Tab Photo was clicked
+2018-01-24 15:15:29 INFO  AdminPhotoPage:84 - Add item was clicked on AdminPhotoPage
+2018-01-24 15:15:29 INFO  AdminCreatePhotoGalleryPage:84 - Title field filled with 'TestPhotoGalleryTitle'
+2018-01-24 15:15:30 INFO  AdminCreatePhotoGalleryPage:84 - Rus title field filled with 'Фото галерея тестовое название'
+2018-01-24 15:15:30 INFO  AdminCreatePhotoGalleryPage:84 - Slug field filled with ''
+2018-01-24 15:15:30 INFO  AdminCreatePhotoGalleryPage:84 - Club 'Los Angeles' in select field was chosen
+2018-01-24 15:15:30 INFO  AdminCreatePhotoGalleryPage:84 - Tournament '15th World Championship in Yerevan' in select field was chosen
+2018-01-24 15:15:30 INFO  AdminCreatePhotoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:15:30 INFO  AdminCreatePhotoGalleryPage:84 - Trying to click submit button
+2018-01-24 15:15:34 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:15:34 INFO  AdminCreatePhotoGalleryPage:84 - Submit button was clicked
+2018-01-24 15:15:36 INFO  AccountEntryTest:18 - --------Starting "adminAccountEntryWithExistingUser" test---------
+2018-01-24 15:15:38 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:15:39 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:15:39 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:15:39 INFO  ForgotPasswordTest:89 - --------Finishing "forgotPasswordOfExistingUser" test---------
+2018-01-24 15:15:39 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfNotExistingUser" test---------
+2018-01-24 15:15:40 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:15:40 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:15:42 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:15:43 INFO  LoginPage:84 - forgot password button was clicked
+2018-01-24 15:15:44 INFO  LoginPage:84 - Username "notExistingUser@mafia.com" typed to username field
+2018-01-24 15:15:44 INFO  LoginPage:84 - Send password button was pressed
+2018-01-24 15:15:44 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:15:45 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:15:45 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:15:45 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:15:47 INFO  AdminInternalPage:84 - Tab Photo was clicked
+2018-01-24 15:15:47 INFO  AdminPagesPage:84 - Text TestPhotoGalleryTitle was typed to the search field
+2018-01-24 15:15:47 INFO  ForgotPasswordTest:89 - --------Finishing "forgotPasswordOfNotExistingUser" test---------
+2018-01-24 15:15:49 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:15:49 INFO  AdminPagesPage:84 - Item TestPhotoGalleryTitle has been deleted
+2018-01-24 15:15:49 INFO  AddNewPhotoGallery:89 - --------Finishing "addNewPhotoGallery" test---------
+2018-01-24 15:15:56 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:16:01 INFO  AccountEntryTest:19 - --------Starting "addNewVideoGallery" test---------
+2018-01-24 15:16:05 INFO  AdminInternalPage:84 - Tab Photo was clicked
+2018-01-24 15:16:06 INFO  AdminPhotoPage:84 - Add item was clicked on AdminPhotoPage
+2018-01-24 15:16:06 INFO  AdminCreatePhotoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:16:06 INFO  AdminCreatePhotoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:16:06 INFO  UploadingPhoto:89 - --------Finishing "adminAccountEntryWithExistingUser" test---------
+2018-01-24 15:16:10 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:16:10 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:16:14 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:16:16 INFO  AddNewSlide:89 - --------Starting "addNewSlide" test---------
+2018-01-24 15:16:21 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:16:26 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:16:26 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:16:28 INFO  AdminInternalPage:84 - Tab Video was clicked
+2018-01-24 15:16:30 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:16:31 INFO  AdminVideoGalleryPage:84 - Add item was clicked on AdminVideoGalleryPage
+2018-01-24 15:16:31 INFO  AdminCreateVideoGalleryPage:84 - Title field filled with 'TestVideoGalleryTitle'
+2018-01-24 15:16:31 INFO  AdminCreateVideoGalleryPage:84 - Rus title field filled with 'Видео галерея тестовое название'
+2018-01-24 15:16:31 INFO  AdminCreateVideoGalleryPage:84 - Club 'Los Angeles' in select field was chosen
+2018-01-24 15:16:31 INFO  AdminCreateVideoGalleryPage:84 - Tournament '15th World Championship in Yerevan' in select field was chosen
+2018-01-24 15:16:32 INFO  AdminCreateVideoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:16:32 INFO  AdminCreatePhotoGalleryPage:84 - Trying to click submit button
+2018-01-24 15:16:34 INFO  AdminCreatePhotoGalleryPage:84 - Submit button was clicked
+2018-01-24 15:16:37 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 15:16:37 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:16:41 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:16:44 INFO  AdminInternalPage:84 - Tab Slides was clicked
+2018-01-24 15:16:46 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:16:46 INFO  AdminSlidePage:84 - Add item was clicked on AdminSlidePage
+2018-01-24 15:16:46 INFO  AdminCreateSlidePage:84 - Title 'TestSlideTitle' was typed to title field
+2018-01-24 15:16:47 INFO  AdminCreateSlidePage:84 - Description 'TestSlideDesription' was typed to description field
+2018-01-24 15:16:47 INFO  AdminCreateSlidePage:84 - Button text 'TestSlideButtonText' was typed to button text field
+2018-01-24 15:16:47 INFO  AdminCreateSlidePage:84 - Button link 'http://www.testslidebuttonlink.com/' was typed to button link field
+2018-01-24 15:16:47 INFO  AdminCreateSlidePage:84 - Rus tab was clicked
+2018-01-24 15:16:47 INFO  AdminCreateSlidePage:84 - Title 'TestSlideRusTitle' was typed to rus title field
+2018-01-24 15:16:47 INFO  AdminCreateSlidePage:84 - Rus Description 'TestSlideRusDescription' was typed to rus description field
+2018-01-24 15:16:48 INFO  AdminCreateSlidePage:84 - Title TestSlideTitlewas typed to title field
+2018-01-24 15:16:48 INFO  AdminCreateSlidePage:84 - Title TestSlideTitlewas typed to title field
+2018-01-24 15:16:48 INFO  AdminCreateSlidePage:84 - File was added succsessfully
+2018-01-24 15:16:48 INFO  AdminCreateSlidePage:84 - Trying to click submit button
+2018-01-24 15:16:49 INFO  AdminInternalPage:84 - Tab Video was clicked
+2018-01-24 15:16:49 INFO  AdminVideoGalleryPage:84 - Text TestVideoGalleryTitle was typed to the search field
+2018-01-24 15:16:50 INFO  AdminCreateSlidePage:84 - Submit button was clicked
+2018-01-24 15:16:52 INFO  AdminVideoGalleryPage:84 - Item TestVideoGalleryTitle has been deleted
+2018-01-24 15:16:52 INFO  AddNewVideoGallery:89 - --------Finishing "addNewVideoGallery" test---------
+2018-01-24 15:16:55 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:16:57 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:17:00 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 15:17:02 INFO  AccountEntryTest:18 - --------Starting "adminAccountEntryWithExistingUser" test---------
+2018-01-24 15:17:04 INFO  AdminInternalPage:84 - Tab Slides was clicked
+2018-01-24 15:17:05 INFO  AdminSlidePage:84 - Text TestSlideTitle was typed to the search field
+2018-01-24 15:17:07 INFO  AdminSlidePage:84 - Item TestSlideTitle has been deleted
+2018-01-24 15:17:07 INFO  AddNewSlide:89 - --------Finishing "addNewSlide" test---------
+2018-01-24 15:17:14 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:17:14 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:17:18 INFO  AddNewTestimonial:89 - --------Starting "addNewTestimonial" test---------
+2018-01-24 15:17:18 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:17:25 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:17:28 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:17:28 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:17:31 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:17:32 INFO  AdminInternalPage:84 - Tab Photo was clicked
+2018-01-24 15:17:34 INFO  AdminPhotoPage:84 - Add item was clicked on AdminPhotoPage
+2018-01-24 15:17:34 INFO  AdminCreatePhotoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:17:34 INFO  AdminCreatePhotoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:17:34 INFO  UploadingPhoto:89 - --------Finishing "adminAccountEntryWithExistingUser" test---------
+2018-01-24 15:17:38 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 15:17:44 INFO  AddNewSlide:89 - --------Starting "addNewSlide" test---------
+2018-01-24 15:17:45 INFO  AdminInternalPage:84 - Tab Testimonials was clicked
+2018-01-24 15:17:47 INFO  AdminTestimonialsPage:84 - Add item was clicked on AdminTestimonialsPage
+2018-01-24 15:17:48 INFO  AdminCreateTestimonialPage:84 - File was added succsessfully
+2018-01-24 15:17:48 INFO  AdminCreateTestimonialPage:84 - Trying to click submit button
+2018-01-24 15:17:50 INFO  AdminCreateTestimonialPage:84 - Submit button was clicked
+2018-01-24 15:17:52 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:17:54 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:17:54 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:17:55 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:17:58 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 15:17:58 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:18:01 INFO  AdminInternalPage:84 - Tab Testimonials was clicked
+2018-01-24 15:18:01 INFO  AdminPagesPage:84 - Text TestTestimonialName was typed to the search field
+2018-01-24 15:18:03 INFO  AdminPagesPage:84 - Item TestTestimonialName has been deleted
+2018-01-24 15:18:03 INFO  AddNewTestimonial:89 - --------Finishing "addNewTestimonial" test---------
+2018-01-24 15:18:05 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 15:18:13 INFO  AdminInternalPage:84 - Tab Slides was clicked
+2018-01-24 15:18:15 INFO  AdminSlidePage:84 - Add item was clicked on AdminSlidePage
+2018-01-24 15:18:15 INFO  AdminCreateSlidePage:84 - Title 'TestSlideTitle' was typed to title field
+2018-01-24 15:18:15 INFO  AdminCreateSlidePage:84 - Description 'TestSlideDesription' was typed to description field
+2018-01-24 15:18:15 INFO  AdminCreateSlidePage:84 - Button text 'TestSlideButtonText' was typed to button text field
+2018-01-24 15:18:15 INFO  AdminCreateSlidePage:84 - Button link 'http://www.testslidebuttonlink.com/' was typed to button link field
+2018-01-24 15:18:15 INFO  AdminCreateSlidePage:84 - Rus tab was clicked
+2018-01-24 15:18:16 INFO  AdminCreateSlidePage:84 - Title 'TestSlideRusTitle' was typed to rus title field
+2018-01-24 15:18:16 INFO  AdminCreateSlidePage:84 - Rus Description 'TestSlideRusDescription' was typed to rus description field
+2018-01-24 15:18:16 INFO  AdminCreateSlidePage:84 - Title TestSlideTitlewas typed to title field
+2018-01-24 15:18:16 INFO  AdminCreateSlidePage:84 - Title TestSlideTitlewas typed to title field
+2018-01-24 15:18:16 INFO  AdminCreateSlidePage:84 - File was added succsessfully
+2018-01-24 15:18:16 INFO  AdminCreateSlidePage:84 - Trying to click submit button
+2018-01-24 15:18:18 INFO  AdminCreateSlidePage:84 - Submit button was clicked
+2018-01-24 15:18:23 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:18:24 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:18:29 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 15:18:31 INFO  AdminInternalPage:84 - Tab Slides was clicked
+2018-01-24 15:18:32 INFO  AdminSlidePage:84 - Text TestSlideTitle was typed to the search field
+2018-01-24 15:18:34 INFO  AdminSlidePage:84 - Item TestSlideTitle has been deleted
+2018-01-24 15:18:34 INFO  AddNewSlide:89 - --------Finishing "addNewSlide" test---------
+2018-01-24 15:18:43 INFO  AddNewTestimonial:89 - --------Starting "addNewTestimonial" test---------
+2018-01-24 15:18:53 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:18:53 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:18:57 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:19:04 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 15:19:11 INFO  AdminInternalPage:84 - Tab Testimonials was clicked
+2018-01-24 15:19:13 INFO  AdminTestimonialsPage:84 - Add item was clicked on AdminTestimonialsPage
+2018-01-24 15:19:14 INFO  AdminCreateTestimonialPage:84 - File was added succsessfully
+2018-01-24 15:19:14 INFO  AdminCreateTestimonialPage:84 - Trying to click submit button
+2018-01-24 15:19:16 INFO  AdminCreateTestimonialPage:84 - Submit button was clicked
+2018-01-24 15:19:18 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:19:20 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:19:24 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 15:19:27 INFO  AdminInternalPage:84 - Tab Testimonials was clicked
+2018-01-24 15:19:27 INFO  AdminPagesPage:84 - Text TestTestimonialName was typed to the search field
+2018-01-24 15:19:29 INFO  AdminPagesPage:84 - Item TestTestimonialName has been deleted
+2018-01-24 15:19:29 INFO  AddNewTestimonial:89 - --------Finishing "addNewTestimonial" test---------
+2018-01-24 15:28:57 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfExistingUser" test---------
+2018-01-24 15:28:58 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:29:00 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:29:02 INFO  LoginPage:84 - forgot password button was clicked
+2018-01-24 15:29:02 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:29:02 INFO  LoginPage:84 - Send password button was pressed
+2018-01-24 15:29:02 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:29:02 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:29:04 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:29:15 INFO  MailHelper2:99 - Email restore password link in email is "http://34.214.90.155/password/reset/2dcb80aa8a033768be45ab031d03991e12c26fe5fb497408a8cb845aa464e090"
+2018-01-24 15:29:17 INFO  ResetPasswordPage:84 - Email isko.antontest@gmail.com was typed to email field
+2018-01-24 15:29:17 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password field
+2018-01-24 15:29:18 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password confirmation field
+2018-01-24 15:29:18 INFO  ResetPasswordPage:84 - Submit button was pressed on Reset Password Page
+2018-01-24 15:29:33 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:29:38 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:29:38 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:29:41 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:29:42 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:29:42 INFO  LoginPage:84 - Password "123456789" typed to password field
+2018-01-24 15:29:42 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:29:42 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:29:42 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:29:57 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:29:57 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:29:57 INFO  AccountPage:84 - Account page was loaded successfully
+2018-01-24 15:29:57 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-01-24 15:30:10 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:30:10 INFO  AccountPage:84 - Password 12345678 was typed to password field
+2018-01-24 15:30:10 INFO  AccountPage:84 - Password 12345678 was typed to password confirmation field
+2018-01-24 15:30:10 INFO  AccountPage:84 - Submit button was pressed
+2018-01-24 15:30:10 INFO  UserHelper2:24 - New password "12345678" was set
+2018-01-24 15:30:22 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:30:27 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:30:27 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:30:27 INFO  ForgotPasswordTest:89 - --------Finishing "forgotPasswordOfExistingUser" test---------
+2018-01-24 15:30:27 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfNotExistingUser" test---------
+2018-01-24 15:30:28 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:30:30 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:30:31 INFO  LoginPage:84 - forgot password button was clicked
+2018-01-24 15:30:32 INFO  LoginPage:84 - Username "notExistingUser@mafia.com" typed to username field
+2018-01-24 15:30:32 INFO  LoginPage:84 - Send password button was pressed
+2018-01-24 15:30:34 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:30:36 INFO  ForgotPasswordTest:89 - --------Finishing "forgotPasswordOfNotExistingUser" test---------
+2018-01-24 15:31:47 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfExistingUser" test---------
+2018-01-24 15:31:49 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:31:51 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:31:52 INFO  LoginPage:84 - forgot password button was clicked
+2018-01-24 15:31:52 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:31:53 INFO  LoginPage:84 - Send password button was pressed
+2018-01-24 15:31:53 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:31:53 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:31:54 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:32:05 INFO  MailHelper2:99 - Email restore password link in email is "http://34.214.90.155/password/reset/d6fb002c6362575ac6369a27a6cac6883f89eef4002548d37a41f893d03bdc54"
+2018-01-24 15:32:08 INFO  ResetPasswordPage:84 - Email isko.antontest@gmail.com was typed to email field
+2018-01-24 15:32:08 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password field
+2018-01-24 15:32:08 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password confirmation field
+2018-01-24 15:32:08 INFO  ResetPasswordPage:84 - Submit button was pressed on Reset Password Page
+2018-01-24 15:32:23 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:32:28 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:32:28 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:32:30 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:32:32 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:32:32 INFO  LoginPage:84 - Password "123456789" typed to password field
+2018-01-24 15:32:32 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:32:32 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:32:32 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:32:46 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:32:48 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:32:48 INFO  AccountPage:84 - Account page was loaded successfully
+2018-01-24 15:32:48 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-01-24 15:33:01 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:33:01 INFO  AccountPage:84 - Password 12345678 was typed to password field
+2018-01-24 15:33:01 INFO  AccountPage:84 - Password 12345678 was typed to password confirmation field
+2018-01-24 15:33:01 INFO  AccountPage:84 - Submit button was pressed
+2018-01-24 15:33:01 INFO  UserHelper2:24 - New password "12345678" was set
+2018-01-24 15:33:13 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:33:19 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:33:19 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:33:19 INFO  ForgotPasswordTest:89 - --------Finishing "forgotPasswordOfExistingUser" test---------
+2018-01-24 15:33:19 INFO  ForgotPasswordTest:89 - --------Starting "forgotPasswordOfNotExistingUser" test---------
+2018-01-24 15:33:20 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:33:22 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:33:23 INFO  LoginPage:84 - forgot password button was clicked
+2018-01-24 15:33:23 INFO  LoginPage:84 - Username "notExistingUser@mafia.com" typed to username field
+2018-01-24 15:33:24 INFO  LoginPage:84 - Send password button was pressed
+2018-01-24 15:33:25 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:33:27 INFO  ForgotPasswordTest:89 - --------Finishing "forgotPasswordOfNotExistingUser" test---------
+2018-01-24 15:34:20 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-24 15:34:23 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:34:23 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-24 15:34:25 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:34:25 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-24 15:34:27 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:34:27 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-24 15:34:29 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:34:29 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-24 15:34:31 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:34:31 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-24 15:34:32 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-24 15:34:32 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:34:32 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-24 15:34:34 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-24 15:34:34 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:34:34 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-24 15:34:36 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:34:36 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:34:38 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 15:34:38 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 15:34:40 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-24 15:44:16 INFO  BuyItemTest:89 - --------Starting "buyItemTest" test---------
+2018-01-24 15:44:18 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:44:20 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:44:22 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-01-24 15:44:23 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-01-24 15:44:23 INFO  LoginPage:84 - Submit button clicked
+2018-01-24 15:44:23 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:44:23 INFO  UserHelper2:24 - Login is successfull
+2018-01-24 15:44:26 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-24 15:44:27 INFO  ShopPage:84 - Buy button was clicked
+2018-01-24 15:44:27 INFO  ShopPage:84 - Item "Product 2" was bought
+2018-01-24 15:44:28 INFO  ShopPage:84 - "Continue shopping" button was clicked
+2018-01-24 15:44:33 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-24 15:44:33 INFO  ShopPage:84 - Buy button was clicked
+2018-01-24 15:44:33 INFO  ShopPage:84 - Item "Product 1" was bought
+2018-01-24 15:44:35 INFO  ShopPage:84 - "Continue shopping" button was clicked
+2018-01-24 15:44:51 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:44:54 INFO  InternalPage:84 - Cart button was clicked |||||| 
+2018-01-24 15:44:54 INFO  CartPage:84 - Item Product 2 exist in the cart
+2018-01-24 15:45:06 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:45:08 INFO  InternalPage:84 - Cart button was clicked |||||| 
+2018-01-24 15:45:08 INFO  CartPage:84 - Item Product 1 exist in the cart
+2018-01-24 15:45:20 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:45:22 INFO  InternalPage:84 - Cart button was clicked |||||| 
+2018-01-24 15:45:22 INFO  CartPage:84 - Item Product 2 was removed from the cart
+2018-01-24 15:45:35 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:45:36 INFO  InternalPage:84 - Cart button was clicked |||||| 
+2018-01-24 15:45:36 INFO  CartPage:84 - Item Product 1 was removed from the cart
+2018-01-24 15:45:49 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 15:45:54 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 15:45:54 INFO  UserHelper2:24 - Logout successful
+2018-01-24 15:45:54 INFO  BuyItemTest:89 - --------Finishing "buyItemTest" test---------
+2018-01-24 15:46:45 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:46:45 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:46:49 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:46:56 INFO  AdminInternalPage:84 - Tab Users, Roles, Permissions was clicked
+2018-01-24 15:47:04 INFO  AdminInternalPage:84 - Tab Users was clicked
+2018-01-24 15:47:04 INFO  AdminUsersPage:84 - Admin Users page was loaded successfully
+2018-01-24 15:47:04 INFO  AdminUsersPage:84 - Text isko.antontest@gmail.com was typed to the search field
+2018-01-24 15:47:06 INFO  AdminUsersPage:84 - Alert about deleting was accepted
+2018-01-24 15:47:06 INFO  AdminUsersPage:84 - User isko.antontest@gmail.com deleted
+2018-01-24 15:47:39 INFO  AccountEntryTest:41 - --------Starting "adminAccountEntryWithBlankUser" test---------
+2018-01-24 15:47:50 INFO  AdminLoginPage:84 - "" was typed to email field
+2018-01-24 15:47:50 INFO  AdminLoginPage:84 - "" was typed to password field
+2018-01-24 15:47:52 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:47:57 INFO  AdminLoginPage:84 - The messagein email field is The email field is required.
+2018-01-24 15:47:57 INFO  AdminLoginPage:84 - The message in password field is The password field is required.
+2018-01-24 15:47:57 INFO  AdminAccountEntry:89 - --------Finishing "adminAccountEntryWithBlankUser" test---------
+2018-01-24 15:48:15 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:48:15 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:48:19 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:48:24 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 15:48:26 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 15:48:26 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 15:48:34 INFO  AdminLoginPage:84 - "notExistingUser@mafia.com" was typed to email field
+2018-01-24 15:48:34 INFO  AdminLoginPage:84 - "123456" was typed to password field
+2018-01-24 15:48:36 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:48:41 INFO  AdminLoginPage:84 - The messagein email field is These credentials do not match our records.
+2018-01-24 15:48:41 INFO  AdminAccountEntry:89 - --------Finishing "adminAccountEntryWithNotExistingUser" test---------
+2018-01-24 15:49:20 INFO  AddNewMenuItems:89 - --------Starting "addNewMenuItem" test---------
+2018-01-24 15:49:29 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:49:29 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:49:32 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:49:44 INFO  AdminInternalPage:84 - Tab Menu was clicked
+2018-01-24 15:49:45 INFO  AdminMenuPage:84 - Add item was clicked on AdminMenuPage
+2018-01-24 15:49:45 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-01-24 15:49:47 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-01-24 15:49:53 INFO  AdminInternalPage:84 - Tab Menu was clicked
+2018-01-24 15:49:53 INFO  AdminMenuPage:84 - Text Тест меню was typed to the search field
+2018-01-24 15:49:55 INFO  AdminMenuPage:84 - Item Тест меню has been deleted
+2018-01-24 15:49:56 INFO  AdminMenuPage:84 - Text TestMenu was typed to the search field
+2018-01-24 15:49:58 INFO  AdminMenuPage:84 - Item TestMenu has been deleted
+2018-01-24 15:49:58 INFO  AddNewMenuItems:89 - --------Finishing "addNewMenuItem" test---------
+2018-01-24 15:51:21 INFO  AddPageItemTest:16 - --------Starting "addNewPageItem" test---------
+2018-01-24 15:51:32 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:51:32 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:51:36 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:51:48 INFO  AdminInternalPage:84 - Tab Pages was clicked
+2018-01-24 15:51:51 INFO  AdminPagesPage:84 - Add item was clicked on AdminPagesPage
+2018-01-24 15:51:52 INFO  AdminCreateNewPage:84 - Page name field filled with 'TestPageName'
+2018-01-24 15:51:52 INFO  AdminCreateNewPage:84 - Title field filled with 'TestPageTilte'
+2018-01-24 15:51:52 INFO  AdminCreateNewPage:84 - Slug field filled with ''
+2018-01-24 15:51:52 INFO  AdminCreateNewPage:84 - Metatitle field filled with 'TestPageMetaTitle'
+2018-01-24 15:51:52 INFO  AdminCreateNewPage:84 - Social Metatitle field filled with 'TestPageSocialTitle'
+2018-01-24 15:51:52 INFO  AdminCreateNewPage:84 - Meta description field filled with 'TestPageMetaDescriptiom'
+2018-01-24 15:51:52 INFO  AdminCreateNewPage:84 - Social meta description field filled with 'TestPageSocialMetaDescription'
+2018-01-24 15:51:52 INFO  AdminCreateNewPage:84 - Metakeywords field filled with 'TestPageMetaKeywords'
+2018-01-24 15:51:52 INFO  AdminCreateNewPage:84 - Rus tab has been clicked
+2018-01-24 15:51:53 INFO  AdminCreateNewPage:84 - Rus title field filled with 'TestPageRusPageTitle'
+2018-01-24 15:51:53 INFO  AdminCreateNewPage:84 - Rus meta title field filled with 'TestPageRusMetaTitle'
+2018-01-24 15:51:53 INFO  AdminCreateNewPage:84 - Rus social meta title field filled with 'TestPageRusSocialMetaTitle'
+2018-01-24 15:51:53 INFO  AdminCreateNewPage:84 - Rus meta description field filled with 'TestPageRusMetaDescription'
+2018-01-24 15:51:53 INFO  AdminCreateNewPage:84 - Rus social meta description field filled with 'TestPageRusSocialMetaDescription'
+2018-01-24 15:51:53 INFO  AdminCreateNewPage:84 - Rus meta keywords field filled with 'TestPageRusMetaKeywords'
+2018-01-24 15:51:53 INFO  AdminCreateNewPage:84 - Trying to click submit button
+2018-01-24 15:51:54 INFO  AdminCreateNewPage:84 - Submit button was clicked
+2018-01-24 15:51:55 INFO  AdminPagesPage:84 - Button 'Open' was clicked for page TestPageName
+2018-01-24 15:51:57 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:51:58 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:52:01 INFO  AdminInternalPage:84 - Tab Pages was clicked
+2018-01-24 15:52:02 INFO  AdminPagesPage:84 - Text TestPageName was typed to the search field
+2018-01-24 15:52:04 INFO  AdminPagesPage:84 - Item TestPageName has been deleted
+2018-01-24 15:52:04 INFO  AddPageItemTest:89 - --------Finishing "addNewPageItem" test---------
+2018-01-24 15:52:35 INFO  AccountEntryTest:19 - --------Starting "addNewTournament" test---------
+2018-01-24 15:52:44 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:52:44 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:52:48 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:53:01 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-01-24 15:53:07 INFO  AdminTournamentsPage:84 - Add item was clicked on AdminTournamentsPage
+2018-01-24 15:53:09 INFO  AdminCreateTournamentPage:84 - File was added succsessfully
+2018-01-24 15:53:21 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-01-24 15:53:25 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-01-24 15:53:29 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:53:34 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:53:38 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-01-24 15:53:39 INFO  AdminPagesPage:84 - Text TestTournamentTitle was typed to the search field
+2018-01-24 15:53:41 INFO  AdminPagesPage:84 - Item TestTournamentTitle has been deleted
+2018-01-24 15:53:41 INFO  AddNewTournamentItem:89 - --------Finishing "addNewTournament" test---------
+2018-01-24 15:54:16 INFO  AccountEntryTest:18 - --------Starting "addNewProduct" test---------
+2018-01-24 15:54:25 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:54:25 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:54:28 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:54:36 INFO  AdminInternalPage:84 - Tab Shop was clicked
+2018-01-24 15:54:42 INFO  AdminInternalPage:84 - Tab Products was clicked
+2018-01-24 15:54:44 INFO  AdminProductsPage:84 - Add item was clicked on AdminProductsPage
+2018-01-24 15:54:44 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-01-24 15:54:45 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-01-24 15:54:48 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:54:51 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:54:55 INFO  AdminInternalPage:84 - Tab Shop was clicked
+2018-01-24 15:54:58 INFO  AdminInternalPage:84 - Tab Products was clicked
+2018-01-24 15:54:58 INFO  AdminPagesPage:84 - Text TestProductTitle was typed to the search field
+2018-01-24 15:55:00 INFO  AdminPagesPage:84 - Item TestProductTitle has been deleted
+2018-01-24 15:55:00 INFO  AddNewProductItem:89 - --------Finishing "addNewProduct" test---------
+2018-01-24 15:55:34 INFO  AccountEntryTest:19 - --------Starting "addNewPhotoGallery" test---------
+2018-01-24 15:55:43 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:55:44 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:55:48 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:55:55 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:56:01 INFO  AdminInternalPage:84 - Tab Photo was clicked
+2018-01-24 15:56:03 INFO  AdminPhotoPage:84 - Add item was clicked on AdminPhotoPage
+2018-01-24 15:56:04 INFO  AdminCreatePhotoGalleryPage:84 - Title field filled with 'TestPhotoGalleryTitle'
+2018-01-24 15:56:04 INFO  AdminCreatePhotoGalleryPage:84 - Rus title field filled with 'Фото галерея тестовое название'
+2018-01-24 15:56:04 INFO  AdminCreatePhotoGalleryPage:84 - Slug field filled with ''
+2018-01-24 15:56:04 INFO  AdminCreatePhotoGalleryPage:84 - Club 'Los Angeles' in select field was chosen
+2018-01-24 15:56:04 INFO  AdminCreatePhotoGalleryPage:84 - Tournament '15th World Championship in Yerevan' in select field was chosen
+2018-01-24 15:56:04 INFO  AdminCreatePhotoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:56:04 INFO  AdminCreatePhotoGalleryPage:84 - Trying to click submit button
+2018-01-24 15:56:07 INFO  AdminCreatePhotoGalleryPage:84 - Submit button was clicked
+2018-01-24 15:56:10 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:56:13 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:56:17 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:56:19 INFO  AdminInternalPage:84 - Tab Photo was clicked
+2018-01-24 15:56:20 INFO  AdminPagesPage:84 - Text TestPhotoGalleryTitle was typed to the search field
+2018-01-24 15:56:22 INFO  AdminPagesPage:84 - Item TestPhotoGalleryTitle has been deleted
+2018-01-24 15:56:22 INFO  AddNewPhotoGallery:89 - --------Finishing "addNewPhotoGallery" test---------
+2018-01-24 15:56:55 INFO  AccountEntryTest:19 - --------Starting "addNewVideoGallery" test---------
+2018-01-24 15:57:06 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:57:06 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:57:10 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:57:17 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:57:24 INFO  AdminInternalPage:84 - Tab Video was clicked
+2018-01-24 15:57:26 INFO  AdminVideoGalleryPage:84 - Add item was clicked on AdminVideoGalleryPage
+2018-01-24 15:57:26 INFO  AdminCreateVideoGalleryPage:84 - Title field filled with 'TestVideoGalleryTitle'
+2018-01-24 15:57:27 INFO  AdminCreateVideoGalleryPage:84 - Rus title field filled with 'Видео галерея тестовое название'
+2018-01-24 15:57:27 INFO  AdminCreateVideoGalleryPage:84 - Club 'Los Angeles' in select field was chosen
+2018-01-24 15:57:27 INFO  AdminCreateVideoGalleryPage:84 - Tournament '15th World Championship in Yerevan' in select field was chosen
+2018-01-24 15:57:27 INFO  AdminCreateVideoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:57:27 INFO  AdminCreatePhotoGalleryPage:84 - Trying to click submit button
+2018-01-24 15:57:30 INFO  AdminCreatePhotoGalleryPage:84 - Submit button was clicked
+2018-01-24 15:57:33 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:57:37 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 15:57:42 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:57:45 INFO  AdminInternalPage:84 - Tab Video was clicked
+2018-01-24 15:57:45 INFO  AdminVideoGalleryPage:84 - Text TestVideoGalleryTitle was typed to the search field
+2018-01-24 15:57:47 INFO  AdminVideoGalleryPage:84 - Item TestVideoGalleryTitle has been deleted
+2018-01-24 15:57:47 INFO  AddNewVideoGallery:89 - --------Finishing "addNewVideoGallery" test---------
+2018-01-24 15:58:17 INFO  AccountEntryTest:18 - --------Starting "adminAccountEntryWithExistingUser" test---------
+2018-01-24 15:58:26 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:58:26 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:58:29 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:58:37 INFO  AdminInternalPage:84 - Tab Gallery was clicked
+2018-01-24 15:58:43 INFO  AdminInternalPage:84 - Tab Photo was clicked
+2018-01-24 15:58:45 INFO  AdminPhotoPage:84 - Add item was clicked on AdminPhotoPage
+2018-01-24 15:58:45 INFO  AdminCreatePhotoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:58:45 INFO  AdminCreatePhotoGalleryPage:84 - File was added succsessfully
+2018-01-24 15:58:45 INFO  UploadingPhoto:89 - --------Finishing "adminAccountEntryWithExistingUser" test---------
+2018-01-24 15:59:20 INFO  AddNewSlide:89 - --------Starting "addNewSlide" test---------
+2018-01-24 15:59:29 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 15:59:29 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 15:59:33 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 15:59:40 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 15:59:47 INFO  AdminInternalPage:84 - Tab Slides was clicked
+2018-01-24 15:59:49 INFO  AdminSlidePage:84 - Add item was clicked on AdminSlidePage
+2018-01-24 15:59:49 INFO  AdminCreateSlidePage:84 - Title 'TestSlideTitle' was typed to title field
+2018-01-24 15:59:49 INFO  AdminCreateSlidePage:84 - Description 'TestSlideDesription' was typed to description field
+2018-01-24 15:59:49 INFO  AdminCreateSlidePage:84 - Button text 'TestSlideButtonText' was typed to button text field
+2018-01-24 15:59:49 INFO  AdminCreateSlidePage:84 - Button link 'http://www.testslidebuttonlink.com/' was typed to button link field
+2018-01-24 15:59:50 INFO  AdminCreateSlidePage:84 - Rus tab was clicked
+2018-01-24 15:59:50 INFO  AdminCreateSlidePage:84 - Title 'TestSlideRusTitle' was typed to rus title field
+2018-01-24 15:59:50 INFO  AdminCreateSlidePage:84 - Rus Description 'TestSlideRusDescription' was typed to rus description field
+2018-01-24 15:59:50 INFO  AdminCreateSlidePage:84 - Title TestSlideTitlewas typed to title field
+2018-01-24 15:59:50 INFO  AdminCreateSlidePage:84 - Title TestSlideTitlewas typed to title field
+2018-01-24 15:59:50 INFO  AdminCreateSlidePage:84 - File was added succsessfully
+2018-01-24 15:59:50 INFO  AdminCreateSlidePage:84 - Trying to click submit button
+2018-01-24 15:59:52 INFO  AdminCreateSlidePage:84 - Submit button was clicked
+2018-01-24 15:59:57 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 15:59:58 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 16:00:02 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 16:00:05 INFO  AdminInternalPage:84 - Tab Slides was clicked
+2018-01-24 16:00:05 INFO  AdminSlidePage:84 - Text TestSlideTitle was typed to the search field
+2018-01-24 16:00:08 INFO  AdminSlidePage:84 - Item TestSlideTitle has been deleted
+2018-01-24 16:00:08 INFO  AddNewSlide:89 - --------Finishing "addNewSlide" test---------
+2018-01-24 16:00:42 INFO  AddNewTestimonial:89 - --------Starting "addNewTestimonial" test---------
+2018-01-24 16:00:53 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:00:53 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:00:57 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:01:04 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 16:01:12 INFO  AdminInternalPage:84 - Tab Testimonials was clicked
+2018-01-24 16:01:15 INFO  AdminTestimonialsPage:84 - Add item was clicked on AdminTestimonialsPage
+2018-01-24 16:01:15 INFO  AdminCreateTestimonialPage:84 - File was added succsessfully
+2018-01-24 16:01:15 INFO  AdminCreateTestimonialPage:84 - Trying to click submit button
+2018-01-24 16:01:17 INFO  AdminCreateTestimonialPage:84 - Submit button was clicked
+2018-01-24 16:01:19 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 16:01:21 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 16:01:25 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 16:01:28 INFO  AdminInternalPage:84 - Tab Testimonials was clicked
+2018-01-24 16:01:28 INFO  AdminPagesPage:84 - Text TestTestimonialName was typed to the search field
+2018-01-24 16:01:31 INFO  AdminPagesPage:84 - Item TestTestimonialName has been deleted
+2018-01-24 16:01:31 INFO  AddNewTestimonial:89 - --------Finishing "addNewTestimonial" test---------
+2018-01-24 16:02:17 INFO  AddNewPartner:89 - --------Starting "addNewPartner" test---------
+2018-01-24 16:02:25 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:02:25 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:02:29 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:02:36 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 16:02:43 INFO  AdminInternalPage:84 - Tab Our Partners was clicked
+2018-01-24 16:02:45 INFO  AdminPartnerPage:84 - Add item was clicked on AdminPartnerPage
+2018-01-24 16:02:46 INFO  AdminCreatePartnerPage:84 - File was added succsessfully
+2018-01-24 16:02:46 INFO  AdminCreatePartnerPage:84 - Trying to click submit button
+2018-01-24 16:02:48 INFO  AdminCreatePartnerPage:84 - Submit button was clicked
+2018-01-24 16:02:53 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 16:02:56 INFO  AdminInternalPage:84 - Tab Our Partners was clicked
+2018-01-24 16:02:56 INFO  AdminCountiesPage:84 - Text TestPartnerName was typed to the search field
+2018-01-24 16:02:59 INFO  AdminCountiesPage:84 - Item TestPartnerName has been deleted
+2018-01-24 16:02:59 INFO  AddNewPartner:89 - --------Finishing "addNewPartner" test---------
+2018-01-24 16:03:39 INFO  AddNewPartner:89 - --------Starting "addNewPartner" test---------
+2018-01-24 16:03:49 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:03:50 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:03:53 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:04:00 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 16:04:07 INFO  AdminInternalPage:84 - Tab Our Partners was clicked
+2018-01-24 16:04:09 INFO  AdminPartnerPage:84 - Add item was clicked on AdminPartnerPage
+2018-01-24 16:04:10 INFO  AdminCreatePartnerPage:84 - File was added succsessfully
+2018-01-24 16:04:10 INFO  AdminCreatePartnerPage:84 - Trying to click submit button
+2018-01-24 16:04:12 INFO  AdminCreatePartnerPage:84 - Submit button was clicked
+2018-01-24 16:04:18 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-01-24 16:04:20 INFO  AdminInternalPage:84 - Tab Our Partners was clicked
+2018-01-24 16:04:21 INFO  AdminCountiesPage:84 - Text TestPartnerName was typed to the search field
+2018-01-24 16:04:23 INFO  AdminCountiesPage:84 - Item TestPartnerName has been deleted
+2018-01-24 16:04:23 INFO  AddNewPartner:89 - --------Finishing "addNewPartner" test---------
+2018-01-24 16:04:42 INFO  AddNewClub:89 - --------Starting "T001_addNewClub" test---------
+2018-01-24 16:05:07 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:05:08 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:05:11 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:05:18 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:05:26 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:05:29 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:05:33 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 16:05:37 INFO  AddNewClub:89 - --------Starting "T002_editClub" test---------
+2018-01-24 16:05:47 INFO  AddNewClub:89 - --------Starting "T003_removeClub" test---------
+2018-01-24 16:05:58 INFO  AddNewClub:89 - --------Starting "T004_addBlankClub" test---------
+2018-01-24 16:06:09 INFO  AddNewClub:89 - --------Starting "T005_cancelAddingNewClub" test---------
+2018-01-24 16:08:01 INFO  AddNewClub:89 - --------Starting "T001_addNewClub" test---------
+2018-01-24 16:08:10 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:08:10 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:08:14 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:08:21 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:08:28 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:08:30 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:08:35 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 16:31:47 INFO  AddNewClub:89 - --------Starting "T001_addNewClub" test---------
+2018-01-24 16:31:54 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:31:54 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:31:55 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:32:02 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:32:05 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:32:07 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:32:08 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 16:39:34 INFO  AddNewClub:89 - --------Starting "T001_addNewClub" test---------
+2018-01-24 16:39:41 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:39:41 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:39:42 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:39:49 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:39:52 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:39:54 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:39:55 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 16:39:57 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-01-24 16:39:57 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 16:39:57 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 16:39:57 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-01-24 16:39:57 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 16:39:58 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 16:39:59 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 16:40:01 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 16:40:14 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 16:40:17 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 16:40:17 INFO  UserHelper2:24 - Logout successful
+2018-01-24 16:40:17 INFO  AddNewClub:89 - --------Finishing "T001_addNewClub" test---------
+2018-01-24 16:45:06 INFO  AddNewClub:89 - --------Starting "T001_addNewClub" test---------
+2018-01-24 16:45:12 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:45:13 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:45:13 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:45:21 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:45:24 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:45:26 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:45:27 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 16:45:29 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-01-24 16:45:29 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 16:45:29 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 16:45:29 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-01-24 16:45:29 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 16:45:30 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 16:45:31 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 16:45:32 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 16:45:45 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 16:45:49 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 16:45:49 INFO  UserHelper2:24 - Logout successful
+2018-01-24 16:45:49 INFO  AddNewClub:89 - --------Finishing "T001_addNewClub" test---------
+2018-01-24 16:47:33 INFO  AddNewClub:89 - --------Starting "T001_addNewClub" test---------
+2018-01-24 16:47:40 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:47:40 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:47:41 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:47:48 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:47:51 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:47:54 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:47:55 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 16:47:56 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-01-24 16:47:56 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 16:47:56 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 16:47:56 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-01-24 16:47:56 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 16:47:57 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 16:47:58 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 16:47:59 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 16:47:59 INFO  ClubItemPage:84 - --------OK-------
+2018-01-24 16:48:00 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 16:48:00 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 16:48:00 INFO  ClubItemPage:84 - --------OK-------
+2018-01-24 16:48:12 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 16:48:16 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 16:48:16 INFO  UserHelper2:24 - Logout successful
+2018-01-24 16:48:16 INFO  AddNewClub:89 - --------Finishing "T001_addNewClub" test---------
+2018-01-24 16:49:43 INFO  AddNewClub:89 - --------Starting "T001_addNewClub" test---------
+2018-01-24 16:49:49 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:49:49 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:49:50 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:49:57 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:50:01 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:50:04 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:50:05 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 16:50:06 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-01-24 16:50:06 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 16:50:06 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 16:50:06 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-01-24 16:50:06 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 16:50:07 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 16:50:08 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 16:50:09 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 16:50:09 INFO  ClubItemPage:84 - --------OK-------
+2018-01-24 16:50:10 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 16:50:10 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 16:50:10 INFO  ClubItemPage:84 - --------OK-------
+2018-01-24 16:50:22 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 16:50:26 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 16:50:26 INFO  UserHelper2:24 - Logout successful
+2018-01-24 16:50:26 INFO  AddNewClub:89 - --------Finishing "T001_addNewClub" test---------
+2018-01-24 16:50:50 INFO  AddNewClub:89 - --------Starting "T001_addNewClub" test---------
+2018-01-24 16:50:57 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:50:57 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:50:58 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:51:05 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:51:08 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:51:10 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:51:11 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 16:51:13 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-01-24 16:51:13 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 16:51:13 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 16:51:13 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-01-24 16:51:13 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 16:51:14 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 16:51:15 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 16:51:16 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 16:51:16 INFO  ClubItemPage:84 - --------OK-------
+2018-01-24 16:51:17 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 16:51:17 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 16:51:17 INFO  ClubItemPage:84 - --------OK-------
+2018-01-24 16:51:29 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 16:51:34 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 16:51:34 INFO  UserHelper2:24 - Logout successful
+2018-01-24 16:51:34 INFO  AddNewClub:89 - --------Finishing "T001_addNewClub" test---------
+2018-01-24 16:52:42 INFO  AddNewClub:89 - --------Starting "T001_addNewClub" test---------
+2018-01-24 16:52:49 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:52:49 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:52:50 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:52:57 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:53:00 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:53:03 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:53:04 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 16:53:06 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-01-24 16:53:06 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 16:53:06 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 16:53:06 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-01-24 16:53:06 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 16:53:07 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 16:53:08 INFO  AddNewClub:89 - --------Starting "T002_editClub" test---------
+2018-01-24 16:53:09 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 16:53:10 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 16:53:10 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 16:53:10 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 16:53:10 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 16:53:11 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 16:53:11 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 16:53:11 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 16:53:14 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 16:53:14 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 16:53:15 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 16:53:22 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:53:23 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 16:53:25 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:53:27 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 16:53:27 INFO  UserHelper2:24 - Logout successful
+2018-01-24 16:53:27 INFO  AddNewClub:89 - --------Finishing "T001_addNewClub" test---------
+2018-01-24 16:53:28 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 16:53:28 INFO  AdminClubsPage:84 - Text TestClubTitle was typed to the search field
+2018-01-24 16:53:31 INFO  AdminCreateClubPage:84 - Text 'EDITTestMenuAboutClub' was typed to text field
+2018-01-24 16:53:31 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 16:53:31 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 16:53:31 INFO  AdminCreateClubPage:84 - Rus text 'EDITTestRusClubAboutClub' was typed to rus text field
+2018-01-24 16:53:31 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 16:53:32 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 16:53:33 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 16:53:34 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 16:53:34 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 16:53:34 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 16:53:34 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 16:53:35 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 16:53:35 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 16:53:35 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 16:53:36 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 16:53:36 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 16:53:36 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 16:53:36 INFO  AddNewClub:89 - --------Finishing "T002_editClub" test---------
+2018-01-24 17:03:09 INFO  AddNewClub:89 - --------Starting "T002_editClub" test---------
+2018-01-24 17:03:15 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:03:15 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:03:16 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:03:23 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:03:26 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:03:29 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:03:29 INFO  AdminClubsPage:84 - Text TestClubTitle was typed to the search field
+2018-01-24 17:04:47 INFO  AddNewClub:89 - --------Starting "T001_addNewClub" test---------
+2018-01-24 17:04:53 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:04:53 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:04:54 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:05:01 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:05:04 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:05:06 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:05:07 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 17:05:08 INFO  AdminCreateClubPage:84 - Title 'TestClubTitle' was typed to title field
+2018-01-24 17:05:08 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-01-24 17:05:08 INFO  AdminCreateClubPage:84 - City TestClubCitywas typed to city field
+2018-01-24 17:05:08 INFO  AdminCreateClubPage:84 - Country USA was selected
+2018-01-24 17:05:08 INFO  AdminCreateClubPage:84 - Rating table Los Angeles was selected
+2018-01-24 17:05:09 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-01-24 17:05:09 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 17:05:09 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 17:05:09 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-01-24 17:05:09 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 17:05:10 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 17:05:11 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 17:05:12 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 17:05:12 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 17:05:12 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 17:05:12 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 17:05:12 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 17:05:13 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 17:05:13 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 17:05:25 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 17:05:29 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 17:05:29 INFO  UserHelper2:24 - Logout successful
+2018-01-24 17:05:29 INFO  AddNewClub:89 - --------Finishing "T001_addNewClub" test---------
+2018-01-24 17:05:29 INFO  AddNewClub:89 - --------Starting "T002_editClub" test---------
+2018-01-24 17:05:34 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:05:35 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:05:35 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:05:42 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:05:45 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:05:47 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:05:47 INFO  AdminClubsPage:84 - Text TestClubTitle was typed to the search field
+2018-01-24 17:05:48 INFO  AdminClubsPage:84 - Edit button of TestClubTitle was clicked
+2018-01-24 17:05:48 INFO  AdminCreateClubPage:84 - Title 'TestClubTitleEDIT' was typed to title field
+2018-01-24 17:05:48 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-01-24 17:05:48 INFO  AdminCreateClubPage:84 - City EDITTestClubCitywas typed to city field
+2018-01-24 17:05:48 INFO  AdminCreateClubPage:84 - Country Russia was selected
+2018-01-24 17:05:49 INFO  AdminCreateClubPage:84 - Rating table Yerevan rating was selected
+2018-01-24 17:05:49 INFO  AdminCreateClubPage:84 - Text 'EDITTestMenuAboutClub' was typed to text field
+2018-01-24 17:05:49 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 17:05:49 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 17:05:49 INFO  AdminCreateClubPage:84 - Rus text 'EDITTestRusClubAboutClub' was typed to rus text field
+2018-01-24 17:05:49 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 17:05:50 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 17:05:51 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 17:05:52 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 17:05:52 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 17:05:52 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 17:05:52 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 17:05:53 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 17:05:53 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 17:05:53 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 17:05:53 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 17:05:53 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 17:05:53 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 17:05:53 INFO  AddNewClub:89 - --------Finishing "T002_editClub" test---------
+2018-01-24 17:08:03 INFO  AddNewClub:89 - --------Starting "T003_removeClub" test---------
+2018-01-24 17:08:10 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:08:10 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:08:11 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:08:18 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:08:21 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:08:23 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:08:24 INFO  AdminPagesPage:84 - Text TestClubTitle was typed to the search field
+2018-01-24 17:08:26 INFO  AdminPagesPage:84 - Item TestClubTitle has been deleted
+2018-01-24 17:08:26 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 17:08:27 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 17:08:27 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 17:08:27 INFO  AddNewClub:89 - --------Finishing "T003_removeClub" test---------
+2018-01-24 17:09:05 INFO  AddNewClub:89 - --------Starting "T004_addBlankClub" test---------
+2018-01-24 17:09:11 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:09:11 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:09:12 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:09:33 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 17:09:34 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 17:09:34 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 17:09:34 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:09:34 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:09:34 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:09:42 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:09:44 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:09:47 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:09:48 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 17:09:48 INFO  AdminCreateClubPage:84 - Title '' was typed to title field
+2018-01-24 17:09:48 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-01-24 17:09:48 INFO  AdminCreateClubPage:84 - City was typed to city field
+2018-01-24 17:10:45 INFO  AddNewClub:89 - --------Starting "T004_addBlankClub" test---------
+2018-01-24 17:10:52 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:10:52 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:10:52 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:11:14 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 17:11:14 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 17:11:14 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 17:11:14 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:11:14 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:11:15 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:11:22 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:11:25 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:11:27 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:11:29 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 17:11:29 INFO  AdminCreateClubPage:84 - Title '' was typed to title field
+2018-01-24 17:11:29 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-01-24 17:11:29 INFO  AdminCreateClubPage:84 - City was typed to city field
+2018-01-24 17:12:23 INFO  AddNewClub:89 - --------Starting "T004_addBlankClub" test---------
+2018-01-24 17:12:30 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:12:30 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:12:31 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:12:52 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 17:12:53 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 17:12:53 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 17:12:53 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:12:53 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:12:53 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:13:01 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:13:04 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:13:06 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:13:07 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 17:13:07 INFO  AdminCreateClubPage:84 - Title '' was typed to title field
+2018-01-24 17:13:07 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-01-24 17:13:07 INFO  AdminCreateClubPage:84 - City was typed to city field
+2018-01-24 17:13:08 INFO  AdminCreateClubPage:84 - Text '' was typed to text field
+2018-01-24 17:13:08 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 17:13:08 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 17:13:08 INFO  AdminCreateClubPage:84 - Rus text '' was typed to rus text field
+2018-01-24 17:13:08 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 17:13:09 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 17:13:09 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 17:13:10 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 17:13:10 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 17:13:10 INFO  AddNewClub:89 - --------Finishing "T004_addBlankClub" test---------
+2018-01-24 17:16:55 INFO  AddNewClub:89 - --------Starting "T005_cancelAddingNewClub" test---------
+2018-01-24 17:17:01 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:17:01 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:17:02 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:17:24 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 17:17:25 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 17:17:25 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 17:17:25 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 17:17:25 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 17:17:25 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 17:17:33 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:17:35 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:17:38 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 17:17:39 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 17:17:40 INFO  AdminCreateClubPage:84 - Title 'TestClubTitle' was typed to title field
+2018-01-24 17:17:40 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-01-24 17:17:40 INFO  AdminCreateClubPage:84 - City TestClubCitywas typed to city field
+2018-01-24 17:17:40 INFO  AdminCreateClubPage:84 - Country USA was selected
+2018-01-24 17:17:40 INFO  AdminCreateClubPage:84 - Rating table Los Angeles was selected
+2018-01-24 17:17:41 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-01-24 17:17:41 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 17:17:41 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 17:17:42 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-01-24 17:17:42 INFO  AdminCreateClubPage:84 - Trying to click cancel button
+2018-01-24 17:17:42 INFO  AdminCreateClubPage:84 - Cancel button was clicked
+2018-01-24 17:17:43 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 17:17:44 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 17:17:44 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 17:17:44 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 17:17:44 INFO  AddNewClub:89 - --------Finishing "T005_cancelAddingNewClub" test---------
+2018-01-24 23:29:18 INFO  AddNewClub:89 - --------Starting "T005_cancelAddingNewClub" test---------
+2018-01-24 23:29:25 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:29:25 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:29:26 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:29:48 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 23:29:48 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 23:29:48 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 23:29:48 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:29:48 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:29:49 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:29:56 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:29:59 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:30:02 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:30:03 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 23:30:03 INFO  AdminCreateClubPage:84 - Title 'TestClubTitle' was typed to title field
+2018-01-24 23:30:03 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-01-24 23:30:03 INFO  AdminCreateClubPage:84 - City TestClubCitywas typed to city field
+2018-01-24 23:30:03 INFO  AdminCreateClubPage:84 - Country USA was selected
+2018-01-24 23:30:04 INFO  AdminCreateClubPage:84 - Rating table Los Angeles was selected
+2018-01-24 23:30:04 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-01-24 23:30:05 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 23:30:05 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 23:30:05 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-01-24 23:30:05 INFO  AdminCreateClubPage:84 - Trying to click cancel button
+2018-01-24 23:30:05 INFO  AdminCreateClubPage:84 - Cancel button was clicked
+2018-01-24 23:30:06 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 23:30:06 INFO  ClubsPage:84 - There is no club 'TestClubTitle' on clubs page
+2018-01-24 23:30:07 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 23:30:07 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 23:30:07 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 23:30:07 INFO  AddNewClub:89 - --------Finishing "T005_cancelAddingNewClub" test---------
+2018-01-24 23:31:42 INFO  AddNewClub:89 - --------Starting "T001_addNewClub" test---------
+2018-01-24 23:31:49 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:31:49 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:31:50 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:31:57 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:32:00 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:32:03 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:32:03 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 23:32:04 INFO  AdminCreateClubPage:84 - Title 'TestClubTitle' was typed to title field
+2018-01-24 23:32:04 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-01-24 23:32:04 INFO  AdminCreateClubPage:84 - City TestClubCitywas typed to city field
+2018-01-24 23:32:05 INFO  AdminCreateClubPage:84 - Country USA was selected
+2018-01-24 23:32:05 INFO  AdminCreateClubPage:84 - Rating table Los Angeles was selected
+2018-01-24 23:32:05 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-01-24 23:32:05 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 23:32:05 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 23:32:05 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-01-24 23:32:05 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 23:32:07 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 23:32:08 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 23:32:09 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 23:32:09 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 23:32:09 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 23:32:10 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 23:32:10 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 23:32:10 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 23:32:10 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 23:32:23 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 23:32:26 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 23:32:26 INFO  UserHelper2:24 - Logout successful
+2018-01-24 23:32:26 INFO  AddNewClub:89 - --------Finishing "T001_addNewClub" test---------
+2018-01-24 23:32:26 INFO  AddNewClub:89 - --------Starting "T002_editClub" test---------
+2018-01-24 23:32:32 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:32:32 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:32:33 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:32:40 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:32:42 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:32:45 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:32:45 INFO  AdminClubsPage:84 - Text TestClubTitle was typed to the search field
+2018-01-24 23:32:46 INFO  AdminClubsPage:84 - Edit button of TestClubTitle was clicked
+2018-01-24 23:32:46 INFO  AdminCreateClubPage:84 - Title 'TestClubTitleEDIT' was typed to title field
+2018-01-24 23:32:46 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-01-24 23:32:46 INFO  AdminCreateClubPage:84 - City EDITTestClubCitywas typed to city field
+2018-01-24 23:32:46 INFO  AdminCreateClubPage:84 - Country Russia was selected
+2018-01-24 23:32:46 INFO  AdminCreateClubPage:84 - Rating table Yerevan rating was selected
+2018-01-24 23:32:47 INFO  AdminCreateClubPage:84 - Text 'EDITTestMenuAboutClub' was typed to text field
+2018-01-24 23:32:47 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 23:32:47 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 23:32:47 INFO  AdminCreateClubPage:84 - Rus text 'EDITTestRusClubAboutClub' was typed to rus text field
+2018-01-24 23:32:47 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 23:32:48 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 23:32:49 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 23:32:50 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 23:32:50 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 23:32:50 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 23:32:50 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 23:32:50 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-01-24 23:32:50 INFO  ClubItemPage:84 - Title is Ok
+2018-01-24 23:32:50 INFO  ClubItemPage:84 - About club is Ok
+2018-01-24 23:32:51 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 23:32:51 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 23:32:51 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 23:32:51 INFO  AddNewClub:89 - --------Finishing "T002_editClub" test---------
+2018-01-24 23:32:51 INFO  AddNewClub:89 - --------Starting "T003_removeClub" test---------
+2018-01-24 23:33:08 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:33:08 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:33:09 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:33:16 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:33:18 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:33:21 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:33:21 INFO  AdminPagesPage:84 - Text TestClubTitle was typed to the search field
+2018-01-24 23:33:23 INFO  AdminPagesPage:84 - Item TestClubTitle has been deleted
+2018-01-24 23:33:23 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 23:33:24 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 23:33:24 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 23:33:24 INFO  AddNewClub:89 - --------Finishing "T003_removeClub" test---------
+2018-01-24 23:33:24 INFO  AddNewClub:89 - --------Starting "T004_addBlankClub" test---------
+2018-01-24 23:33:40 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:33:40 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:33:41 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:34:02 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 23:34:03 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 23:34:03 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 23:34:03 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:34:03 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:34:03 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:34:11 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:34:13 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:34:15 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:34:16 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 23:34:16 INFO  AdminCreateClubPage:84 - Title '' was typed to title field
+2018-01-24 23:34:16 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-01-24 23:34:16 INFO  AdminCreateClubPage:84 - City was typed to city field
+2018-01-24 23:34:17 INFO  AdminCreateClubPage:84 - Text '' was typed to text field
+2018-01-24 23:34:17 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 23:34:17 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 23:34:17 INFO  AdminCreateClubPage:84 - Rus text '' was typed to rus text field
+2018-01-24 23:34:17 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-01-24 23:34:18 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-01-24 23:34:18 INFO  AdminCreateClubPage:84 - Message 1 is 'The title field is required.'
+2018-01-24 23:34:18 INFO  AdminCreateClubPage:84 - Message 2 is 'The title field is required.'
+2018-01-24 23:34:18 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 23:34:19 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 23:34:19 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 23:34:19 INFO  AddNewClub:89 - --------Finishing "T004_addBlankClub" test---------
+2018-01-24 23:34:19 INFO  AddNewClub:89 - --------Starting "T005_cancelAddingNewClub" test---------
+2018-01-24 23:34:35 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:34:35 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:34:35 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:34:56 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 23:34:57 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 23:34:57 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 23:34:57 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:34:57 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:34:59 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:35:06 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:35:08 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:35:11 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:35:11 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-01-24 23:35:11 INFO  AdminCreateClubPage:84 - Title 'TestClubTitle' was typed to title field
+2018-01-24 23:35:11 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-01-24 23:35:12 INFO  AdminCreateClubPage:84 - City TestClubCitywas typed to city field
+2018-01-24 23:35:12 INFO  AdminCreateClubPage:84 - Country USA was selected
+2018-01-24 23:35:12 INFO  AdminCreateClubPage:84 - Rating table Los Angeles was selected
+2018-01-24 23:35:12 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-01-24 23:35:12 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-01-24 23:35:12 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-01-24 23:35:13 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-01-24 23:35:13 INFO  AdminCreateClubPage:84 - Trying to click cancel button
+2018-01-24 23:35:13 INFO  AdminCreateClubPage:84 - Cancel button was clicked
+2018-01-24 23:35:14 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 23:35:14 INFO  ClubsPage:84 - There is no club 'TestClubTitle' on clubs page
+2018-01-24 23:35:14 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-01-24 23:35:15 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-01-24 23:35:15 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-01-24 23:35:15 INFO  AddNewClub:89 - --------Finishing "T005_cancelAddingNewClub" test---------
+2018-01-24 23:36:29 INFO  AddNewCountry:89 - --------Starting "addNewCountry" test---------
+2018-01-24 23:36:36 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:36:36 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:36:37 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:36:44 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:36:47 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:36:49 INFO  AdminInternalPage:84 - Tab Countries was clicked
+2018-01-24 23:36:50 INFO  AdminCountiesPage:84 - Add item was clicked on AdminCountiesPage
+2018-01-24 23:36:50 INFO  AdminCreateCountryPage:84 - Title 'TestCountryTitle' was typed to title field
+2018-01-24 23:36:50 INFO  AdminCreateCountryPage:84 - Rus tab was clicked
+2018-01-24 23:36:50 INFO  AdminCreateCountryPage:84 - Title 'TestCountryRusTitle' was typed to rus title field
+2018-01-24 23:36:50 INFO  AdminCreateCountryPage:84 - Trying to click submit button
+2018-01-24 23:36:51 INFO  AdminCreateCountryPage:84 - Submit button was clicked
+2018-01-24 23:36:52 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 23:36:53 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 23:36:56 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:36:58 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:37:00 INFO  AdminInternalPage:84 - Tab Countries was clicked
+2018-01-24 23:37:01 INFO  AdminCountiesPage:84 - Text TestCountryRusTitle was typed to the search field
+2018-01-24 23:37:01 INFO  AdminCountiesPage:84 - Text Title was typed to the search field
+2018-01-24 23:37:03 INFO  AdminCountiesPage:84 - Item TestCountryRusTitle has been deleted
+2018-01-24 23:37:04 INFO  AdminCountiesPage:84 - Text TestCountryTitle was typed to the search field
+2018-01-24 23:37:06 INFO  AdminCountiesPage:84 - Item TestCountryTitle has been deleted
+2018-01-24 23:37:06 INFO  AddNewCountry:89 - --------Finishing "addNewCountry" test---------
+2018-01-24 23:40:13 INFO  AddNewCountry:89 - --------Starting "addNewCountry" test---------
+2018-01-24 23:40:20 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:40:20 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:40:21 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:40:28 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:40:31 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:40:33 INFO  AdminInternalPage:84 - Tab Countries was clicked
+2018-01-24 23:40:34 INFO  AdminCountiesPage:84 - Add item was clicked on AdminCountiesPage
+2018-01-24 23:40:34 INFO  AdminCreateCountryPage:84 - Title 'TestCountryTitle' was typed to title field
+2018-01-24 23:40:34 INFO  AdminCreateCountryPage:84 - Rus tab was clicked
+2018-01-24 23:40:34 INFO  AdminCreateCountryPage:84 - Title 'TestCountryRusTitle' was typed to rus title field
+2018-01-24 23:40:34 INFO  AdminCreateCountryPage:84 - Trying to click submit button
+2018-01-24 23:40:34 INFO  AdminCreateCountryPage:84 - Submit button was clicked
+2018-01-24 23:40:36 INFO  InternalPage:84 - Language was set as eng
+2018-01-24 23:40:36 INFO  ClubsPage:84 - Country 'TestCountryTitle' exists on clubs page
+2018-01-24 23:40:36 INFO  InternalPage:84 - Language was set as rus
+2018-01-24 23:40:39 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:40:41 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:40:43 INFO  AdminInternalPage:84 - Tab Countries was clicked
+2018-01-24 23:40:44 INFO  AdminCountiesPage:84 - Text TestCountryTitle was typed to the search field
+2018-01-24 23:40:46 INFO  AdminCountiesPage:84 - Item TestCountryTitle has been deleted
+2018-01-24 23:40:46 INFO  AddNewCountry:89 - --------Finishing "addNewCountry" test---------
+2018-01-24 23:43:56 INFO  AddNewEvent:89 - --------Starting "addNewEvent" test---------
+2018-01-24 23:44:02 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-24 23:44:02 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-24 23:44:03 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-24 23:44:10 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:44:13 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:44:15 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-24 23:44:16 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-01-24 23:44:16 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-01-24 23:44:16 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-01-24 23:44:18 INFO  AdminCreateEventPage:84 - Description 'TestEventDescription' was typed to description field
+2018-01-24 23:44:18 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-01-24 23:44:18 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-01-24 23:44:18 INFO  AdminCreateEventPage:84 - Title 'TestEventRusTitle' was typed to rus title field
+2018-01-24 23:44:18 INFO  AdminCreateEventPage:84 - Rus Description 'TestEventRusDescription' was typed to rus description field
+2018-01-24 23:44:18 INFO  AdminCreateEventPage:84 - Trying to click submit button
+2018-01-24 23:44:19 INFO  AdminCreateEventPage:84 - Submit button was clicked
+2018-01-24 23:44:26 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:44:28 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-24 23:44:30 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-24 23:44:31 INFO  AdminPagesPage:84 - Text TestEventRusTitle was typed to the search field
+2018-01-24 23:44:31 INFO  AdminPagesPage:84 - Text Title was typed to the search field
+2018-01-24 23:44:33 INFO  AdminPagesPage:84 - Item TestEventRusTitle has been deleted
+2018-01-24 23:44:33 INFO  AdminPagesPage:84 - Text TestEventTitle was typed to the search field
+2018-01-24 23:44:35 INFO  AdminPagesPage:84 - Item TestEventTitle has been deleted
+2018-01-24 23:44:35 INFO  AddNewEvent:89 - --------Finishing "addNewEvent" test---------
+2018-01-24 23:57:55 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-24 23:57:56 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 23:57:56 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-24 23:57:56 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 23:57:56 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-24 23:57:57 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 23:57:57 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-24 23:57:58 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 23:57:58 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-24 23:57:58 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 23:57:58 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-24 23:57:59 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-24 23:57:59 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 23:57:59 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-24 23:57:59 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-24 23:57:59 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 23:57:59 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-24 23:58:01 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-24 23:58:01 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-24 23:58:02 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-24 23:58:02 INFO  LoginPage:84 - Login dialog was closed
+2018-01-24 23:58:04 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-25 00:07:07 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-25 00:07:08 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 00:07:08 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-25 00:07:08 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 00:07:09 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-25 00:07:09 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 00:07:09 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-25 00:07:09 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 00:07:09 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-25 00:07:10 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 00:07:10 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-25 00:07:10 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-25 00:07:10 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 00:07:10 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-25 00:07:11 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-25 00:07:11 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 00:07:11 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-25 00:07:13 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-25 00:07:13 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 00:07:13 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-25 00:07:14 INFO  LoginPage:84 - Login dialog was closed
+2018-01-25 00:07:16 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-25 08:24:25 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-25 08:24:27 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:24:27 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-25 08:24:29 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:24:29 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-25 08:24:31 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:24:31 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-25 08:24:34 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:24:34 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-25 08:24:36 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:24:36 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-25 08:24:37 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-25 08:24:37 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:24:37 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-25 08:24:39 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-25 08:24:39 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:24:39 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-25 08:24:41 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-25 08:24:41 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:24:43 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-25 08:24:43 INFO  LoginPage:84 - Login dialog was closed
+2018-01-25 08:24:45 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-25 08:28:57 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-25 08:28:57 INFO  InternalPage:84 - Language was set as eng
+2018-01-25 08:29:00 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:29:00 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-25 08:29:02 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:29:02 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-25 08:29:03 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:29:03 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-25 08:29:06 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:29:06 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-25 08:29:07 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:29:08 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-25 08:29:09 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-25 08:29:09 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:29:09 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-25 08:29:11 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-25 08:29:11 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:29:11 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-25 08:29:13 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-25 08:29:13 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:29:13 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-25 08:29:14 INFO  LoginPage:84 - Login dialog was closed
+2018-01-25 08:29:16 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-25 08:29:57 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-25 08:29:57 INFO  InternalPage:84 - Language was set as eng
+2018-01-25 08:29:59 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:29:59 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-25 08:30:01 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:30:01 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-25 08:30:03 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 08:30:03 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-25 08:32:09 INFO  AddNewEvent:89 - --------Starting "addNewEvent" test---------
+2018-01-25 08:32:29 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-25 08:32:30 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-25 08:32:34 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-25 08:32:42 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 08:32:48 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 08:32:51 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-25 08:32:55 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-01-25 08:32:55 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-01-25 08:32:55 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-01-25 08:32:56 INFO  AdminCreateEventPage:84 - Description 'TestEventDescription' was typed to description field
+2018-01-25 08:32:59 INFO  AdminCreateEventPage:84 - Text 'TestEventText' was typed to text field
+2018-01-25 08:33:00 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-01-25 08:33:00 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-01-25 08:33:00 INFO  AdminCreateEventPage:84 - Title 'TestEventRusTitle' was typed to rus title field
+2018-01-25 08:33:00 INFO  AdminCreateEventPage:84 - Rus Description 'TestEventRusDescription' was typed to rus description field
+2018-01-25 08:33:00 INFO  AdminCreateEventPage:84 - Trying to click submit button
+2018-01-25 08:33:06 INFO  AdminCreateEventPage:84 - Submit button was clicked
+2018-01-25 08:33:12 INFO  ClubsPage:84 - Club Kiev Big Ben was clicked
+2018-01-25 08:33:13 INFO  ClubItemPage:84 - Events tab was clicked
+2018-01-25 08:47:34 INFO  AddNewEvent:89 - --------Starting "addNewEvent" test---------
+2018-01-25 08:47:45 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-25 08:47:45 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-25 08:47:49 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-25 08:47:56 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 08:48:02 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 08:48:05 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-25 08:48:10 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-01-25 08:48:10 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-01-25 08:48:11 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-01-25 08:48:12 INFO  AdminCreateEventPage:84 - Description 'TestEventDescription' was typed to description field
+2018-01-25 08:48:14 INFO  AdminCreateEventPage:84 - Text 'TestEventText' was typed to text field
+2018-01-25 08:48:14 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-01-25 08:48:14 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-01-25 08:48:15 INFO  AdminCreateEventPage:84 - Title 'TestEventRusTitle' was typed to rus title field
+2018-01-25 08:48:15 INFO  AdminCreateEventPage:84 - Rus Description 'TestEventRusDescription' was typed to rus description field
+2018-01-25 08:48:15 INFO  AdminCreateEventPage:84 - Trying to click submit button
+2018-01-25 08:48:21 INFO  AdminCreateEventPage:84 - Submit button was clicked
+2018-01-25 08:48:26 INFO  ClubsPage:84 - Club Moscow was clicked
+2018-01-25 08:48:28 INFO  ClubItemPage:84 - Events tab was clicked
+2018-01-25 08:51:00 INFO  AddNewEvent:89 - --------Starting "addNewEvent" test---------
+2018-01-25 08:51:09 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-25 08:51:09 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-25 08:51:13 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-25 08:51:20 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 08:51:26 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 08:51:29 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-25 08:51:33 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-01-25 08:51:33 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-01-25 08:51:33 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-01-25 08:52:37 INFO  AddNewEvent:89 - --------Starting "addNewEvent" test---------
+2018-01-25 08:52:46 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-25 08:52:46 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-25 08:52:49 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-25 08:52:57 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 08:53:03 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 08:53:06 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-25 08:53:11 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-01-25 08:53:11 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-01-25 08:53:11 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-01-25 08:54:03 INFO  AddNewEvent:89 - --------Starting "addNewEvent" test---------
+2018-01-25 08:54:13 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-25 08:54:13 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-25 08:54:16 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-25 08:54:24 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 08:54:30 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 08:54:33 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-25 08:54:37 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-01-25 08:54:37 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-01-25 08:54:37 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-01-25 08:54:38 INFO  AdminCreateEventPage:84 - Description 'TestEventDescription' was typed to description field
+2018-01-25 08:54:42 INFO  AdminCreateEventPage:84 - Text 'TestEventText' was typed to text field
+2018-01-25 08:54:43 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-01-25 08:54:43 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-01-25 08:54:43 INFO  AdminCreateEventPage:84 - Title 'TestEventRusTitle' was typed to rus title field
+2018-01-25 08:54:43 INFO  AdminCreateEventPage:84 - Rus Description 'TestEventRusDescription' was typed to rus description field
+2018-01-25 08:54:43 INFO  AdminCreateEventPage:84 - Trying to click submit button
+2018-01-25 08:54:46 INFO  AdminCreateEventPage:84 - Submit button was clicked
+2018-01-25 08:54:53 INFO  ClubsPage:84 - Club Houston was clicked
+2018-01-25 08:54:54 INFO  ClubItemPage:84 - Events tab was clicked
+2018-01-25 08:59:46 INFO  AddNewEvent:89 - --------Starting "addNewEvent" test---------
+2018-01-25 08:59:57 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-25 08:59:57 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-25 09:00:01 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-25 09:00:08 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 09:00:15 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 09:00:17 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-25 09:00:22 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-01-25 09:00:22 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-01-25 09:00:22 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-01-25 09:00:23 INFO  AdminCreateEventPage:84 - Description 'TestEventDescription' was typed to description field
+2018-01-25 09:00:27 INFO  AdminCreateEventPage:84 - Text 'TestEventText' was typed to text field
+2018-01-25 09:00:27 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-01-25 09:00:27 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-01-25 09:00:27 INFO  AdminCreateEventPage:84 - Title 'TestEventRusTitle' was typed to rus title field
+2018-01-25 09:00:27 INFO  AdminCreateEventPage:84 - Rus Description 'TestEventRusDescription' was typed to rus description field
+2018-01-25 09:00:27 INFO  AdminCreateEventPage:84 - Trying to click submit button
+2018-01-25 09:00:29 INFO  AdminCreateEventPage:84 - Submit button was clicked
+2018-01-25 09:00:34 INFO  ClubsPage:84 - Club Las Vegas was clicked
+2018-01-25 09:00:35 INFO  ClubItemPage:84 - Events tab was clicked
+2018-01-25 09:07:43 INFO  AddNewEvent:89 - --------Starting "addNewEvent" test---------
+2018-01-25 09:07:53 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-25 09:07:53 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-25 09:07:57 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-25 09:08:04 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 09:08:10 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 09:08:13 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-25 09:08:18 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-01-25 09:08:18 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-01-25 09:08:18 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-01-25 09:16:03 INFO  AddNewEvent:89 - --------Starting "addNewEvent" test---------
+2018-01-25 09:16:16 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-25 09:16:16 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-25 09:16:20 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-25 09:16:27 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 09:16:33 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 09:16:36 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-25 09:16:41 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-01-25 09:16:42 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-01-25 09:16:42 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-01-25 09:16:43 INFO  AdminCreateEventPage:84 - Description 'TestEventDescription' was typed to description field
+2018-01-25 09:16:45 INFO  AdminCreateEventPage:84 - Text 'TestEventText' was typed to text field
+2018-01-25 09:16:45 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-01-25 09:16:45 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-01-25 09:16:46 INFO  AdminCreateEventPage:84 - Title 'TestEventRusTitle' was typed to rus title field
+2018-01-25 09:16:46 INFO  AdminCreateEventPage:84 - Rus Description 'TestEventRusDescription' was typed to rus description field
+2018-01-25 09:16:46 INFO  AdminCreateEventPage:84 - Trying to click submit button
+2018-01-25 09:16:51 INFO  AdminCreateEventPage:84 - Submit button was clicked
+2018-01-25 09:16:58 INFO  ClubsPage:84 - Club Khmelnitski was clicked
+2018-01-25 09:16:58 INFO  ClubItemPage:84 - Events tab was clicked
+2018-01-25 09:37:00 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-25 09:37:00 INFO  InternalPage:84 - Language was set as eng
+2018-01-25 09:37:02 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:37:02 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-25 09:37:04 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:37:04 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-25 09:37:05 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:37:05 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-25 09:37:08 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:37:08 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-25 09:37:10 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:37:10 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-25 09:37:11 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-25 09:37:11 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:37:11 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-25 09:37:13 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-25 09:37:13 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:37:13 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-25 09:37:15 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-25 09:37:15 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:37:15 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-25 09:37:16 INFO  LoginPage:84 - Login dialog was closed
+2018-01-25 09:37:18 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-25 09:38:42 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-25 09:38:44 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:38:44 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-25 09:38:46 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:38:46 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-25 09:38:47 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:38:47 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-25 09:38:48 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:38:48 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-25 09:38:49 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-25 09:38:49 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:38:49 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-25 09:38:51 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-25 09:38:51 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:38:51 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-25 09:38:53 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-25 09:38:53 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 09:38:54 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-25 09:38:54 INFO  LoginPage:84 - Login dialog was closed
+2018-01-25 09:38:56 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-25 10:47:11 INFO  AddNewEvent:89 - --------Starting "addNewEvent" test---------
+2018-01-25 10:47:21 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-25 10:47:21 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-25 10:47:25 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-25 10:47:32 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 10:47:38 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 10:47:41 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-25 10:47:45 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-01-25 10:47:45 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-01-25 10:47:45 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-01-25 10:47:46 INFO  AdminCreateEventPage:84 - Description 'TestEventDescription' was typed to description field
+2018-01-25 10:47:49 INFO  AdminCreateEventPage:84 - Text 'TestEventText' was typed to text field
+2018-01-25 10:47:50 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-01-25 10:47:50 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-01-25 10:47:50 INFO  AdminCreateEventPage:84 - Title 'TestEventRusTitle' was typed to rus title field
+2018-01-25 10:47:50 INFO  AdminCreateEventPage:84 - Rus Description 'TestEventRusDescription' was typed to rus description field
+2018-01-25 10:47:50 INFO  AdminCreateEventPage:84 - Trying to click submit button
+2018-01-25 10:47:56 INFO  AdminCreateEventPage:84 - Submit button was clicked
+2018-01-25 10:48:02 INFO  ClubsPage:84 - Club Kiev Big Ben was clicked
+2018-01-25 10:48:02 INFO  ClubItemPage:84 - Events tab was clicked
+2018-01-25 11:21:08 INFO  AddNewEvent:89 - --------Starting "addNewEvent" test---------
+2018-01-25 11:21:20 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-01-25 11:21:21 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-01-25 11:21:27 INFO  AdminLoginPage:84 - Login button was clicked
+2018-01-25 11:21:34 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 11:21:41 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-01-25 11:21:44 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-01-25 11:21:49 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-01-25 11:21:49 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-01-25 11:21:49 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-01-25 11:21:51 INFO  AdminCreateEventPage:84 - Description 'TestEventDescription' was typed to description field
+2018-01-25 11:21:55 INFO  AdminCreateEventPage:84 - Text 'TestEventText' was typed to text field
+2018-01-25 11:21:55 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-01-25 11:21:55 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-01-25 11:21:56 INFO  AdminCreateEventPage:84 - Title 'TestEventRusTitle' was typed to rus title field
+2018-01-25 11:21:56 INFO  AdminCreateEventPage:84 - Rus Description 'TestEventRusDescription' was typed to rus description field
+2018-01-25 11:21:56 INFO  AdminCreateEventPage:84 - Trying to click submit button
+2018-01-25 11:22:00 INFO  AdminCreateEventPage:84 - Submit button was clicked
+2018-01-25 11:22:06 INFO  ClubsPage:84 - Club Las Vegas was clicked
+2018-01-25 11:22:08 INFO  ClubItemPage:84 - Events tab was clicked
+2018-01-25 11:25:38 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-25 11:25:40 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:25:40 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-25 11:25:43 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:25:43 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-25 11:25:45 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:25:45 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-25 11:25:47 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:25:47 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-25 11:25:48 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-25 11:25:48 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:25:48 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-25 11:25:51 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-25 11:25:51 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:25:51 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-25 11:25:53 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-25 11:25:53 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:25:55 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-25 11:25:56 INFO  LoginPage:84 - Login dialog was closed
+2018-01-25 11:25:58 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-25 11:26:50 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-25 11:26:54 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:26:54 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-25 11:26:57 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:26:57 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-25 11:26:58 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:26:58 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-25 11:27:01 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:27:01 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-25 11:27:04 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:27:04 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-25 11:27:06 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-25 11:27:06 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:27:06 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-25 11:27:09 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-25 11:27:09 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:27:09 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-25 11:27:11 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-25 11:27:11 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:27:13 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-25 11:27:13 INFO  LoginPage:84 - Login dialog was closed
+2018-01-25 11:27:15 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-25 11:37:11 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-25 11:37:14 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:37:14 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-25 11:37:17 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:37:17 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-25 11:37:18 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:37:18 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-25 11:37:21 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:37:21 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-25 11:37:23 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:37:23 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-25 11:37:25 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-25 11:37:25 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:37:25 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-25 11:37:27 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-25 11:37:27 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:37:27 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-25 11:37:29 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-25 11:37:29 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:37:30 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-25 11:37:30 INFO  LoginPage:84 - Login dialog was closed
+2018-01-25 11:37:32 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
+2018-01-25 11:42:38 INFO  AllPagesAreLoadingTest:89 - --------Starting "allPagesAreLoadingTest" test---------
+2018-01-25 11:42:41 INFO  ClubsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:42:41 INFO  ClubsPage:84 - Clubs page was loaded successfully
+2018-01-25 11:42:43 INFO  TheGamePage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:42:43 INFO  TheGamePage:84 - The game page was loaded successfully
+2018-01-25 11:42:44 INFO  NewsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:42:45 INFO  NewsPage:84 - News page was loaded successfully
+2018-01-25 11:42:48 INFO  TournamentsPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:42:48 INFO  TournamentsPage:84 - Tournaments page was loaded successfully
+2018-01-25 11:42:49 INFO  HistoryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:42:50 INFO  HistoryPage:84 - History page was loaded successfully
+2018-01-25 11:42:51 INFO  InternalPage:84 - Gallery button was clicked |||||| 
+2018-01-25 11:42:51 INFO  GalleryPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:42:51 INFO  GalleryPage:84 - Gallery page was loaded successfully
+2018-01-25 11:42:53 INFO  InternalPage:84 - Shop button was clicked |||||| 
+2018-01-25 11:42:53 INFO  ShopPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:42:53 INFO  ShopPage:84 - Shop page was loaded successfully
+2018-01-25 11:42:56 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-01-25 11:42:56 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-01-25 11:42:57 INFO  LoginPage:84 - Login dialog was loaded
+2018-01-25 11:42:57 INFO  LoginPage:84 - Login dialog was closed
+2018-01-25 11:42:59 INFO  AllPagesAreLoadingTest:89 - --------Finishing "allPagesAreLoadingTest" test---------
