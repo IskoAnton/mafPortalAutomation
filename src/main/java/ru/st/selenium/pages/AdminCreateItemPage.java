@@ -137,18 +137,33 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
             if (index3 != index1 && index3 != index2) break;
         }
 
-        String club1 = driver.findElement(By.xpath("//div[@class = 'col-sm-4']["+ (index1+1) +"]//label")).getText();
-        chosenCheckboxes.add(club1);
-        String club2 = driver.findElement(By.xpath("//div[@class = 'col-sm-4']["+ (index2+1) +"]//label")).getText();
-        chosenCheckboxes.add(club2);
-        String club3 = driver.findElement(By.xpath("//div[@class = 'col-sm-4']["+ (index3+1) +"]//label")).getText();
-        chosenCheckboxes.add(club3);
-        String checkbox1 = "//div[@class = 'col-sm-4']["+ (index1+1) +"]//label/input";
-        String checkbox2 = "//div[@class = 'col-sm-4']["+ (index2+1) +"]//label/input";
-        String checkbox3 = "//div[@class = 'col-sm-4']["+ (index3+1) +"]//label/input";
-        clubs.get(index1).findElement(By.xpath(checkbox1)).click();
-        clubs.get(index2).findElement(By.xpath(checkbox2)).click();
-        clubs.get(index3).findElement(By.xpath(checkbox3)).click();
+        try{
+            String club1 = driver.findElement(By.xpath("//div[@class = 'col-sm-4']["+ (index1+1) +"]//label")).getText();
+            String checkbox1 = "//div[@class = 'col-sm-4']["+ (index1+1) +"]//label/input";
+            clubs.get(index1).findElement(By.xpath(checkbox1)).click();
+            chosenCheckboxes.add(club1);
+        } catch (Exception e) {
+
+        }
+
+        try {
+            String club2 = driver.findElement(By.xpath("//div[@class = 'col-sm-4']["+ (index2+1) +"]//label")).getText();
+            String checkbox2 = "//div[@class = 'col-sm-4']["+ (index2+1) +"]//label/input";
+            clubs.get(index2).findElement(By.xpath(checkbox2)).click();
+            chosenCheckboxes.add(club2);
+        } catch (Exception e) {
+
+        }
+
+        try{
+            String club3 = driver.findElement(By.xpath("//div[@class = 'col-sm-4']["+ (index3+1) +"]//label")).getText();
+            String checkbox3 = "//div[@class = 'col-sm-4']["+ (index3+1) +"]//label/input";
+            clubs.get(index3).findElement(By.xpath(checkbox3)).click();
+            chosenCheckboxes.add(club3);
+        } catch (Exception e) {
+
+        }
+
     }
 
     public ArrayList<String> getChosenCheckboxes() {
