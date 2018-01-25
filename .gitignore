@@ -1,9 +1,11 @@
-target/
+target/classes/ru
+target/test-classes
+target/generated-sourses
+target/surefire-reports
 
 test-output/
 
 automation.out
 
 .idea/
-target/classes/ru/st/selenium/applogic2/ApplicationManager2.class
-target/classes/ru/st/selenium/applogic2/ApplicationManager2.class
+
