@@ -7,6 +7,8 @@ import ru.st.selenium.model.Event;
 
 import java.util.List;
 
+import static org.testng.Assert.assertFalse;
+
 public class EventItemPage extends ClubsPage{
 
     public EventItemPage(PageManager pages) {
@@ -17,35 +19,28 @@ public class EventItemPage extends ClubsPage{
         String language = getLanguage();
         if (language.equals("rus")) {
             wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '" + event.getRusTitle() + "')]")));
+            log("Rus title is OK");
             wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/p[contains(text(), '" + event.getRusDescription() + "')]")));
-            wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '" + event.getRusTitle() + "')]")));
-            List<WebElement> caruselElements = driver.findElements(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '" + event.getRusTitle() + "')]"));
-            for (int i = 0; i<caruselElements.size(); i++) {
-                boolean isVisible = caruselElements.get(i).isDisplayed();
-                if (isVisible) {
-                    caruselElements.get(i).click();
-                    break;
-                }
-            }
-            //driver.findElement(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '" + event.getRusTitle() + "')]")).click();
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'NewTitle' and contains(text(), '"+event.getRusTitle()+"')]")));
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'descWr']//div[@class = 'text' and contains(text(), '"+event.getRusDescription()+"')]")));
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'MainCont']//p[contains(text(), '"+event.getRusText()+"')]")));
+            log("Rus description is OK");
         } else if (language.equals("eng")) {
             wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '" + event.getTitle() + "')]")));
+            log("Eng title is OK");
             wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'sub_item ng-scope']/p[contains(text(), '" + event.getDescription() + "')]")));
-            List<WebElement> caruselElements = driver.findElements(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '" + event.getRusTitle() + "')]"));
-            for (int i = 0; i<caruselElements.size(); i++) {
-                boolean isVisible = caruselElements.get(i).isDisplayed();
-                if (isVisible) {
-                    caruselElements.get(i).click();
-                    break;
-                }
-            }
-            //driver.findElement(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '" + event.getTitle() + "')]")).click();
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'NewTitle' and contains(text(), '"+event.getTitle()+"')]")));
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'descWr']//div[@class = 'text' and contains(text(), '"+event.getDescription()+"')]")));
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'MainCont']//p[contains(text(), '"+event.getText()+"')]")));
+            log("Eng description is OK");
         }
+    }
+
+    public void checkEventDoesntExist(Event event) {
+        String language = getLanguage();
+        boolean isPresent = true;
+        if (language.equals("rus")) {
+            isPresent = isElementPresent(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '" + event.getRusTitle() + "')]"));
+            log("There is no event '" + event.getRusTitle() + "' on clubs page");
+        }
+        if (language.equals("eng")) {
+            isPresent = isElementPresent(By.xpath("//div[@class = 'sub_item ng-scope']/a[contains(text(), '" + event.getTitle() + "')]"));
+            log("There is no event '" + event.getTitle() + "' on clubs page");
+        }
+        assertFalse(isPresent);
     }
 }

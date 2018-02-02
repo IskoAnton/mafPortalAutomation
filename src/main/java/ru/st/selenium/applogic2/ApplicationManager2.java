@@ -38,7 +38,7 @@ public class ApplicationManager2 implements ApplicationManager {
 
   private WebDriver driver;
   //private EventFiringWebDriver driver;
-  private WebEventListener eventListener;
+  //private WebEventListener eventListener;
   private String baseUrl;
   private PageManager pages;
 

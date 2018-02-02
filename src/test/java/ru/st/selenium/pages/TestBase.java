@@ -30,6 +30,7 @@ public class TestBase {
 	public static Club TESTCLUB;
 	public static Club TESTEDITCLUB;
 	public static Country TESTCOUNTRY;
+	public static Country TESTEDITCOUNTRY;
 	public static Event TESTEVENT;
 	public static Role TESTROLE;
 	public static Permission TESTPERMISSION;
@@ -39,6 +40,16 @@ public class TestBase {
 	public static Address TESTADDRESS;
 	public static User BLANKUSER;
 	public static Club BLANKCLUB;
+	public static Country BLANKCOUNTRY;
+	public static Event TESTEDITEVENT;
+	public static Event BLANKEVENT;
+	public static MenuItem TESTMENUITEM;
+	public static News TESTEDITNEWS;
+	public static News BLANKNEWS;
+	public static Partner TESTEDITPARTNER;
+	public static Partner BLANKPARTNER;
+	public static Permission TESTEDITPERMISSION;
+	public static Permission BLANKPERMISSION;
 	public final Logger log = Logger.getLogger(this.getClass().getSimpleName());
 
 
@@ -54,7 +65,7 @@ public class TestBase {
 		TESTPHOTOGALLERY = new PhotoGallery("TestPhotoGalleryTitle", "Фото галерея тестовое название", "", "Los Angeles","15th World Championship in Yerevan","15-й Чемпионат Мира в Ереване", true);
 		TESTVIDEOGALLERY = new VideoGallery("TestVideoGalleryTitle", "Видео галерея тестовое название","Los Angeles", "15th World Championship in Yerevan", "15-й Чемпионат Мира в Ереване", true, "https://www.youtube.com/watch?v=zqE-ultsWt0");
 		TESTCLUB = new Club("TestClubTitle", "", "TestClubCity", "USA", "TestClubsAdmins", "Los Angeles", false, "TestClubsAboutClub", "TestRusAboutClubs");
-		TESTNEWS = new News("TestNews", "", "12/12/2017 16:04", "TestDescription", "TestTest", "TestMetatitle", "TestSocialMetaTitle", "TestMetaDescription", "TestSocialMetaDescription", "TestMetaKeywords", "TestRusTitle", "TestRusDescription", "TestRusText", "TestRusMeaTitle", "TestSocialMetaTitle", "TestRusMetaDescription", "TestRusSocialMetaDescription", "TestRusMetaKeywords");
+		TESTNEWS = new News("TestNewsTitle", "", "12/12/2017 16:04", "TestDescription", "TestTest", "TestMetatitle", "TestSocialMetaTitle", "TestMetaDescription", "TestSocialMetaDescription", "TestMetaKeywords", "TestRusTitle", "TestRusDescription", "TestRusText", "TestRusMeaTitle", "TestSocialMetaTitle", "TestRusMetaDescription", "TestRusSocialMetaDescription", "TestRusMetaKeywords");
 		TESTCOUNTRY = new Country("TestCountryTitle", "TestCountryAbout", "TestCountryRusTitle", "TestCountryRusAbout");
 		TESTEVENT = new Event("TestEventTitle", "", "Los Angeles", "TestEventDescription", "TestEventText", "TestEventRusTitle", "TestEventRusDescription", "TestEventRusText");
 		TESTROLE = new Role("TestRole");
@@ -64,8 +75,21 @@ public class TestBase {
 		TESTPARTNER = new Partner("TestPartnerName", "http://www.testparnerlink.com/");
 		TESTADDRESS = new Address(Address.Title.MR, "TestUser","1257 Montgomery street", "apt 47", "San Francisco", "California", "98542", "USA", "testemail@test.com");
 		BLANKUSER = new User("", "", "", "", "", "", "", TESTADDRESS, TESTADDRESS);
-		TESTEDITCLUB = new Club("TestClubTitleEDIT", "", "EDITTestClubCity", "Russia", "EDITTestMenuAdmins", "Yerevan rating", false, "EDITTestMenuAboutClub", "EDITTestRusClubAboutClub");
+		TESTEDITCLUB = new Club("testClubTitleEDIT", "", "EDITtestClubCity", "Russia", "EDITtestMenuAdmins", "Yerevan rating", false, "EDITtestMenuAboutClub", "EDITtestRusClubAboutClub");
 		BLANKCLUB = new Club("", "", "", "", "", "", false, "", "");
+		TESTEDITCOUNTRY = new Country("EDITTestCountryTitle", "EDITTestCountryAbout", "EDITTestCountryRusTitle", "EDITTestCountryRusAbout");
+		BLANKCOUNTRY = new Country("", "", "", "");
+		TESTEDITEVENT = new Event("EDITtestEventTitle", "", "Yerevan rating", "EDITtestEventDescription", "EDITtestEventText", "EDITtestEventRusTitle", "EDITtestEventRusDescription", "EDITtestEventRusText");
+		BLANKEVENT = new Event("", "", "", "", "", "", "", "");
+		TESTMENUITEM = new MenuItem("TestMenu", "Тест меню", "-", "Internal link", "");
+		TESTEDITNEWS = new News("EDITtestNews", "", "12/12/2017 16:04", "EDITtestDescription", "EDITtestTest", "EDITtestMetatitle", "TestSocialMetaTitle", "EDITtestMetaDescription", "EDITTestSocialMetaDescription", "EDITtestMetaKeywords", "EDITTestRusTitle", "EDITtestRusDescription", "EDITtestRusText", "EDITtestRusMeaTitle", "EDITtestSocialMetaTitle", "EDITtestRusMetaDescription", "EDITtestRusSocialMetaDescription", "EDITtestRusMetaKeywords");
+		BLANKNEWS = new News("", "", "", "", "", "", "", "", "","","","","","","","","", "");
+		TESTEDITPARTNER = new Partner("EDITtestPartnerName", "http://www.EDITTestparnerlink.com/");
+		BLANKPARTNER = new Partner("", "");
+		TESTEDITPERMISSION = new Permission("EDITtestPermission");
+		BLANKPERMISSION = new Permission("");
+
+
 		/*DateFormat dateFormat = new SimpleDateFormat("mm/dd/yyyy hh:mm");
 		dateFormat.parse(today.);*/
 

@@ -11,6 +11,7 @@ public class AdminCreateRolePage extends AdminCreateItemPage {
     public void fillAllFieldsWithData(Object obj) {
         Role role = (Role) obj;
         driver.findElement(By.xpath(PAGE_NAME_FIELD_LOCATOR)).sendKeys(role.getName());
+        log("Name '" + role.getName() + "' was typed to name field");
         putThreeRandomCheckboxes();
 
     }

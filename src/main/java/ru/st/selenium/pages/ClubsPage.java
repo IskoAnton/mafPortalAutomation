@@ -63,9 +63,28 @@ public class ClubsPage extends InternalPage {
         if (language.equals("eng")) {
             driver.findElement(By.xpath("//div[@class = 'clubList']//div[contains(text(),'" + country.getTitle() + "')]"));
             log("Country '" + country.getTitle() + "' exists on clubs page");
+            String desc = driver.findElement(By.xpath("//div[@class = 'clubList']//div[contains(text(),'" + country.getTitle() + "')]/../div[@class = 'desc']/p")).getText();
+            assertEquals(desc, country.getText());
+            log("Description is '" + country.getText() + "'");
         } else if(language.equals("rus")) {
             driver.findElement(By.xpath("//div[@class = 'clubList']//div[contains(text(),'" + country.getRusTitle() + "')]"));
             log("Country '" + country.getRusTitle() + "' exists on clubs page");
+            String desc = driver.findElement(By.xpath("//div[@class = 'clubList']//div[contains(text(),'" + country.getRusTitle() + "')]/../div[@class = 'desc']/p")).getText();
+            assertEquals(desc, country.getRusText());
+            log("Description is '" + country.getRusText() + "'");
         }
+    }
+
+    public void checkCountryDoesntExist(Country country) {
+        String language = getLanguage();
+        boolean isPresent = true;
+        if (language.equals("rus")) {
+            isPresent = isElementPresent(By.xpath("//a[contains(text(),'"+country.getTitle()+"')]"));
+        }
+        if (language.equals("eng")) {
+            isPresent = isElementPresent(By.xpath("//a[contains(text(),'"+country.getRusTitle()+"')]"));
+        }
+        log("There is no country '" + country.getTitle() + "' on clubs page");
+        assertFalse(isPresent);
     }
 }

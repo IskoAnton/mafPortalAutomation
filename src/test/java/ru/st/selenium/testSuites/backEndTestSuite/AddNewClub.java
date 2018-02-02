@@ -67,25 +67,18 @@ public class AddNewClub extends TestBase {
         app.getPages().clubsPage.clickToClub(editClub);
         app.getPages().clubItemPage.checkDataOnClubItemPage(editClub);
         app.getNavigationHelper().gotoAdminPage();
-        app.getAdminUserHelper().logout();
-        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
-    }
-
-    @Test
-    public void T003_removeClub() {
-        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
-        app.getAdminUserHelper().logindAs(admin);
-        app.getNavigationHelper().gotoAdminPage();
         app.getPages().adminInternalPage.clickOnAdminTab("Clubs");
         app.getPages().adminInternalPage.clickOnAdminTab("Clubs");
-        app.getPages().adminPagesPage.deleteItem(club.getTitle());
+        app.getPages().adminPagesPage.deleteItem(editClub.getTitle());
         app.getNavigationHelper().gotoAdminPage();
         app.getAdminUserHelper().logout();
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 
+
+
     @Test
-    public void T004_addBlankClub() {
+    public void T003_addBlankClub() {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         app.getAdminUserHelper().logindAs(admin);
         app.getAdminUserHelper().logindAs(admin);
@@ -101,9 +94,8 @@ public class AddNewClub extends TestBase {
     }
 
     @Test
-    public void T005_cancelAddingNewClub() {
+    public void T004_cancelAddingNewClub() {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
-        app.getAdminUserHelper().logindAs(admin);
         app.getAdminUserHelper().logindAs(admin);
         app.getPages().adminInternalPage.clickOnAdminTab("Clubs");
         app.getPages().adminInternalPage.clickOnAdminTab("Clubs");

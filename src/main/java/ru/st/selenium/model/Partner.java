@@ -1,6 +1,6 @@
 package ru.st.selenium.model;
 
-public class Partner {
+public class Partner extends TabItem{
     private String name;
     private String link;
 

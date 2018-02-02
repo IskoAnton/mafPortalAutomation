@@ -13,12 +13,14 @@ import java.util.logging.Logger;
 
 public class AddNewCountry extends TestBase {
         public static final Logger log = Logger.getLogger(AccountEntryTest.class.getName());
+        User admin = TESTADMIN;
+        Country country = TESTCOUNTRY;
+        Country editCountry = TESTEDITCOUNTRY;
+        Country blankCountry = BLANKCOUNTRY;
 
         @Test
-        public void addNewCountry() {
+        public void T001_addNewCountry() {
             log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
-            User admin = TESTADMIN;
-            Country country = TESTCOUNTRY;
             app.getAdminUserHelper().logindAs(admin);
             app.getPages().adminInternalPage.clickOnAdminTab("Clubs");
             app.getPages().adminInternalPage.clickOnAdminTab("Countries");
@@ -30,12 +32,68 @@ public class AddNewCountry extends TestBase {
             app.getPages().internalPage.setLanguage("eng");
             app.getPages().clubsPage.checkCountryExists(country);
             app.getPages().internalPage.setLanguage("rus");
+            app.getPages().clubsPage.checkCountryExists(country);
             app.getNavigationHelper().gotoAdminPage();
-            app.getPages().adminInternalPage.clickOnAdminTab("Clubs");
-            app.getPages().adminInternalPage.clickOnAdminTab("Countries");
-            app.getPages().adminCountiesPage.deleteItem(country.getTitle(), country.getRusTitle());
+            app.getAdminUserHelper().logout();
             log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         }
+
+    @Test
+    public void T002_editCountry() throws InterruptedException {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Clubs");
+        app.getPages().adminInternalPage.clickOnAdminTab("Countries");
+        app.getPages().adminCountiesPage.clickEditItem(country.getTitle());
+        app.getPages().adminCreateCountryPage.fillAllFieldsWithData(editCountry);
+        app.getPages().adminCreateCountryPage.pressSubmitButton();
+        app.getPages().adminMenuPage.clickLogo();
+        app.getNavigationHelper().gotoClubsPage();
+        app.getPages().internalPage.setLanguage("eng");
+        app.getPages().clubsPage.checkCountryExists(editCountry);
+        app.getPages().internalPage.setLanguage("rus");
+        app.getPages().clubsPage.checkCountryExists(editCountry);
+        app.getNavigationHelper().gotoAdminPage();
+        app.getPages().adminInternalPage.clickOnAdminTab("Clubs");
+        app.getPages().adminInternalPage.clickOnAdminTab("Countries");
+        app.getPages().adminCountiesPage.deleteItem(editCountry.getTitle(), editCountry.getRusTitle());
+        app.getNavigationHelper().gotoAdminPage();
+        app.getAdminUserHelper().logout();
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
+
+    @Test
+    public void T003_addBlankCountry() {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Clubs");
+        app.getPages().adminInternalPage.clickOnAdminTab("Countries");
+        app.getPages().adminCountiesPage.clickAddItemButton();
+        app.getPages().adminCreateCountryPage.fillAllFieldsWithData(blankCountry);
+        app.getPages().adminCreateCountryPage.pressSubmitButton();
+        app.getPages().adminCreateCountryPage.checkRequiredFieldsMessages();
+        app.getNavigationHelper().gotoAdminPage();
+        app.getAdminUserHelper().logout();
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
+
+    @Test
+    public void T004_cancelAddingNewCountry() {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Clubs");
+        app.getPages().adminInternalPage.clickOnAdminTab("Countries");
+        app.getPages().adminCountiesPage.clickAddItemButton();
+        app.getPages().adminCreateCountryPage.fillAllFieldsWithData(country);
+        app.getPages().adminCreateCountryPage.pressCancelButton();
+        app.getPages().adminMenuPage.clickLogo();
+        app.getNavigationHelper().gotoClubsPage();
+        app.getPages().internalPage.setLanguage("eng");
+        app.getPages().clubsPage.checkCountryDoesntExist(country);
+        app.getNavigationHelper().gotoAdminPage();
+        app.getAdminUserHelper().logout();
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
 
         @AfterMethod
         public void saveScreenshot(ITestResult testResult) throws IOException {

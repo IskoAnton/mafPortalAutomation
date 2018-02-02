@@ -4,7 +4,7 @@ public class News extends TabItem{
     private String title;
     private String slug;
     private String date;
-    private String descripion;
+    private String description;
     private String text;
     private String metaTitle;
     private String socialMetaTitle;
@@ -12,7 +12,7 @@ public class News extends TabItem{
     private String socialMetaDescription;
     private String metaKeywords;
     private String rusTitle;
-    private String rusDescripion;
+    private String rusDescription;
     private String rusText;
     private String rusMetaTitle;
     private String rusSocialMetaTitle;
@@ -22,11 +22,11 @@ public class News extends TabItem{
 
 
 
-    public News(String title, String slug, String date, String description, String text, String metaTitle, String socialMetaTitle, String metaDescription, String socialMetaDescription, String metaKeywords, String rusTitle, String rusDescripion, String rusText, String rusMetaTitle, String rusSocialMetaTitle, String rusMetaDescription, String rusSocialMetaDescription, String rusMetaKeywords) {
+    public News(String title, String slug, String date, String description, String text, String metaTitle, String socialMetaTitle, String metaDescription, String socialMetaDescription, String metaKeywords, String rusTitle, String rusDescription, String rusText, String rusMetaTitle, String rusSocialMetaTitle, String rusMetaDescription, String rusSocialMetaDescription, String rusMetaKeywords) {
         this.title = title;
         this.slug = slug;
         this.date = date;
-        this.descripion = description;
+        this.description = description;
         this.text = text;
 
         this.metaTitle = metaTitle;
@@ -35,7 +35,7 @@ public class News extends TabItem{
         this.socialMetaDescription = socialMetaDescription;
         this.metaKeywords = metaKeywords;
         this.rusTitle = rusTitle;
-        this.rusDescripion = rusDescripion;
+        this.rusDescription = rusDescription;
         this.rusText = rusText;
         this.rusMetaTitle = rusMetaTitle;
         this.rusSocialMetaTitle = rusSocialMetaTitle;
@@ -68,12 +68,12 @@ public class News extends TabItem{
         this.date = date;
     }
 
-    public String getDescripion() {
-        return descripion;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDescripion(String descripion) {
-        this.descripion = descripion;
+    public void setDescription(String descripion) {
+        this.description = descripion;
     }
 
     public String getText() {
@@ -124,12 +124,12 @@ public class News extends TabItem{
         this.metaKeywords = metaKeywords;
     }
 
-    public String getRusDescripion() {
-        return rusDescripion;
+    public String getRusDescription() {
+        return rusDescription;
     }
 
-    public void setRusDescripion(String rusDescripion) {
-        this.rusDescripion = rusDescripion;
+    public void setRusDescription(String rusDescription) {
+        this.rusDescription = rusDescription;
     }
 
     public String getRusText() {

@@ -32,7 +32,7 @@ public class AddNewRole extends TestBase{
         app.getPages().adminUsersPage.clickAddItemButton();
         assertTrue(app.getPages().adminCreateUserPage.isCheckboxInTheList(role.getName()));
         app.getPages().adminInternalPage.clickOnAdminTab("Roles");
-        app.getPages().adminPagesPage.deleteItem(role.getName(), "Name");
+        app.getPages().adminPagesPage.deleteItem(role.getName());
         //TODO Make checking what user can edit with particular role
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }

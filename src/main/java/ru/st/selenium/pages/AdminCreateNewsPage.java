@@ -7,6 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import ru.st.selenium.model.News;
 
+import static org.testng.AssertJUnit.assertEquals;
+
 public class AdminCreateNewsPage extends AdminCreateItemPage {
     public AdminCreateNewsPage(PageManager pages) {
         super(pages);
@@ -21,27 +23,34 @@ public class AdminCreateNewsPage extends AdminCreateItemPage {
     @Override
     public void fillAllFieldsWithData(Object obj) {
         News news = (News) obj;
-        driver.findElement(By.xpath(TITLE_FIELD_LOCATOR)).sendKeys(news.getTitle());
-        driver.findElement(By.xpath(SLUG_FIELD_LOCATOR)).sendKeys(news.getSlug());
+        sendKeysToTitleField(news);
+        sendKeysToSlugField(news);
         driver.findElement(By.xpath(DATE_FIELD_LOCATOR)).sendKeys(news.getDate());
-        driver.findElement(By.xpath(DESCRIPTION_FIELD_LOCATOR)).sendKeys(news.getDescripion());
-        //typeTextToTextField(news.getText());
-        driver.findElement(By.xpath(META_TITLE_FIELD_LOCATOR)).sendKeys(news.getMetaTitle());
-        driver.findElement(By.xpath(SOCIAL_META_TITLE_FIELD_LOCATOR)).sendKeys(news.getSocialMetaTitle());
-        driver.findElement(By.xpath(META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(news.getMetaDescription());
-        driver.findElement(By.xpath(SOCIAL_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(news.getSocialMetaDescription());
-        driver.findElement(By.xpath(META_KEYWORDS_LOCATOR)).sendKeys(news.getMetaKeywords());
-        driver.findElement(By.xpath(RUS_TAB_LOCATOR)).click();
-        driver.findElement(By.xpath(RUS_TITLE_FIELD_LOCATOR)).sendKeys(news.getRusTitle());
-        driver.findElement(By.xpath(RUS_DESCRIPTION_FIELD_LOCATOR)).sendKeys(news.getRusDescripion());
-        //        typeTextToTextField(news.getText());
-        driver.findElement(By.xpath(RUS_META_TITLE_FIELD_LOCATOR)).sendKeys(news.getRusMetaTitle());
-        driver.findElement(By.xpath(RUS_SOCIAL_META_TITLE_FIELD_LOCATOR)).sendKeys(news.getRusSocialMetaTitle());
-        driver.findElement(By.xpath(RUS_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(news.getRusMetaDescription());
-        driver.findElement(By.xpath(RUS_SOCIAL_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(news.getRusSocialMetaDescription());
-        driver.findElement(By.xpath(RUS_META_KEYWORDS_LOCATOR)).sendKeys(news.getRusMetaKeywords());
+        log("Data + '" + news.getDate() + "' was typed to date field");
+        sendKeysToDescriptionField(news);
+        sendKeysToTextField(news);
+        sendKeysToMetaTitle(news);
+        sendKeysToSocialMetaTitle(news);
+        sendKeysToMetaDescription(news);
+        sendKeysToSocialMetaDescription(news);
+        sendKeysToMetaKeywords(news);
+        clickRusTab();
+        sendKeysToRusTitleField(news);
+        sendKeysToRusDescriptionField(news);
+        sendKeysToRusTextField(news);
+        sendKeysToRusMetaTitle(news);
+        sendKeysToRusSocialMetaTitle(news);
+        sendKeysToRusMetaDescription(news);
+        sendKeysToRusSocialMetaDescription(news);
+        sendKeysToRusMetaKeywords(news);
     }
 
-
-
+    public void checkRequiredFieldsMessages() {
+        String message1 = driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//ul//li")).getText();
+        log("Message 1 is '"+message1+"'");
+        assertEquals(message1, "The title field is required.");
+        String message2 = driver.findElement(By.xpath("//div[@class = 'form-group col-md-6 has-error']/label[contains(text(), 'Title')]/../div[@class = 'help-block']")).getText();
+        log("Message 2 is '"+message2+"'");
+        assertEquals(message2, "The title field is required.");
+    }
 }

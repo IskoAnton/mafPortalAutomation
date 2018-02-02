@@ -19,11 +19,11 @@ public class NewsItemPage extends NewsPage {
         String language = getLanguage();
         if (language.equalsIgnoreCase("rus")) {
             assertEquals(driver.findElement(By.xpath(NEWS_TITLE_LOCATOR)).getText(), news.getRusTitle());
-            assertEquals(driver.findElement(By.xpath(NEWS_DESCRIPTION_LOCATOR)).getText(), news.getRusDescripion());
+            assertEquals(driver.findElement(By.xpath(NEWS_DESCRIPTION_LOCATOR)).getText(), news.getRusDescription());
             //TODO //assertEquals(driver.findElement(By.xpath(NEWS_DATE_LOCATOR)).getText(), news.getDate());
         } else if (language.equalsIgnoreCase("eng")) {
             assertEquals(driver.findElement(By.xpath(NEWS_TITLE_LOCATOR)).getText(), news.getTitle());
-            assertEquals(driver.findElement(By.xpath(NEWS_DESCRIPTION_LOCATOR)).getText(), news.getDescripion());
+            assertEquals(driver.findElement(By.xpath(NEWS_DESCRIPTION_LOCATOR)).getText(), news.getDescription());
             //TODO //assertEquals(driver.findElement(By.xpath(NEWS_DATE_LOCATOR)).getText(), news.getDate());
         }
     }

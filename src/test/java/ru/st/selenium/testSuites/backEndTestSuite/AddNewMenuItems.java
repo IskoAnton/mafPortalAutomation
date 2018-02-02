@@ -19,8 +19,7 @@ public class AddNewMenuItems extends TestBase{
     @Test
     public void addNewMenuItem() {
         User admin = TESTADMIN;
-        MenuItem menuItem = new MenuItem("TestMenu", "Тест меню", "-", "Internal link", "");
-        String language = app.getUserHelper().getLanguage();
+        MenuItem menuItem = TESTMENUITEM;
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         app.getAdminUserHelper().logindAs(admin);
         app.getPages().adminInternalPage.clickOnAdminTab("Menu");

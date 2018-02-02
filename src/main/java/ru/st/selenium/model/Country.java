@@ -2,15 +2,15 @@ package ru.st.selenium.model;
 
 public class Country extends TabItem{
     private String title;
-    private String aboutCountry;
+    private String text;
     private String rusTitle;
-    private String rusAboutCountry;
+    private String rusText;
 
-    public Country(String title, String aboutCountry, String rusTitle, String rusAboutCountry) {
+    public Country(String title, String text, String rusTitle, String rusText) {
         this.title = title;
-        this.aboutCountry = aboutCountry;
+        this.text = text;
         this.rusTitle = rusTitle;
-        this.rusAboutCountry = rusAboutCountry;
+        this.rusText = rusText;
     }
 
     public String getTitle() {
@@ -21,12 +21,12 @@ public class Country extends TabItem{
         this.title = title;
     }
 
-    public String getAboutCountry() {
-        return aboutCountry;
+    public String getText() {
+        return text;
     }
 
-    public void setAboutCountry(String aboutCountry) {
-        this.aboutCountry = aboutCountry;
+    public void setText(String text) {
+        this.text = text;
     }
 
     public String getRusTitle() {
@@ -37,11 +37,11 @@ public class Country extends TabItem{
         this.rusTitle = rusTitle;
     }
 
-    public String getRusAboutCountry() {
-        return rusAboutCountry;
+    public String getRusText() {
+        return rusText;
     }
 
-    public void setRusAboutCountry(String rusAboutCountry) {
-        this.rusAboutCountry = rusAboutCountry;
+    public void setRusText(String rusText) {
+        this.rusText = rusText;
     }
 }

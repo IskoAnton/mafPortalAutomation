@@ -11,16 +11,19 @@ import ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest;
 import java.io.IOException;
 import java.util.logging.Logger;
 
+import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 public class AddNewPermission extends TestBase {
     public static final Logger log = Logger.getLogger(AccountEntryTest.class.getName());
+    User admin = TESTADMIN;
+    Permission permission = TESTPERMISSION;
+    Permission editPermission = TESTEDITPERMISSION;
+    Permission blankPermission = BLANKPERMISSION;
 
     @Test
-    public void addNewPermission() {
+    public void T001_addNewPermission() {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
-        User admin = TESTADMIN;
-        Permission permission = TESTPERMISSION;
         app.getAdminUserHelper().logindAs(admin);
         app.getPages().adminInternalPage.clickOnAdminTab("Users, Roles, Permissions");
         app.getPages().adminInternalPage.clickOnAdminTab("Permissions");
@@ -30,10 +33,39 @@ public class AddNewPermission extends TestBase {
         app.getPages().adminInternalPage.clickOnAdminTab("Roles");
         app.getPages().adminRolePage.clickAddItemButton();
         assertTrue(app.getPages().adminCreateRolePage.isCheckboxInTheList(permission.getName()));
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
+
+    @Test
+    public void T002_editPermission() throws InterruptedException {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Users, Roles, Permissions");
         app.getPages().adminInternalPage.clickOnAdminTab("Permissions");
-        app.getPages().adminCountiesPage.deleteItem(permission.getName(), "Name");
+        app.getPages().adminPermitionPage.clickEditItem(permission.getName());
+        app.getPages().adminCreatePermitionPage.fillAllFieldsWithData(editPermission);
+        app.getPages().adminCreateNewsPage.pressSubmitButton();
+        app.getPages().adminInternalPage.clickOnAdminTab("Roles");
+        app.getPages().adminRolePage.clickAddItemButton();
+        assertTrue(app.getPages().adminCreateRolePage.isCheckboxInTheList(editPermission.getName()));
+        assertFalse(app.getPages().adminCreateRolePage.isCheckboxInTheList(permission.getName()));
+        app.getPages().adminInternalPage.clickOnAdminTab("Permissions");
+        app.getPages().adminCountiesPage.deleteItem(editPermission.getName());
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
 
-
+    @Test
+    public void T003_addBlankPartner() {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Home page");
+        app.getPages().adminInternalPage.clickOnAdminTab("Our Partners");
+        app.getPages().adminPermitionPage.clickAddItemButton();
+        app.getPages().adminCreatePermitionPage.fillAllFieldsWithData(blankPermission);
+        app.getPages().adminCreatePermitionPage.pressSubmitButton();
+        app.getPages().adminCreatePartnerPage.checkRequiredFieldsMessages();
+        app.getNavigationHelper().gotoAdminPage();
+        app.getAdminUserHelper().logout();
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 

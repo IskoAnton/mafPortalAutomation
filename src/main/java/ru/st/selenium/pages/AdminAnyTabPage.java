@@ -4,6 +4,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -36,31 +37,33 @@ public abstract class AdminAnyTabPage extends AdminInternalPage{
             typeToSearchField(rusName);
             driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+rusName+"')]"));
             //Press edit button
-            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]/../..//i[@class = 'fa fa-edit']")).click();
+            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+rusName+"')]/../..//i[@class = 'fa fa-edit']")).click();
 
         }
     }
 
     public void clickEditItem(String name) {
         typeToSearchField(name);
-        driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]"));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]")));
         //Press edit button
         driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]/../..//i[@class = 'fa fa-edit']")).click();
         log("Edit button of " + name + " was clicked");
     }
 
     public void deleteItem(String name, String rusName) {
-        try {
+        String language = getLanguage();
+        if (language.equals("eng")) {
             typeToSearchField(name);
-            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]"));
-            //Press edit button
-            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]/..//a[@data-button-type = 'delete']")).click();
-        } catch (Exception e) {
+            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '" + name + "')]"));
+            //Press delete button
+            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '" + name + "')]/..//a[@data-button-type = 'delete']")).click();
+        } else if(language.equals("rus")) {
             typeToSearchField(rusName);
-            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+rusName+"')]"));
+            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '" + rusName + "')]"));
             //Press edit button
-            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+rusName+"')]/..//a[@data-button-type = 'delete']")).click();
+            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '" + rusName + "')]/..//a[@data-button-type = 'delete']")).click();
         }
+
 
         Alert alert = driver.switchTo().alert();
         alert.accept();

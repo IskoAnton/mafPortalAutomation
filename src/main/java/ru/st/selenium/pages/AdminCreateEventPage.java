@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import static org.testng.AssertJUnit.assertEquals;
+
 public class AdminCreateEventPage extends AdminCreateItemPage {
     public AdminCreateEventPage(PageManager pages) {
         super(pages);
@@ -29,7 +31,9 @@ public class AdminCreateEventPage extends AdminCreateItemPage {
         chooseRandomDateInNextMonth();
         putThreeRandomCheckboxes();
         Select ratingTableSelect = new Select(driver.findElement(By.xpath("//select[@name='table_ratings_id']")));
-        ratingTableSelect.selectByVisibleText(event.getRatingTable());
+        if (!event.getRatingTable().equals("")) {
+            ratingTableSelect.selectByVisibleText(event.getRatingTable());
+        }
         sendKeysToDescriptionField(event);
         sendKeysToTextField(event);
         addFile(imageDirectory);
@@ -37,5 +41,14 @@ public class AdminCreateEventPage extends AdminCreateItemPage {
         sendKeysToRusTitleField(event);
         sendKeysToRusDescriptionField(event);
 
+    }
+
+    public void checkRequiredFieldsMessages() {
+        String message1 = driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//ul//li")).getText();
+        log("Message 1 is '"+message1+"'");
+        assertEquals(message1, "The title field is required.");
+        String message2 = driver.findElement(By.xpath("//div[@class = 'form-group col-md-6 has-error']/label[contains(text(), 'Title')]/../div[@class = 'help-block']")).getText();
+        log("Message 2 is '"+message2+"'");
+        assertEquals(message2, "The title field is required.");
     }
 }

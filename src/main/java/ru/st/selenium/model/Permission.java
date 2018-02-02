@@ -1,6 +1,6 @@
 package ru.st.selenium.model;
 
-public class Permission {
+public class Permission  extends TabItem{
     private String name;
 
     public String getName() {

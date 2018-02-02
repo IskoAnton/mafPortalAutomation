@@ -27,37 +27,44 @@ public class NavigationHelper2 extends DriverBasedHelper implements NavigationHe
 
   @Override
   public void gotoClubsPage() {
-    driver.get(baseUrl + "/clubs/");
+    pages.internalPage.clickClubsButton();
+
   }
 
   @Override
   public void gotoTheGamePage() {
-    driver.get(baseUrl + "/the-game/");
+    pages.internalPage.clickTheGameButton();
+    //driver.get(baseUrl + "/the-game/");
   }
 
   @Override
   public void gotoNewsPage() {
-    driver.get(baseUrl + "/news/");
+    pages.internalPage.clickNewsButton();
+    //driver.get(baseUrl + "/news/");
   }
 
   @Override
   public void gotoTournamentsPage() {
-    driver.get(baseUrl + "/tournaments/");
+    pages.internalPage.clickTournamentsButton();
+    //driver.get(baseUrl + "/tournaments/");
   }
 
   @Override
   public void gotoHistoryPage() {
+    pages.internalPage.clickHistoryButton();
     driver.get(baseUrl + "/history/");
   }
 
   @Override
   public void gotoGalleryPage() {
-    driver.get(baseUrl + "/gallery/");
+    pages.internalPage.clickGalleryButton();
+    //driver.get(baseUrl + "/gallery/");
   }
 
   @Override
   public void gotoShopPage() {
-    driver.get(baseUrl + "/shop/");
+    pages.internalPage.clickShopButton();
+    //driver.get(baseUrl + "/shop/");
   }
 
   @Override

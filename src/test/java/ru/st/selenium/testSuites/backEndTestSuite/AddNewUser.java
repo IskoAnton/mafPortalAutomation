@@ -17,23 +17,23 @@ public class AddNewUser extends TestBase{
     public void addNewUser() throws InterruptedException {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User admin = TESTADMIN;
-        User user = TESTUSER;
+        User user1 = TESTUSER;
         app.getAdminUserHelper().logindAs(admin);
         app.getPages().adminInternalPage.clickOnAdminTab("Users, Roles, Permissions");
         app.getPages().adminInternalPage.clickOnAdminTab("Users");
         app.getPages().adminUsersPage.clickAddItemButton();
-        app.getPages().adminCreateUserPage.fillAllFieldsWithData(user);
+        app.getPages().adminCreateUserPage.fillAllFieldsWithData(user1);
         app.getPages().adminCreateClubPage.pressSubmitButton();
-        /*app.getPages().adminMenuPage.clickLogo();
+        app.getPages().adminMenuPage.clickLogo();
         app.getUserHelper().logout();
         app.getPages().internalPage.setLanguage("eng");
-        app.getUserHelper().loginAs(user);
+        app.getUserHelper().loginAs(user1);
         app.getPages().internalPage.clickAccountButton();
-        app.getPages().accountPage.checkDataOnAccountPage(user);
+        app.getPages().accountPage.checkDataOnAccountPage(user1);
         app.getUserHelper().logout();
         app.getNavigationHelper().gotoHomePage();
         app.getAdminUserHelper().logindAs(TESTADMIN);
-        app.getAdminUserHelper().removeUserFromDB(user);*/
+        app.getAdminUserHelper().removeUserFromDB(user1);
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 

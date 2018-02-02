@@ -48,53 +48,85 @@ public class AdminCreateUserPage extends AdminCreateItemPage {
     public void fillAllFieldsWithData(User user) {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(PAGE_NAME_FIELD_LOCATOR)));
         driver.findElement(By.xpath(PAGE_NAME_FIELD_LOCATOR)).sendKeys(user.getName());
+        log("Name '" + user.getName() + "' was typed to name field");
         driver.findElement(By.xpath(LAST_NAME_FIELD_LOCATOR)).sendKeys(user.getLastName());
+        log("Last name '" + user.getLastName() + "' was typed to last name field");
         driver.findElement(By.xpath(NICKNAME_FIELD_LOCATOR)).sendKeys(user.getNickName());
+        log("Nickname '" + user.getNickName() + "' was typed to nickname field");
         driver.findElement(By.xpath(EMAIL_FIELD_LOCATOR)).sendKeys(user.getLogin());
+        log("Email '" + user.getLogin() + "' was typed to ename field");
         driver.findElement(By.xpath(PASSWORD_FIELD_LOCATOR)).sendKeys(user.getPassword());
+        log("Password '" + user.getPassword() + "' was typed to password field");
         driver.findElement(By.xpath(PASSWORD_CONFIRMATION_FIELD_LOCATOR)).sendKeys(user.getPasswordConfirmation());
+        log("Password confirmaion'" + user.getPasswordConfirmation() + "' was typed to password confirmation field");
         driver.findElement(By.xpath(CLUBS_FIELD_LOCATOR)).sendKeys(user.getClub());
         driver.findElement(By.xpath(CLUBS_FIELD_LOCATOR)).sendKeys(Keys.ENTER);
+        log("Club '" + user.getClub() + "' was typed to clyb field");
         //TODO Put random checkboxes
         driver.findElement(By.xpath("//a[contains(text(), 'Payment data')]")).click();
+        log("Payment data button was pressed");
 
         if (user.getShippingAddress().getTitle().equals(Address.Title.MR)) {
             driver.findElement(By.xpath(SHIPPING_MR_LOCATOR)).click();
+            log("Title MR was chosen in shipping address");
         }
         if (user.getShippingAddress().getTitle().equals(Address.Title.MRS)) {
             driver.findElement(By.xpath(SHIPPING_MRS_LOCATOR)).click();
+            log("Title MRS was chosen in shipping address");
         }
         if(user.getShippingAddress().getTitle().equals(Address.Title.MS)) {
             driver.findElement(By.xpath(SHIPPING_MS_LOCATOR)).click();
+            log("Title MS was chosen in shipping address");
         }
 
         driver.findElement(By.xpath(SHIPPING_NAME_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getName());
+        log("Shipping name '" + user.getShippingAddress().getName() + "' was typed to shipping name field");
         driver.findElement(By.xpath(SHIPPING_ADDRESS1_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getAddressLine1());
+        log("Shipping address1 '" + user.getShippingAddress().getAddressLine1() + "' was typed to address line 1 field");
         driver.findElement(By.xpath(SHIPPING_ADDRESS2_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getAddressLine2());
+        log("Shipping address1 '" + user.getShippingAddress().getAddressLine2() + "' was typed to address line 2 field");
         driver.findElement(By.xpath(SHIPPING_CITY_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getCity());
+        log("Shipping city '" + user.getShippingAddress().getCity() + "' was typed to shipping city field");
         driver.findElement(By.xpath(SHIPPING_REGION_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getRegion());
+        log("Shipping region '" + user.getShippingAddress().getRegion() + "' was typed to shipping region field");
         driver.findElement(By.xpath(SHIPPING_COUNTRY_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getCountry());
+        log("Shipping country '" + user.getShippingAddress().getCountry() + "' was typed to shipping country field");
         driver.findElement(By.xpath(SHIPPING_ZIP_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getZip());
+        log("Shipping zip '" + user.getShippingAddress().getZip() + "' was typed to shipping zip field");
         driver.findElement(By.xpath(SHIPPING_EMAIL_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getEmail());
+        log("Shipping email '" + user.getShippingAddress().getEmail() + "' was typed to email field");
+        log("Shipping address was filled");
 
         if (user.getBillingAddress().getTitle().equals(Address.Title.MR)) {
             driver.findElement(By.xpath(BILLING_MR_LOCATOR)).click();
+            log("Title MR was chosen in billing address");
         }
         if (user.getBillingAddress().getTitle().equals(Address.Title.MRS)) {
             driver.findElement(By.xpath(BILLING_MRS_LOCATOR)).click();
+            log("Title MRS was chosen in billing address");
         }
         if(user.getBillingAddress().getTitle().equals(Address.Title.MS)) {
             driver.findElement(By.xpath(BILLING_MS_LOCATOR)).click();
+            log("Title MS was chosen in billing address");
         }
 
         driver.findElement(By.xpath(BILLING_NAME_FIELD_LOCATOR)).sendKeys(user.getBillingAddress().getName());
+        log("Billing name '" + user.getBillingAddress().getName() + "' was typed to billing name field");
         driver.findElement(By.xpath(BILLING_ADDRESS1_FIELD_LOCATOR)).sendKeys(user.getBillingAddress().getAddressLine1());
+        log("Billing address1 '" + user.getBillingAddress().getAddressLine1() + "' was typed to address line 1 field");
         driver.findElement(By.xpath(BILLING_ADDRESS2_FIELD_LOCATOR)).sendKeys(user.getBillingAddress().getAddressLine2());
+        log("Billing address1 '" + user.getBillingAddress().getAddressLine2() + "' was typed to address line 2 field");
         driver.findElement(By.xpath(BILLING_CITY_FIELD_LOCATOR)).sendKeys(user.getBillingAddress().getCity());
+        log("Billing city '" + user.getBillingAddress().getCity() + "' was typed to billing city field");
         driver.findElement(By.xpath(BILLING_REGION_FIELD_LOCATOR)).sendKeys(user.getBillingAddress().getRegion());
+        log("Billing region '" + user.getBillingAddress().getRegion() + "' was typed to billing region field");
         driver.findElement(By.xpath(BILLING_COUNTRY_FIELD_LOCATOR)).sendKeys(user.getBillingAddress().getCountry());
+        log("Billing country '" + user.getBillingAddress().getCountry() + "' was typed to billing country field");
         driver.findElement(By.xpath(BILLING_ZIP_FIELD_LOCATOR)).sendKeys(user.getBillingAddress().getZip());
+        log("Billing zip '" + user.getBillingAddress().getZip() + "' was typed to billing zip field");
         driver.findElement(By.xpath(BILLING_EMAIL_FIELD_LOCATOR)).sendKeys(user.getBillingAddress().getEmail());
+        log("Billing email '" + user.getBillingAddress().getEmail() + "' was typed to billing email field");
+        log("Billing address was filled");
 
     }
 }

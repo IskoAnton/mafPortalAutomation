@@ -106,10 +106,20 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
     public void chooseRandomDateInNextMonth() {
         driver.findElement(By.xpath(DATE_FIELD_LOCATOR)).click();
         driver.findElement(By.xpath("//span[@title = 'Next Month']")).click();
+        String month = driver.findElement(By.xpath("//th[@title = 'Select Month']")).getText();
         Random random = new Random();
-        int randomNumber = random.nextInt(30) + 1;
-        System.out.println("Random number is " + randomNumber);
-        driver.findElement(By.xpath("//table[@class = 'table-condensed']//tbody//td[contains(text(), '"+randomNumber+"')]")).click();
+        int randomNumber;
+        while (true) {
+            try {
+                randomNumber = random.nextInt(31) + 1;
+                System.out.println("Random number is " + randomNumber);
+                driver.findElement(By.xpath("//table[@class = 'table-condensed']//tbody//td[@class = 'day' and contains(text(), '" + randomNumber + "') or @class = 'day weekend' and contains(text(), '" + randomNumber + "')]")).click();
+                break;
+            } catch (Exception e) {
+
+            }
+        }
+        log("Chosen date is " + randomNumber + " " + month );
     }
 
     public void clickRusTab() {
@@ -122,6 +132,14 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
     }
 
     public void putThreeRandomCheckboxes() {
+        List<WebElement> checkedCheckboxes = driver.findElements(By.xpath("//input[@checked = 'checked']"));
+        if (!checkedCheckboxes.isEmpty()) {
+            for (int i = 0; i < checkedCheckboxes.size(); i++) {
+                checkedCheckboxes.get(i).click();
+            }
+        }
+        chosenCheckboxes.clear();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'checkbox']")));
         List<WebElement> clubs = driver.findElements(By.xpath("//div[@class = 'checkbox']"));
         Random randomGenerator = new Random();
         int index1;
@@ -142,6 +160,8 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
             String checkbox1 = "//div[@class = 'col-sm-4']["+ (index1+1) +"]//label/input";
             clubs.get(index1).findElement(By.xpath(checkbox1)).click();
             chosenCheckboxes.add(club1);
+            String checkBoxName1 = driver.findElement(By.xpath("//div[@class = 'col-sm-4']["+ (index1+1) +"]//label")).getText();
+            log("Checkbox '" + checkBoxName1 + "' was chosen");
         } catch (Exception e) {
 
         }
@@ -151,6 +171,8 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
             String checkbox2 = "//div[@class = 'col-sm-4']["+ (index2+1) +"]//label/input";
             clubs.get(index2).findElement(By.xpath(checkbox2)).click();
             chosenCheckboxes.add(club2);
+            String checkBoxName2 = driver.findElement(By.xpath("//div[@class = 'col-sm-4']["+ (index2+1) +"]//label")).getText();
+            log("Checkbox '" + checkBoxName2 + "' was chosen");
         } catch (Exception e) {
 
         }
@@ -160,6 +182,8 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
             String checkbox3 = "//div[@class = 'col-sm-4']["+ (index3+1) +"]//label/input";
             clubs.get(index3).findElement(By.xpath(checkbox3)).click();
             chosenCheckboxes.add(club3);
+            String checkBoxName3 = driver.findElement(By.xpath("//div[@class = 'col-sm-4']["+ (index3+1) +"]//label")).getText();
+            log("Checkbox '" + checkBoxName3 + "' was chosen");
         } catch (Exception e) {
 
         }
@@ -173,6 +197,7 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
     public boolean isCheckboxInTheList(String checkbox) {
         try {
             wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//label[contains(., '"+checkbox+"')]")));
+            log("Checkbox '" + checkbox + "' is in the list");
             return true;
         }catch (Exception e) {
             return false;
