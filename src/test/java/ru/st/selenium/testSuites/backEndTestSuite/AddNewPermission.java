@@ -55,16 +55,32 @@ public class AddNewPermission extends TestBase {
     }
 
     @Test
-    public void T003_addBlankPartner() {
+    public void T003_addBlankPermission() {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         app.getAdminUserHelper().logindAs(admin);
-        app.getPages().adminInternalPage.clickOnAdminTab("Home page");
-        app.getPages().adminInternalPage.clickOnAdminTab("Our Partners");
+        app.getPages().adminInternalPage.clickOnAdminTab("Users, Roles, Permissions");
+        app.getPages().adminInternalPage.clickOnAdminTab("Permissions");
         app.getPages().adminPermitionPage.clickAddItemButton();
         app.getPages().adminCreatePermitionPage.fillAllFieldsWithData(blankPermission);
         app.getPages().adminCreatePermitionPage.pressSubmitButton();
-        app.getPages().adminCreatePartnerPage.checkRequiredFieldsMessages();
+        app.getPages().adminCreatePermitionPage.checkRequiredFieldsMessages();
         app.getNavigationHelper().gotoAdminPage();
+        app.getAdminUserHelper().logout();
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
+
+    @Test
+    public void T004_cancelAddingNewPermission() {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Users, Roles, Permissions");
+        app.getPages().adminInternalPage.clickOnAdminTab("Permissions");
+        app.getPages().adminPermitionPage.clickAddItemButton();
+        app.getPages().adminCreatePermitionPage.fillAllFieldsWithData(permission);
+        app.getPages().adminCreatePermitionPage.pressCancelButton();
+        app.getPages().adminInternalPage.clickOnAdminTab("Roles");
+        app.getPages().adminRolePage.clickAddItemButton();
+        assertFalse(app.getPages().adminCreateRolePage.isCheckboxInTheList(permission.getName()));
         app.getAdminUserHelper().logout();
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }

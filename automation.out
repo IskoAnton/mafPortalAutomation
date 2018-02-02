@@ -40358,3 +40358,22 @@
 2018-02-01 22:09:31 INFO  AdminInternalPage:84 - Logout button was clicked
 2018-02-01 22:09:31 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
 2018-02-01 22:09:31 INFO  AddNewPermission:113 - --------Finishing "T003_addBlankPartner" test---------
+2018-02-01 22:25:12 INFO  AddNewPermission:113 - --------Starting "T004_cancelAddingNewPermission" test---------
+2018-02-01 22:25:19 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-01 22:25:19 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-01 22:25:20 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-01 22:25:33 INFO  AdminInternalPage:84 - Tab Users, Roles, Permissions was clicked
+2018-02-01 22:25:37 INFO  AdminInternalPage:84 - Tab Permissions was clicked
+2018-02-01 22:25:37 INFO  AdminPermitionPage:84 - Add item was clicked on AdminPermitionPage
+2018-02-01 22:25:37 INFO  AdminCreatePermitionPage:84 - Permission name 'TestPermission' was typed to name field
+2018-02-01 22:25:38 INFO  AdminCreatePermitionPage:84 - Checkbox 'Player' was chosen
+2018-02-01 22:25:38 INFO  AdminCreatePermitionPage:84 - Checkbox 'Editor' was chosen
+2018-02-01 22:25:38 INFO  AdminCreatePermitionPage:84 - Checkbox 'Portal Admin' was chosen
+2018-02-01 22:25:38 INFO  AdminCreatePermitionPage:84 - Trying to click cancel button
+2018-02-01 22:25:38 INFO  AdminCreatePermitionPage:84 - Cancel button was clicked
+2018-02-01 22:25:41 INFO  AdminInternalPage:84 - Tab Roles was clicked
+2018-02-01 22:25:41 INFO  AdminRolePage:84 - Add item was clicked on AdminRolePage
+2018-02-01 22:26:11 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-01 22:26:12 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-01 22:26:12 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-01 22:26:12 INFO  AddNewPermission:113 - --------Finishing "T004_cancelAddingNewPermission" test---------

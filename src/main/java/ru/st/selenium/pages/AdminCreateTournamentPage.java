@@ -29,7 +29,6 @@ public class AdminCreateTournamentPage extends AdminCreateItemPage{
         chooseRandomDateInNextMonth();
         driver.findElement(By.xpath(DESCRIPTION_FIELD_LOCATOR)).sendKeys(tournament.getDescripion());
         driver.findElement(By.xpath(RATING_OVERVIEW_FIELD_LOCATOR)).sendKeys(tournament.getRatingOverview());
-        String imageDirectory = System.getProperty("user.dir") + "\\src\\main\\resources\\uploads\\test.png";
         addFile(imageDirectory);
         try {
             Thread.sleep(10000);
