@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -90,6 +91,7 @@ public class AdminInternalPage extends AnyPage {
     }
 
     public void clickLogo() {
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(LOGO_LOCATOR)));
         driver.findElement(By.xpath(LOGO_LOCATOR)).click();
     }
 
