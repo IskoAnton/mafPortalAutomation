@@ -39,7 +39,7 @@ public class AdminCreateClubPage extends AdminCreateItemPage {
             log("Rating table " + club.getRatingTable() + " was selected");
         }
         sendKeysToTextField(club);
-        addFile(imageDirectory);
+        //addFile(imageDirectory);
         clickRusTab();
         sendKeysToRusTextField(club);
     }

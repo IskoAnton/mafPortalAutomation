@@ -20,7 +20,7 @@ public class AdminCreatePartnerPage extends AdminCreateItemPage{
         driver.findElement(By.xpath(PAGE_NAME_FIELD_LOCATOR)).sendKeys(partner.getName());
         driver.findElement(By.xpath(LINK_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(LINK_FIELD_LOCATOR)).sendKeys(partner.getLink());
-        addFile(imageDirectory);
+        //addFile(imageDirectory);
     }
 
     public void checkRequiredFieldsMessages() {

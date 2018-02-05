@@ -14,6 +14,6 @@ public class AdminCreateTestimonialPage extends AdminCreateItemPage {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(PAGE_NAME_FIELD_LOCATOR)));
         driver.findElement(By.xpath(PAGE_NAME_FIELD_LOCATOR)).sendKeys(testimonial.getName());
         driver.findElement(By.xpath("//textarea[@name = 'text']")).sendKeys(testimonial.getText());
-        addFile(imageDirectory);
+        //addFile(imageDirectory);
     }
 }

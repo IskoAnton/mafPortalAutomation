@@ -36,6 +36,6 @@ public class AdminCreatePhotoGalleryPage extends AdminCreateItemPage{
         if (photoGallery.isShowInGlobalGallery()) {
             driver.findElement(By.xpath(SHOW_IN_GLOBAL_GALLERY_LOCATOR)).click();
         }
-        addFile(imageDirectory);
+        //addFile(imageDirectory);
     }
 }

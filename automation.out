@@ -40409,3 +40409,151 @@
 2018-02-05 13:35:33 INFO  AdminPagesPage:84 - Text TestTournamentTitle was typed to the search field
 2018-02-05 13:35:35 INFO  AdminPagesPage:84 - Item TestTournamentTitle has been deleted
 2018-02-05 13:35:35 INFO  AddNewTournamentItem:113 - --------Finishing "addNewTournament" test---------
+2018-02-05 13:43:08 INFO  AccountEntryTest:19 - --------Starting "addNewTournament" test---------
+2018-02-05 13:43:15 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 13:43:16 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 13:43:17 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 13:43:25 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:43:26 INFO  AdminTournamentsPage:84 - Add item was clicked on AdminTournamentsPage
+2018-02-05 13:43:27 INFO  AdminCreateTournamentPage:84 - Chosen date is 29 March 2018
+2018-02-05 13:43:28 INFO  AdminCreateTournamentPage:84 - File was added succsessfully
+2018-02-05 13:43:40 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-02-05 13:43:42 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-02-05 13:43:44 INFO  InternalPage:84 - Language was set as rus
+2018-02-05 13:43:46 INFO  InternalPage:84 - Language was set as eng
+2018-02-05 13:43:49 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:43:50 INFO  AdminPagesPage:84 - Text TestTournamentTitle was typed to the search field
+2018-02-05 13:43:52 INFO  AdminPagesPage:84 - Item TestTournamentTitle has been deleted
+2018-02-05 13:43:52 INFO  AddNewTournamentItem:113 - --------Finishing "addNewTournament" test---------
+2018-02-05 13:44:32 INFO  AccountEntryTest:19 - --------Starting "addNewTournament" test---------
+2018-02-05 13:44:40 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 13:44:40 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 13:44:41 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 13:44:49 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:44:51 INFO  AdminTournamentsPage:84 - Add item was clicked on AdminTournamentsPage
+2018-02-05 13:44:51 INFO  AdminCreateTournamentPage:84 - Chosen date is 7 March 2018
+2018-02-05 13:44:52 INFO  AdminCreateTournamentPage:84 - File was added succsessfully
+2018-02-05 13:45:04 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-02-05 13:45:06 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-02-05 13:45:08 INFO  InternalPage:84 - Language was set as rus
+2018-02-05 13:45:10 INFO  InternalPage:84 - Language was set as eng
+2018-02-05 13:45:12 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:45:13 INFO  AdminPagesPage:84 - Text TestTournamentTitle was typed to the search field
+2018-02-05 13:45:16 INFO  AdminPagesPage:84 - Item TestTournamentTitle has been deleted
+2018-02-05 13:45:16 INFO  AddNewTournamentItem:113 - --------Finishing "addNewTournament" test---------
+2018-02-05 13:45:36 INFO  AccountEntryTest:19 - --------Starting "addNewTournament" test---------
+2018-02-05 13:45:43 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 13:45:43 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 13:45:44 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 13:45:52 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:45:53 INFO  AdminTournamentsPage:84 - Add item was clicked on AdminTournamentsPage
+2018-02-05 13:45:54 INFO  AdminCreateTournamentPage:84 - Chosen date is 22 March 2018
+2018-02-05 13:45:55 INFO  AdminCreateTournamentPage:84 - File was added succsessfully
+2018-02-05 13:46:07 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-02-05 13:46:09 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-02-05 13:46:11 INFO  InternalPage:84 - Language was set as rus
+2018-02-05 13:46:12 INFO  InternalPage:84 - Language was set as eng
+2018-02-05 13:46:15 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:46:16 INFO  AdminPagesPage:84 - Text TestTournamentTitle was typed to the search field
+2018-02-05 13:46:18 INFO  AdminPagesPage:84 - Item TestTournamentTitle has been deleted
+2018-02-05 13:46:18 INFO  AddNewTournamentItem:113 - --------Finishing "addNewTournament" test---------
+2018-02-05 13:47:47 INFO  AccountEntryTest:19 - --------Starting "addNewTournament" test---------
+2018-02-05 13:47:54 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 13:47:54 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 13:47:55 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 13:48:03 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:48:04 INFO  AdminTournamentsPage:84 - Add item was clicked on AdminTournamentsPage
+2018-02-05 13:48:05 INFO  AdminCreateTournamentPage:84 - Chosen date is 8 March 2018
+2018-02-05 13:48:06 INFO  AdminCreateTournamentPage:84 - C:\Devel\mafPortalAutomation
+2018-02-05 13:48:06 INFO  AdminCreateTournamentPage:84 - C:\Devel\mafPortalAutomation\src\main\resources\uploads\test.png
+2018-02-05 13:48:06 INFO  AdminCreateTournamentPage:84 - File was added succsessfully
+2018-02-05 13:48:18 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-02-05 13:48:21 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-02-05 13:48:23 INFO  InternalPage:84 - Language was set as rus
+2018-02-05 13:48:25 INFO  InternalPage:84 - Language was set as eng
+2018-02-05 13:48:28 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:48:28 INFO  AdminPagesPage:84 - Text TestTournamentTitle was typed to the search field
+2018-02-05 13:48:31 INFO  AdminPagesPage:84 - Item TestTournamentTitle has been deleted
+2018-02-05 13:48:31 INFO  AddNewTournamentItem:113 - --------Finishing "addNewTournament" test---------
+2018-02-05 13:57:28 INFO  AddNewUser:113 - --------Starting "addNewUser" test---------
+2018-02-05 13:57:35 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 13:57:35 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 13:57:36 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 13:57:44 INFO  AdminInternalPage:84 - Tab Users, Roles, Permissions was clicked
+2018-02-05 13:57:47 INFO  AdminInternalPage:84 - Tab Users was clicked
+2018-02-05 13:57:48 INFO  AdminUsersPage:84 - Add item was clicked on AdminUsersPage
+2018-02-05 13:57:48 INFO  AdminCreateUserPage:84 - Name 'TestName' was typed to name field
+2018-02-05 13:57:48 INFO  AdminCreateUserPage:84 - Last name 'TestLastName' was typed to last name field
+2018-02-05 13:57:48 INFO  AdminCreateUserPage:84 - Nickname 'TestNickName' was typed to nickname field
+2018-02-05 13:57:48 INFO  AdminCreateUserPage:84 - Email 'isko.antontest@gmail.com' was typed to ename field
+2018-02-05 13:57:49 INFO  AdminCreateUserPage:84 - Password '12345678' was typed to password field
+2018-02-05 13:57:49 INFO  AdminCreateUserPage:84 - Password confirmaion'12345678' was typed to password confirmation field
+2018-02-05 13:57:49 INFO  AdminCreateUserPage:84 - Club 'Los Angeles' was typed to clyb field
+2018-02-05 13:57:49 INFO  AdminCreateUserPage:84 - Payment data button was pressed
+2018-02-05 13:57:49 INFO  AdminCreateUserPage:84 - Title MR was chosen in shipping address
+2018-02-05 13:57:49 INFO  AdminCreateUserPage:84 - Shipping name 'TestUser' was typed to shipping name field
+2018-02-05 13:57:49 INFO  AdminCreateUserPage:84 - Shipping address1 '1257 Montgomery street' was typed to address line 1 field
+2018-02-05 13:57:49 INFO  AdminCreateUserPage:84 - Shipping address1 'apt 47' was typed to address line 2 field
+2018-02-05 13:57:49 INFO  AdminCreateUserPage:84 - Shipping city 'San Francisco' was typed to shipping city field
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Shipping region 'California' was typed to shipping region field
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Shipping country 'USA' was typed to shipping country field
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Shipping zip '98542' was typed to shipping zip field
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Shipping email 'testemail@test.com' was typed to email field
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Shipping address was filled
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Title MR was chosen in billing address
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Billing name 'TestUser' was typed to billing name field
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Billing address1 '1257 Montgomery street' was typed to address line 1 field
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Billing address1 'apt 47' was typed to address line 2 field
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Billing city 'San Francisco' was typed to billing city field
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Billing region 'California' was typed to billing region field
+2018-02-05 13:57:50 INFO  AdminCreateUserPage:84 - Billing country 'USA' was typed to billing country field
+2018-02-05 13:57:51 INFO  AdminCreateUserPage:84 - Billing zip '98542' was typed to billing zip field
+2018-02-05 13:57:51 INFO  AdminCreateUserPage:84 - Billing email 'testemail@test.com' was typed to billing email field
+2018-02-05 13:57:51 INFO  AdminCreateUserPage:84 - Billing address was filled
+2018-02-05 13:57:51 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-02-05 13:57:52 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-02-05 13:58:05 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-05 13:58:09 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-05 13:58:09 INFO  UserHelper2:24 - Logout successful
+2018-02-05 13:58:09 INFO  InternalPage:84 - Language was set as eng
+2018-02-05 13:58:11 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-05 13:58:12 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-02-05 13:58:12 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-02-05 13:58:12 INFO  LoginPage:84 - Submit button clicked
+2018-02-05 13:58:12 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-05 13:58:12 INFO  UserHelper2:24 - Login is successfull
+2018-02-05 13:58:27 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-05 13:58:41 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-05 13:58:44 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-05 13:58:44 INFO  UserHelper2:24 - Logout successful
+2018-02-05 13:58:51 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 13:58:51 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 13:58:52 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 13:58:59 INFO  AdminInternalPage:84 - Tab Users, Roles, Permissions was clicked
+2018-02-05 13:59:02 INFO  AdminInternalPage:84 - Tab Users was clicked
+2018-02-05 13:59:02 INFO  AdminUsersPage:84 - Admin Users page was loaded successfully
+2018-02-05 13:59:03 INFO  AdminUsersPage:84 - Text isko.antontest@gmail.com was typed to the search field
+2018-02-05 13:59:05 INFO  AdminUsersPage:84 - Alert about deleting was accepted
+2018-02-05 13:59:05 INFO  AdminUsersPage:84 - User isko.antontest@gmail.com deleted
+2018-02-05 13:59:05 INFO  AddNewUser:113 - --------Finishing "addNewUser" test---------
+2018-02-05 13:59:42 INFO  AccountEntryTest:22 - --------Starting "registrationOfNewUserTest" test---------
+2018-02-05 13:59:43 INFO  InternalPage:84 - Language was set as rus
+2018-02-05 13:59:45 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-05 13:59:46 INFO  RegistrationPage:84 - Internal page was loaded successfully |||||| 
+2018-02-05 13:59:46 INFO  RegistrationPage:84 - Registration page was loaded successfully
+2018-02-05 13:59:51 INFO  RegistrationPage:84 - Message after registration is: "You have successfully registered. A link to confirm your registration has been sent to your email address."
+2018-02-05 13:59:56 INFO  MailHelper2:99 - Email registration link in email is "http://34.214.90.155/ru/register/verify/token_GSTgnw2oBsk20jYCDYM5"
+2018-02-05 14:00:00 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-05 14:00:01 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-02-05 14:00:01 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-02-05 14:00:01 INFO  LoginPage:84 - Submit button clicked
+2018-02-05 14:00:01 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-05 14:00:01 INFO  UserHelper2:24 - Login is successfull
+2018-02-05 14:00:15 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-05 14:00:16 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-02-05 14:00:16 INFO  AccountPage:84 - Account page was loaded successfully
+2018-02-05 14:00:16 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-02-05 14:00:28 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-05 14:00:32 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-05 14:00:32 INFO  UserHelper2:24 - Logout successful
+2018-02-05 14:00:32 INFO  AccountEntryTest:31 - --------Finishing "registrationOfNewUserTest" test---------

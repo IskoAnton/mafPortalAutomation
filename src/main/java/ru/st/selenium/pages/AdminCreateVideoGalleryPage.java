@@ -37,7 +37,7 @@ public class AdminCreateVideoGalleryPage extends AdminCreateItemPage{
             driver.findElement(By.xpath(SHOW_IN_GLOBAL_GALLERY_LOCATOR)).click();
         }
         driver.findElement(By.xpath(YOUTUBE_LINK_FIELD_LOCATOR)).sendKeys(videoGallery.getYoutubeLink());
-        addFile(imageDirectory);
+        //addFile(imageDirectory);
 
     }
 }
