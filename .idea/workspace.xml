@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4c7cc6-7b60-40eb-8619-82b4c4575695" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateTournamentPage.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateTournamentPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automation.out" afterPath="$PROJECT_DIR$/automation.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateClubPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateClubPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateEventPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateEventPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreatePartnerPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreatePartnerPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreatePhotoGalleryPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreatePhotoGalleryPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateSlidePage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateSlidePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateTestimonialPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateTestimonialPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateTournamentPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateTournamentPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateVideoGalleryPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateVideoGalleryPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,8 +75,8 @@
       <file leaf-file-name="UploadingPhoto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/UploadingPhoto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="51" lean-forward="true" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -96,8 +85,8 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="78" column="66" lean-forward="false" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="66" />
+            <state relative-caret-position="1619">
+              <caret line="108" column="14" lean-forward="false" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -1236,14 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/UploadingPhoto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/frontEndTestSuite/NewUserRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1252,10 +1233,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/UploadingPhoto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" lean-forward="true" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="78" column="66" lean-forward="false" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="66" />
+        <state relative-caret-position="1619">
+          <caret line="108" column="14" lean-forward="false" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
           <folding />
         </state>
       </provider>

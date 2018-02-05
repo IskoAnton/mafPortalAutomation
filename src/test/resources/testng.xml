@@ -26,12 +26,12 @@
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest"/>
 		</classes>
 	</test>
-	<test name="Forgot password tests">
+	<!--<test name="Forgot password tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest"/>
 		</classes>
-	</test>
+	</test>-->
 	<test name="Buy item tests">
 		<parameter name="path" value="/"/>
 		<classes>
@@ -101,12 +101,12 @@
 		</classes>
 	</test>
 
-	<test name="Upload images test">
+	<!--<test name="Upload images test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.UploadingPhoto"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Add new slide to homepage">
 		<parameter name="path" value="/"/>
