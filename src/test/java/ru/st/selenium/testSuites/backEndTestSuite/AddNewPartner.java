@@ -26,7 +26,7 @@ public class AddNewPartner extends TestBase {
         app.getPages().adminPartnerPage.clickAddItemButton();
         app.getPages().adminCreatePartnerPage.fillAllFieldsWithData(partner);
         app.getPages().adminCreatePartnerPage.pressSubmitButton();
-        app.getPages().adminInternalPage.clickLogo();
+        app.getNavigationHelper().gotoHomePage();
         app.getPages().homePage.checkDataOfPartners(partner);
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }

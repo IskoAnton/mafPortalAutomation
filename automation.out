@@ -40557,3 +40557,46 @@
 2018-02-05 14:00:32 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
 2018-02-05 14:00:32 INFO  UserHelper2:24 - Logout successful
 2018-02-05 14:00:32 INFO  AccountEntryTest:31 - --------Finishing "registrationOfNewUserTest" test---------
+2018-02-05 15:05:25 INFO  AddNewPartner:113 - --------Starting "T001_addNewPartner" test---------
+2018-02-05 15:05:31 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 15:05:31 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 15:05:32 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 15:05:39 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-02-05 15:05:42 INFO  AdminInternalPage:84 - Tab Our Partners was clicked
+2018-02-05 15:05:43 INFO  AdminPartnerPage:84 - Add item was clicked on AdminPartnerPage
+2018-02-05 15:05:43 INFO  AdminCreatePartnerPage:84 - Trying to click submit button
+2018-02-05 15:05:44 INFO  AdminCreatePartnerPage:84 - Submit button was clicked
+2018-02-05 15:08:34 INFO  AddNewPartner:113 - --------Starting "T001_addNewPartner" test---------
+2018-02-05 15:08:40 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 15:08:41 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 15:08:41 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 15:08:49 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-02-05 15:08:52 INFO  AdminInternalPage:84 - Tab Our Partners was clicked
+2018-02-05 15:08:52 INFO  AdminPartnerPage:84 - Add item was clicked on AdminPartnerPage
+2018-02-05 15:08:52 INFO  AdminCreatePartnerPage:84 - Trying to click submit button
+2018-02-05 15:08:53 INFO  AdminCreatePartnerPage:84 - Submit button was clicked
+2018-02-05 15:08:54 INFO  AddNewPartner:113 - --------Starting "T002_editPartner" test---------
+2018-02-05 15:09:00 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-05 15:09:01 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-05 15:09:01 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-05 15:09:01 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 15:09:01 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 15:09:02 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 15:09:24 INFO  AddNewPartner:113 - --------Starting "T001_addNewPartner" test---------
+2018-02-05 15:09:30 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 15:09:30 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 15:09:31 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 15:09:38 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-02-05 15:09:41 INFO  AdminInternalPage:84 - Tab Our Partners was clicked
+2018-02-05 15:09:42 INFO  AdminPartnerPage:84 - Add item was clicked on AdminPartnerPage
+2018-02-05 15:09:42 INFO  AdminCreatePartnerPage:84 - Trying to click submit button
+2018-02-05 15:09:43 INFO  AdminCreatePartnerPage:84 - Submit button was clicked
+2018-02-05 15:10:36 INFO  AddNewPartner:113 - --------Starting "T001_addNewPartner" test---------
+2018-02-05 15:10:42 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 15:10:43 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 15:10:43 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 15:10:50 INFO  AdminInternalPage:84 - Tab Home page was clicked
+2018-02-05 15:10:54 INFO  AdminInternalPage:84 - Tab Our Partners was clicked
+2018-02-05 15:10:54 INFO  AdminPartnerPage:84 - Add item was clicked on AdminPartnerPage
+2018-02-05 15:10:55 INFO  AdminCreatePartnerPage:84 - Trying to click submit button
+2018-02-05 15:10:55 INFO  AdminCreatePartnerPage:84 - Submit button was clicked

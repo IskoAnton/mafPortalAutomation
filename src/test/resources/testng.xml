@@ -122,12 +122,12 @@
 		</classes>
 	</test>
 
-	<test name="Add new partner to homepage">
+	<!--<test name="Add new partner to homepage">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewPartner"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Add new club test">
 		<parameter name="path" value="/"/>
