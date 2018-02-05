@@ -48,7 +48,7 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
     protected final String RUS_META_KEYWORDS_LOCATOR = "//textarea[@name = 'meta_keywords_ru']";
     protected final String RUS_TAB_LOCATOR = "//a[@aria-controls = 'tab_rus']";
 
-    protected String imageDirectory = System.getProperty("user.dir") + "/src/main/resources/uploads/test.png";
+    protected String imageDirectory = System.getProperty("user.dir") + "\\src\\main\\resources\\uploads\\test.png";
 
 
     @FindBy(xpath = ADD_FILE_BUTTON_LOCATOR)

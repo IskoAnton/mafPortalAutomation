@@ -6,7 +6,7 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 	</listeners>
 
-	<test name="All pages are loading test">
+	<!--<test name="All pages are loading test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest"/>
@@ -26,12 +26,12 @@
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest"/>
 		</classes>
 	</test>
-	<!--<test name="Forgot password tests">
+	<test name="Forgot password tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest"/>
 		</classes>
-	</test>-->
+	</test>
 	<test name="Buy item tests">
 		<parameter name="path" value="/"/>
 		<classes>
@@ -71,7 +71,7 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddPageItemTest"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Add tournament items">
 		<parameter name="path" value="/"/>
@@ -80,7 +80,7 @@
 		</classes>
 	</test>
 
-	<test name="Add product items">
+	<!--<test name="Add product items">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewProductItem"/>
@@ -169,5 +169,5 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewPermission"/>
 		</classes>
-	</test>
+	</test>-->
 </suite>

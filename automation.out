@@ -40377,3 +40377,35 @@
 2018-02-01 22:26:12 INFO  AdminInternalPage:84 - Logout button was clicked
 2018-02-01 22:26:12 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
 2018-02-01 22:26:12 INFO  AddNewPermission:113 - --------Finishing "T004_cancelAddingNewPermission" test---------
+2018-02-05 13:32:27 INFO  AccountEntryTest:19 - --------Starting "addNewTournament" test---------
+2018-02-05 13:32:34 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 13:32:34 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 13:32:36 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 13:32:44 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:32:47 INFO  AdminTournamentsPage:84 - Add item was clicked on AdminTournamentsPage
+2018-02-05 13:32:49 INFO  AdminCreateTournamentPage:84 - Chosen date is 12 March 2018
+2018-02-05 13:32:49 INFO  AdminCreateTournamentPage:84 - File was added succsessfully
+2018-02-05 13:33:02 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-02-05 13:33:06 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-02-05 13:33:08 INFO  InternalPage:84 - Language was set as rus
+2018-02-05 13:33:09 INFO  InternalPage:84 - Language was set as eng
+2018-02-05 13:33:12 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:33:12 INFO  AdminPagesPage:84 - Text TestTournamentTitle was typed to the search field
+2018-02-05 13:33:15 INFO  AdminPagesPage:84 - Item TestTournamentTitle has been deleted
+2018-02-05 13:33:15 INFO  AddNewTournamentItem:113 - --------Finishing "addNewTournament" test---------
+2018-02-05 13:34:54 INFO  AccountEntryTest:19 - --------Starting "addNewTournament" test---------
+2018-02-05 13:35:01 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-05 13:35:01 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-05 13:35:02 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-05 13:35:10 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:35:12 INFO  AdminTournamentsPage:84 - Add item was clicked on AdminTournamentsPage
+2018-02-05 13:35:13 INFO  AdminCreateTournamentPage:84 - Chosen date is 31 March 2018
+2018-02-05 13:35:13 INFO  AdminCreateTournamentPage:84 - File was added succsessfully
+2018-02-05 13:35:25 INFO  AdminCreateMenuItemPage:84 - Trying to click submit button
+2018-02-05 13:35:27 INFO  AdminCreateMenuItemPage:84 - Submit button was clicked
+2018-02-05 13:35:28 INFO  InternalPage:84 - Language was set as rus
+2018-02-05 13:35:30 INFO  InternalPage:84 - Language was set as eng
+2018-02-05 13:35:33 INFO  AdminInternalPage:84 - Tab Tournaments was clicked
+2018-02-05 13:35:33 INFO  AdminPagesPage:84 - Text TestTournamentTitle was typed to the search field
+2018-02-05 13:35:35 INFO  AdminPagesPage:84 - Item TestTournamentTitle has been deleted
+2018-02-05 13:35:35 INFO  AddNewTournamentItem:113 - --------Finishing "addNewTournament" test---------
