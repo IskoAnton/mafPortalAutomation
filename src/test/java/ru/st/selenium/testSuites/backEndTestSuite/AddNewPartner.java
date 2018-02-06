@@ -31,7 +31,7 @@ public class AddNewPartner extends TestBase {
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 
-    @Test
+    /*@Test
     public void T002_editPartner() throws InterruptedException {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         app.getAdminUserHelper().logindAs(admin);
@@ -81,7 +81,7 @@ public class AddNewPartner extends TestBase {
         app.getNavigationHelper().gotoAdminPage();
         app.getAdminUserHelper().logout();
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
-    }
+    }*/
 
     @AfterMethod
     public void saveScreenshot(ITestResult testResult) throws IOException {
