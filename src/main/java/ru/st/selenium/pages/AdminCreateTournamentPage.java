@@ -31,7 +31,7 @@ public class AdminCreateTournamentPage extends AdminCreateItemPage{
         driver.findElement(By.xpath(RATING_OVERVIEW_FIELD_LOCATOR)).sendKeys(tournament.getRatingOverview());
         log(System.getProperty("user.dir"));
         log(imageDirectory);
-        //addFile(imageDirectory);
+        addFile(imageDirectory);
         try {
             Thread.sleep(10000);
         } catch (InterruptedException e) {

@@ -27,6 +27,7 @@ public class AdminCreateNewsPage extends AdminCreateItemPage {
         sendKeysToSlugField(news);
         driver.findElement(By.xpath(DATE_FIELD_LOCATOR)).sendKeys(news.getDate());
         log("Data + '" + news.getDate() + "' was typed to date field");
+        addFile(imageDirectory);
         sendKeysToDescriptionField(news);
         sendKeysToTextField(news);
         sendKeysToMetaTitle(news);

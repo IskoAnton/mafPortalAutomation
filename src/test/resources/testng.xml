@@ -6,19 +6,19 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 	</listeners>
 
-	<!--<test name="All pages are loading test">
+	<test name="All pages are loading test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest"/>
 		</classes>
 	</test>
 
-	<test name="New user registration tests">
+	<!--<test name="New user registration tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Login to account">
 		<parameter name="path" value="/"/>
@@ -26,24 +26,27 @@
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest"/>
 		</classes>
 	</test>
-	<test name="Forgot password tests">
+
+	<!--<test name="Forgot password tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest"/>
 		</classes>
-	</test>
+	</test>-->
+
 	<test name="Buy item tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.BuyItemTest"/>
 		</classes>
 	</test>
-	<test name="Delete user from DB">
+
+	<!--<test name="Delete user from DB">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.DeleteUserFromDataBase"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Admin panel entry test">
 		<parameter name="path" value="/"/>
@@ -120,7 +123,7 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewTestimonial"/>
 		</classes>
-	</test>-->
+	</test>
 
 	<test name="Add new partner to homepage">
 		<parameter name="path" value="/"/>
@@ -129,7 +132,7 @@
 		</classes>
 	</test>
 
-	<!--<test name="Add new club test">
+	<test name="Add new club test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewClub"/>
@@ -150,12 +153,12 @@
 		</classes>
 	</test>
 
-	<test name="Add new User through admin panel test">
+	<!--<test name="Add new User through admin panel test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewUser"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Add new Role test">
 		<parameter name="path" value="/"/>
@@ -169,5 +172,5 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewPermission"/>
 		</classes>
-	</test>-->
+	</test>
 </suite>

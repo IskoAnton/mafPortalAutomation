@@ -20,16 +20,16 @@ public class ClubItemPage extends ClubsPage {
         String language = "";
         language = getLanguage();
         if (language.equalsIgnoreCase("rus")) {
-            //TODO wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(CLUB_TITLE_LOCATOR)));
-            //assertEquals(driver.findElement(By.xpath(CLUB_TITLE_LOCATOR)).getText(), club.getRusTitle());
-            //log("Rus title is Ok");
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(CLUB_TITLE_LOCATOR)));
+            assertEquals(driver.findElement(By.xpath(CLUB_TITLE_LOCATOR)).getText(), club.getRusTitle());
+            log("Rus title is Ok");
             assertEquals(driver.findElement(By.xpath(ABOUT_CLUB_LOCATOR)).getText(), club.getRusText());
             log("Rus about club is Ok");
 
         } else if (language.equalsIgnoreCase("eng")) {
-            //TODO wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(CLUB_TITLE_LOCATOR)));
-            //assertEquals(driver.findElement(By.xpath(CLUB_TITLE_LOCATOR)).getText(), club.getTitle());
-            //log("Title is Ok");
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(CLUB_TITLE_LOCATOR)));
+            assertEquals(driver.findElement(By.xpath(CLUB_TITLE_LOCATOR)).getText(), club.getTitle());
+            log("Title is Ok");
             assertEquals(driver.findElement(By.xpath(ABOUT_CLUB_LOCATOR)).getText(), club.getText());
             log("About club is Ok");
         }

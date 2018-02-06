@@ -36,7 +36,7 @@ public class AdminCreateEventPage extends AdminCreateItemPage {
         }
         sendKeysToDescriptionField(event);
         sendKeysToTextField(event);
-        //addFile(imageDirectory);
+        addFile(imageDirectory);
         clickRusTab();
         sendKeysToRusTitleField(event);
         sendKeysToRusDescriptionField(event);

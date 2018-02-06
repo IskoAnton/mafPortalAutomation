@@ -32,6 +32,6 @@ public class AdminCreateSlidePage extends AdminCreateItemPage {
         log("Title " + slide.getTitle() + "was typed to title field");
         driver.findElement(By.xpath(RUS_BUTTON_LINK_FIELD_LOCATOR)).sendKeys(slide.getButtonLink());
         log("Title " + slide.getTitle() + "was typed to title field");
-        //addFile(imageDirectory);
+        addFile(imageDirectory);
     }
 }
