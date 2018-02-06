@@ -8,6 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestResult;
@@ -141,6 +142,9 @@ public class ApplicationManager2 implements ApplicationManager {
 
   @Override
   public void takeScreenShotOnFailure(ITestResult testResult, String testName) throws IOException {
+
+
+
     String folderDate = "";
     if (testResult.getStatus() == ITestResult.FAILURE) {
       System.out.println(testResult.getStatus());

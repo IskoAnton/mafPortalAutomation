@@ -3,25 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5c4c7cc6-7b60-40eb-8619-82b4c4575695" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/applogic2/ApplicationManager2.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/applogic2/ApplicationManager2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateEventPage.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateEventPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateNewsPage.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateNewsPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreatePhotoGalleryPage.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreatePhotoGalleryPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateSlidePage.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateSlidePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateTestimonialPage.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateTestimonialPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateTournamentPage.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateTournamentPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/ClubItemPage.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/ClubItemPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/InternalPage.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/InternalPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.class" afterPath="$PROJECT_DIR$/target/test-classes/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ru/st/selenium/testSuites/backEndTestSuite/UploadingPhoto.class" afterPath="$PROJECT_DIR$/target/test-classes/ru/st/selenium/testSuites/backEndTestSuite/UploadingPhoto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/webdriver/WebDriverFactory.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/webdriver/WebDriverFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automation.out" afterPath="$PROJECT_DIR$/automation.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic2/ApplicationManager2.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic2/ApplicationManager2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/InternalPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/InternalPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/webdriver/WebDriverFactory.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/webdriver/WebDriverFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.java" afterPath="$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/UploadingPhoto.java" afterPath="$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/UploadingPhoto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +40,8 @@
       <file leaf-file-name="ApplicationManager2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic2/ApplicationManager2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="142" column="14" lean-forward="false" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
+            <state relative-caret-position="459">
+              <caret line="147" column="27" lean-forward="true" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -84,8 +70,8 @@
       <file leaf-file-name="WebDriverFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/webdriver/WebDriverFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="163" column="48" lean-forward="false" selection-start-line="163" selection-start-column="48" selection-end-line="163" selection-end-column="48" />
+            <state relative-caret-position="-999">
+              <caret line="131" column="21" lean-forward="false" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -94,8 +80,8 @@
       <file leaf-file-name="AllPagesAreLoadingTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/frontEndTestSuite/AllPagesAreLoadingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="255">
+              <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -134,7 +120,7 @@
       <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="174">
               <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding />
             </state>
@@ -219,11 +205,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateTestimonialPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateTournamentPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic2/ApplicationManager2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateItemPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/UploadingPhoto.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/InternalPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic2/ApplicationManager2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/webdriver/WebDriverFactory.java" />
       </list>
     </option>
@@ -1187,22 +1173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic2/ApplicationManager2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="142" column="14" lean-forward="false" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewTestimonial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1235,14 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/frontEndTestSuite/AllPagesAreLoadingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/InternalPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1259,10 +1221,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/frontEndTestSuite/AllPagesAreLoadingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic2/ApplicationManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="147" column="27" lean-forward="true" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/webdriver/WebDriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="163" column="48" lean-forward="false" selection-start-line="163" selection-start-column="48" selection-end-line="163" selection-end-column="48" />
+        <state relative-caret-position="-999">
+          <caret line="131" column="21" lean-forward="false" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
           <folding />
         </state>
       </provider>

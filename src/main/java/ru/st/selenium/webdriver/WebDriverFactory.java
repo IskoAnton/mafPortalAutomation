@@ -13,6 +13,7 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.iphone.IPhoneDriver;
+import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -128,6 +129,7 @@ public class WebDriverFactory {
 		// Create Remote WebDriver
 		try {
 			webDriver = new RemoteWebDriver(new URL(gridHubUrl), capability);
+			webDriver = new Augmenter().augment( webDriver );
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}
