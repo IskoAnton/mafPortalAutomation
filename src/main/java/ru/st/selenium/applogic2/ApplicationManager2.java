@@ -154,7 +154,7 @@ public class ApplicationManager2 implements ApplicationManager {
       }
 
       String screenshotAbsolutePath = System.getProperty("user.dir") + File.separator + "target" + File.separator + "surefire-reports" + File.separator + "FailedTestsScreenshots" + File.separator + folderDate + File.separator + testName + ".jpg";
-      String screenshotHttpPath = "file:" + File.separator + File.separator + File.separator + screenshotAbsolutePath;
+      String screenshotHttpPath = screenshotAbsolutePath;
       System.out.println(screenshotHttpPath);
       FileUtils.copyFile(scrFile, new File(screenshotAbsolutePath));
       System.setProperty("org.uncommons.reportng.escape-output", "false");
