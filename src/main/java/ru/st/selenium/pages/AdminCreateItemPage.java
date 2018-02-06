@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import ru.st.selenium.model.TabItem;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -48,7 +49,7 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
     protected final String RUS_META_KEYWORDS_LOCATOR = "//textarea[@name = 'meta_keywords_ru']";
     protected final String RUS_TAB_LOCATOR = "//a[@aria-controls = 'tab_rus']";
 
-    protected String imageDirectory = System.getProperty("user.dir") + "/src/main/resources/uploads/test.png";
+    protected String imageDirectory = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator + "resources" + File.separator + "uploads" + File.separator + "test.png";
 
 
     @FindBy(xpath = ADD_FILE_BUTTON_LOCATOR)

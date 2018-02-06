@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4c7cc6-7b60-40eb-8619-82b4c4575695" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateItemPage.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/AdminCreateItemPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automation.out" afterPath="$PROJECT_DIR$/automation.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateItemPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateItemPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreatePartnerPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreatePartnerPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/ClubItemPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/ClubItemPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/webdriver/WebDriverFactory.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/webdriver/WebDriverFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.java" afterPath="$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +28,8 @@
       <file leaf-file-name="AdminCreateItemPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateItemPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="50" column="100" lean-forward="false" selection-start-line="50" selection-start-column="100" selection-end-line="50" selection-end-column="100" />
+            <state relative-caret-position="256">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+              <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -81,8 +78,8 @@
       <file leaf-file-name="AdminCreatePartnerPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreatePartnerPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="126">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -415,7 +412,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Devel/mafPortalAutomation/src/test/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.AddNewPartner">
     <configuration name="AddNewClub" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -694,10 +691,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Devel/mafPortalAutomation/src/test/resources/testng.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.AddNewClub.T001_addNewClub" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.AddNewPartner.T001_addNewPartner" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.AddNewPartner" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.AddNewPartner" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Devel/mafPortalAutomation/src/test/resources/testng.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.AddNewClub.T001_addNewClub" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.AddNewPartner.T001_addNewPartner" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.NewUserRegistration" />
       </list>
     </recent_temporary>
@@ -719,9 +716,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddNewClub - 2018.02.06 at 08h 45m 48s.xml">
-      <configuration name="AddNewClub" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddNewClub - 2018.02.06 at 08h 53m 09s.xml">
       <configuration name="AddNewClub" configurationId="TestNG" />
     </history-entry>
@@ -737,8 +731,11 @@
     <history-entry file="AddNewClub - 2018.02.06 at 08h 59m 21s.xml">
       <configuration name="AddNewClub" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddNewPartner_T001_addNewPartner - 2018.02.05 at 15h 10m 58s.xml">
-      <configuration name="AddNewPartner.T001_addNewPartner" configurationId="TestNG" />
+    <history-entry file="AddNewPartner - 2018.02.06 at 09h 43m 20s.xml">
+      <configuration name="AddNewPartner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddNewPartner - 2018.02.06 at 09h 50m 46s.xml">
+      <configuration name="AddNewPartner" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Devel_mafPortalAutomation_src_test_resources_testng_xml - 2018.02.06 at 09h 22m 25s.xml">
       <configuration name="C:/Devel/mafPortalAutomation/src/test/resources/testng.xml" configurationId="TestNG" />
@@ -1238,23 +1235,23 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreatePartnerPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="126">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateItemPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="50" column="100" lean-forward="false" selection-start-line="50" selection-start-column="100" selection-end-line="50" selection-end-column="100" />
+        <state relative-caret-position="256">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
