@@ -40898,3 +40898,27 @@
 2018-02-06 14:43:01 INFO  AllPagesAreLoadingTest:113 - --------Starting "allPagesAreLoadingTest" test---------
 2018-02-06 14:44:09 INFO  AllPagesAreLoadingTest:113 - --------Starting "allPagesAreLoadingTest" test---------
 2018-02-06 14:47:07 INFO  AllPagesAreLoadingTest:113 - --------Starting "allPagesAreLoadingTest" test---------
+2018-02-06 15:02:59 INFO  AccountEntryTest:22 - --------Starting "registrationOfNewUserTest" test---------
+2018-02-06 15:02:59 INFO  InternalPage:84 - Language was set as rus
+2018-02-06 15:03:01 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 15:04:10 INFO  AccountEntryTest:22 - --------Starting "registrationOfNewUserTest" test---------
+2018-02-06 15:04:10 INFO  InternalPage:84 - Language was set as rus
+2018-02-06 15:04:12 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 15:04:13 INFO  RegistrationPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 15:04:13 INFO  RegistrationPage:84 - Registration page was loaded successfully
+2018-02-06 15:04:18 INFO  RegistrationPage:84 - Message after registration is: "You have successfully registered. A link to confirm your registration has been sent to your email address."
+2018-02-06 15:04:22 INFO  MailHelper2:99 - Email registration link in email is "http://34.214.90.155/ru/register/verify/token_FiijFI3oJoIdMCVHBCpA"
+2018-02-06 15:04:26 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 15:04:26 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-02-06 15:04:27 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-02-06 15:04:27 INFO  LoginPage:84 - Submit button clicked
+2018-02-06 15:04:27 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 15:04:27 INFO  UserHelper2:24 - Login is successfull
+2018-02-06 15:04:41 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 15:04:42 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 15:04:42 INFO  AccountPage:84 - Account page was loaded successfully
+2018-02-06 15:04:42 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-02-06 15:04:54 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 15:04:58 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 15:04:58 INFO  UserHelper2:24 - Logout successful
+2018-02-06 15:04:58 INFO  AccountEntryTest:31 - --------Finishing "registrationOfNewUserTest" test---------

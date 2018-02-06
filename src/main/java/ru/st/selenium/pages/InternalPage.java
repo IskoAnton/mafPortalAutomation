@@ -18,7 +18,7 @@ public class InternalPage extends AnyPage {
   }
 
   //локаторы для проверки всех элементов на странице
-  private final String  HEADER_LOGO_LOCATOR = "//222div[@class = 'logoName']";  // в хэдере в левом верхнем углу отображается название вкладки
+  private final String  HEADER_LOGO_LOCATOR = "//div[@class = 'logoName']";  // в хэдере в левом верхнем углу отображается название вкладки
   private final String  CLUBS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'CLUBS') or contains(text(),'КЛУБЫ')]";
   private final String  THEGAME_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'THE GAME') or contains(text(),'ИГРА')]";
   private final String  NEWS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'NEWS') or contains(text(),'НОВОСТИ')]";

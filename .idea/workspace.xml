@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4c7cc6-7b60-40eb-8619-82b4c4575695" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/applogic2/ApplicationManager2.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/applogic2/ApplicationManager2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/InternalPage.class" afterPath="$PROJECT_DIR$/target/classes/ru/st/selenium/pages/InternalPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automation.out" afterPath="$PROJECT_DIR$/automation.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/InternalPage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/InternalPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InternalPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InternalPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/InternalPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+            <state relative-caret-position="126">
+              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -58,8 +60,18 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
-              <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+            <state relative-caret-position="204">
+              <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewUserRegistration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/frontEndTestSuite/NewUserRegistration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -95,21 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddNewPartner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddNewPartner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-523">
-              <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminCreateTestimonialPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateTestimonialPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="38">
+              <caret line="76" column="32" lean-forward="true" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -205,10 +207,10 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/AdminCreateItemPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/UploadingPhoto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/InternalPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/webdriver/WebDriverFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic2/ApplicationManager2.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/InternalPage.java" />
       </list>
     </option>
   </component>
@@ -717,12 +719,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddNewPartner - 2018.02.06 at 09h 43m 20s.xml">
-      <configuration name="AddNewPartner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddNewPartner - 2018.02.06 at 09h 50m 46s.xml">
-      <configuration name="AddNewPartner" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddNewPartner - 2018.02.06 at 10h 24m 37s.xml">
       <configuration name="AddNewPartner" configurationId="TestNG" />
     </history-entry>
@@ -745,6 +741,12 @@
       <configuration name="C:/Devel/mafPortalAutomation/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Devel_mafPortalAutomation_src_test_resources_testng_xml - 2018.02.06 at 14h 44m 42s.xml">
+      <configuration name="C:/Devel/mafPortalAutomation/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Devel_mafPortalAutomation_src_test_resources_testng_xml - 2018.02.06 at 15h 03m 35s.xml">
+      <configuration name="C:/Devel/mafPortalAutomation/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Devel_mafPortalAutomation_src_test_resources_testng_xml - 2018.02.06 at 15h 05m 00s.xml">
       <configuration name="C:/Devel/mafPortalAutomation/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -843,14 +845,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic/AdminUserHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/applogic2/AdminUserHelper2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -1195,14 +1189,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/InternalPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/webdriver/WebDriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-625">
@@ -1235,18 +1221,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+        <state relative-caret-position="38">
+          <caret line="76" column="32" lean-forward="true" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/backEndTestSuite/AddNewPartner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-523">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/st/selenium/testSuites/frontEndTestSuite/NewUserRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/st/selenium/pages/InternalPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding />
         </state>
       </provider>
