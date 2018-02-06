@@ -151,7 +151,7 @@ public class ApplicationManager2 implements ApplicationManager {
         folderDate = dateFormat.format(new Date());
       }
 
-      String screenshotAbsolutePath = System.getProperty("user.dir") + "\\target\\surefire-reports\\FailedTestsScreenshots\\" + folderDate + "\\" + testName + ".jpg";
+      String screenshotAbsolutePath = System.getProperty("user.dir") + File.separator + "target" + File.separator + "surefire-reports" + File.separator + "FailedTestsScreenshots" + File.separator + folderDate + File.separator + testName + ".jpg";
       String screenshotHttpPath = "file:///" + screenshotAbsolutePath;
       System.out.println(screenshotHttpPath);
       FileUtils.copyFile(scrFile, new File(screenshotAbsolutePath));

@@ -40880,3 +40880,15 @@
 2018-02-06 09:50:41 INFO  AdminCreatePartnerPage:84 - Trying to click submit button
 2018-02-06 09:50:42 INFO  AdminCreatePartnerPage:84 - Submit button was clicked
 2018-02-06 09:50:44 INFO  AddNewPartner:113 - --------Finishing "T001_addNewPartner" test---------
+2018-02-06 10:25:35 INFO  BuyItemTest:113 - --------Starting "buyItemTest" test---------
+2018-02-06 10:25:36 INFO  InternalPage:84 - Language was set as rus
+2018-02-06 10:25:38 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 10:25:38 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-02-06 10:25:39 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-02-06 10:25:39 INFO  LoginPage:84 - Submit button clicked
+2018-02-06 10:25:39 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 10:25:39 INFO  UserHelper2:24 - Login is successfull
+2018-02-06 10:44:50 INFO  AllPagesAreLoadingTest:113 - --------Starting "allPagesAreLoadingTest" test---------
+2018-02-06 10:46:22 INFO  AllPagesAreLoadingTest:113 - --------Starting "allPagesAreLoadingTest" test---------
+2018-02-06 10:47:40 INFO  AllPagesAreLoadingTest:113 - --------Starting "allPagesAreLoadingTest" test---------
+2018-02-06 11:09:13 INFO  AllPagesAreLoadingTest:113 - --------Starting "allPagesAreLoadingTest" test---------

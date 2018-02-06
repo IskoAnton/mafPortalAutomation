@@ -18,7 +18,7 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration"/>
 		</classes>
-	</test>-->
+	</test>
 
 	<test name="Login to account">
 		<parameter name="path" value="/"/>
@@ -27,12 +27,12 @@
 		</classes>
 	</test>
 
-	<!--<test name="Forgot password tests">
+	<test name="Forgot password tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest"/>
 		</classes>
-	</test>-->
+	</test>
 
 	<test name="Buy item tests">
 		<parameter name="path" value="/"/>
@@ -41,12 +41,12 @@
 		</classes>
 	</test>
 
-	<!--<test name="Delete user from DB">
+	<test name="Delete user from DB">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.DeleteUserFromDataBase"/>
 		</classes>
-	</test>-->
+	</test>
 
 	<test name="Admin panel entry test">
 		<parameter name="path" value="/"/>
@@ -153,12 +153,12 @@
 		</classes>
 	</test>
 
-	<!--<test name="Add new User through admin panel test">
+	<test name="Add new User through admin panel test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewUser"/>
 		</classes>
-	</test>-->
+	</test>
 
 	<test name="Add new Role test">
 		<parameter name="path" value="/"/>
@@ -172,5 +172,5 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewPermission"/>
 		</classes>
-	</test>
+	</test>-->
 </suite>
