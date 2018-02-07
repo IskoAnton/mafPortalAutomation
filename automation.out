@@ -40922,3 +40922,91 @@
 2018-02-06 15:04:58 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
 2018-02-06 15:04:58 INFO  UserHelper2:24 - Logout successful
 2018-02-06 15:04:58 INFO  AccountEntryTest:31 - --------Finishing "registrationOfNewUserTest" test---------
+2018-02-06 15:58:41 INFO  ForgotPasswordTest:113 - --------Starting "forgotPasswordOfExistingUser" test---------
+2018-02-06 15:58:42 INFO  InternalPage:84 - Language was set as rus
+2018-02-06 15:58:44 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 15:58:45 INFO  LoginPage:84 - forgot password button was clicked
+2018-02-06 15:58:45 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-02-06 15:58:45 INFO  LoginPage:84 - Send password button was pressed
+2018-02-06 15:58:45 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 15:58:45 INFO  LoginPage:84 - Login dialog was loaded
+2018-02-06 15:58:46 INFO  LoginPage:84 - Login dialog was closed
+2018-02-06 15:58:53 INFO  MailHelper2:99 - Email restore password link in email is "http://34.214.90.155/password/reset/4df8244287804678b59c802f6a5b9f9e8976c9dc6a510453d7a6c56155e044d1"
+2018-02-06 15:58:54 INFO  ResetPasswordPage:84 - Email isko.antontest@gmail.com was typed to email field
+2018-02-06 15:58:54 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password field
+2018-02-06 15:58:54 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password confirmation field
+2018-02-06 15:58:54 INFO  ResetPasswordPage:84 - Submit button was pressed on Reset Password Page
+2018-02-06 15:59:10 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 15:59:13 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 15:59:13 INFO  UserHelper2:24 - Logout successful
+2018-02-06 15:59:16 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 15:59:17 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-02-06 15:59:17 INFO  LoginPage:84 - Password "123456789" typed to password field
+2018-02-06 15:59:17 INFO  LoginPage:84 - Submit button clicked
+2018-02-06 15:59:17 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 15:59:17 INFO  UserHelper2:24 - Login is successfull
+2018-02-06 15:59:31 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 15:59:32 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 15:59:32 INFO  AccountPage:84 - Account page was loaded successfully
+2018-02-06 15:59:32 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-02-06 15:59:44 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 15:59:44 INFO  AccountPage:84 - Password 12345678 was typed to password field
+2018-02-06 15:59:45 INFO  AccountPage:84 - Password 12345678 was typed to password confirmation field
+2018-02-06 15:59:45 INFO  AccountPage:84 - Submit button was pressed
+2018-02-06 15:59:45 INFO  UserHelper2:24 - New password "12345678" was set
+2018-02-06 15:59:57 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 16:00:01 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 16:00:01 INFO  UserHelper2:24 - Logout successful
+2018-02-06 16:00:01 INFO  ForgotPasswordTest:113 - --------Finishing "forgotPasswordOfExistingUser" test---------
+2018-02-06 16:00:01 INFO  ForgotPasswordTest:113 - --------Starting "forgotPasswordOfNotExistingUser" test---------
+2018-02-06 16:00:01 INFO  InternalPage:84 - Language was set as rus
+2018-02-06 16:00:03 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 16:00:04 INFO  LoginPage:84 - forgot password button was clicked
+2018-02-06 16:00:04 INFO  LoginPage:84 - Username "notExistingUser@mafia.com" typed to username field
+2018-02-06 16:00:04 INFO  LoginPage:84 - Send password button was pressed
+2018-02-06 16:00:05 INFO  LoginPage:84 - Login dialog was closed
+2018-02-06 16:00:07 INFO  ForgotPasswordTest:113 - --------Finishing "forgotPasswordOfNotExistingUser" test---------
+2018-02-06 16:01:19 INFO  ForgotPasswordTest:113 - --------Starting "forgotPasswordOfExistingUser" test---------
+2018-02-06 16:01:21 INFO  InternalPage:84 - Language was set as rus
+2018-02-06 16:01:23 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 16:01:23 INFO  LoginPage:84 - forgot password button was clicked
+2018-02-06 16:01:24 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-02-06 16:01:24 INFO  LoginPage:84 - Send password button was pressed
+2018-02-06 16:01:24 INFO  LoginPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 16:01:24 INFO  LoginPage:84 - Login dialog was loaded
+2018-02-06 16:01:24 INFO  LoginPage:84 - Login dialog was closed
+2018-02-06 16:01:39 INFO  MailHelper2:99 - Email restore password link in email is "http://34.214.90.155/password/reset/780b2f2839b84bdae35030cf6a04e1e59dff38e623ed5be520337fd3b5a5c0c1"
+2018-02-06 16:01:40 INFO  ResetPasswordPage:84 - Email isko.antontest@gmail.com was typed to email field
+2018-02-06 16:01:41 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password field
+2018-02-06 16:01:41 INFO  ResetPasswordPage:84 - Password 123456789 was typed to password confirmation field
+2018-02-06 16:01:41 INFO  ResetPasswordPage:84 - Submit button was pressed on Reset Password Page
+2018-02-06 16:01:56 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 16:02:00 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 16:02:00 INFO  UserHelper2:24 - Logout successful
+2018-02-06 16:02:02 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 16:02:03 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-02-06 16:02:03 INFO  LoginPage:84 - Password "123456789" typed to password field
+2018-02-06 16:02:03 INFO  LoginPage:84 - Submit button clicked
+2018-02-06 16:02:03 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 16:02:03 INFO  UserHelper2:24 - Login is successfull
+2018-02-06 16:02:18 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 16:02:18 INFO  AccountPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 16:02:18 INFO  AccountPage:84 - Account page was loaded successfully
+2018-02-06 16:02:18 INFO  UserHelper2:24 - Logged in as isko.antontest@gmail.com
+2018-02-06 16:02:31 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 16:02:31 INFO  AccountPage:84 - Password 12345678 was typed to password field
+2018-02-06 16:02:31 INFO  AccountPage:84 - Password 12345678 was typed to password confirmation field
+2018-02-06 16:02:31 INFO  AccountPage:84 - Submit button was pressed
+2018-02-06 16:02:31 INFO  UserHelper2:24 - New password "12345678" was set
+2018-02-06 16:02:43 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 16:02:48 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 16:02:48 INFO  UserHelper2:24 - Logout successful
+2018-02-06 16:02:48 INFO  ForgotPasswordTest:113 - --------Finishing "forgotPasswordOfExistingUser" test---------
+2018-02-06 16:02:48 INFO  ForgotPasswordTest:113 - --------Starting "forgotPasswordOfNotExistingUser" test---------
+2018-02-06 16:02:48 INFO  InternalPage:84 - Language was set as rus
+2018-02-06 16:02:50 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 16:02:51 INFO  LoginPage:84 - forgot password button was clicked
+2018-02-06 16:02:51 INFO  LoginPage:84 - Username "notExistingUser@mafia.com" typed to username field
+2018-02-06 16:02:52 INFO  LoginPage:84 - Send password button was pressed
+2018-02-06 16:02:52 INFO  LoginPage:84 - Login dialog was closed
+2018-02-06 16:02:54 INFO  ForgotPasswordTest:113 - --------Finishing "forgotPasswordOfNotExistingUser" test---------

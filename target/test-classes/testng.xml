@@ -11,7 +11,7 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest"/>
 		</classes>
-	</test>-->
+	</test>
 
 	<test name="New user registration tests">
 		<parameter name="path" value="/"/>
@@ -20,12 +20,12 @@
 		</classes>
 	</test>
 
-	<!--<test name="Login to account">
+	<test name="Login to account">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Forgot password tests">
 		<parameter name="path" value="/"/>
@@ -34,7 +34,7 @@
 		</classes>
 	</test>
 
-	<test name="Buy item tests">
+	<!--<test name="Buy item tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.BuyItemTest"/>
