@@ -75,7 +75,7 @@ public class TestBase {
 		TESTPARTNER = new Partner("TestPartnerName", "http://www.testparnerlink.com/");
 		TESTADDRESS = new Address(Address.Title.MR, "TestUser","1257 Montgomery street", "apt 47", "San Francisco", "California", "98542", "USA", "testemail@test.com");
 		BLANKUSER = new User("", "", "", "", "", "", "", TESTADDRESS, TESTADDRESS);
-		TESTEDITCLUB = new Club("testClubTitleEDIT", "", "EDITtestClubCity", "Russia", "EDITtestMenuAdmins", "Yerevan rating", false, "EDITtestMenuAboutClub", "EDITtestRusClubAboutClub");
+		TESTEDITCLUB = new Club("EDITtestClubTitle", "", "EDITtestClubCity", "Russia", "EDITtestMenuAdmins", "Yerevan rating", false, "EDITtestMenuAboutClub", "EDITtestRusClubAboutClub");
 		BLANKCLUB = new Club("", "", "", "", "", "", false, "", "");
 		TESTEDITCOUNTRY = new Country("EDITTestCountryTitle", "EDITTestCountryAbout", "EDITTestCountryRusTitle", "EDITTestCountryRusAbout");
 		BLANKCOUNTRY = new Country("", "", "", "");

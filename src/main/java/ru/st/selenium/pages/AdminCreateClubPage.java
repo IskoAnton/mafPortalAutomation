@@ -25,10 +25,10 @@ public class AdminCreateClubPage extends AdminCreateItemPage {
         log("City " + club.getCity() + "was typed to city field");
         Select countrySelect = new Select(driver.findElement(By.xpath("//select[@name = 'country_id']")));
         String language = getLanguage();
-        if (language == "rus" && club.getRusCountry()!="") {
+        if (language.equals("rus") && club.getRusCountry()!="") {
             countrySelect.selectByVisibleText(club.getRusCountry());
             log("Rus country " + club.getRusCountry() + " was selected");
-        } else if(language == "eng" && club.getCountry()!="") {
+        } else if(language.equals("eng") && club.getCountry()!="") {
             countrySelect.selectByVisibleText(club.getCountry());
             log("Country " + club.getCountry() + " was selected");
         }
@@ -38,8 +38,8 @@ public class AdminCreateClubPage extends AdminCreateItemPage {
             ratingTableSelect.selectByVisibleText(club.getRatingTable());
             log("Rating table " + club.getRatingTable() + " was selected");
         }
-        sendKeysToTextField(club);
         addFile(imageDirectory);
+        sendKeysToTextField(club);
         clickRusTab();
         sendKeysToRusTextField(club);
     }

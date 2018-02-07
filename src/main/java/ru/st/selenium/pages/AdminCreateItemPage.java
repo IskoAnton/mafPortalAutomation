@@ -120,6 +120,7 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
 
             }
         }
+        driver.findElement(By.xpath("//h3")).click();
         log("Chosen date is " + randomNumber + " " + month );
     }
 

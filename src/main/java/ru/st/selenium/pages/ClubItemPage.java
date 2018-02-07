@@ -21,7 +21,7 @@ public class ClubItemPage extends ClubsPage {
         language = getLanguage();
         if (language.equalsIgnoreCase("rus")) {
             wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(CLUB_TITLE_LOCATOR)));
-            assertEquals(driver.findElement(By.xpath(CLUB_TITLE_LOCATOR)).getText(), club.getRusTitle());
+            assertEquals(driver.findElement(By.xpath(CLUB_TITLE_LOCATOR)).getText(), club.getTitle());
             log("Rus title is Ok");
             assertEquals(driver.findElement(By.xpath(ABOUT_CLUB_LOCATOR)).getText(), club.getRusText());
             log("Rus about club is Ok");

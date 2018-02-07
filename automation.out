@@ -41071,3 +41071,413 @@
 2018-02-06 17:03:03 INFO  AdminUsersPage:84 - Alert about deleting was accepted
 2018-02-06 17:03:03 INFO  AdminUsersPage:84 - User isko.antontest@gmail.com deleted
 2018-02-06 17:03:03 INFO  AddNewUser:113 - --------Finishing "addNewUser" test---------
+2018-02-06 23:48:05 INFO  AddNewClub:113 - --------Starting "T001_addNewClub" test---------
+2018-02-06 23:48:11 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-06 23:48:11 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-06 23:48:12 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-06 23:48:19 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:48:22 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:48:24 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:48:25 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-02-06 23:48:25 INFO  AdminCreateClubPage:84 - Title 'TestClubTitle' was typed to title field
+2018-02-06 23:48:25 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-02-06 23:48:25 INFO  AdminCreateClubPage:84 - City TestClubCitywas typed to city field
+2018-02-06 23:48:26 INFO  AdminCreateClubPage:84 - Country USA was selected
+2018-02-06 23:48:26 INFO  AdminCreateClubPage:84 - Rating table Los Angeles was selected
+2018-02-06 23:48:26 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-02-06 23:48:27 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-02-06 23:48:27 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-02-06 23:48:27 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-02-06 23:48:27 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-02-06 23:48:29 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-02-06 23:48:30 INFO  InternalPage:84 - Language was set as rus
+2018-02-06 23:48:31 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-02-06 23:48:32 INFO  AddNewClub:113 - --------Starting "T002_editClub" test---------
+2018-02-06 23:48:38 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-06 23:48:38 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-06 23:48:38 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-06 23:48:38 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-06 23:48:38 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-06 23:48:58 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-06 23:49:05 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:49:07 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:50:33 INFO  AddNewClub:113 - --------Starting "T001_addNewClub" test---------
+2018-02-06 23:50:40 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-06 23:50:40 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-06 23:50:41 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-06 23:50:48 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:50:51 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:50:53 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:50:54 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-02-06 23:50:54 INFO  AdminCreateClubPage:84 - Title 'TestClubTitle' was typed to title field
+2018-02-06 23:50:54 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-02-06 23:50:55 INFO  AdminCreateClubPage:84 - City TestClubCitywas typed to city field
+2018-02-06 23:50:55 INFO  AdminCreateClubPage:84 - Rus country США was selected
+2018-02-06 23:50:55 INFO  AdminCreateClubPage:84 - Rating table Los Angeles was selected
+2018-02-06 23:50:55 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-02-06 23:50:55 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-02-06 23:50:56 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-02-06 23:50:56 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-02-06 23:50:56 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-02-06 23:50:57 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-02-06 23:50:57 INFO  InternalPage:84 - Language was set as rus
+2018-02-06 23:50:59 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-02-06 23:50:59 INFO  AddNewClub:113 - --------Starting "T002_editClub" test---------
+2018-02-06 23:51:33 INFO  AddNewClub:113 - --------Starting "T001_addNewClub" test---------
+2018-02-06 23:51:39 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-06 23:51:39 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-06 23:51:40 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-06 23:51:47 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:51:50 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:51:52 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:51:53 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-02-06 23:51:53 INFO  AdminCreateClubPage:84 - Title 'TestClubTitle' was typed to title field
+2018-02-06 23:51:54 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-02-06 23:51:54 INFO  AdminCreateClubPage:84 - City TestClubCitywas typed to city field
+2018-02-06 23:51:54 INFO  AdminCreateClubPage:84 - Country USA was selected
+2018-02-06 23:51:54 INFO  AdminCreateClubPage:84 - Rating table Los Angeles was selected
+2018-02-06 23:51:54 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-02-06 23:51:55 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-02-06 23:51:55 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-02-06 23:51:55 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-02-06 23:51:55 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-02-06 23:51:56 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-02-06 23:51:57 INFO  InternalPage:84 - Language was set as rus
+2018-02-06 23:51:58 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-02-06 23:51:59 INFO  AddNewClub:113 - --------Starting "T002_editClub" test---------
+2018-02-06 23:52:04 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-06 23:52:05 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-06 23:52:05 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-06 23:52:05 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-06 23:52:05 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-06 23:52:06 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-06 23:52:13 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:52:15 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:52:18 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-06 23:52:18 INFO  AdminClubsPage:84 - Text TestClubTitle was typed to the search field
+2018-02-06 23:52:18 INFO  AdminClubsPage:84 - Edit button of TestClubTitle was clicked
+2018-02-06 23:52:19 INFO  AdminCreateClubPage:84 - Title 'EDITtestClubTitle' was typed to title field
+2018-02-06 23:52:19 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-02-06 23:52:19 INFO  AdminCreateClubPage:84 - City EDITtestClubCitywas typed to city field
+2018-02-06 23:52:19 INFO  AdminCreateClubPage:84 - Country Russia was selected
+2018-02-06 23:52:19 INFO  AdminCreateClubPage:84 - Rating table Yerevan rating was selected
+2018-02-06 23:52:19 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-02-06 23:52:20 INFO  AdminCreateClubPage:84 - Text 'EDITtestMenuAboutClub' was typed to text field
+2018-02-06 23:52:20 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-02-06 23:52:20 INFO  AdminCreateClubPage:84 - Rus text 'EDITtestRusClubAboutClub' was typed to rus text field
+2018-02-06 23:52:20 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-02-06 23:52:20 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-02-06 23:52:22 INFO  InternalPage:84 - Language was set as rus
+2018-02-06 23:52:22 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-02-06 23:52:23 INFO  AddNewClub:113 - --------Starting "T003_addBlankClub" test---------
+2018-02-06 23:52:29 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-06 23:52:30 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-06 23:52:30 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-06 23:52:30 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-06 23:52:30 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-06 23:52:30 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-07 00:03:22 INFO  AddNewEvent:113 - --------Starting "T001_addNewEvent" test---------
+2018-02-07 00:03:28 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-07 00:03:29 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-07 00:03:29 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-07 00:03:36 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:03:39 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:03:42 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-02-07 00:03:42 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-02-07 00:03:42 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-02-07 00:03:43 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-02-07 00:03:43 INFO  AdminCreateEventPage:84 - Chosen date is 14 March 2018
+2018-02-07 00:03:43 INFO  AdminCreateEventPage:84 - Checkbox 'Золотые Ключи' was chosen
+2018-02-07 00:03:44 INFO  AdminCreateEventPage:84 - Checkbox 'Khmelnitski' was chosen
+2018-02-07 00:03:44 INFO  AdminCreateEventPage:84 - Checkbox 'Moscow' was chosen
+2018-02-07 00:03:44 INFO  AdminCreateEventPage:84 - Description 'TestEventDescription' was typed to description field
+2018-02-07 00:03:44 INFO  AdminCreateEventPage:84 - Text 'TestEventText' was typed to text field
+2018-02-07 00:03:44 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-02-07 00:03:44 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-02-07 00:03:45 INFO  AdminCreateEventPage:84 - Title 'TestEventRusTitle' was typed to rus title field
+2018-02-07 00:03:45 INFO  AdminCreateEventPage:84 - Rus Description 'TestEventRusDescription' was typed to rus description field
+2018-02-07 00:03:45 INFO  AdminCreateEventPage:84 - Trying to click submit button
+2018-02-07 00:03:47 INFO  AdminCreateEventPage:84 - Submit button was clicked
+2018-02-07 00:03:47 INFO  InternalPage:84 - Language was set as eng
+2018-02-07 00:03:48 INFO  ClubsPage:84 - Club Золотые Ключи was clicked
+2018-02-07 00:03:48 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:03:49 INFO  EventItemPage:84 - Eng title is OK
+2018-02-07 00:03:49 INFO  EventItemPage:84 - Eng description is OK
+2018-02-07 00:03:49 INFO  ClubsPage:84 - Club Khmelnitski was clicked
+2018-02-07 00:03:49 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:03:49 INFO  EventItemPage:84 - Eng title is OK
+2018-02-07 00:03:49 INFO  EventItemPage:84 - Eng description is OK
+2018-02-07 00:03:50 INFO  ClubsPage:84 - Club Moscow was clicked
+2018-02-07 00:03:50 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:03:50 INFO  EventItemPage:84 - Eng title is OK
+2018-02-07 00:03:50 INFO  EventItemPage:84 - Eng description is OK
+2018-02-07 00:03:51 INFO  InternalPage:84 - Language was set as rus
+2018-02-07 00:03:51 INFO  ClubsPage:84 - Club Золотые Ключи was clicked
+2018-02-07 00:03:52 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:03:52 INFO  EventItemPage:84 - Rus title is OK
+2018-02-07 00:03:52 INFO  EventItemPage:84 - Rus description is OK
+2018-02-07 00:03:53 INFO  ClubsPage:84 - Club Khmelnitski was clicked
+2018-02-07 00:03:53 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:03:53 INFO  EventItemPage:84 - Rus title is OK
+2018-02-07 00:03:53 INFO  EventItemPage:84 - Rus description is OK
+2018-02-07 00:03:54 INFO  ClubsPage:84 - Club Moscow was clicked
+2018-02-07 00:03:54 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:03:54 INFO  EventItemPage:84 - Rus title is OK
+2018-02-07 00:03:54 INFO  EventItemPage:84 - Rus description is OK
+2018-02-07 00:03:54 INFO  AddNewEvent:113 - --------Finishing "T001_addNewEvent" test---------
+2018-02-07 00:03:54 INFO  AddNewEvent:113 - --------Starting "T002_editEvent" test---------
+2018-02-07 00:04:00 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-07 00:04:00 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-07 00:04:00 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-07 00:04:00 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-07 00:04:01 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-07 00:04:01 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-07 00:04:08 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:04:11 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:04:13 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-02-07 00:04:13 INFO  AdminEventPage:84 - Text TestEventTitle was typed to the search field
+2018-02-07 00:04:14 INFO  AdminCreateEventPage:84 - Title 'EDITtestEventTitle' was typed to title field
+2018-02-07 00:04:14 INFO  AdminCreateEventPage:84 - Slug 'EDITtestEventRusDescription' was typed to slug field
+2018-02-07 00:04:15 INFO  AdminCreateEventPage:84 - Chosen date is 8 April 2018
+2018-02-07 00:04:15 INFO  AdminCreateEventPage:84 - Checkbox 'Yerevan' was chosen
+2018-02-07 00:04:15 INFO  AdminCreateEventPage:84 - Checkbox 'Kiev Big Ben' was chosen
+2018-02-07 00:04:15 INFO  AdminCreateEventPage:84 - Checkbox 'Золотые Ключи' was chosen
+2018-02-07 00:04:16 INFO  AdminCreateEventPage:84 - Description 'EDITtestEventDescription' was typed to description field
+2018-02-07 00:04:16 INFO  AdminCreateEventPage:84 - Text 'EDITtestEventText' was typed to text field
+2018-02-07 00:04:16 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-02-07 00:04:16 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-02-07 00:04:16 INFO  AdminCreateEventPage:84 - Title 'EDITtestEventRusTitle' was typed to rus title field
+2018-02-07 00:04:17 INFO  AdminCreateEventPage:84 - Rus Description 'EDITtestEventRusDescription' was typed to rus description field
+2018-02-07 00:04:17 INFO  AdminCreateEventPage:84 - Trying to click submit button
+2018-02-07 00:04:17 INFO  AdminCreateEventPage:84 - Submit button was clicked
+2018-02-07 00:04:18 INFO  InternalPage:84 - Language was set as eng
+2018-02-07 00:04:19 INFO  ClubsPage:84 - Club Yerevan was clicked
+2018-02-07 00:04:19 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:04:19 INFO  EventItemPage:84 - Eng title is OK
+2018-02-07 00:04:19 INFO  EventItemPage:84 - Eng description is OK
+2018-02-07 00:04:20 INFO  ClubsPage:84 - Club Kiev Big Ben was clicked
+2018-02-07 00:04:20 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:04:20 INFO  EventItemPage:84 - Eng title is OK
+2018-02-07 00:04:20 INFO  EventItemPage:84 - Eng description is OK
+2018-02-07 00:04:21 INFO  ClubsPage:84 - Club Золотые Ключи was clicked
+2018-02-07 00:04:21 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:04:21 INFO  EventItemPage:84 - Eng title is OK
+2018-02-07 00:04:21 INFO  EventItemPage:84 - Eng description is OK
+2018-02-07 00:04:21 INFO  InternalPage:84 - Language was set as rus
+2018-02-07 00:04:22 INFO  ClubsPage:84 - Club Yerevan was clicked
+2018-02-07 00:04:22 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:04:22 INFO  EventItemPage:84 - Rus title is OK
+2018-02-07 00:04:22 INFO  EventItemPage:84 - Rus description is OK
+2018-02-07 00:04:23 INFO  ClubsPage:84 - Club Kiev Big Ben was clicked
+2018-02-07 00:04:23 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:04:23 INFO  EventItemPage:84 - Rus title is OK
+2018-02-07 00:04:23 INFO  EventItemPage:84 - Rus description is OK
+2018-02-07 00:04:24 INFO  ClubsPage:84 - Club Золотые Ключи was clicked
+2018-02-07 00:04:24 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:04:24 INFO  EventItemPage:84 - Rus title is OK
+2018-02-07 00:04:24 INFO  EventItemPage:84 - Rus description is OK
+2018-02-07 00:04:27 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:04:29 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:04:32 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-02-07 00:04:32 INFO  AdminPagesPage:84 - Text EDITtestEventTitle was typed to the search field
+2018-02-07 00:04:34 INFO  AdminPagesPage:84 - Item EDITtestEventTitle has been deleted
+2018-02-07 00:04:34 INFO  AddNewEvent:113 - --------Finishing "T002_editEvent" test---------
+2018-02-07 00:04:34 INFO  AddNewEvent:113 - --------Starting "T003_addBlankEvent" test---------
+2018-02-07 00:04:51 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-07 00:04:51 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-07 00:04:51 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-07 00:04:51 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-07 00:04:51 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-07 00:04:52 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-07 00:04:59 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:05:01 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:05:04 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-02-07 00:05:04 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-02-07 00:05:04 INFO  AdminCreateEventPage:84 - Title '' was typed to title field
+2018-02-07 00:05:04 INFO  AdminCreateEventPage:84 - Slug '' was typed to slug field
+2018-02-07 00:05:05 INFO  AdminCreateEventPage:84 - Chosen date is 22 March 2018
+2018-02-07 00:05:05 INFO  AdminCreateEventPage:84 - Checkbox 'The Black Cat' was chosen
+2018-02-07 00:05:05 INFO  AdminCreateEventPage:84 - Checkbox 'Золотые Ключи' was chosen
+2018-02-07 00:05:05 INFO  AdminCreateEventPage:84 - Checkbox 'Los Angeles' was chosen
+2018-02-07 00:05:05 INFO  AdminCreateEventPage:84 - Description '' was typed to description field
+2018-02-07 00:05:06 INFO  AdminCreateEventPage:84 - Text '' was typed to text field
+2018-02-07 00:05:06 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-02-07 00:05:06 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-02-07 00:05:06 INFO  AdminCreateEventPage:84 - Title '' was typed to rus title field
+2018-02-07 00:05:06 INFO  AdminCreateEventPage:84 - Rus Description '' was typed to rus description field
+2018-02-07 00:05:06 INFO  AdminCreateEventPage:84 - Trying to click submit button
+2018-02-07 00:05:07 INFO  AdminCreateEventPage:84 - Submit button was clicked
+2018-02-07 00:05:07 INFO  AdminCreateEventPage:84 - Message 1 is 'The title field is required.'
+2018-02-07 00:05:07 INFO  AdminCreateEventPage:84 - Message 2 is 'The title field is required.'
+2018-02-07 00:05:07 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-07 00:05:08 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-07 00:05:08 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-07 00:05:08 INFO  AddNewEvent:113 - --------Finishing "T003_addBlankEvent" test---------
+2018-02-07 00:05:08 INFO  AddNewEvent:113 - --------Starting "T004_cancelAddingNewEvent" test---------
+2018-02-07 00:05:24 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-07 00:05:25 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-07 00:05:25 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-07 00:05:32 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:05:35 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:05:37 INFO  AdminInternalPage:84 - Tab Events was clicked
+2018-02-07 00:05:38 INFO  AdminEventPage:84 - Add item was clicked on AdminEventPage
+2018-02-07 00:05:38 INFO  AdminCreateEventPage:84 - Title 'TestEventTitle' was typed to title field
+2018-02-07 00:05:38 INFO  AdminCreateEventPage:84 - Slug 'TestEventRusDescription' was typed to slug field
+2018-02-07 00:05:38 INFO  AdminCreateEventPage:84 - Chosen date is 26 March 2018
+2018-02-07 00:05:39 INFO  AdminCreateEventPage:84 - Checkbox 'New York' was chosen
+2018-02-07 00:05:39 INFO  AdminCreateEventPage:84 - Checkbox 'EDITtestClubTitle' was chosen
+2018-02-07 00:05:39 INFO  AdminCreateEventPage:84 - Checkbox 'Золотые Ключи' was chosen
+2018-02-07 00:05:39 INFO  AdminCreateEventPage:84 - Description 'TestEventDescription' was typed to description field
+2018-02-07 00:05:39 INFO  AdminCreateEventPage:84 - Text 'TestEventText' was typed to text field
+2018-02-07 00:05:39 INFO  AdminCreateEventPage:84 - File was added succsessfully
+2018-02-07 00:05:40 INFO  AdminCreateEventPage:84 - Rus tab was clicked
+2018-02-07 00:05:40 INFO  AdminCreateEventPage:84 - Title 'TestEventRusTitle' was typed to rus title field
+2018-02-07 00:05:40 INFO  AdminCreateEventPage:84 - Rus Description 'TestEventRusDescription' was typed to rus description field
+2018-02-07 00:05:40 INFO  AdminCreateEventPage:84 - Trying to click cancel button
+2018-02-07 00:05:40 INFO  AdminCreateEventPage:84 - Cancel button was clicked
+2018-02-07 00:05:41 INFO  InternalPage:84 - Language was set as eng
+2018-02-07 00:05:42 INFO  ClubsPage:84 - Club New York was clicked
+2018-02-07 00:05:42 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:05:42 INFO  EventItemPage:84 - There is no event 'TestEventTitle' on clubs page
+2018-02-07 00:05:43 INFO  ClubsPage:84 - Club EDITtestClubTitle was clicked
+2018-02-07 00:05:43 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:05:43 INFO  EventItemPage:84 - There is no event 'TestEventTitle' on clubs page
+2018-02-07 00:05:44 INFO  ClubsPage:84 - Club Золотые Ключи was clicked
+2018-02-07 00:05:44 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:05:44 INFO  EventItemPage:84 - There is no event 'TestEventTitle' on clubs page
+2018-02-07 00:05:44 INFO  InternalPage:84 - Language was set as rus
+2018-02-07 00:05:45 INFO  ClubsPage:84 - Club New York was clicked
+2018-02-07 00:05:45 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:05:45 INFO  EventItemPage:84 - There is no event 'TestEventRusTitle' on clubs page
+2018-02-07 00:05:46 INFO  ClubsPage:84 - Club EDITtestClubTitle was clicked
+2018-02-07 00:05:46 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:05:46 INFO  EventItemPage:84 - There is no event 'TestEventRusTitle' on clubs page
+2018-02-07 00:05:47 INFO  ClubsPage:84 - Club Золотые Ключи was clicked
+2018-02-07 00:05:47 INFO  ClubItemPage:84 - Events tab was clicked
+2018-02-07 00:05:47 INFO  EventItemPage:84 - There is no event 'TestEventRusTitle' on clubs page
+2018-02-07 00:05:59 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-07 00:06:03 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-07 00:06:03 INFO  UserHelper2:24 - Logout successful
+2018-02-07 00:06:03 INFO  AddNewEvent:113 - --------Finishing "T004_cancelAddingNewEvent" test---------
+2018-02-07 00:06:17 INFO  AddNewClub:113 - --------Starting "T001_addNewClub" test---------
+2018-02-07 00:06:23 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-07 00:06:23 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-07 00:06:24 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-07 00:06:31 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:06:34 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:06:36 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:06:37 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-02-07 00:06:37 INFO  AdminCreateClubPage:84 - Title 'TestClubTitle' was typed to title field
+2018-02-07 00:06:37 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-02-07 00:06:37 INFO  AdminCreateClubPage:84 - City TestClubCitywas typed to city field
+2018-02-07 00:06:38 INFO  AdminCreateClubPage:84 - Country USA was selected
+2018-02-07 00:06:38 INFO  AdminCreateClubPage:84 - Rating table Los Angeles was selected
+2018-02-07 00:06:38 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-02-07 00:06:38 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-02-07 00:06:39 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-02-07 00:06:39 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-02-07 00:06:39 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-02-07 00:06:40 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-02-07 00:06:41 INFO  InternalPage:84 - Language was set as rus
+2018-02-07 00:06:42 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-02-07 00:06:42 INFO  ClubItemPage:84 - Rus title is Ok
+2018-02-07 00:06:42 INFO  ClubItemPage:84 - Rus about club is Ok
+2018-02-07 00:06:43 INFO  InternalPage:84 - Language was set as eng
+2018-02-07 00:06:43 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-02-07 00:06:43 INFO  ClubItemPage:84 - Title is Ok
+2018-02-07 00:06:43 INFO  ClubItemPage:84 - About club is Ok
+2018-02-07 00:06:55 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-07 00:06:59 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-07 00:06:59 INFO  UserHelper2:24 - Logout successful
+2018-02-07 00:06:59 INFO  AddNewClub:113 - --------Finishing "T001_addNewClub" test---------
+2018-02-07 00:06:59 INFO  AddNewClub:113 - --------Starting "T002_editClub" test---------
+2018-02-07 00:07:05 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-07 00:07:05 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-07 00:07:06 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-07 00:07:13 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:07:16 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:07:18 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:07:19 INFO  AdminClubsPage:84 - Text TestClubTitle was typed to the search field
+2018-02-07 00:07:19 INFO  AdminClubsPage:84 - Edit button of TestClubTitle was clicked
+2018-02-07 00:07:19 INFO  AdminCreateClubPage:84 - Title 'EDITtestClubTitle' was typed to title field
+2018-02-07 00:07:19 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-02-07 00:07:20 INFO  AdminCreateClubPage:84 - City EDITtestClubCitywas typed to city field
+2018-02-07 00:07:20 INFO  AdminCreateClubPage:84 - Country Russia was selected
+2018-02-07 00:07:20 INFO  AdminCreateClubPage:84 - Rating table Yerevan rating was selected
+2018-02-07 00:07:20 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-02-07 00:07:20 INFO  AdminCreateClubPage:84 - Text 'EDITtestMenuAboutClub' was typed to text field
+2018-02-07 00:07:20 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-02-07 00:07:21 INFO  AdminCreateClubPage:84 - Rus text 'EDITtestRusClubAboutClub' was typed to rus text field
+2018-02-07 00:07:21 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-02-07 00:07:21 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-02-07 00:07:23 INFO  InternalPage:84 - Language was set as rus
+2018-02-07 00:07:23 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-02-07 00:07:23 INFO  ClubItemPage:84 - Rus title is Ok
+2018-02-07 00:07:23 INFO  ClubItemPage:84 - Rus about club is Ok
+2018-02-07 00:07:24 INFO  InternalPage:84 - Language was set as eng
+2018-02-07 00:07:24 INFO  ClubItemPage:84 - Checking data on Clubs page
+2018-02-07 00:07:24 INFO  ClubItemPage:84 - Title is Ok
+2018-02-07 00:07:24 INFO  ClubItemPage:84 - About club is Ok
+2018-02-07 00:07:27 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:07:30 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:07:32 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:07:32 INFO  AdminPagesPage:84 - Text EDITtestClubTitle was typed to the search field
+2018-02-07 00:07:34 INFO  AdminPagesPage:84 - Item EDITtestClubTitle has been deleted
+2018-02-07 00:07:35 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-07 00:07:35 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-07 00:07:35 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-07 00:07:35 INFO  AddNewClub:113 - --------Finishing "T002_editClub" test---------
+2018-02-07 00:07:35 INFO  AddNewClub:113 - --------Starting "T003_addBlankClub" test---------
+2018-02-07 00:07:52 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-07 00:07:52 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-07 00:07:52 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-07 00:08:14 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-07 00:08:14 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-07 00:08:14 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-07 00:08:14 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-07 00:08:14 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-07 00:08:15 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-07 00:08:22 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:08:24 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:08:27 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:08:27 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-02-07 00:08:27 INFO  AdminCreateClubPage:84 - Title '' was typed to title field
+2018-02-07 00:08:27 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-02-07 00:08:28 INFO  AdminCreateClubPage:84 - City was typed to city field
+2018-02-07 00:08:28 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-02-07 00:08:28 INFO  AdminCreateClubPage:84 - Text '' was typed to text field
+2018-02-07 00:08:28 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-02-07 00:08:28 INFO  AdminCreateClubPage:84 - Rus text '' was typed to rus text field
+2018-02-07 00:08:28 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-02-07 00:08:29 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-02-07 00:08:29 INFO  AdminCreateClubPage:84 - Message 1 is 'The title field is required.'
+2018-02-07 00:08:29 INFO  AdminCreateClubPage:84 - Message 2 is 'The title field is required.'
+2018-02-07 00:08:29 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-07 00:08:30 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-07 00:08:30 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-07 00:08:30 INFO  AddNewClub:113 - --------Finishing "T003_addBlankClub" test---------
+2018-02-07 00:08:30 INFO  AddNewClub:113 - --------Starting "T004_cancelAddingNewClub" test---------
+2018-02-07 00:08:46 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-07 00:08:46 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-07 00:08:47 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-07 00:08:54 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:08:56 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:08:59 INFO  AdminInternalPage:84 - Tab Clubs was clicked
+2018-02-07 00:08:59 INFO  AdminClubsPage:84 - Add item was clicked on AdminClubsPage
+2018-02-07 00:08:59 INFO  AdminCreateClubPage:84 - Title 'TestClubTitle' was typed to title field
+2018-02-07 00:08:59 INFO  AdminCreateClubPage:84 - Slug 'null' was typed to slug field
+2018-02-07 00:08:59 INFO  AdminCreateClubPage:84 - City TestClubCitywas typed to city field
+2018-02-07 00:09:00 INFO  AdminCreateClubPage:84 - Country USA was selected
+2018-02-07 00:09:00 INFO  AdminCreateClubPage:84 - Rating table Los Angeles was selected
+2018-02-07 00:09:00 INFO  AdminCreateClubPage:84 - File was added succsessfully
+2018-02-07 00:09:00 INFO  AdminCreateClubPage:84 - Text 'TestClubsAboutClub' was typed to text field
+2018-02-07 00:09:00 INFO  AdminCreateClubPage:84 - Rus tab was clicked
+2018-02-07 00:09:00 INFO  AdminCreateClubPage:84 - Rus text 'TestRusAboutClubs' was typed to rus text field
+2018-02-07 00:09:00 INFO  AdminCreateClubPage:84 - Trying to click cancel button
+2018-02-07 00:09:01 INFO  AdminCreateClubPage:84 - Cancel button was clicked
+2018-02-07 00:09:02 INFO  InternalPage:84 - Language was set as eng
+2018-02-07 00:09:02 INFO  ClubsPage:84 - There is no club 'TestClubTitle' on clubs page
+2018-02-07 00:09:02 INFO  AdminInternalPage:84 - Trying to click logout button
+2018-02-07 00:09:03 INFO  AdminInternalPage:84 - Logout button was clicked
+2018-02-07 00:09:03 INFO  AdminLoginPage:84 - AdminLoginPage page was loaded successfully
+2018-02-07 00:09:03 INFO  AddNewClub:113 - --------Finishing "T004_cancelAddingNewClub" test---------
