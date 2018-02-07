@@ -6,7 +6,7 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 	</listeners>
 
-	<!--<test name="All pages are loading test">
+	<test name="All pages are loading test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest"/>
@@ -27,12 +27,12 @@
 		</classes>
 	</test>
 
-	<test name="Forgot password tests">
+	<!--<test name="Forgot password tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Buy item tests">
 		<parameter name="path" value="/"/>
@@ -104,12 +104,12 @@
 		</classes>
 	</test>
 
-	<test name="Upload images test">
+	<!--<test name="Upload images test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.UploadingPhoto"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Add new slide to homepage">
 		<parameter name="path" value="/"/>
@@ -151,7 +151,7 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewEvent"/>
 		</classes>
-	</test>-->
+	</test>
 
 	<test name="Add new User through admin panel test">
 		<parameter name="path" value="/"/>
@@ -160,7 +160,7 @@
 		</classes>
 	</test>
 
-	<!--<test name="Add new Role test">
+	<test name="Add new Role test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewRole"/>
@@ -172,5 +172,5 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewPermission"/>
 		</classes>
-	</test>-->
+	</test>
 </suite>
