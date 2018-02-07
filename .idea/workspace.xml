@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4c7cc6-7b60-40eb-8619-82b4c4575695" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automation.out" afterPath="$PROJECT_DIR$/automation.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
     </list>
@@ -66,8 +68,8 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="306">
+              <caret line="162" column="8" lean-forward="false" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -715,9 +717,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllPagesAreLoadingTest - 2018.02.06 at 10h 45m 23s.xml">
-      <configuration name="AllPagesAreLoadingTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Devel_mafPortalAutomation_src_test_resources_testng_xml - 2018.02.06 at 10h 45m 30s.xml">
       <configuration name="C:/Devel/mafPortalAutomation/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -740,6 +739,9 @@
       <configuration name="C:/Devel/mafPortalAutomation/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Devel_mafPortalAutomation_src_test_resources_testng_xml - 2018.02.06 at 16h 03m 01s.xml">
+      <configuration name="C:/Devel/mafPortalAutomation/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Devel_mafPortalAutomation_src_test_resources_testng_xml - 2018.02.06 at 17h 03m 07s.xml">
       <configuration name="C:/Devel/mafPortalAutomation/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ForgotPasswordTest - 2018.02.06 at 16h 00m 09s.xml">
@@ -1243,8 +1245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="306">
+          <caret line="162" column="8" lean-forward="false" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
           <folding />
         </state>
       </provider>

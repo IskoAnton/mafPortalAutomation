@@ -41010,3 +41010,64 @@
 2018-02-06 16:02:52 INFO  LoginPage:84 - Send password button was pressed
 2018-02-06 16:02:52 INFO  LoginPage:84 - Login dialog was closed
 2018-02-06 16:02:54 INFO  ForgotPasswordTest:113 - --------Finishing "forgotPasswordOfNotExistingUser" test---------
+2018-02-06 17:01:26 INFO  AddNewUser:113 - --------Starting "addNewUser" test---------
+2018-02-06 17:01:33 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-06 17:01:33 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-06 17:01:34 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-06 17:01:41 INFO  AdminInternalPage:84 - Tab Users, Roles, Permissions was clicked
+2018-02-06 17:01:45 INFO  AdminInternalPage:84 - Tab Users was clicked
+2018-02-06 17:01:46 INFO  AdminUsersPage:84 - Add item was clicked on AdminUsersPage
+2018-02-06 17:01:46 INFO  AdminCreateUserPage:84 - Name 'TestName' was typed to name field
+2018-02-06 17:01:46 INFO  AdminCreateUserPage:84 - Last name 'TestLastName' was typed to last name field
+2018-02-06 17:01:46 INFO  AdminCreateUserPage:84 - Nickname 'TestNickName' was typed to nickname field
+2018-02-06 17:01:46 INFO  AdminCreateUserPage:84 - Email 'isko.antontest@gmail.com' was typed to ename field
+2018-02-06 17:01:46 INFO  AdminCreateUserPage:84 - Password '12345678' was typed to password field
+2018-02-06 17:01:46 INFO  AdminCreateUserPage:84 - Password confirmaion'12345678' was typed to password confirmation field
+2018-02-06 17:01:47 INFO  AdminCreateUserPage:84 - Club 'Los Angeles' was typed to clyb field
+2018-02-06 17:01:47 INFO  AdminCreateUserPage:84 - Payment data button was pressed
+2018-02-06 17:01:47 INFO  AdminCreateUserPage:84 - Title MR was chosen in shipping address
+2018-02-06 17:01:47 INFO  AdminCreateUserPage:84 - Shipping name 'TestUser' was typed to shipping name field
+2018-02-06 17:01:47 INFO  AdminCreateUserPage:84 - Shipping address1 '1257 Montgomery street' was typed to address line 1 field
+2018-02-06 17:01:47 INFO  AdminCreateUserPage:84 - Shipping address1 'apt 47' was typed to address line 2 field
+2018-02-06 17:01:47 INFO  AdminCreateUserPage:84 - Shipping city 'San Francisco' was typed to shipping city field
+2018-02-06 17:01:47 INFO  AdminCreateUserPage:84 - Shipping region 'California' was typed to shipping region field
+2018-02-06 17:01:47 INFO  AdminCreateUserPage:84 - Shipping country 'USA' was typed to shipping country field
+2018-02-06 17:01:47 INFO  AdminCreateUserPage:84 - Shipping zip '98542' was typed to shipping zip field
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Shipping email 'testemail@test.com' was typed to email field
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Shipping address was filled
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Title MR was chosen in billing address
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Billing name 'TestUser' was typed to billing name field
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Billing address1 '1257 Montgomery street' was typed to address line 1 field
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Billing address1 'apt 47' was typed to address line 2 field
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Billing city 'San Francisco' was typed to billing city field
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Billing region 'California' was typed to billing region field
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Billing country 'USA' was typed to billing country field
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Billing zip '98542' was typed to billing zip field
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Billing email 'testemail@test.com' was typed to billing email field
+2018-02-06 17:01:48 INFO  AdminCreateUserPage:84 - Billing address was filled
+2018-02-06 17:01:48 INFO  AdminCreateClubPage:84 - Trying to click submit button
+2018-02-06 17:01:50 INFO  AdminCreateClubPage:84 - Submit button was clicked
+2018-02-06 17:02:03 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 17:02:06 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 17:02:06 INFO  UserHelper2:24 - Logout successful
+2018-02-06 17:02:07 INFO  InternalPage:84 - Language was set as eng
+2018-02-06 17:02:09 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 17:02:10 INFO  LoginPage:84 - Username "isko.antontest@gmail.com" typed to username field
+2018-02-06 17:02:10 INFO  LoginPage:84 - Password "12345678" typed to password field
+2018-02-06 17:02:10 INFO  LoginPage:84 - Submit button clicked
+2018-02-06 17:02:10 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 17:02:10 INFO  UserHelper2:24 - Login is successfull
+2018-02-06 17:02:24 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 17:02:38 INFO  InternalPage:84 - Login button was clicked |||||| 
+2018-02-06 17:02:42 INFO  InternalPage:84 - Internal page was loaded successfully |||||| 
+2018-02-06 17:02:42 INFO  UserHelper2:24 - Logout successful
+2018-02-06 17:02:48 INFO  AdminLoginPage:84 - "mafia@mafia.com" was typed to email field
+2018-02-06 17:02:49 INFO  AdminLoginPage:84 - "007mafia007" was typed to password field
+2018-02-06 17:02:49 INFO  AdminLoginPage:84 - Login button was clicked
+2018-02-06 17:02:56 INFO  AdminInternalPage:84 - Tab Users, Roles, Permissions was clicked
+2018-02-06 17:03:00 INFO  AdminInternalPage:84 - Tab Users was clicked
+2018-02-06 17:03:00 INFO  AdminUsersPage:84 - Admin Users page was loaded successfully
+2018-02-06 17:03:01 INFO  AdminUsersPage:84 - Text isko.antontest@gmail.com was typed to the search field
+2018-02-06 17:03:03 INFO  AdminUsersPage:84 - Alert about deleting was accepted
+2018-02-06 17:03:03 INFO  AdminUsersPage:84 - User isko.antontest@gmail.com deleted
+2018-02-06 17:03:03 INFO  AddNewUser:113 - --------Finishing "addNewUser" test---------

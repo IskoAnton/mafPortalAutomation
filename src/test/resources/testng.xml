@@ -11,7 +11,7 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AllPagesAreLoadingTest"/>
 		</classes>
-	</test>-->
+	</test>
 
 	<test name="New user registration tests">
 		<parameter name="path" value="/"/>
@@ -34,12 +34,12 @@
 		</classes>
 	</test>
 
-	<!--<test name="Buy item tests">
+	<test name="Buy item tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.BuyItemTest"/>
 		</classes>
-	</test>-->
+	</test>
 
 	<test name="Delete user from DB">
 		<parameter name="path" value="/"/>
@@ -48,7 +48,7 @@
 		</classes>
 	</test>
 
-	<!--<test name="Admin panel entry test">
+	<test name="Admin panel entry test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AdminAccountEntry"/>
@@ -151,7 +151,7 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewEvent"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Add new User through admin panel test">
 		<parameter name="path" value="/"/>
@@ -160,7 +160,7 @@
 		</classes>
 	</test>
 
-	<test name="Add new Role test">
+	<!--<test name="Add new Role test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewRole"/>
