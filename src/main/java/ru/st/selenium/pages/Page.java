@@ -75,7 +75,7 @@ public abstract class Page {
 		try {
 			driver.findElement((By) webElement);
 			return true;
-		} catch (Exception e) {
+		} catch (NoSuchElementException e) {
 			return false;
 		}
 	}

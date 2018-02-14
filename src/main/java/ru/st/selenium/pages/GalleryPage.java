@@ -6,6 +6,7 @@ import ru.st.selenium.model.PhotoGallery;
 import ru.st.selenium.model.VideoGallery;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+import static org.testng.Assert.assertFalse;
 
 public class GalleryPage extends InternalPage {
     public GalleryPage(PageManager pages) {
@@ -31,5 +32,11 @@ public class GalleryPage extends InternalPage {
 
     public void clickVideoTab() {
         driver.findElement(By.xpath("//a[contains(text(), 'Видео') or contains(text(), 'Video')]")).click();
+    }
+
+    public void checkPhotoGalleryDoesntExist(PhotoGallery photoGallery) {
+        boolean isPresent = isElementPresent(By.xpath("//div[@class = 'item_title' and contains(text(),'"+photoGallery.getTitle()+"')]"));
+        log("There is no photo gallery '" + photoGallery.getTitle() + "' on gallery page");
+        assertFalse(isPresent);
     }
 }

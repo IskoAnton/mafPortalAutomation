@@ -8,6 +8,7 @@ import ru.st.selenium.model.Product;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
+import static org.testng.Assert.assertFalse;
 
 import java.util.List;
 
@@ -63,7 +64,13 @@ public class ShopPage extends InternalPage {
 
     public void checkDataOfProduct(Product product) {
         driver.findElement(By.xpath("//a[@class = 'item_title' and contains(text(), '"+product.getTitle()+"')]"));
-        driver.findElement(By.xpath("//div[@class = 'desc' and contains(text(), '"+product.getDesription()+"')]"));
+        driver.findElement(By.xpath("//div[@class = 'desc' and contains(text(), '"+product.getDescription()+"')]"));
         driver.findElement(By.xpath("//span[@class = 'cena' and contains(text(), '$"+product.getPrice()+"')]"));
+    }
+
+    public void checkProductDoesntExist(Product product) {
+        boolean isPresent = isElementPresent(By.xpath("//a[@class = 'item_title' and contains(text(),'"+product.getTitle()+"')]"));
+        log("There is no photo gallery '" + product.getTitle() + "' on gallery page");
+        assertFalse(isPresent);
     }
 }

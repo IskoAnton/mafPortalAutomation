@@ -62,6 +62,8 @@ public class PageManager {
   public AdminCreateTestimonialPage adminCreateTestimonialPage;
   public AdminPartnerPage adminPartnerPage;
   public AdminCreatePartnerPage adminCreatePartnerPage;
+  public PayPalLoginPage payPalLoginPage;
+  public PayPalPurchasePage payPalPurchasePage;
 
   public PageManager(WebDriver driver) {
     this.driver = driver;
@@ -120,6 +122,8 @@ public class PageManager {
     adminCreateTestimonialPage = initElements(new AdminCreateTestimonialPage(this));
     adminPartnerPage = initElements(new AdminPartnerPage(this));
     adminCreatePartnerPage = initElements(new AdminCreatePartnerPage(this));
+    payPalLoginPage = initElements(new PayPalLoginPage(this));
+    payPalPurchasePage = initElements(new PayPalPurchasePage(this));
   }
   
   private <T extends Page> T initElements(T page) {

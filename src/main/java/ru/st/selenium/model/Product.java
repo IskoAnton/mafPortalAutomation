@@ -1,31 +1,13 @@
 package ru.st.selenium.model;
 
-public class Product {
-    private String title;
-    private String desription;
+public class Product extends TabItem{
+
     private String price;
 
-    public Product(String title, String desription, String price) {
+    public Product(String title, String description, String price) {
         this.title = title;
-        this.desription = desription;
+        this.description = description;
         this.price = price;
-    }
-
-    public String getTitle() {
-
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDesription() {
-        return desription;
-    }
-
-    public void setDesription(String desription) {
-        this.desription = desription;
     }
 
     public String getPrice() {

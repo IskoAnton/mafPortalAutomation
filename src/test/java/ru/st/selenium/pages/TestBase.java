@@ -21,6 +21,7 @@ public class TestBase {
 	public static User TESTUSER;
 	public static User TESTADMIN;
 	public static User NOTEXISTINGUSER;
+	public static User PAYPALUSER;
 	public static News TESTNEWS;
 	public static PageItem TESTPAGEITEM;
 	public static Tournament TESTTOURNAMENT;
@@ -50,13 +51,20 @@ public class TestBase {
 	public static Partner BLANKPARTNER;
 	public static Permission TESTEDITPERMISSION;
 	public static Permission BLANKPERMISSION;
+	public static PhotoGallery EDITPHOTOGALLERY;
+	public static PhotoGallery BLANKPHOTOGALLERY;
+	public static Product EDITPRODUCT;
+	public static Product BLANKPRODUCT;
+	public static Role EDITROLE;
+	public static Role BLANKROLE;
 	public final Logger log = Logger.getLogger(this.getClass().getSimpleName());
 
 
 	static {
-		TESTADDRESS = new Address(Address.Title.MR, "TestUser","1257 Montgomery street", "apt 47", "San Francisco", "California", "98542", "USA", "testemail@test.com");
+		TESTADDRESS = new Address(Address.Title.MR, "TestUser","1257 Montgomery street", "apt 47", "San Francisco", "California", "98542", "United States", "testemail@test.com");
 		USERMAFIA = new User("TestName", "TestLastName", "TestNickName", "mafia@mafia.com", "007mafia007", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
 		TESTUSER = new User("TestName", "TestLastName", "TestNickName", "isko.antontest@gmail.com", "12345678", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
+		PAYPALUSER = new User("PaypalTestName", "PaypalTestLastName", "PaypalTestNickName", "testbarev123@mail.ru", "zxcv1234", "zxcv1234", "Los Angeles", TESTADDRESS, TESTADDRESS);
 		TESTADMIN = new User("TestName", "TestLastName", "TestNickName", "mafia@mafia.com", "007mafia007", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
 		NOTEXISTINGUSER = new User("TestName", "TestLastName", "TestNickName", "notExistingUser@mafia.com", "123456", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
 		TESTPAGEITEM = new PageItem("TestPageTilte", "TestPageName", "", "TestPageContent", "TestPageMetaTitle", "TestPageSocialTitle", "TestPageMetaDescriptiom", "TestPageSocialMetaDescription", "TestPageMetaKeywords", "TestPageRusPageTitle", "TestPageRusContent", "TestPageRusMetaTitle", "TestPageRusSocialMetaTitle", "TestPageRusMetaDescription", "TestPageRusSocialMetaDescription", "TestPageRusMetaKeywords");
@@ -73,7 +81,6 @@ public class TestBase {
 		TESTSLIDE = new Slide("TestSlideTitle", "TestSlideDesription", "TestSlideButtonText", "http://www.testslidebuttonlink.com/", "TestSlideRusTitle", "TestSlideRusDescription", "TestSlideRusButtonText", "http://www.rustestslidebuttonlink.com/");
 		TESTTESTIMONIAL = new Testimonial("TestTestimonialName", "testTestimonialText");
 		TESTPARTNER = new Partner("TestPartnerName", "http://www.testparnerlink.com/");
-		TESTADDRESS = new Address(Address.Title.MR, "TestUser","1257 Montgomery street", "apt 47", "San Francisco", "California", "98542", "USA", "testemail@test.com");
 		BLANKUSER = new User("", "", "", "", "", "", "", TESTADDRESS, TESTADDRESS);
 		TESTEDITCLUB = new Club("EDITtestClubTitle", "", "EDITtestClubCity", "Russia", "EDITtestMenuAdmins", "Yerevan rating", false, "EDITtestMenuAboutClub", "EDITtestRusClubAboutClub");
 		BLANKCLUB = new Club("", "", "", "", "", "", false, "", "");
@@ -88,8 +95,12 @@ public class TestBase {
 		BLANKPARTNER = new Partner("", "");
 		TESTEDITPERMISSION = new Permission("EDITtestPermission");
 		BLANKPERMISSION = new Permission("");
-
-
+		EDITPHOTOGALLERY = new PhotoGallery("EDITTestPhotoGalleryTitle", "Редактированная фото галерея тестовое название", "", "New York","The tournament of the Best players of 20 years","Турнир Лучших Игроков 20-ти лет", true);
+		BLANKPHOTOGALLERY = new PhotoGallery("", "", "", "","","", true);
+		EDITPRODUCT = new Product("EDITTestProductTitle", "EDITestProductDescription", "250");
+		BLANKPRODUCT = new Product("", "", "");
+		EDITROLE = new Role("EDITRole");
+		BLANKROLE = new Role("");
 		/*DateFormat dateFormat = new SimpleDateFormat("mm/dd/yyyy hh:mm");
 		dateFormat.parse(today.);*/
 

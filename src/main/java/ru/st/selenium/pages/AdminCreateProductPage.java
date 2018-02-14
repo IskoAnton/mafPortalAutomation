@@ -13,10 +13,18 @@ public class AdminCreateProductPage extends AdminCreateItemPage {
 
     public void fillAllFieldsWithData(Object obj) {
         Product product = (Product) obj;
-        driver.findElement(By.xpath(TITLE_FIELD_LOCATOR)).sendKeys(product.getTitle());
-        driver.findElement(By.xpath(DESCRIPTION_FIELD_LOCATOR)).sendKeys(product.getDesription());
+        sendKeysToTitleField(product);
+        sendKeysToDescriptionField(product);
+        driver.findElement(By.xpath(PRICE_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(PRICE_FIELD_LOCATOR)).sendKeys(product.getPrice());
+        log("Price " + product.getPrice() + " was typed to price field");
+    }
 
+    public void checkRequiredFieldsMessages() {
+        driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[contains(text(), 'The title field is required.')]"));
+        log("Message 1 is 'The title field is required.'");
+        driver.findElement(By.xpath("//label[contains(text(), 'Title')]/../..//div[@class = 'help-block' and contains(text(), 'The title field is required.')]"));
+        log("Message 2 is 'The title field is required.'");
     }
 
 }
