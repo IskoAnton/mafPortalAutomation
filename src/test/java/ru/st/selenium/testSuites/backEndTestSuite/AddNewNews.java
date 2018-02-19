@@ -33,7 +33,6 @@ public class AddNewNews extends TestBase{
         app.getPages().newsItemPage.checkDataOnNewsItemPage(news);
         app.getPages().internalPage.setLanguage("eng");
         app.getPages().newsItemPage.checkDataOnNewsItemPage(news);
-
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
 
     }

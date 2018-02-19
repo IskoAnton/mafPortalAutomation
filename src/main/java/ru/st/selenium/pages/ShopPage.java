@@ -70,7 +70,7 @@ public class ShopPage extends InternalPage {
 
     public void checkProductDoesntExist(Product product) {
         boolean isPresent = isElementPresent(By.xpath("//a[@class = 'item_title' and contains(text(),'"+product.getTitle()+"')]"));
-        log("There is no photo gallery '" + product.getTitle() + "' on gallery page");
+        log("There is no product '" + product.getTitle() + "' on shop page");
         assertFalse(isPresent);
     }
 }

@@ -44,9 +44,14 @@ public abstract class AdminAnyTabPage extends AdminInternalPage{
 
     public void clickEditItem(String name) {
         typeToSearchField(name);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]")));
+        if (name.contains("@")) {
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table[@id = 'crudTable']//td/a[text() = '"+name+"']")));
+            driver.findElement(By.xpath("//table[@id = 'crudTable']//td/a[text() = '"+name+"']/../..//i[@class = 'fa fa-edit']")).click();
+        } else {
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table[@id = 'crudTable']//td[text() = '" + name + "']")));
+            driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]/../..//i[@class = 'fa fa-edit']")).click();
+        }
         //Press edit button
-        driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]/../..//i[@class = 'fa fa-edit']")).click();
         log("Edit button of " + name + " was clicked");
     }
 

@@ -6,6 +6,7 @@ import ru.st.selenium.model.PhotoGallery;
 import ru.st.selenium.model.VideoGallery;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 
 public class GalleryPage extends InternalPage {
@@ -27,16 +28,50 @@ public class GalleryPage extends InternalPage {
     }
 
     public void clickVideoGallery(VideoGallery videoGallery) {
-        driver.findElement(By.xpath("//div[contains(text(), '"+videoGallery.getRusTitle()+"') or contains(text(), '"+videoGallery.getTitle()+"')]")).click();
+        String language = getLanguage();
+        String title = driver.findElement(By.xpath("//div[contains(text(),'"+videoGallery.getRusTitle()+"') or contains(text(), '"+videoGallery.getTitle()+"')]")).getText();
+        if (language.equals("rus")) {
+            assertEquals(videoGallery.getRusTitle(), title);
+        } else assertEquals(videoGallery.getTitle(), title);
     }
 
     public void clickVideoTab() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         driver.findElement(By.xpath("//a[contains(text(), 'Видео') or contains(text(), 'Video')]")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public void checkPhotoGalleryDoesntExist(PhotoGallery photoGallery) {
-        boolean isPresent = isElementPresent(By.xpath("//div[@class = 'item_title' and contains(text(),'"+photoGallery.getTitle()+"')]"));
-        log("There is no photo gallery '" + photoGallery.getTitle() + "' on gallery page");
+        String language = getLanguage();
+        boolean isPresent = true;
+        if (language.equals("rus")) {
+            isPresent = isElementPresent(By.xpath("//div[@class = 'item_title' and contains(text(),'"+ photoGallery.getRusTitle() + "')]"));
+        }
+        if (language.equals("eng")) {
+            isPresent = isElementPresent(By.xpath("//div[@class = 'item_title' and contains(text(),'"+ photoGallery.getTitle() + "')]"));
+        }
+        log("There is no video gallery '" + photoGallery.getTitle() + "' on gallery page");
+        assertFalse(isPresent);
+    }
+
+    public void checkVideoGalleryDoesntExist(VideoGallery videoGallery) {
+        String language = getLanguage();
+        boolean isPresent = true;
+        if (language.equals("rus")) {
+            isPresent = isElementPresent(By.xpath("//div[contains(text(), '"+ videoGallery.getRusTitle() + "')]"));
+        }
+        if (language.equals("eng")) {
+            isPresent = isElementPresent(By.xpath("//div[contains(text(), '"+ videoGallery.getTitle() + "')]"));
+        }
+        log("There is no video gallery '" + videoGallery.getTitle() + "' on gallery page");
         assertFalse(isPresent);
     }
 }

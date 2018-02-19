@@ -17,12 +17,12 @@ public class CreatedPage extends InternalPage{
     public void checkDataOnNewPage(PageItem newPage) {
         String language = getLanguage();
         if (language.equalsIgnoreCase("rus")) {
-            assertEquals(driver.findElement(By.xpath(PAGE_TITLE_LOCATOR)).getText(), newPage.getRusPageTitle());
-            //assertEquals(driver.findElement(By.xpath(PAGE_TEXT_LOCATOR)).getText(), newPage.getRusContent());
+            assertEquals(driver.findElement(By.xpath(PAGE_TITLE_LOCATOR)).getText(), newPage.getRusTitle());
+            assertEquals(driver.findElement(By.xpath(PAGE_TEXT_LOCATOR)).getText(), newPage.getRusText());
 
         } else if (language.equalsIgnoreCase("eng")) {
-            assertEquals(driver.findElement(By.xpath(PAGE_TITLE_LOCATOR)).getText(), newPage.getPageTitle());
-            //assertEquals(driver.findElement(By.xpath(PAGE_TEXT_LOCATOR)).getText(), newPage.getContent());
+            assertEquals(driver.findElement(By.xpath(PAGE_TITLE_LOCATOR)).getText(), newPage.getTitle());
+            assertEquals(driver.findElement(By.xpath(PAGE_TEXT_LOCATOR)).getText(), newPage.getText());
         }
     }
 }

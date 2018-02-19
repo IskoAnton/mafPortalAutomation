@@ -30,20 +30,20 @@ public class AdminCreateNewsPage extends AdminCreateItemPage {
         addFile(imageDirectory);
         sendKeysToDescriptionField(news);
         sendKeysToTextField(news);
-        sendKeysToMetaTitle(news);
+        /*sendKeysToMetaTitle(news);
         sendKeysToSocialMetaTitle(news);
         sendKeysToMetaDescription(news);
         sendKeysToSocialMetaDescription(news);
-        sendKeysToMetaKeywords(news);
+        sendKeysToMetaKeywords(news);*/
         clickRusTab();
         sendKeysToRusTitleField(news);
         sendKeysToRusDescriptionField(news);
         sendKeysToRusTextField(news);
-        sendKeysToRusMetaTitle(news);
+        /*sendKeysToRusMetaTitle(news);
         sendKeysToRusSocialMetaTitle(news);
         sendKeysToRusMetaDescription(news);
         sendKeysToRusSocialMetaDescription(news);
-        sendKeysToRusMetaKeywords(news);
+        sendKeysToRusMetaKeywords(news);*/
     }
 
     public void checkRequiredFieldsMessages() {

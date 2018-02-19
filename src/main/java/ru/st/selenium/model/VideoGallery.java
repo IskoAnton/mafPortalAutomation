@@ -1,8 +1,6 @@
 package ru.st.selenium.model;
 
-public class VideoGallery {
-    private String title;
-    private String rusTitle;
+public class VideoGallery extends TabItem{
     private String club;
     private String tournament;
     private String rusTournament;
@@ -17,22 +15,6 @@ public class VideoGallery {
         this.rusTournament = rusTournament;
         this.showInGlobalGallery = showInGlobalGallery;
         this.youtubeLink = youtubeLink;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getRusTitle() {
-        return rusTitle;
-    }
-
-    public void setRusTitle(String rusTitle) {
-        this.rusTitle = rusTitle;
     }
 
     public String getClub() {

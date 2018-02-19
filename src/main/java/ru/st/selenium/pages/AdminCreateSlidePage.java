@@ -21,17 +21,28 @@ public class AdminCreateSlidePage extends AdminCreateItemPage {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(TITLE_FIELD_LOCATOR)));
         sendKeysToTitleField(slide);
         sendKeysToDescriptionField(slide);
+        driver.findElement(By.xpath(BUTTON_TEXT_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(BUTTON_TEXT_FIELD_LOCATOR)).sendKeys(slide.getButtonText());
         log("Button text '" + slide.getButtonText() + "' was typed to button text field");
+        driver.findElement(By.xpath(BUTTON_LINK_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(BUTTON_LINK_FIELD_LOCATOR)).sendKeys(slide.getButtonLink());
         log("Button link '" + slide.getButtonLink() + "' was typed to button link field");
         clickRusTab();
         sendKeysToRusTitleField(slide);
         sendKeysToRusDescriptionField(slide);
+        driver.findElement(By.xpath(RUS_BUTTON_TEXT_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(RUS_BUTTON_TEXT_FIELD_LOCATOR)).sendKeys(slide.getButtonText());
         log("Title " + slide.getTitle() + "was typed to title field");
+        driver.findElement(By.xpath(RUS_BUTTON_LINK_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(RUS_BUTTON_LINK_FIELD_LOCATOR)).sendKeys(slide.getButtonLink());
         log("Title " + slide.getTitle() + "was typed to title field");
         addFile(imageDirectory);
+    }
+
+    public void checkRequiredFieldsMessages() {
+        driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[contains(text(), 'The title field is required.')]"));
+        log("Message 1 is 'The title field is required.'");
+        driver.findElement(By.xpath("//label[contains(text(), 'Title')]/../..//div[@class = 'help-block' and contains(text(), 'The title field is required.')]"));
+        log("Message 2 is 'The title field is required.'");
     }
 }

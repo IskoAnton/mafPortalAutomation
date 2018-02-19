@@ -31,12 +31,12 @@ public class NewsPage extends InternalPage {
         String language = getLanguage();
         boolean isPresent = true;
         if (language.equals("rus")) {
-            isPresent = isElementPresent(By.xpath("//div[@class = 'News_item']//h2[contains(text(), '"+ news.getTitle() + "')"));
+            isPresent = isElementPresent(By.xpath("//div[@class = 'News_item']//h2[contains(text(), '"+ news.getRusTitle() + "')]"));
         }
         if (language.equals("eng")) {
-            isPresent = isElementPresent(By.xpath("//div[@class = 'News_item']//h2[contains(text(), '"+ news.getRusTitle() + "')"));
+            isPresent = isElementPresent(By.xpath("//div[@class = 'News_item']//h2[contains(text(), '"+ news.getTitle() + "')]"));
         }
-        log("There is no country '" + news.getTitle() + "' on clubs page");
+        log("There is no news '" + news.getTitle() + "' on news page");
         assertFalse(isPresent);
     }
 }

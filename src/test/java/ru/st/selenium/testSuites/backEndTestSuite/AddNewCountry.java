@@ -90,6 +90,8 @@ public class AddNewCountry extends TestBase {
         app.getNavigationHelper().gotoClubsPage();
         app.getPages().internalPage.setLanguage("eng");
         app.getPages().clubsPage.checkCountryDoesntExist(country);
+        app.getPages().internalPage.setLanguage("rus");
+        app.getPages().clubsPage.checkCountryDoesntExist(country);
         app.getNavigationHelper().gotoAdminPage();
         app.getAdminUserHelper().logout();
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");

@@ -21,38 +21,28 @@ public class AdminCreateNewPage extends AdminCreateItemPage {
 
     public void fillAllFieldsWithData(Object obj) {
         PageItem pageItem = (PageItem) obj;
+        driver.findElement(By.xpath(PAGE_NAME_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(PAGE_NAME_FIELD_LOCATOR)).sendKeys(pageItem.getPageName());
         log("Page name field filled with '" + pageItem.getPageName() + "'");
-        driver.findElement(By.xpath(TITLE_FIELD_LOCATOR)).sendKeys(pageItem.getPageTitle());
-        log("Title field filled with '" + pageItem.getPageTitle() + "'");
-        driver.findElement(By.xpath(SLUG_FIELD_LOCATOR)).sendKeys(pageItem.getPageSlug());
-        log("Slug field filled with '" + pageItem.getPageSlug() + "'");
-        //driver.findElement(By.xpath(CONTENT_FIELD_LOCATOR)).sendKeys(pageItem.getContent());
-        driver.findElement(By.xpath(META_TITLE_FIELD_LOCATOR)).sendKeys(pageItem.getMetaTitle());
-        log("Metatitle field filled with '" + pageItem.getMetaTitle() + "'");
-        driver.findElement(By.xpath(SOCIAL_META_TITLE_FIELD_LOCATOR)).sendKeys(pageItem.getSocialMetaTitle());
-        log("Social Metatitle field filled with '" + pageItem.getSocialMetaTitle() + "'");
-        driver.findElement(By.xpath(META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(pageItem.getMetaDescription());
-        log("Meta description field filled with '" + pageItem.getMetaDescription() + "'");
-        driver.findElement(By.xpath(SOCIAL_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(pageItem.getSocialMetaTitle());
-        log("Social meta description field filled with '" + pageItem.getSocialMetaDescription() + "'");
-        driver.findElement(By.xpath(META_KEYWORDS_LOCATOR)).sendKeys(pageItem.getMetaKeywords());
-        log("Metakeywords field filled with '" + pageItem.getMetaKeywords() + "'");
-        driver.findElement(By.xpath(RUS_TAB_LOCATOR)).click();
-        log("Rus tab has been clicked");
+        sendKeysToTitleField(pageItem);
+        sendKeysToSlugField(pageItem);
+        sendKeysToTextField(pageItem);
+        clickRusTab();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(RUS_TITLE_FIELD_LOCATOR)));
-        driver.findElement(By.xpath(RUS_TITLE_FIELD_LOCATOR)).sendKeys(pageItem.getRusPageTitle());
-        log("Rus title field filled with '" + pageItem.getRusPageTitle() + "'");
-        //driver.findElement(By.xpath(RUS_CONTENT_FIELD_LOCATOR)).sendKeys(pageItem.getRusContent());
-        driver.findElement(By.xpath(RUS_META_TITLE_FIELD_LOCATOR)).sendKeys(pageItem.getRusMetaTitle());
-        log("Rus meta title field filled with '" + pageItem.getRusMetaTitle() + "'");
-        driver.findElement(By.xpath(RUS_SOCIAL_META_TITLE_FIELD_LOCATOR)).sendKeys(pageItem.getRusSocialMetaTitle());
-        log("Rus social meta title field filled with '" + pageItem.getRusSocialMetaTitle() + "'");
-        driver.findElement(By.xpath(RUS_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(pageItem.getRusMetaDescription());
-        log("Rus meta description field filled with '" + pageItem.getRusMetaDescription() + "'");
-        driver.findElement(By.xpath(RUS_SOCIAL_META_DESCRIPTION_FIELD_LOCATOR)).sendKeys(pageItem.getRusSocialMetaDescription());
-        log("Rus social meta description field filled with '" + pageItem.getRusSocialMetaDescription() + "'");
-        driver.findElement(By.xpath(RUS_META_KEYWORDS_LOCATOR)).sendKeys(pageItem.getRusMetaKeywords());
-        log("Rus meta keywords field filled with '" + pageItem.getRusMetaKeywords()+ "'");
+        driver.findElement(By.xpath(RUS_TITLE_FIELD_LOCATOR)).clear();
+        driver.findElement(By.xpath(RUS_TITLE_FIELD_LOCATOR)).sendKeys(pageItem.getRusTitle());
+        sendKeysToRusTextField(pageItem);
+    }
+
+    public void checkRequiredFieldsMessages() {
+        String language = getLanguage();
+        driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[text() = 'The name field is required.']"));
+        driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[text() = 'The title field is required.']"));
+        log("Message 1 is 'The name field is required.'");
+        log("Message 1 is 'The name field is required.'");
+        driver.findElement(By.xpath("//label[contains(text(), 'Page name (only seen by admins)')]/../..//div[@class = 'help-block' and text() = 'The name field is required.']"));
+        driver.findElement(By.xpath("//label[contains(text(), 'Page Title')]/../..//div[@class = 'help-block' and text() = 'The title field is required.']"));
+        log("Message 2 is 'The name field is required.'");
+        log("Message 2 is 'The title field is required.'");
     }
 }

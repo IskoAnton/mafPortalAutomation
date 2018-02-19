@@ -1,5 +1,6 @@
 package ru.st.selenium.pages;
 
+import com.gargoylesoftware.htmlunit.Page;
 import org.apache.log4j.Logger;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
@@ -57,6 +58,15 @@ public class TestBase {
 	public static Product BLANKPRODUCT;
 	public static Role EDITROLE;
 	public static Role BLANKROLE;
+	public static Slide EDITSLIDE;
+	public static Slide BLANKSLIDE;
+	public static Testimonial EDITTESTIMONIAL;
+	public static Testimonial BLANKTESTIMONIAL;
+	public static Tournament EDITTOURNAMENT;
+	public static Tournament BLANKTOURNAMENT;
+	public static User EDITUSER;
+	public static VideoGallery EDITVIDEOGALLERY;
+	public static PageItem EDITPAGEITEM;
 	public final Logger log = Logger.getLogger(this.getClass().getSimpleName());
 
 
@@ -101,6 +111,15 @@ public class TestBase {
 		BLANKPRODUCT = new Product("", "", "");
 		EDITROLE = new Role("EDITRole");
 		BLANKROLE = new Role("");
+		EDITSLIDE = new Slide("EDITTestSlideTitle", "EDITTestSlideDesription", "EDITTestSlideButtonText", "http://www.edittestslidebuttonlink.com/", "EDITTestSlideRusTitle", "EDITTestSlideRusDescription", "EDITTestSlideRusButtonText", "http://www.editrustestslidebuttonlink.com/");
+		BLANKSLIDE = new Slide("", "", "", "", "", "", "", "");
+		EDITTESTIMONIAL = new Testimonial("EDITTestTestimonialName", "EDITtestTestimonialText");
+		BLANKTESTIMONIAL = new Testimonial("", "");
+		EDITTOURNAMENT = new Tournament("EDITTestTournamentTitle", "EDITTestTournamentSlug", "Yerevan rating", "12/12/2018 16:04","EDITTestTournamentDescription", "EDITTestTournamentRatingOverview", "EDITTestTournamentText", "EDITTestTournamentMetaTitle", "EDITTestTournamentSocialTitle", "EDITTestTournamentMetaDescriptiom", "EDITTestTournamentSocialMetaDescription", "EDITTestTournamentMetaKeywords", "EDITTestTournamentRusPageTitle", "EDITTestTournamentRusDescription","EDITTestTournamentRusRatingOverview", "EDITTestTournamentRusText","EDITTestTournamentRusMetaTitle", "EDITTestTournamentRusSocialMetaTitle", "EDITTestTournamentRusMetaDescription", "EDITTestTournamentRusSocialMetaDescription", "EDITTestTournamentRusMetaKeywords");
+		BLANKTOURNAMENT = new Tournament("", "", "", "","", "", "", "", "", "", "", "", "", "","", "","", "", "", "", "");
+		EDITUSER = new User("EDITTestName", "EDITTestLastName", "EDITTestNickName", "EDITisko.antontest@gmail.com", "EDIT12345678", "EDIT12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
+		EDITVIDEOGALLERY = new VideoGallery("EDITTestVideoGalleryTitle", "EDITВидео галерея тестовое название","New York", "VaWaCa 2017", "VaWaCa 2017", true, "https://www.youtube.com/watch?v=zqE-ultsWt0EDIT");
+		EDITPAGEITEM = new PageItem("EDITTestPageTilte", "EDITTestPageName", "", "EDITTestPageContent", "EDITTestPageMetaTitle", "EDITTestPageSocialTitle", "EDITTestPageMetaDescriptiom", "EDITTestPageSocialMetaDescription", "EDITTestPageMetaKeywords", "EDITTestPageRusPageTitle", "EDITTestPageRusContent", "EDITTestPageRusMetaTitle", "EDITTestPageRusSocialMetaTitle", "EDITTestPageRusMetaDescription", "EDITTestPageRusSocialMetaDescription", "EDITTestPageRusMetaKeywords");
 		/*DateFormat dateFormat = new SimpleDateFormat("mm/dd/yyyy hh:mm");
 		dateFormat.parse(today.);*/
 

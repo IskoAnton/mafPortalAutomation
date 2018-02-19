@@ -14,12 +14,14 @@ import java.util.logging.Logger;
 
 public class AddNewTestimonial extends TestBase {
     public static final Logger log = Logger.getLogger(AccountEntryTest.class.getName());
+    User admin = TESTADMIN;
+    Testimonial testimonial = TESTTESTIMONIAL;
+    Testimonial editTestimonial = EDITTESTIMONIAL;
+    Testimonial blankTestimonial = BLANKTESTIMONIAL;
 
     @Test
-    public void addNewTestimonial() {
+    public void T001_addNewTestimonial() {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
-        User admin = TESTADMIN;
-        Testimonial testimonial = TESTTESTIMONIAL;
         app.getAdminUserHelper().logindAs(admin);
         app.getPages().adminInternalPage.clickOnAdminTab("Home page");
         app.getPages().adminInternalPage.clickOnAdminTab("Testimonials");
@@ -31,11 +33,59 @@ public class AddNewTestimonial extends TestBase {
         app.getPages().homePage.checkDataOnTestimonial(testimonial);
         app.getPages().internalPage.setLanguage("rus");
         app.getPages().homePage.checkDataOnTestimonial(testimonial);
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
+
+    @Test
+    public void T002_editTestimonial() throws InterruptedException {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Home page");
+        app.getPages().adminInternalPage.clickOnAdminTab("Testimonials");
+        app.getPages().adminTestimonialsPage.clickEditItem(testimonial.getName());
+        app.getPages().adminCreateTestimonialPage.fillAllFieldsWithData(editTestimonial);
+        app.getPages().adminCreateTestimonialPage.pressSubmitButton();
+        app.getPages().adminMenuPage.clickLogo();
+        app.getPages().internalPage.setLanguage("eng");
+        app.getPages().homePage.checkDataOnTestimonial(editTestimonial);
+        app.getPages().internalPage.setLanguage("rus");
+        app.getPages().homePage.checkDataOnTestimonial(editTestimonial);
         app.getNavigationHelper().gotoAdminPage();
         app.getPages().adminInternalPage.clickOnAdminTab("Home page");
         app.getPages().adminInternalPage.clickOnAdminTab("Testimonials");
-        app.getPages().adminPagesPage.deleteItem(testimonial.getName(), "Name");
+        app.getPages().adminPagesPage.deleteItem(editTestimonial.getName(), "Name");
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
 
+    @Test
+    public void T003_addBlankTestimonial() {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Home page");
+        app.getPages().adminInternalPage.clickOnAdminTab("Testimonials");
+        app.getPages().adminTestimonialsPage.clickAddItemButton();
+        app.getPages().adminCreateTestimonialPage.fillAllFieldsWithData(blankTestimonial);
+        app.getPages().adminCreateTestimonialPage.pressSubmitButton();
+        app.getPages().adminCreateTestimonialPage.checkRequiredFieldsMessages();
+        app.getNavigationHelper().gotoAdminPage();
+        app.getAdminUserHelper().logout();
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
+
+    @Test
+    public void T004_cancelAddingNewTestimonial() {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Home page");
+        app.getPages().adminInternalPage.clickOnAdminTab("Testimonials");
+        app.getPages().adminTestimonialsPage.clickAddItemButton();
+        app.getPages().adminCreateTestimonialPage.fillAllFieldsWithData(testimonial);
+        app.getPages().adminCreateTestimonialPage.pressCancelButton();
+        app.getPages().adminMenuPage.clickLogo();
+        app.getPages().internalPage.setLanguage("eng");
+        app.getPages().homePage.checkTestimonialDoesntExist(testimonial);
+        app.getPages().internalPage.setLanguage("rus");
+        app.getPages().homePage.checkTestimonialDoesntExist(testimonial);
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 

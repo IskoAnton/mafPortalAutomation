@@ -40,7 +40,7 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
     protected final String SOCIAL_META_DESCRIPTION_FIELD_LOCATOR = "//textarea[@name = 'social_meta_description_en']";
     protected final String META_KEYWORDS_LOCATOR = "//textarea[@name = 'meta_keywords_en']";
 
-    protected final String RUS_TITLE_FIELD_LOCATOR = "//input[@name = 'title_ru']";
+    protected final String RUS_TITLE_FIELD_LOCATOR = "//input[@name = 'title_ru' or @name = 'title_rus']";
     protected final String RUS_DESCRIPTION_FIELD_LOCATOR = "//textarea[@name = 'description_ru']";
     protected final String RUS_META_TITLE_FIELD_LOCATOR = "//input[@name = 'meta_title_ru']";
     protected final String RUS_SOCIAL_META_TITLE_FIELD_LOCATOR = "//input[@name = 'social_meta_title_ru']";
@@ -120,7 +120,7 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
 
             }
         }
-        driver.findElement(By.xpath("//h3")).click();
+        driver.findElement(By.xpath("//h1")).click();
         log("Chosen date is " + randomNumber + " " + month );
     }
 
@@ -242,6 +242,7 @@ public abstract class AdminCreateItemPage extends AdminInternalPage {
         driver.switchTo().frame(frame);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//body")));
         WebElement editor = driver.findElement(By.xpath("//body"));
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//body")));
         editor.clear();
         editor.sendKeys(tabItem.getText());
         driver.switchTo().defaultContent();

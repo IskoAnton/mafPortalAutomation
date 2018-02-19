@@ -79,10 +79,10 @@ public class ClubsPage extends InternalPage {
         String language = getLanguage();
         boolean isPresent = true;
         if (language.equals("rus")) {
-            isPresent = isElementPresent(By.xpath("//a[contains(text(),'"+country.getTitle()+"')]"));
+            isPresent = isElementPresent(By.xpath("//div[contains(text(), '"+country.getRusTitle()+"')]"));
         }
         if (language.equals("eng")) {
-            isPresent = isElementPresent(By.xpath("//a[contains(text(),'"+country.getRusTitle()+"')]"));
+            isPresent = isElementPresent(By.xpath("//div[contains(text(), '"+country.getTitle()+"')]"));
         }
         log("There is no country '" + country.getTitle() + "' on clubs page");
         assertFalse(isPresent);

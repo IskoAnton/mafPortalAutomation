@@ -163,7 +163,7 @@ public class WebDriverFactory {
 			//options.addArguments("--single-process");
 			options.addArguments("--headless");
 			options.addArguments("window-size=3000x2000");
-			webDriver = new ChromeDriver();
+			webDriver = new ChromeDriver(options);
 
 
 		} else if (FIREFOX.equals(browser)) {

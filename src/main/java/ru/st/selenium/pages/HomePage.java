@@ -40,7 +40,8 @@ public class HomePage extends InternalPage {
     }
 
     public void checkDataOnTestimonial(Testimonial testimonial) {
-            driver.findElement(By.xpath("//div[@class = 'reviewWr ng-scope']//h2[contains(text(), '"+testimonial.getName()+"')]"));
+            driver.findElement(By.xpath("//div[@class = 'reviewWr ng-scope']//h2[text() = '"+testimonial.getName()+"']"));
+            driver.findElement(By.xpath("//div[@class = 'review']/p[text() = '"+testimonial.getText()+"']"));
     }
 
     public void checkDataOfPartners(Partner partner) {
@@ -57,7 +58,28 @@ public class HomePage extends InternalPage {
         if (language.equals("eng")) {
             isPresent = isElementPresent(By.xpath("//div[@class = 'partnersWr']//img[@title = '"+partner.getName()+"']"));
         }
-        log("There is no country '" + partner.getName() + "' on clubs page");
+        log("There is no partner '" + partner.getName() + "' on homepage");
+        assertFalse(isPresent);
+    }
+
+    public void checkSlideDoesntExist(Slide slide) {
+        String language = getLanguage();
+        boolean isPresent = true;
+        if (language.equals("rus")) {
+            isPresent = isElementPresent(By.xpath("//h1[@class = 'title' and contains(text(),'"+slide.getRusTitle()+"')]"));
+            log("There is no slide '" + slide.getRusTitle() + "' on clubs page");
+        }
+        if (language.equals("eng")) {
+            isPresent = isElementPresent(By.xpath("//h1[@class = 'title' and contains(text(),'"+slide.getTitle()+"')]"));
+            log("There is no slide '" + slide.getTitle() + "' on clubs page");
+        }
+        log("There is no slide '" + slide.getTitle() + "' on clubs page");
+        assertFalse(isPresent);
+    }
+
+    public void checkTestimonialDoesntExist(Testimonial testimonial) {
+        boolean isPresent = isElementPresent(By.xpath("//div[@class = 'reviewWr ng-scope']//h2[text() = '"+testimonial.getName()+"']"));
+        log("There is no testimonial '" + testimonial.getName() + "' on home page");
         assertFalse(isPresent);
     }
 }
