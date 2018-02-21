@@ -26,7 +26,7 @@ public class InternalPage extends AnyPage {
   private final String  HISTORY_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'HISTORY') or contains(text(),'ИСТОРИЯ')]";
   private final String  GALLERY_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'GALLERY') or contains(text(),'ГАЛЕРЕЯ')]";
   private final String  SHOP_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'SHOP') or contains(text(),'МАГАЗИН')]";
-  private final String  LOGIN_BUTTON_WHEN_NOT_LOGGED_IN_LOCATOR= "//div[@class = 'loginBox']";
+  private final String  LOGIN_BUTTON_WHEN_NOT_LOGGED_IN_LOCATOR= "//div[@class = 'sign_style']";
   private final String  LOGIN_BUTTON_WHEN_LOGGED_IN_LOCATOR= "//div[@id = 'myBtn']";
   private final String  CART_BUTTON_LOCATOR= "//div[@id = 'myDropdown']/a[4]";
   private final String  MENU_BUTTON_LOCATOR= "//a[@id = 'menu-toggle']";
