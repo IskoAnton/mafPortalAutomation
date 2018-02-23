@@ -1,6 +1,6 @@
 package ru.st.selenium.pages;
 
-import com.gargoylesoftware.htmlunit.Page;
+//import com.gargoylesoftware.htmlunit.Page;
 import org.apache.log4j.Logger;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
@@ -67,6 +67,7 @@ public class TestBase {
 	public static User EDITUSER;
 	public static VideoGallery EDITVIDEOGALLERY;
 	public static PageItem EDITPAGEITEM;
+	public static MenuItem EDITMENUITEM;
 	public final Logger log = Logger.getLogger(this.getClass().getSimpleName());
 
 
@@ -99,6 +100,7 @@ public class TestBase {
 		TESTEDITEVENT = new Event("EDITtestEventTitle", "", "Yerevan rating", "EDITtestEventDescription", "EDITtestEventText", "EDITtestEventRusTitle", "EDITtestEventRusDescription", "EDITtestEventRusText");
 		BLANKEVENT = new Event("", "", "", "", "", "", "", "");
 		TESTMENUITEM = new MenuItem("TestMenu", "Тест меню", "-", "Internal link", "");
+		EDITMENUITEM = new MenuItem("EDITTestMenu", "EDITТест меню", "-", "Internal link", "");
 		TESTEDITNEWS = new News("EDITtestNews", "", "12/12/2017 16:04", "EDITtestDescription", "EDITtestTest", "EDITtestMetatitle", "TestSocialMetaTitle", "EDITtestMetaDescription", "EDITTestSocialMetaDescription", "EDITtestMetaKeywords", "EDITTestRusTitle", "EDITtestRusDescription", "EDITtestRusText", "EDITtestRusMeaTitle", "EDITtestSocialMetaTitle", "EDITtestRusMetaDescription", "EDITtestRusSocialMetaDescription", "EDITtestRusMetaKeywords");
 		BLANKNEWS = new News("", "", "", "", "", "", "", "", "","","","","","","","","", "");
 		TESTEDITPARTNER = new Partner("EDITtestPartnerName", "http://www.EDITTestparnerlink.com/");

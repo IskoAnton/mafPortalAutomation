@@ -15,9 +15,12 @@ import static org.testng.AssertJUnit.assertEquals;
 
 public class AddNewMenuItems extends TestBase{
     public static final org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(AccountEntryTest.class.getName());
+    User admin = TESTADMIN;
+    MenuItem menuItem = TESTMENUITEM;
+    MenuItem editMenuItem = EDITMENUITEM;
 
     @Test
-    public void addNewMenuItem() {
+    public void T001_addNewMenuItem() {
         User admin = TESTADMIN;
         MenuItem menuItem = TESTMENUITEM;
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
@@ -27,11 +30,51 @@ public class AddNewMenuItems extends TestBase{
         app.getPages().adminCreateMenuItemPage.fillAllFieldsWithData(menuItem);
         app.getPages().adminCreateMenuItemPage.pressSubmitButton();
         app.getPages().adminMenuPage.clickLogo();
-        app.getPages().internalPage.getWebDriver().findElement(By.xpath("//nav[@class = 'headMenu']//a[contains(text(),'"+menuItem.getLabel()+"') or contains(text(),'"+menuItem.getRusLabel()+"')]"));
+        app.getPages().internalPage.checkMenuItemOnPage(menuItem);
         app.getNavigationHelper().gotoAdminPage();
         app.getPages().adminInternalPage.clickOnAdminTab("Menu");
-        app.getPages().adminMenuPage.deleteItem(menuItem.getRusLabel(), "Russian label");
-        app.getPages().adminMenuPage.deleteItem(menuItem.getLabel(), "Russian label");
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
+
+    @Test
+    public void T002_editMenuItem() throws InterruptedException {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Menu");
+        app.getPages().adminMenuPage.clickEditItem(menuItem.getLabel(), menuItem.getRusLabel());
+        app.getPages().adminCreateMenuItemPage.fillAllFieldsWithData(editMenuItem);
+        app.getPages().adminCreateMenuItemPage.pressSubmitButton();
+        app.getPages().adminMenuPage.clickLogo();
+        app.getPages().internalPage.checkMenuItemOnPage(editMenuItem);
+        app.getNavigationHelper().gotoAdminPage();
+        app.getPages().adminInternalPage.clickOnAdminTab("Menu");
+        app.getPages().adminPagesPage.deleteItem(editMenuItem.getLabel(), editMenuItem.getRusLabel());
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
+
+    @Test
+    public void T003_addBlankMenuItem() {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Menu");
+        app.getPages().adminMenuPage.clickAddItemButton();
+        app.getPages().adminCreateMenuItemPage.pressSubmitButton();
+        app.getPages().adminCreateMenuItemPage.checkRequiredFieldsMessages();
+        app.getNavigationHelper().gotoAdminPage();
+        app.getAdminUserHelper().logout();
+        log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+    }
+
+    @Test
+    public void T004_cancelAddingNewMenuItem() {
+        log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
+        app.getAdminUserHelper().logindAs(admin);
+        app.getPages().adminInternalPage.clickOnAdminTab("Menu");
+        app.getPages().adminMenuPage.clickAddItemButton();
+        app.getPages().adminCreateMenuItemPage.fillAllFieldsWithData(menuItem);
+        app.getPages().adminCreateMenuItemPage.pressCancelButton();
+        app.getPages().adminMenuPage.clickLogo();
+        app.getPages().internalPage.checkMenuItemDoesntExist(menuItem);
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 

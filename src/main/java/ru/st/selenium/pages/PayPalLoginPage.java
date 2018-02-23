@@ -28,6 +28,7 @@ public class PayPalLoginPage extends AnyPage{
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//iframe[@name = 'injectedUl']")));
         WebElement frame = driver.findElement(By.xpath("//iframe[@name = 'injectedUl']"));
         driver.switchTo().frame(frame);
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(EMAIL_FIELD_LOCATOR)));
         driver.findElement(By.xpath(EMAIL_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(EMAIL_FIELD_LOCATOR)).sendKeys(email);
         log("Email " + email + " was typed on PayPal login page");

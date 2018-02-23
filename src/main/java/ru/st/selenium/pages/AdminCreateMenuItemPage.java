@@ -8,6 +8,8 @@ import ru.st.selenium.model.MenuItem;
 
 import java.util.List;
 
+import static org.testng.AssertJUnit.assertEquals;
+
 public class AdminCreateMenuItemPage extends AdminCreateItemPage{
     public AdminCreateMenuItemPage(PageManager pages) {
         super(pages);
@@ -34,12 +36,26 @@ public class AdminCreateMenuItemPage extends AdminCreateItemPage{
         Select parentSelector = new Select(driver.findElement(By.xpath(PARENT_SELECTOR_LOCATOR)));
         Select typeSelector = new Select(driver.findElement(By.xpath(TYPE_SELECTOR_LOCATOR)));
         Select pageOrLinkValue = new Select(driver.findElement(By.xpath(PAGE_OR_LINK_VALUE_LOCATOR)));
+        labelField.clear();
         labelField.sendKeys(menuItem.getLabel());
+        log("Label '" + menuItem.getLabel() + "' was typed to label field");
+        rusLabelField.clear();
         rusLabelField.sendKeys(menuItem.getRusLabel());
+        log("Rus label '" + menuItem.getRusLabel() + "' was typed to rus label field");
         parentSelector.selectByVisibleText(menuItem.getParentPage());
         if (language.equals("rus")) {
             typeSelector.selectByVisibleText(menuItem.getRusType());
         } else  typeSelector.selectByVisibleText(menuItem.getType());
 
+    }
+
+    public void checkRequiredFieldsMessages() {
+        String language = getLanguage();
+        driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[text() = 'The name field is required.']"));
+        driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[text() = 'The name rus field is required.']"));
+        log("Message 1 is 'The name field is required.'");
+        log("Message 1 is 'The rus name field is required.'");
+        driver.findElement(By.xpath("//label[contains(text(), 'Label')]/../..//div[@class = 'help-block' and text() = 'The name field is required.']"));
+        driver.findElement(By.xpath("//label[contains(text(), 'Russian label')]/../..//div[@class = 'help-block' and text() = 'The name rus field is required.']"));
     }
 }

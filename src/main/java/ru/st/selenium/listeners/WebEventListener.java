@@ -62,7 +62,7 @@ public class WebEventListener extends AbstractWebDriverEventListener implements 
         log("Clicked at " + element.toString());
     }
 
-    @Override
+    /*@Override
     public void beforeChangeValueOf(WebElement element, WebDriver driver) {
 
     }
@@ -70,7 +70,7 @@ public class WebEventListener extends AbstractWebDriverEventListener implements 
     @Override
     public void afterChangeValueOf(WebElement element, WebDriver driver) {
 
-    }
+    }*/
 
     @Override
     public void beforeScript(String script, WebDriver driver) {

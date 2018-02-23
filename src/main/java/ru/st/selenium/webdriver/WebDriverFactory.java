@@ -1,18 +1,21 @@
 package ru.st.selenium.webdriver;
 
+import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.android.AndroidDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.iphone.IPhoneDriver;
+
 import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -113,12 +116,12 @@ public class WebDriverFactory {
 
 			capability = DesiredCapabilities.htmlUnit();
 			// HTMLunit Check
-			if (username != null && password != null) {
+			/*if (username != null && password != null) {
 				webDriver = (HtmlUnitDriver) AuthenticatedHtmlUnitDriver
 						.create(username, password);
 			} else {
 				webDriver = new HtmlUnitDriver(true);
-			}
+			}*/
 
 			return webDriver;
 		}
@@ -167,8 +170,12 @@ public class WebDriverFactory {
 
 
 		} else if (FIREFOX.equals(browser)) {
+			//File pathToBinary = new File("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+			//FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
 
 			FirefoxProfile ffProfile = new FirefoxProfile();
+			FirefoxOptions options = new FirefoxOptions();
+			options.setHeadless(true);
 
 			// Authenication Hack for Firefox
 			if (username != null && password != null) {
@@ -176,9 +183,11 @@ public class WebDriverFactory {
 						255);
 			}
 
-			webDriver = new FirefoxDriver(ffProfile);
+			webDriver = new FirefoxDriver(options);
 
 		} else if (INTERNET_EXPLORER.equals(browser)) {
+			File file = new File("C:\\Tools\\iedriver\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
 			webDriver = new InternetExplorerDriver();
 
 		} else if (OPERA.equals(browser)) {
@@ -187,7 +196,7 @@ public class WebDriverFactory {
 		} else if (SAFARI.equals(browser)) {
 			webDriver = new SafariDriver();
 
-		} else if (IPHONE.equals(browser)) {
+		} /*else if (IPHONE.equals(browser)) {
 			try {
 				webDriver = new IPhoneDriver();
 			} catch (Exception e) {
@@ -206,7 +215,7 @@ public class WebDriverFactory {
 			} else {
 				webDriver = new HtmlUnitDriver(true);
 			}
-		}
+		}*/
 
 		return webDriver;
 	}

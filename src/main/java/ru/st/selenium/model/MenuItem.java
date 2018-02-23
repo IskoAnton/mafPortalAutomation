@@ -1,6 +1,6 @@
 package ru.st.selenium.model;
 
-public class MenuItem {
+public class MenuItem extends TabItem{
     private String label;
     private String rusLabel;
     private String parentPage;

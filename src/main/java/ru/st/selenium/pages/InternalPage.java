@@ -6,9 +6,13 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import ru.st.selenium.model.Event;
+import ru.st.selenium.model.MenuItem;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertFalse;
 
 
 public class InternalPage extends AnyPage {
@@ -177,5 +181,31 @@ public class InternalPage extends AnyPage {
   public String getLanguage() {
     String language = "";
     return language = driver.findElement(By.xpath("//div[@class = 'telephone']/p")).getText().equalsIgnoreCase("Телефоны:") ? "rus" :"eng";
+  }
+
+  public void checkMenuItemOnPage(MenuItem menuItem) {
+    String language = getLanguage();
+    String menuItemName = driver.findElement(By.xpath("//nav[@class = 'headMenu']//a[contains(text(), '"+menuItem.getLabel()+"') or contains(text(), '"+menuItem.getRusLabel()+"')]")).getText().trim();
+    if (language.equals("eng")) {
+      assertEquals(menuItem.getLabel().toLowerCase(), menuItemName.toLowerCase());
+    }
+    if (language.equals("rus")) {
+      assertEquals(menuItem.getRusLabel().toLowerCase(), menuItemName.toLowerCase());
+    }
+
+  }
+
+  public void checkMenuItemDoesntExist(MenuItem menuItem) {
+    String language = getLanguage();
+    boolean isPresent = true;
+    if (language.equals("rus")) {
+      isPresent = isElementPresent(By.xpath("//nav[@class = 'headMenu']//a[contains(text(), '"+menuItem.getRusLabel()+"')]"));
+      log("There is no event '" + menuItem.getRusLabel() + "' on clubs page");
+    }
+    if (language.equals("eng")) {
+      isPresent = isElementPresent(By.xpath("//nav[@class = 'headMenu']//a[contains(text(), '"+menuItem.getLabel()+"')]"));
+      log("There is no event '" + menuItem.getLabel() + "' on clubs page");
+    }
+    assertFalse(isPresent);
   }
 }
