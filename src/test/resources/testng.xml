@@ -13,7 +13,7 @@
 		</classes>
 	</test>
 
-	<test name="New user registration tests">
+	<!--<test name="New user registration tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.NewUserRegistration"/>
@@ -25,7 +25,7 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.AccountEntryTest"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<!--<test name="Forgot password tests">
 		<parameter name="path" value="/"/>
@@ -34,7 +34,7 @@
 		</classes>
 	</test>-->
 
-	<test name="Buy item tests">
+	<!--<test name="Buy item tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.BuyItemTest"/>
@@ -102,7 +102,7 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewVideoGallery"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<!--<test name="Upload images test">
 		<parameter name="path" value="/"/>
@@ -111,7 +111,7 @@
 		</classes>
 	</test>-->
 
-	<test name="Add new slide to homepage">
+	<!--<test name="Add new slide to homepage">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewSlide"/>
@@ -172,5 +172,5 @@
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewPermission"/>
 		</classes>
-	</test>
+	</test>-->
 </suite>
