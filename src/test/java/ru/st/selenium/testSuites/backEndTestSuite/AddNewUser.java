@@ -72,7 +72,7 @@ public class AddNewUser extends TestBase{
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 
-    @Test
+    /*@Test
     public void T004_cancelAddingNewUser() throws InterruptedException {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         app.getAdminUserHelper().logindAs(admin);
@@ -92,7 +92,7 @@ public class AddNewUser extends TestBase{
         app.getUserHelper().checkMessageInLoginPage("Неверное имя пользователя или пароль.");
         app.getPages().loginPage.closeLoginDialog();
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
-    }
+    }*/
 
     @AfterMethod
     public void saveScreenshot(ITestResult testResult) throws IOException {
