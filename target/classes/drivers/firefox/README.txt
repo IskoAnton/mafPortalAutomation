@@ -1,0 +1,1 @@
+Place in this folder the firefox driver for your OS (geckodriver.exe for Win or geckodriver for Mac or Linux)  if you need it.
