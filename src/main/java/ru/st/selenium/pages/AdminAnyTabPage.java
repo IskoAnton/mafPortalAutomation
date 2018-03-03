@@ -48,7 +48,7 @@ public abstract class AdminAnyTabPage extends AdminInternalPage{
             wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table[@id = 'crudTable']//td/a[text() = '"+name+"']")));
             driver.findElement(By.xpath("//table[@id = 'crudTable']//td/a[text() = '"+name+"']/../..//i[@class = 'fa fa-edit']")).click();
         } else {
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table[@id = 'crudTable']//td[text() = '" + name + "']")));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table[@id = 'crudTable']//td[text() = '" + name + "' or text() = '" + name + " (active)']")));
             driver.findElement(By.xpath("//table[@id = 'crudTable']//td[contains(text(), '"+name+"')]/../..//i[@class = 'fa fa-edit']")).click();
         }
         //Press edit button

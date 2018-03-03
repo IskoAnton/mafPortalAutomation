@@ -5,8 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import ru.st.selenium.model.Club;
+import ru.st.selenium.model.RatingTable;
 
 import java.util.List;
+
+import static org.testng.Assert.assertFalse;
 
 public class AdminCreateClubPage extends AdminCreateItemPage {
     private final String CITY_FIELD_LOCATOR = "//input[@name='city']";
@@ -49,5 +52,24 @@ public class AdminCreateClubPage extends AdminCreateItemPage {
         log("Message 1 is 'The title field is required.'");
         driver.findElement(By.xpath("//label[contains(text(), 'Title')]/../..//div[@class = 'help-block' and contains(text(), 'The title field is required.')]"));
         log("Message 2 is 'The title field is required.'");
+    }
+
+    public void checkRatingTableExists(RatingTable ratingTable) {
+        Select ratingTableSelect = new Select(driver.findElement(By.xpath("//select[@name='table_ratings_id']")));
+        ratingTableSelect.selectByVisibleText(ratingTable.getTitle());
+        log("Rating table " + ratingTable.getTitle() + " exists");
+    }
+
+    public void checkRatingTableDoesntExists(RatingTable ratingTable) {
+        boolean isPresent = true;
+        try {
+            Select ratingTableSelect = new Select(driver.findElement(By.xpath("//select[@name='table_ratings_id']")));
+            ratingTableSelect.selectByVisibleText(ratingTable.getTitle());
+            log("Rating table " + ratingTable.getTitle() + " exists");
+        } catch (Exception e) {
+            isPresent = false;
+        }
+        assertFalse(isPresent);
+
     }
 }

@@ -19,5 +19,6 @@ public interface UserHelper {
 	void changeUserPassword(String newPassword);
 	boolean isNewMassagesInMailBox();
 	String getLanguage();
+	String getRegistrationLink(String subject) throws Exception;
 
 }

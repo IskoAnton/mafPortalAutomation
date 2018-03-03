@@ -15,26 +15,25 @@ public class ForgotPasswordTest extends ru.st.selenium.pages.TestBase {
     public static final Logger log = Logger.getLogger(ForgotPasswordTest.class.getName());
 
     @Test
-    public void forgotPasswordOfExistingUser() throws Exception {
+    public void T001_forgotPasswordOfExistingUser() throws Exception {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User user = TESTUSER;
+        User forgotUser = FORGOTUSER;
         app.getPages().internalPage.setLanguage("rus");
         String language = app.getUserHelper().getLanguage();
         app.getUserHelper().restorePasswordOfExistingUser(language, user.getLogin());
         app.getUserHelper().pressResetPasswordLinkInEmail();
-        user.setPassword("123456789");
-        app.getUserHelper().setNewPasswordAfterRestore(user.getLogin(), user.getPassword(), user.getPassword());
+        app.getUserHelper().setNewPasswordAfterRestore(user.getLogin(), forgotUser.getPassword(), forgotUser.getPassword());
         app.getUserHelper().logout();
-        app.getUserHelper().loginAs(user);
-        app.getUserHelper().isLoggedInAs(user);
-        user.setPassword("12345678");
+        app.getUserHelper().loginAs(forgotUser);
+        app.getUserHelper().isLoggedInAs(forgotUser);
         app.getUserHelper().changeUserPassword(user.getPassword());
         app.getUserHelper().logout();
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 
     @Test
-    public void forgotPasswordOfNotExistingUser() throws Exception {
+    public void T002_forgotPasswordOfNotExistingUser() throws Exception {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User user = NOTEXISTINGUSER;
         app.getPages().internalPage.setLanguage("rus");

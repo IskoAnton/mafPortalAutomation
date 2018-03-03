@@ -3,6 +3,7 @@ package ru.st.selenium.testSuites.backEndTestSuite;
 import org.apache.log4j.Logger;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.st.selenium.model.Event;
 import ru.st.selenium.model.User;

@@ -14,7 +14,7 @@ public class AccountEntryTest extends ru.st.selenium.pages.TestBase {
 
 
     @Test
-    public void accountEntryWithExistingUser() throws Exception {
+    public void T001_accountEntryWithExistingUser() throws Exception {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User user = TESTUSER;
         app.getPages().internalPage.setLanguage("rus");
@@ -26,7 +26,7 @@ public class AccountEntryTest extends ru.st.selenium.pages.TestBase {
     }
 
     @Test
-    public void accountEntryWithNotExistingUser() throws Exception {
+    public void T002_accountEntryWithNotExistingUser() throws Exception {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User user = NOTEXISTINGUSER;
         app.getPages().internalPage.setLanguage("rus");

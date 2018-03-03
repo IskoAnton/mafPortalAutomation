@@ -31,16 +31,18 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
 
   @Override
   public void logout() {
-    pages.internalPage.clickLogoutButton();
-    pages.internalPage.ensurePageLoaded();
-    log("Logout successful");
+    if(isLoggedIn()) {
+      pages.internalPage.clickLogoutButton();
+      pages.internalPage.ensurePageLoaded();
+      log("Logout successful");
+    }
   }
 
   @Override
   public boolean isLoggedIn() {
-    pages.internalPage.clickLoginButton();
-    pages.accountPage.ensurePageLoaded();
-    return pages.internalPage.waitPageLoaded();
+    if (isElementPresent(By.xpath("//div[@class = 'sign_style']")) || isElementPresent(By.xpath("//input[@name = 'remember']"))) {
+      return false;
+    } else return true;
   }
 
   @Override
@@ -117,6 +119,12 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
     MailHelper2 mailHelper2 = new MailHelper2();
     String link = mailHelper2.getEmailLink("Email Verification");
     driver.get(link);
+  }
+
+  public String getRegistrationLink(String subject) throws Exception {
+    MailHelper2 mailHelper2 = new MailHelper2();
+    String link = mailHelper2.getEmailLink(subject);
+    return link;
   }
 
   public boolean isNewMassagesInMailBox() {

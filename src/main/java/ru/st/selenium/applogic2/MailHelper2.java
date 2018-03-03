@@ -16,6 +16,9 @@ public class MailHelper2 {
     private String email = "isko.antontest@gmail.com";
     private String password = "HjeodjIu12";
     public final Logger log = Logger.getLogger(this.getClass().getSimpleName());
+    public void loginToEmail() {
+
+    }
     public String getEmailLink(String subject) throws Exception {
         String url = "";
         Properties props = System.getProperties();
@@ -28,11 +31,6 @@ public class MailHelper2 {
 
         Folder folder = store.getFolder("INBOX");
         folder.open(Folder.READ_WRITE);
-
-        //System.out.println("Total Message:" + folder.getMessageCount());
-        //System.out.println("Unread Message:"
-                //+ folder.getUnreadMessageCount());
-
         Message[] messages = null;
         boolean isMailFound = false;
         Message mailFromMafia= null;
@@ -76,23 +74,41 @@ public class MailHelper2 {
                 buffer.append(line);
             }
 
-            //Your logic to split the message and get the Registration URL goes here
+            //Logic to split the message and get the Registration URL goes here
             if (subject.equalsIgnoreCase("Email Verification")) {
                 String[] registrationURL1 = buffer.toString().split("Confirm registration: ");
                 String[] registrationURL2 = registrationURL1[1].split("If you did not request");
                 url = registrationURL2[0].replace("=", "");
                 log("Email registration link in email is \"" + url + "\"");
-                mailFromMafia.setFlag(Flags.Flag.DELETED, true);
+
             } else if (subject.equalsIgnoreCase("Reset Password")) {
 
                 String[] registrationURL1 = buffer.toString().split("Reset Password: ");
                 String[] registrationURL2 = registrationURL1[1].split("If you did not request");
                 url = registrationURL2[0].replace("=", "");
                 log("Email restore password link in email is \"" + url + "\"");
-                mailFromMafia.setFlag(Flags.Flag.DELETED, true);
+
+            } else if(subject.equalsIgnoreCase("Thank you for shopping with us.")) {
+                url = "Thank you for shopping with us.";
+                log("There is mail 'Thank you for shopping with us.' in the mail box");
+
             }
+
+            messages = folder.search(new SubjectTerm(
+                            subject),
+                    folder.getMessages());
+
+            for (Message mail : messages) {
+                    mailFromMafia = mail;
+                    mailFromMafia.setFlag(Flags.Flag.DELETED, true);
+            }
+
         }
         return url;
+    }
+
+    public void checkEmailAfterPayment() {
+
     }
 
     public void log(String text) {

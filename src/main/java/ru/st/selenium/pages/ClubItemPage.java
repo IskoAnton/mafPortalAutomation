@@ -39,4 +39,9 @@ public class ClubItemPage extends ClubsPage {
         driver.findElement(By.xpath("//a[contains(text(), 'События') or contains(text(), 'Events')]")).click();
         log("Events tab was clicked");
     }
+
+    public void clickRatingTab() {
+        driver.findElement(By.xpath("//a[contains(text(), 'Рейтинг') or contains(text(), 'Rating')]")).click();
+        log("Rating tab was clicked");
+    }
 }

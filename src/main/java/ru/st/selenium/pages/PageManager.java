@@ -64,6 +64,13 @@ public class PageManager {
   public AdminCreatePartnerPage adminCreatePartnerPage;
   public PayPalLoginPage payPalLoginPage;
   public PayPalPurchasePage payPalPurchasePage;
+  public AdminRatingTablesPage adminRatingTablesPage;
+  public AdminCreateRatingTablesPage adminCreateRatingTablesPage;
+  public AdminGameResultsPage adminGameResultsPage;
+  public AdminCreateGameResultsPage adminCreateGameResultsPage;
+  public AdminSeasonsPage adminSeasonsPage;
+  public AdminCreateSeasonPage adminCreateSeasonPage;
+  public RatingPage ratingPage;
 
   public PageManager(WebDriver driver) {
     this.driver = driver;
@@ -124,6 +131,13 @@ public class PageManager {
     adminCreatePartnerPage = initElements(new AdminCreatePartnerPage(this));
     payPalLoginPage = initElements(new PayPalLoginPage(this));
     payPalPurchasePage = initElements(new PayPalPurchasePage(this));
+    adminRatingTablesPage = initElements(new AdminRatingTablesPage(this));
+    adminCreateRatingTablesPage = initElements(new AdminCreateRatingTablesPage(this));
+    adminGameResultsPage = initElements(new AdminGameResultsPage(this));
+    adminCreateGameResultsPage = initElements(new AdminCreateGameResultsPage(this));
+    adminSeasonsPage = initElements(new AdminSeasonsPage(this));
+    adminCreateSeasonPage = initElements(new AdminCreateSeasonPage(this));
+    ratingPage = initElements(new RatingPage(this));
   }
   
   private <T extends Page> T initElements(T page) {

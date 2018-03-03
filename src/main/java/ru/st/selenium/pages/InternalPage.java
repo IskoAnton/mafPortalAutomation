@@ -125,13 +125,17 @@ public class InternalPage extends AnyPage {
   }
 
   public void clickLoginButton() {
-    try {
-      Thread.sleep(2000);
-      loginButtonWhenNotLoggedIn.click();
-      log("Login button was clicked |||||| ");
-    } catch (Exception e) {
-      loginButtonWhenLoggedIn.click();
-      log("Login button was clicked |||||| ");
+    if (isAdminPageOnScreen()) {
+      pages.adminInternalPage.clickLogoutButton();
+    } else {
+      try {
+        Thread.sleep(2000);
+        loginButtonWhenNotLoggedIn.click();
+        log("Login button was clicked |||||| ");
+      } catch (Exception e) {
+        loginButtonWhenLoggedIn.click();
+        log("Login button was clicked |||||| ");
+      }
     }
   }
 

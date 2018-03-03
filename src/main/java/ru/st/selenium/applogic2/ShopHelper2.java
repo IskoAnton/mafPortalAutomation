@@ -56,6 +56,7 @@ public class ShopHelper2 extends DriverBasedHelper implements ShopHelper {
         String amountOnPayPalPurchasePage = pages.payPalPurchasePage.getAmountOfPurchase();
         assertEquals(amountOnPayPalPurchasePage, amountOnButton);
         pages.payPalPurchasePage.clickContinueButton();
+
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h1[contains(text(), 'Thanks for your order!')]")));
     }
 

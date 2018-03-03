@@ -55,17 +55,6 @@ public class ApplicationManager2 implements ApplicationManager {
     browser.setVersion(PropertyLoader.loadProperty("browser.version"));
     browser.setPlatform(PropertyLoader.loadProperty("browser.platform"));
 
-
-    /*if (browser.getName().equalsIgnoreCase("chrome")) {
-      System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-
-    }*/
-
-    //if (browser.getName().equalsIgnoreCase("chrome")) {
-    //  System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-    //}
-
-
     if (browser.getName().equalsIgnoreCase("firefox")) {
       System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
     }

@@ -8,6 +8,8 @@ import ru.st.selenium.model.User;
 
 import java.io.IOException;
 
+import static org.testng.Assert.assertEquals;
+
 public class BuyItemTest extends ru.st.selenium.pages.TestBase {
     public static final Logger log = Logger.getLogger(ForgotPasswordTest.class.getName());
 
@@ -18,14 +20,11 @@ public class BuyItemTest extends ru.st.selenium.pages.TestBase {
         User paypalUser = PAYPALUSER;
         app.getPages().internalPage.setLanguage("rus");
         app.getUserHelper().loginAs(user);
-        app.getShopHelper().buyItemOnShopPage("Product 2");
-        app.getShopHelper().buyItemOnShopPage("Product 1");
-        app.getShopHelper().checkItemInCart("Product 2");
-        app.getShopHelper().checkItemInCart("Product 1");
+        app.getShopHelper().buyItemOnShopPage("Registration for the 7th Annual MAF World Cup");
+        app.getShopHelper().checkItemInCart("Registration for the 7th Annual MAF World Cup");
         app.getShopHelper().buyItemsInCart(paypalUser);
-        //TODO make purchase with paypal
-        //app.getShopHelper().removeItemFromCart("Product 2");
-        //app.getShopHelper().removeItemFromCart("Product 1");
+        Thread.sleep(10000);
+        assertEquals(app.getUserHelper().getRegistrationLink("Thank you for shopping with us."), "Thank you for shopping with us.");
         app.getUserHelper().logout();
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }

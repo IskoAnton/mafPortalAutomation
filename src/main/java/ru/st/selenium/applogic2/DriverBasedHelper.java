@@ -1,7 +1,10 @@
 package ru.st.selenium.applogic2;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import org.testng.Reporter;
@@ -23,6 +26,24 @@ public class DriverBasedHelper {
   public void log(String text) {
     log.info(text);
     Reporter.log(text);
+  }
+
+  public boolean isElementPresent(By by) {
+    try {
+      driver.findElement(by);
+      return true;
+    } catch (NoSuchElementException e) {
+      return false;
+    }
+  }
+
+  public boolean isElementPresent(WebElement webElement) {
+    try {
+      driver.findElement((By) webElement);
+      return true;
+    } catch (NoSuchElementException e) {
+      return false;
+    }
   }
   
 }

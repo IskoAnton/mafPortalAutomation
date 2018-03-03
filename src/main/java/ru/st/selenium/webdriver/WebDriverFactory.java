@@ -196,26 +196,7 @@ public class WebDriverFactory {
 		} else if (SAFARI.equals(browser)) {
 			webDriver = new SafariDriver();
 
-		} /*else if (IPHONE.equals(browser)) {
-			try {
-				webDriver = new IPhoneDriver();
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-
-		} else if (ANDROID.equals(browser)) {
-			webDriver = new AndroidDriver();
-
-		} else {
-
-			// HTMLunit Check
-			if (username != null && password != null) {
-				webDriver = (HtmlUnitDriver) AuthenticatedHtmlUnitDriver
-						.create(username, password);
-			} else {
-				webDriver = new HtmlUnitDriver(true);
-			}
-		}*/
+		}
 
 		return webDriver;
 	}

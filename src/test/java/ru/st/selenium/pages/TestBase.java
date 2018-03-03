@@ -68,21 +68,29 @@ public class TestBase {
 	public static VideoGallery EDITVIDEOGALLERY;
 	public static PageItem EDITPAGEITEM;
 	public static MenuItem EDITMENUITEM;
+	public static RatingTable TESTRATINGTABLE;
+	public static RatingTable EDITRATINGTABLE;
+	public static GameResults TESTGAMERESULTS;
+	public static GameResults EDITGAMERESULTS;
+	public static Season TESTSEASON;
+	public static Season EDITSEASON;
+	public static User FORGOTUSER;
 	public final Logger log = Logger.getLogger(this.getClass().getSimpleName());
 
 
 	static {
-		TESTADDRESS = new Address(Address.Title.MR, "TestUser","1257 Montgomery street", "apt 47", "San Francisco", "California", "98542", "United States", "testemail@test.com");
-		USERMAFIA = new User("TestName", "TestLastName", "TestNickName", "mafia@mafia.com", "007mafia007", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
-		TESTUSER = new User("TestName", "TestLastName", "TestNickName", "isko.antontest@gmail.com", "12345678", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
-		PAYPALUSER = new User("PaypalTestName", "PaypalTestLastName", "PaypalTestNickName", "testbarev123@mail.ru", "zxcv1234", "zxcv1234", "Los Angeles", TESTADDRESS, TESTADDRESS);
-		TESTADMIN = new User("TestName", "TestLastName", "TestNickName", "mafia@mafia.com", "007mafia007", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
-		NOTEXISTINGUSER = new User("TestName", "TestLastName", "TestNickName", "notExistingUser@mafia.com", "123456", "12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
+		TESTADDRESS = new Address(Address.Title.MR, "TestUser","1257 Montgomery street", "apt 47", "San Francisco", "California", "98542", "United States", "isko.antontest@gmail.com");
+		USERMAFIA = new User("TestName", "TestLastName", "TestNickName", "mafia@mafia.com", "007mafia007", "12345678", "New Yotk", TESTADDRESS, TESTADDRESS);
+		TESTUSER = new User("TestName", "TestLastName", "TestNickName", "isko.antontest@gmail.com", "12345678", "12345678", "New York", TESTADDRESS, TESTADDRESS);
+		FORGOTUSER = new User("TestName", "TestLastName", "TestNickName", "isko.antontest@gmail.com", "123456789", "123456789", "New York", TESTADDRESS, TESTADDRESS);
+		PAYPALUSER = new User("PaypalTestName", "PaypalTestLastName", "PaypalTestNickName", "testbarev123@mail.ru", "zxcv1234", "zxcv1234", "New York", TESTADDRESS, TESTADDRESS);
+		TESTADMIN = new User("TestName", "TestLastName", "TestNickName", "mafia@mafia.com", "007mafia007", "12345678", "New York", TESTADDRESS, TESTADDRESS);
+		NOTEXISTINGUSER = new User("TestName", "TestLastName", "TestNickName", "notExistingUser@mafia.com", "123456", "12345678", "New York", TESTADDRESS, TESTADDRESS);
 		TESTPAGEITEM = new PageItem("TestPageTilte", "TestPageName", "", "TestPageContent", "TestPageMetaTitle", "TestPageSocialTitle", "TestPageMetaDescriptiom", "TestPageSocialMetaDescription", "TestPageMetaKeywords", "TestPageRusPageTitle", "TestPageRusContent", "TestPageRusMetaTitle", "TestPageRusSocialMetaTitle", "TestPageRusMetaDescription", "TestPageRusSocialMetaDescription", "TestPageRusMetaKeywords");
 		TESTTOURNAMENT = new Tournament("TestTournamentTitle", "TestTournamentSlug", "Los Angeles", "12/12/2018 16:04","TestTournamentDescription", "TestTournamentRatingOverview", "TestTournamentText", "TestTournamentMetaTitle", "TestTournamentSocialTitle", "TestTournamentMetaDescriptiom", "TestTournamentSocialMetaDescription", "TestTournamentMetaKeywords", "TestTournamentRusPageTitle", "TestTournamentRusDescription","TestTournamentRusRatingOverview", "TestTournamentRusText","TestTournamentRusMetaTitle", "TestTournamentRusSocialMetaTitle", "TestTournamentRusMetaDescription", "TestTournamentRusSocialMetaDescription", "TestTournamentRusMetaKeywords");
 		TESTPRODUCT = new Product("TestProductTitle", "TestProductDesctiption", "150");
-		TESTPHOTOGALLERY = new PhotoGallery("TestPhotoGalleryTitle", "Фото галерея тестовое название", "", "Los Angeles","15th World Championship in Yerevan","15-й Чемпионат Мира в Ереване", true);
-		TESTVIDEOGALLERY = new VideoGallery("TestVideoGalleryTitle", "Видео галерея тестовое название","Los Angeles", "15th World Championship in Yerevan", "15-й Чемпионат Мира в Ереване", true, "https://www.youtube.com/watch?v=zqE-ultsWt0");
+		TESTPHOTOGALLERY = new PhotoGallery("TestPhotoGalleryTitle", "Фото галерея тестовое название", "", "New York","15th World Championship in Yerevan","15-й Чемпионат Мира в Ереване", true);
+		TESTVIDEOGALLERY = new VideoGallery("TestVideoGalleryTitle", "Видео галерея тестовое название","New York", "15th World Championship in Yerevan", "15-й Чемпионат Мира в Ереване", true, "https://www.youtube.com/watch?v=zqE-ultsWt0");
 		TESTCLUB = new Club("TestClubTitle", "", "TestClubCity", "USA", "TestClubsAdmins", "Los Angeles", false, "TestClubsAboutClub", "TestRusAboutClubs");
 		TESTNEWS = new News("TestNewsTitle", "", "12/12/2017 16:04", "TestDescription", "TestTest", "TestMetatitle", "TestSocialMetaTitle", "TestMetaDescription", "TestSocialMetaDescription", "TestMetaKeywords", "TestRusTitle", "TestRusDescription", "TestRusText", "TestRusMeaTitle", "TestSocialMetaTitle", "TestRusMetaDescription", "TestRusSocialMetaDescription", "TestRusMetaKeywords");
 		TESTCOUNTRY = new Country("TestCountryTitle", "TestCountryAbout", "TestCountryRusTitle", "TestCountryRusAbout");
@@ -119,9 +127,16 @@ public class TestBase {
 		BLANKTESTIMONIAL = new Testimonial("", "");
 		EDITTOURNAMENT = new Tournament("EDITTestTournamentTitle", "EDITTestTournamentSlug", "Yerevan rating", "12/12/2018 16:04","EDITTestTournamentDescription", "EDITTestTournamentRatingOverview", "EDITTestTournamentText", "EDITTestTournamentMetaTitle", "EDITTestTournamentSocialTitle", "EDITTestTournamentMetaDescriptiom", "EDITTestTournamentSocialMetaDescription", "EDITTestTournamentMetaKeywords", "EDITTestTournamentRusPageTitle", "EDITTestTournamentRusDescription","EDITTestTournamentRusRatingOverview", "EDITTestTournamentRusText","EDITTestTournamentRusMetaTitle", "EDITTestTournamentRusSocialMetaTitle", "EDITTestTournamentRusMetaDescription", "EDITTestTournamentRusSocialMetaDescription", "EDITTestTournamentRusMetaKeywords");
 		BLANKTOURNAMENT = new Tournament("", "", "", "","", "", "", "", "", "", "", "", "", "","", "","", "", "", "", "");
-		EDITUSER = new User("EDITTestName", "EDITTestLastName", "EDITTestNickName", "EDITisko.antontest@gmail.com", "EDIT12345678", "EDIT12345678", "Los Angeles", TESTADDRESS, TESTADDRESS);
+		EDITUSER = new User("EDITTestName", "EDITTestLastName", "EDITTestNickName", "EDITisko.antontest@gmail.com", "EDIT12345678", "EDIT12345678", "New York", TESTADDRESS, TESTADDRESS);
 		EDITVIDEOGALLERY = new VideoGallery("EDITTestVideoGalleryTitle", "EDITВидео галерея тестовое название","New York", "VaWaCa 2017", "VaWaCa 2017", true, "https://www.youtube.com/watch?v=zqE-ultsWt0EDIT");
 		EDITPAGEITEM = new PageItem("EDITTestPageTilte", "EDITTestPageName", "", "EDITTestPageContent", "EDITTestPageMetaTitle", "EDITTestPageSocialTitle", "EDITTestPageMetaDescriptiom", "EDITTestPageSocialMetaDescription", "EDITTestPageMetaKeywords", "EDITTestPageRusPageTitle", "EDITTestPageRusContent", "EDITTestPageRusMetaTitle", "EDITTestPageRusSocialMetaTitle", "EDITTestPageRusMetaDescription", "EDITTestPageRusSocialMetaDescription", "EDITTestPageRusMetaKeywords");
+		TESTRATINGTABLE = new RatingTable("TestRatingTableTitle","New York", "1", "1", "1", "1","1","1","1","1","1","1","1","1","1","", true);
+		EDITRATINGTABLE = new RatingTable("EDITTestRatingTableTitle","Houston", "2","2","2","2","2","2","2","2","2","2","2","2","2","", true);
+		TESTGAMERESULTS = new GameResults("TestTitleGameResults", "", "New York", "VaWaCa 2017", "Los Angeles", "Mafia");
+		EDITGAMERESULTS = new GameResults("EDITTestTitleGameResults", "", "Houston", "VaWaCa 2017", "Moscow Cup", "Mafia");
+		TESTSEASON = new Season("TestSeasonTitle", "New York");
+		EDITSEASON = new Season("EDITTestSeasonTitle", "Kiev Big Ben");
+
 		/*DateFormat dateFormat = new SimpleDateFormat("mm/dd/yyyy hh:mm");
 		dateFormat.parse(today.);*/
 
@@ -132,8 +147,6 @@ public class TestBase {
 	@BeforeClass
 	public void init() {
 		app = new ApplicationManager2();
-
-
 	}
 	
 	@AfterTest

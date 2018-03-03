@@ -34,7 +34,8 @@ public class PayPalPurchasePage extends AnyPage{
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(AMOUNT_OF_PURCHASE_LOCATOR)));
         String amount = amountLocator.getText();
         String[] amount2 = amount.split("\\.");
-        log("Amount iof purchase is " + amount2[0] + " on PayPal purchase page");
-        return amount2[0];
+        String totalAmount = amount2[0].replaceAll(",", "");
+        log("Amount of purchase is " + totalAmount + " on PayPal purchase page");
+        return totalAmount;
     }
 }

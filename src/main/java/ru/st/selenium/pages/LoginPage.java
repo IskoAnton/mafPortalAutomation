@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
@@ -72,6 +73,7 @@ public class LoginPage extends InternalPage {
   }
 
   public LoginPage setPasswordField(String text) {
+    wait.until(ExpectedConditions.elementToBeClickable(passwordField));
     passwordField.clear();
     passwordField.sendKeys(text);
     log("Password \"" + text + "\" typed to password field");
