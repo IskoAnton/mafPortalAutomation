@@ -4,6 +4,7 @@ package ru.st.selenium.applogic2;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import ru.st.selenium.applogic.UserHelper;
 import ru.st.selenium.model.User;
 
@@ -20,10 +21,10 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
   @Override
   public void loginAs(User user) throws InterruptedException {
     pages.internalPage.clickLoginButton();
-    pages.loginPage
-      .setUsernameFieldOnLoginPage(user.getLogin())
-      .setPasswordField(user.getPassword())
-      .clickSubmitButton();
+    pages.loginPage.setUsernameFieldOnLoginPage(user.getLogin());
+    pages.loginPage.setPasswordField(user.getPassword());
+    Thread.sleep(2000);
+    pages.loginPage.clickSubmitButton();
     pages.internalPage.ensurePageLoaded();
     log("Login is successfull");
     Thread.sleep(2000);

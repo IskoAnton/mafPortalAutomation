@@ -74,6 +74,7 @@ public class LoginPage extends InternalPage {
 
   public LoginPage setPasswordField(String text) {
     wait.until(ExpectedConditions.elementToBeClickable(passwordField));
+    passwordField.click();
     passwordField.clear();
     passwordField.sendKeys(text);
     log("Password \"" + text + "\" typed to password field");
@@ -93,6 +94,11 @@ public class LoginPage extends InternalPage {
   }
 
   public LoginPage clickSendPasswordButton() {
+    try {
+      Thread.sleep(2000);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
     sendPasswordButton.click();
     log("Send password button was pressed");
     return this;

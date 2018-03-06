@@ -179,7 +179,6 @@ public class InternalPage extends AnyPage {
       driver.findElement(By.xpath(ENG_LANGUAGE_BUTTON_LOCATOR)).click();
       log("Language was set as eng");
     }
-
   }
 
   public String getLanguage() {
