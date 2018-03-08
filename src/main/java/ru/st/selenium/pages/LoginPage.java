@@ -139,6 +139,11 @@ public class LoginPage extends InternalPage {
   }
 
   public LoginPage ensureCantFindUserMessage(String language) {
+    try {
+      Thread.sleep(5000);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
     System.out.println(messageField.getText().trim());
     if (language.equals("eng")) {
       assertTrue(messageField.getText().trim().equals("We can't find a user with that e-mail address."));
