@@ -133,6 +133,7 @@ public class InternalPage extends AnyPage {
         loginButtonWhenNotLoggedIn.click();
         log("Login button was clicked |||||| ");
       } catch (Exception e) {
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(LOGIN_BUTTON_WHEN_NOT_LOGGED_IN_LOCATOR)));
         loginButtonWhenLoggedIn.click();
         log("Login button was clicked |||||| ");
       }
