@@ -129,12 +129,12 @@ public class InternalPage extends AnyPage {
       pages.adminInternalPage.clickLogoutButton();
     } else {
       try {
-        Thread.sleep(2000);
-        loginButtonWhenNotLoggedIn.click();
+        Thread.sleep(3000);
+        loginButtonWhenLoggedIn.click();
         log("Login button was clicked |||||| ");
       } catch (Exception e) {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(LOGIN_BUTTON_WHEN_NOT_LOGGED_IN_LOCATOR)));
-        loginButtonWhenLoggedIn.click();
+        loginButtonWhenNotLoggedIn.click();
         log("Login button was clicked |||||| ");
       }
     }
@@ -189,12 +189,12 @@ public class InternalPage extends AnyPage {
 
   public void checkMenuItemOnPage(MenuItem menuItem) {
     String language = getLanguage();
-    String menuItemName = driver.findElement(By.xpath("//nav[@class = 'headMenu']//a[contains(text(), '"+menuItem.getLabel()+"') or contains(text(), '"+menuItem.getRusLabel()+"')]")).getText().trim();
+
     if (language.equals("eng")) {
-      assertEquals(menuItem.getLabel().toLowerCase(), menuItemName.toLowerCase());
+      driver.findElement(By.xpath("//nav[@class = 'headMenu']//a[contains(text(), '"+menuItem.getLabel()+"')]"));
     }
     if (language.equals("rus")) {
-      assertEquals(menuItem.getRusLabel().toLowerCase(), menuItemName.toLowerCase());
+      driver.findElement(By.xpath("//nav[@class = 'headMenu']//a[contains(text(), '"+menuItem.getRusLabel()+"')]"));
     }
 
   }

@@ -63,7 +63,7 @@ public class AddNewSlide extends TestBase {
 
 
 
-    @Test
+    /*@Test
     public void T003_addBlankSlide() {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         app.getAdminUserHelper().logindAs(admin);
@@ -76,7 +76,7 @@ public class AddNewSlide extends TestBase {
         app.getNavigationHelper().gotoAdminPage();
         app.getAdminUserHelper().logout();
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
-    }
+    }*/
 
     @Test
     public void T004_cancelAddingNewSlide() {

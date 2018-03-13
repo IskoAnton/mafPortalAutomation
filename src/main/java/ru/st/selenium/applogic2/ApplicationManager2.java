@@ -66,7 +66,7 @@ public class ApplicationManager2 implements ApplicationManager {
     /*driver = new EventFiringWebDriver(dr);
     eventListener = new WebEventListener();
     driver.register(eventListener);*/
-    driver.manage().deleteAllCookies();
+    //driver.manage().deleteAllCookies();
 
     // driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
