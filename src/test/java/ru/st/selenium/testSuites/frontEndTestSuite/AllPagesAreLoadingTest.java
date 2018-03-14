@@ -19,6 +19,8 @@ public class AllPagesAreLoadingTest extends ru.st.selenium.pages.TestBase {
         app.getPages().internalPage.clickClubsButton();
         app.getPages().clubsPage.ensurePageLoaded();
 
+        Thread.sleep(3600000);
+
         app.getPages().internalPage.clickTheGameButton();
         app.getPages().theGamePage.ensurePageLoaded();
 
