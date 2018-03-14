@@ -22,6 +22,7 @@ public class NewUserRegistration extends TestBase{
         log.info("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         User newUser = TESTUSER;
         app.getPages().internalPage.setLanguage("rus");
+        Thread.sleep(3600000);
         app.getUserHelper().registerNewUser("TesterFirstName", "TesterLastName", "TesterNickName",newUser.getLogin(), "2017-11-21", newUser.getPassword(), newUser.getPassword());
         app.getUserHelper().pressRegistrationLinkInEmail();
         app.getNavigationHelper().gotoHomePage();
