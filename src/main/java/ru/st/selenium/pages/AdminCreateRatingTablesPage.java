@@ -46,8 +46,8 @@ public class AdminCreateRatingTablesPage extends AdminCreateItemPage{
         driver.findElement(By.xpath("//input[@name = 'best_player']")).sendKeys(ratingTable.getBestPlayer());
         driver.findElement(By.xpath("//input[@name = 'best_step']")).clear();
         driver.findElement(By.xpath("//input[@name = 'best_step']")).sendKeys(ratingTable.getBestStep());
-        driver.findElement(By.xpath("//input[@name = 'citizen_killed']")).clear();
-        driver.findElement(By.xpath("//input[@name = 'citizen_killed']")).sendKeys(ratingTable.getCoolPlayer());
+        //driver.findElement(By.xpath("//input[@name = 'citizen_killed']")).clear();
+        //driver.findElement(By.xpath("//input[@name = 'citizen_killed']")).sendKeys(ratingTable.getCoolPlayer());
         driver.findElement(By.xpath("//input[@name = 'prima_nota3']")).clear();
         driver.findElement(By.xpath("//input[@name = 'prima_nota3']")).sendKeys(ratingTable.getPrimaNota3());
         driver.findElement(By.xpath("//input[@name = 'prima_nota2']")).clear();
@@ -70,7 +70,7 @@ public class AdminCreateRatingTablesPage extends AdminCreateItemPage{
         driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[text() = 'The fail sheriff field is required.']"));
         driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[text() = 'The fail mafia field is required.']"));
         driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[text() = 'The fail don field is required.']"));
-        driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[text() = 'The citizen killed field is required.']"));
+        //driver.findElement(By.xpath("//div[@class = 'callout callout-danger']//li[text() = 'The citizen killed field is required.']"));
 
         driver.findElement(By.xpath("//label[contains(text(), 'Title')]/../..//div[@class = 'help-block' and text() = 'The title field is required.']"));
         driver.findElement(By.xpath("//label[contains(text(), 'Win: Citizen')]/../..//div[@class = 'help-block' and text() = 'The win citizen field is required.']"));
@@ -82,7 +82,7 @@ public class AdminCreateRatingTablesPage extends AdminCreateItemPage{
         driver.findElement(By.xpath("//label[contains(text(), 'Fail: Mafia')]/../..//div[@class = 'help-block' and text() = 'The fail mafia field is required.']"));
         driver.findElement(By.xpath("//label[contains(text(), 'Fail: Don')]/../..//div[@class = 'help-block' and text() = 'The fail don field is required.']"));
         driver.findElement(By.xpath("//label[contains(text(), 'Best Player')]/../..//div[@class = 'help-block' and text() = 'The best player field is required.']"));
-        driver.findElement(By.xpath("//label[contains(text(), 'Best Step')]/../..//div[@class = 'help-block' and text() = 'The best step field is required.']"));
-        driver.findElement(By.xpath("//label[contains(text(), 'Cool player')]/../..//div[@class = 'help-block' and text() = 'The citizen killed field is required.']"));
+        //driver.findElement(By.xpath("//label[contains(text(), 'Best Step')]/../..//div[@class = 'help-block' and text() = 'The best step field is required.']"));
+        //driver.findElement(By.xpath("//label[contains(text(), 'Cool player')]/../..//div[@class = 'help-block' and text() = 'The citizen killed field is required.']"));
     }
 }
