@@ -32,7 +32,7 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
 
   @Override
   public void logout() {
-    if(isLoggedIn()) {
+    if (isLoggedIn()) {
       pages.internalPage.clickLogoutButton();
       pages.internalPage.ensurePageLoaded();
       log("Logout successful");
@@ -54,8 +54,7 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
     if (email.equalsIgnoreCase(user.getLogin())) {
       log("Logged in as " + user.getLogin());
       return true;
-    }
-    else {
+    } else {
       log("Logged in as NOT a" + user.getLogin());
       return false;
     }
@@ -71,6 +70,7 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
     return pages.internalPage.waitPageLoaded();
 
   }
+
   public void checkMessageInLoginPage(String message) {
     String text = pages.loginPage.getMessageInLoginPage();
     System.out.println(text);
@@ -86,7 +86,7 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
             .closeLoginDialog();
   }
 
-    public void restorePasswordOfNotExistingUser(String language, String email) throws InterruptedException {
+  public void restorePasswordOfNotExistingUser(String language, String email) throws InterruptedException {
     pages.internalPage.clickLoginButton();
     pages.loginPage.clickForgotPasswordButton()
             .setUsernameFieldOnForgotPage(email)
@@ -110,7 +110,7 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
     pages.registrationPage.clickSendButton();
     String message = pages.registrationPage.getMessageAfterRegistration();
     try {
-      assertEquals(message,"You have successfully registered. A link to confirm your registration has been sent to your email address.");
+      assertEquals(message, "You have successfully registered. A link to confirm your registration has been sent to your email address.");
     } catch (Exception e) {
       assertEquals(message, "You have successfully registered. A link to confirm your registration has been sent to your email address.");
     }
@@ -173,14 +173,5 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
     pages.accountPage.clickSubmitButton();
     log("New password \"" + newPassword + "\" was set");
   }
-
-  public String getLanguage() {
-    String text = driver.findElement(By.xpath("//div[@class = 'copyrightWr']//p[@class = 'desktop']")).getText().trim();
-    if (text.contains("торговая марка")) return "rus";
-    else return "eng";
-  }
-
-
-
 
 }

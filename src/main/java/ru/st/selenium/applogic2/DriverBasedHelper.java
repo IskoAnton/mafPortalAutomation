@@ -45,5 +45,10 @@ public class DriverBasedHelper {
       return false;
     }
   }
+
+  public String getLanguage() {
+    String language = "";
+    return language = driver.findElement(By.xpath("//div[@class = 'telephone']/p")).getText().equalsIgnoreCase("Телефоны:") ? "rus" :"eng";
+  }
   
 }

@@ -84,21 +84,28 @@ public class CartPage extends InternalPage {
             log("Title MS was chosen in shipping address");
         }
 
+        driver.findElement(By.xpath(SHIPPING_NAME_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(SHIPPING_NAME_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getName());
         log("Shipping name '" + user.getShippingAddress().getName() + "' was typed to shipping name field");
+        driver.findElement(By.xpath(SHIPPING_ADDRESS1_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(SHIPPING_ADDRESS1_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getAddressLine1());
         log("Shipping address1 '" + user.getShippingAddress().getAddressLine1() + "' was typed to address line 1 field");
+        driver.findElement(By.xpath(SHIPPING_ADDRESS2_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(SHIPPING_ADDRESS2_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getAddressLine2());
         log("Shipping address1 '" + user.getShippingAddress().getAddressLine2() + "' was typed to address line 2 field");
+        driver.findElement(By.xpath(SHIPPING_CITY_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(SHIPPING_CITY_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getCity());
         log("Shipping city '" + user.getShippingAddress().getCity() + "' was typed to shipping city field");
+        driver.findElement(By.xpath(SHIPPING_REGION_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(SHIPPING_REGION_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getRegion());
         log("Shipping region '" + user.getShippingAddress().getRegion() + "' was typed to shipping region field");
         Select countrySelect = new Select(driver.findElement(By.xpath("//select[@name = 'country']")));
         countrySelect.selectByVisibleText(user.getShippingAddress().getCountry());
         log("Shipping country '" + user.getShippingAddress().getCountry() + "' was typed to shipping country field");
+        driver.findElement(By.xpath(SHIPPING_ZIP_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(SHIPPING_ZIP_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getZip());
         log("Shipping zip '" + user.getShippingAddress().getZip() + "' was typed to shipping zip field");
+        driver.findElement(By.xpath(SHIPPING_EMAIL_FIELD_LOCATOR)).clear();
         driver.findElement(By.xpath(SHIPPING_EMAIL_FIELD_LOCATOR)).sendKeys(user.getShippingAddress().getEmail());
         log("Shipping email '" + user.getShippingAddress().getEmail() + "' was typed to email field");
         log("Shipping address was filled");
