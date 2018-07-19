@@ -106,4 +106,8 @@ public class AccountPage extends InternalPage {
         assertTrue(driver.findElement(By.xpath(EMAIL_FIELD_LOCATOR)).getAttribute("ng-init").equals("billing.email='"+user.getBillingAddress().getEmail() + "'"));
 
     }
+
+    public void clickMyClubsButton() {
+        driver.findElement(By.xpath("//nav[@class = 'menu']//li[2]/a")).click();
+    }
 }

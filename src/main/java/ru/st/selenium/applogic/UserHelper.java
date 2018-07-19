@@ -12,7 +12,7 @@ public interface UserHelper {
 	void restorePasswordOfExistingUser(String language, String email);
 	void restorePasswordOfNotExistingUser(String language, String email) throws InterruptedException;
 	void checkMessageInLoginPage(String message);
-	void registerNewUser(String firstName, String lastName, String nickName, String email, String date, String password, String passwordConfirmation);
+	void registerNewUser(String firstName, String lastName, String nickName, String email, String date, String password, String passwordConfirmation, String club);
 	void pressRegistrationLinkInEmail() throws Exception;
 	void pressResetPasswordLinkInEmail() throws Exception;
 	void setNewPasswordAfterRestore(String email, String password, String passwordConfirmation);
@@ -20,5 +20,6 @@ public interface UserHelper {
 	boolean isNewMassagesInMailBox();
 	String getLanguage();
 	String getRegistrationLink(String subject) throws Exception;
+	String getMainClubOnAccountPage();
 
 }

@@ -1,10 +1,10 @@
 package ru.st.selenium.pages;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
@@ -23,6 +23,8 @@ public abstract class AdminAnyTabPage extends AdminInternalPage{
     private WebElement addItemButton;
 
     public void clickAddItemButton() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("");
         addItemButton.click();
         log("Add item was clicked on " + this.getClass().getSimpleName());
     }

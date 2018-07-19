@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+
+import java.util.concurrent.TimeUnit;
 
 public class PayPalLoginPage extends AnyPage{
 
@@ -33,6 +36,7 @@ public class PayPalLoginPage extends AnyPage{
         driver.findElement(By.xpath(EMAIL_FIELD_LOCATOR)).sendKeys(email);
         log("Email " + email + " was typed on PayPal login page");
         driver.switchTo().defaultContent();
+        FluentWait wait = new FluentWait(driver).withTimeout(60, TimeUnit.SECONDS).pollingEvery(5, TimeUnit.SECONDS);
     }
 
     public void typePasswordToPasswordField(String password) {

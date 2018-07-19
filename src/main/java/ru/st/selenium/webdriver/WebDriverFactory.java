@@ -195,7 +195,6 @@ public class WebDriverFactory {
 
 		} else if (SAFARI.equals(browser)) {
 			webDriver = new SafariDriver();
-
 		}
 
 		return webDriver;

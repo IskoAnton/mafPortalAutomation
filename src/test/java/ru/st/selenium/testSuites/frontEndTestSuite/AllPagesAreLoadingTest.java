@@ -16,8 +16,8 @@ public class AllPagesAreLoadingTest extends ru.st.selenium.pages.TestBase {
     public void allPagesAreLoadingTest() throws Exception {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         app.getPages().internalPage.setLanguage("eng");
-        app.getPages().internalPage.clickClubsButton();
-        app.getPages().clubsPage.ensurePageLoaded();
+        //app.getPages().internalPage.clickClubsButton();
+        //app.getPages().clubsPage.ensurePageLoaded();
 
         app.getPages().internalPage.clickTheGameButton();
         app.getPages().theGamePage.ensurePageLoaded();

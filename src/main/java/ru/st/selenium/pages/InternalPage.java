@@ -24,12 +24,12 @@ public class InternalPage extends AnyPage {
   //локаторы для проверки всех элементов на странице
   private final String  HEADER_LOGO_LOCATOR = "//div[@class = 'logoName']";  // в хэдере в левом верхнем углу отображается название вкладки
   private final String  CLUBS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'CLUBS') or contains(text(),'КЛУБЫ')]";
-  private final String  THEGAME_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'THE GAME') or contains(text(),'ИГРА')]";
-  private final String  NEWS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'NEWS') or contains(text(),'НОВОСТИ')]";
-  private final String  TOURNAMENTS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'TOURNAMENTS') or contains(text(),'ТУРНИРЫ')]";
-  private final String  HISTORY_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'HISTORY') or contains(text(),'ИСТОРИЯ')]";
+  private final String  THEGAME_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'The game') or contains(text(),'Игра')]";
+  private final String  NEWS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'News') or contains(text(),'НОВОСТИ')]";
+  private final String  TOURNAMENTS_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'Tournaments') or contains(text(),'ТУРНИРЫ')]";
+  private final String  HISTORY_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'History') or contains(text(),'История')]";
   private final String  GALLERY_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'GALLERY') or contains(text(),'ГАЛЕРЕЯ')]";
-  private final String  SHOP_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'SHOP') or contains(text(),'МАГАЗИН')]";
+  private final String  SHOP_BUTTON_LOCATOR= "//nav[@class = 'headMenu']//a[contains(text(),'Shop') or contains(text(),'МАГАЗИН')]";
   private final String  LOGIN_BUTTON_WHEN_NOT_LOGGED_IN_LOCATOR= "//div[@class = 'sign_style']";
   private final String  LOGIN_BUTTON_WHEN_LOGGED_IN_LOCATOR= "//div[@id = 'myBtn']";
   private final String  CART_BUTTON_LOCATOR= "//div[@id = 'myDropdown']/a[4]";

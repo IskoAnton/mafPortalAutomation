@@ -22,9 +22,9 @@ public class BuyItemTest extends ru.st.selenium.pages.TestBase {
         app.getUserHelper().loginAs(user);
         app.getShopHelper().buyItemOnShopPage("Registration for the 7th Annual MAF World Cup");
         app.getShopHelper().checkItemInCart("Registration for the 7th Annual MAF World Cup");
-        app.getShopHelper().buyItemsInCart(paypalUser);
+/*        app.getShopHelper().buyItemsInCart(paypalUser);
         Thread.sleep(10000);
-        assertEquals(app.getUserHelper().getRegistrationLink("Thank you for shopping with us."), "Thank you for shopping with us.");
+        assertEquals(app.getUserHelper().getRegistrationLink("Thank you for shopping with us."), "Thank you for shopping with us.");*/
         app.getUserHelper().logout();
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }

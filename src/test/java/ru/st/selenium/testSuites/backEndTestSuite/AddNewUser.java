@@ -58,7 +58,7 @@ public class AddNewUser extends TestBase{
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
     }
 
-    @Test
+   /* @Test
     public void T003_addBlankUser() {
         log("--------Starting \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
         app.getAdminUserHelper().logindAs(admin);
@@ -70,7 +70,7 @@ public class AddNewUser extends TestBase{
         app.getNavigationHelper().gotoAdminPage();
         app.getAdminUserHelper().logout();
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
-    }
+    }*/
 
     /*@Test
     public void T004_cancelAddingNewUser() throws InterruptedException {

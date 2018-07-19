@@ -53,7 +53,12 @@ public class ClubsPage extends InternalPage {
     }
 
     public void clickToClub(String club) {
-        driver.findElement(By.xpath("//a[contains(text(),'"+club+"')]")).click();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        driver.findElement(By.xpath("//ul[@class = 'cityList']//a[contains(text(),'" + club + "')]")).click();
         log("Club " + club + " was clicked");
     }
 

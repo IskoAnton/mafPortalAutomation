@@ -96,7 +96,7 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
 
   }
 
-  public void registerNewUser(String firstName, String lastName, String nickName, String email, String date, String password, String passwordConfirmation) {
+  public void registerNewUser(String firstName, String lastName, String nickName, String email, String date, String password, String passwordConfirmation, String club) {
     pages.internalPage.clickLoginButton();
     pages.loginPage.clickRegistrationButton();
     pages.registrationPage.ensurePageLoaded();
@@ -107,6 +107,7 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
     pages.registrationPage.setDate(date);
     pages.registrationPage.setPassword(password);
     pages.registrationPage.setPasswordConfirmation(passwordConfirmation);
+    pages.registrationPage.selectMainClub(club);
     pages.registrationPage.clickSendButton();
     String message = pages.registrationPage.getMessageAfterRegistration();
     try {
@@ -172,6 +173,13 @@ public class UserHelper2 extends DriverBasedHelper implements UserHelper {
     pages.accountPage.typePasswordConfirmation(newPassword);
     pages.accountPage.clickSubmitButton();
     log("New password \"" + newPassword + "\" was set");
+  }
+
+  public String getMainClubOnAccountPage() {
+    pages.internalPage.clickAccountButton();
+    pages.accountPage.ensurePageLoaded();
+    pages.accountPage.clickMyClubsButton();
+    return driver.findElement(By.xpath("//div[@class = 'clubs']//li")).getText().substring(2);
   }
 
 }

@@ -30,8 +30,8 @@ public class AdminAccountEntry extends TestBase {
         User wrongAdmin = NOTEXISTINGUSER;
         String language = app.getUserHelper().getLanguage();
         app.getAdminUserHelper().logindAs(wrongAdmin);
-        if (language.equals("rus")) assertEquals("Неверное имя пользователя или пароль.", app.getPages().adminLoginPage.getEmailFieldMessage());
-        else assertEquals("These credentials do not match our records.", app.getPages().adminLoginPage.getEmailFieldMessage());
+        //if (language.equals("rus")) assertEquals("Неверное имя пользователя или пароль.", app.getPages().adminLoginPage.getEmailFieldMessage());
+        /*else*/ assertEquals("These credentials do not match our records.", app.getPages().adminLoginPage.getEmailFieldMessage());
         log("--------Finishing \"" + Thread.currentThread().getStackTrace()[1].getMethodName() + "\" test---------");
 
     }

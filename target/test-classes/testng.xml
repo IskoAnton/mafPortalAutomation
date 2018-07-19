@@ -75,7 +75,6 @@
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddPageItemTest"/>
 		</classes>
 	</test>
-
 	<test name="Add tournament items">
 		<parameter name="path" value="/"/>
 		<classes>
@@ -174,12 +173,12 @@
 		</classes>
 	</test>
 
-	<test name="Add new Role test">
+	<!--FIX  IT--><!--<test name="Add new Role test">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.backEndTestSuite.AddNewRole"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Add new Permission test">
 		<parameter name="path" value="/"/>

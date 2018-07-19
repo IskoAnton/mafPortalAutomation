@@ -16,6 +16,7 @@ public interface ApplicationManager {
     void takeScreenShotOnFailure(ITestResult testResult, String testName) throws IOException;
     void maximizeBrowser();
     void refreshBrowser();
+
     void stop();
 
 }

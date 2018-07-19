@@ -7,6 +7,8 @@ import org.openqa.selenium.support.ui.Select;
 import ru.st.selenium.model.Club;
 import ru.st.selenium.model.RatingTable;
 
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 
 import static org.testng.Assert.assertFalse;
@@ -70,6 +72,5 @@ public class AdminCreateClubPage extends AdminCreateItemPage {
             isPresent = false;
         }
         assertFalse(isPresent);
-
     }
 }
