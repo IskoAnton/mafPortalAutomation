@@ -27,12 +27,12 @@
 		</classes>
 	</test>
 
-	<test name="Forgot password tests">
+	<!--<test name="Forgot password tests">
 		<parameter name="path" value="/"/>
 		<classes>
 			<class name="ru.st.selenium.testSuites.frontEndTestSuite.ForgotPasswordTest"/>
 		</classes>
-	</test>
+	</test>-->
 
 	<test name="Buy item tests">
 		<parameter name="path" value="/"/>
