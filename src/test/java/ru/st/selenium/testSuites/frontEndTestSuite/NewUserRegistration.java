@@ -24,7 +24,7 @@ public class NewUserRegistration extends TestBase{
         User newUser = TESTUSER;
         app.getPages().internalPage.setLanguage("rus");
         app.getUserHelper().registerNewUser("TesterFirstName", "TesterLastName", "TesterNickName",newUser.getLogin(), "2017-11-21", newUser.getPassword(), newUser.getPassword(), newUser.getClub());
-        app.getUserHelper().pressRegistrationLinkInEmail();
+        //app.getUserHelper().pressRegistrationLinkInEmail();
         app.getNavigationHelper().gotoHomePage();
         app.getUserHelper().loginAs(newUser);
         assertTrue(app.getUserHelper().isLoggedInAs(newUser));
